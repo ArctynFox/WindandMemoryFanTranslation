@@ -4505,7 +4505,7 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Absorbs enemy life force and puts you in a bloodthirsty state."
+  description: Absorbs enemy life force and puts you in a bloodthirsty state.
   name: Grimoire [Bloodlust]
   consumable: true
   occasion: 2
@@ -4575,7 +4575,7 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "A key to a safe. Which one, you're not sure."
+  description: A key to a safe. Which one, you're not sure.
   name: Safe Key
   consumable: true
   occasion: 3
@@ -5120,8 +5120,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "What are you staring at? Are you ridiculing me?"
-  name: Soul of Sarcastic Grass
+  description: What are you staring at? Are you ridiculing me?
+  name: Soul of Mocking Grass
   consumable: false
   occasion: 2
   icon_index: 603

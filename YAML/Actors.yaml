@@ -4033,7 +4033,7 @@
   name: ''
   face_index: 0
   character_index: 0
-  initial_level: 99 #mod changed this actor's features, initial level, class_id, name, and description
+  initial_level: 99
   face_name: ''
   class_id: 64
   character_name: ''
@@ -4154,7 +4154,7 @@
   description: Strong, probably.
   max_level: 99
   icon_index: 0
-- !ruby/object:RPG::Actor #this actor was also changed by the mod
+- !ruby/object:RPG::Actor
   name: Rosemaker
   face_index: 0
   character_index: 0
@@ -4199,7 +4199,7 @@
   description: ''
   max_level: 99
   icon_index: 0
-- !ruby/object:RPG::Actor #this actor was also changed by the mod
+- !ruby/object:RPG::Actor
   name: Dorothy
   face_index: 0
   character_index: 0

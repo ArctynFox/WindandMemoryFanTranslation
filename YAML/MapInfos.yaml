@@ -49,11 +49,11 @@
   scroll_y: 480
   parent_id: 2
 6: !ruby/object:RPG::MapInfo
-  scroll_x: 809
+  scroll_x: 708
   name: 霧の公園
   expanded: false
   order: 55
-  scroll_y: 1939
+  scroll_y: 1743
   parent_id: 0
 8: !ruby/object:RPG::MapInfo
   scroll_x: 800
@@ -2891,11 +2891,11 @@
   scroll_y: 400
   parent_id: 0
 421: !ruby/object:RPG::MapInfo
-  scroll_x: 3694
+  scroll_x: 4192
   name: 移动草原
   expanded: true
   order: 423
-  scroll_y: 6149
+  scroll_y: 6426
   parent_id: 0
 422: !ruby/object:RPG::MapInfo
   scroll_x: 352
@@ -3059,25 +3059,25 @@
   scroll_y: 320
   parent_id: 411
 438: !ruby/object:RPG::MapInfo
-  scroll_x: 1360
+  scroll_x: 1203
   name: 荒村中心
   expanded: false
   order: 462
-  scroll_y: 621
+  scroll_y: 1423
   parent_id: 429
 439: !ruby/object:RPG::MapInfo
-  scroll_x: 1120
+  scroll_x: 717
   name: 荒村东
   expanded: true
   order: 466
   scroll_y: 512
   parent_id: 429
 440: !ruby/object:RPG::MapInfo
-  scroll_x: 397
+  scroll_x: 731
   name: 荒村南
   expanded: true
   order: 460
-  scroll_y: 2018
+  scroll_y: 2063
   parent_id: 429
 441: !ruby/object:RPG::MapInfo
   scroll_x: 560
@@ -3297,7 +3297,7 @@
   scroll_y: 320
   parent_id: 439
 472: !ruby/object:RPG::MapInfo
-  scroll_x: 1125
+  scroll_x: 1131
   name: 胆小兔落穴
   expanded: false
   order: 453
@@ -3308,7 +3308,7 @@
   name: 地下通道
   expanded: false
   order: 468
-  scroll_y: 659
+  scroll_y: 640
   parent_id: 456
 474: !ruby/object:RPG::MapInfo
   scroll_x: 448

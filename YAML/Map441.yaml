@@ -675,7 +675,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [1, 78, 0, 1, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Search the corpse, Eat the corpse, Leave], 3]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Search the corpse]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: Equip3, pitch: 80, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['......']}
@@ -683,19 +683,19 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [38, 38, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Eat the corpse]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [B, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [54]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [38, 38, 1, 0, 5]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 314, p: [0, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2, Leave]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Search the corpse, Leave], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Search the corpse]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: Equip3, pitch: 80, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['......']}
@@ -703,7 +703,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [38, 38, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Leave]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -748,17 +748,17 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [1, 78, 0, 1, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Search the corpse, Eat the corpse, Leave], 3]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Search the corpse]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [There's nothing of value on it.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Eat the corpse]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [B, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [54]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [38, 38, 1, 0, 5]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 314, p: [0, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2, Leave]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -1396,44 +1396,44 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['The sound of a girl sobbing can be heard']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['coming from inside the house...']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The sound of a girl sobbing can be heard]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [coming from inside the house...]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Talk, Leave], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Talk]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Young Girl]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 女孩]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Daddy... Have you seen my daddy?"']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Young Girl]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 女孩]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"A few days ago...']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Daddy said he was going to find food...']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['but he hasn''t come back yet...']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Daddy said he was going to find food...]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [but he hasn't come back yet...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Can you help me find out where he is?"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"There are monsters outside...']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Please make him come back soon...']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['I''m so hungry... and so scared...']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['I''m afraid of being all alone..."']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Young Girl]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Please make him come back soon...]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I'm so hungry... and so scared...]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I'm afraid of being all alone..."]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 女孩]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Daddy said... There''s still food in the warehouse...']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['He should be near there...']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Please... Help me find him...']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [He should be bear there...]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Please... Help me find him..."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Accept, Refuse], 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Accept]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Young Girl]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 女孩]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Thank you...']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['He should be near the southern warehouse...']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['He wouldn''t go too far..."']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [He should be near the southern warehouse...]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [He wouldn't go too far..."]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [1401, 1401, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Refuse]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Young Girl]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 女孩]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Ah... Do you need a reward...?']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['I''m sorry... This is all I can give you..."']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [I'm sorry... This is all I can give you..."]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [30]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 126, p: [49, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 1, 2]}
@@ -1484,9 +1484,9 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['The sound of a girl sobbing can be heard']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['coming from inside the house...']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Young Girl]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The sound of a girl sobbing can be heard]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [coming from inside the house...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 女孩]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Daddy... Please come back soon..."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -1533,14 +1533,14 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There is no response.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Enter the house?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Yes, No], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Yes]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Open1, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 461, 13, 18, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [1401, 1401, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, No]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -1628,21 +1628,21 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 15, 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: ['NW名前指定 Sui1jxiXuzaakQ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 鏉戞皯]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"AiwmqiW**sAj2ASi� Aus� JsU Lia�"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [It seems impossible to communicate with him.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Villager]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 村民]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"I   heard   her   crying,   but   I   can''t']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['remember   anything...   Do   I   live   here?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Is   she   behind   this   door?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Is   she   behind   this   door?"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['I''m   sorry.   I   think   I''m   going   crazy,']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['but   I   can''t   let   her   worry   anymore."']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"I''m   sorry.   I   think   I''m   going   crazy,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [but   I   can't   let   her   worry   anymore."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['.........']}
       - !ruby/object:RPG::EventCommand
@@ -1668,7 +1668,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*4]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*5]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*6]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Villager]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 村民]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Daughter, I''m home."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Open1, pitch: 100, volume: 80}]}
@@ -3280,7 +3280,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [They''re dead.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [He's dead.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   52: !ruby/object:RPG::Event
     id: 52
@@ -3416,21 +3416,22 @@ events:
       trigger: 1
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 204, p: [8, 3, 4]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Villager]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 村民]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"I can''t resist the mist...']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['My consciousness is slowly fading away...']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\|Please, answer me... Did you kill her?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Yes, No], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Yes]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Villager]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [My consciousness is slowly fading away...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\|Please, answer me... Did you kill her?"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 村民]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: &7 ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"I don''t blame you.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['You helped Lumi find release from this hell,']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['and for that, I am grateful.']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Both you, and the villagers who became her food...']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['You''ve done far more for her than I, as her father..."']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Villager]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Both to you, and the villagers who became her food..."']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: *7}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"You''ve done far more for her than I, as her father..."']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 村民]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"But there''s one thing... that only I can do."']}
       - !ruby/object:RPG::EventCommand
@@ -3443,29 +3444,29 @@ events:
           skippable: false
           wait: true
           list:
-          - &7 !ruby/object:RPG::MoveCommand {code: 15, parameters: [30]}
-          - &8 !ruby/object:RPG::MoveCommand {code: 17, parameters: []}
-          - &9 !ruby/object:RPG::MoveCommand {code: 15, parameters: [30]}
-          - &10 !ruby/object:RPG::MoveCommand {code: 16, parameters: []}
-          - &11 !ruby/object:RPG::MoveCommand {code: 15, parameters: [30]}
+          - &8 !ruby/object:RPG::MoveCommand {code: 15, parameters: [30]}
+          - &9 !ruby/object:RPG::MoveCommand {code: 17, parameters: []}
+          - &10 !ruby/object:RPG::MoveCommand {code: 15, parameters: [30]}
+          - &11 !ruby/object:RPG::MoveCommand {code: 16, parameters: []}
+          - &12 !ruby/object:RPG::MoveCommand {code: 15, parameters: [30]}
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*7]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*8]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*9]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*10]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*11]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Villager]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*12]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 村民]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"You killed her, so I must seek vengeance for her.']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['This is the last thing I can do for her as a father..."']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Villager]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [This is the last thing I can do for her as a father..."]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 村民]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Please."']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"So please..."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 132, p: [!ruby/object:RPG::BGM {name: 八音盒, volume: 85, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 713, false, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 601, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [60]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Villager]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 村民]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['".......Thank you."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 20, false]}
@@ -3480,18 +3481,18 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 604, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, No]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Villager]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 村民]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Yes... Ever since I escaped to the church,']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Lumi''s fate was sealed by the mist''s corruption,']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['leading to her death."']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [leading to her death."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Why did I even come back here now,']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['pretending to be something I''m not?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['In reality, I am... the true culprit...']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['How can I ever hope for her forgiveness?"']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Villager]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 村民]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Sir... Please, just leave now."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
@@ -3667,5 +3668,5 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Praise the Bonfire!\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Praise the bonfire!\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

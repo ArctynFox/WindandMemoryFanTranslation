@@ -886,7 +886,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [1, 78, 0, 1, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Search the corpse, Eat the corpse, Leave], 3]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Search the corpse]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: Equip3, pitch: 80, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['......']}
@@ -894,19 +894,19 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [38, 38, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Eat the corpse]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [B, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [54]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [38, 38, 1, 0, 5]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 314, p: [0, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2, Leave]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Search the corpse, Leave], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Search the corpse]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: Equip3, pitch: 80, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['......']}
@@ -914,7 +914,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [38, 38, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Leave]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -959,17 +959,17 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [1, 78, 0, 1, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Search the corpse, Eat the corpse, Leave], 3]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Search the corpse]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [There was nothing of value on it.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [There's nothing of value on it.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Eat the corpse]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [B, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [54]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [38, 38, 1, 0, 5]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 314, p: [0, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2, Leave]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -1099,7 +1099,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [1, 78, 0, 1, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Search the corpse, Eat the corpse, Leave], 3]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Search the corpse]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: Equip3, pitch: 80, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['......']}
@@ -1107,19 +1107,19 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [38, 38, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Eat the corpse]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [B, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [54]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [38, 38, 1, 0, 5]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 314, p: [0, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2, Leave]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Search the corpse, Leave], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Search the corpse]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: Equip3, pitch: 80, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['......']}
@@ -1127,7 +1127,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [38, 38, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Leave]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -1172,17 +1172,17 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [1, 78, 0, 1, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Search the corpse, Eat the corpse, Leave], 3]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Search the corpse]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [There was nothing of value on it.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [There's nothing of value on it.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Eat the corpse]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [B, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [54]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [38, 38, 1, 0, 5]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 314, p: [0, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2, Leave]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -1312,7 +1312,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [1, 78, 0, 1, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Search the corpse, Eat the corpse, Leave], 3]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Search the corpse]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: Equip3, pitch: 80, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['......']}
@@ -1320,27 +1320,27 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [38, 38, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Eat the corpse]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [B, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [54]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [38, 38, 1, 0, 5]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 314, p: [0, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2, Leave]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Search the corpse, Leave], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Search the corpse]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: Equip3, pitch: 80, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['......']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [………]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 126, p: [121, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [38, 38, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Leave]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -1385,17 +1385,17 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [1, 78, 0, 1, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Search the corpse, Eat the corpse, Leave], 3]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Search the corpse]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [There was nothing of value on it.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [There's nothing of value on it.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Eat the corpse]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [B, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [54]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [38, 38, 1, 0, 5]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 314, p: [0, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2, Leave]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -2443,7 +2443,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [1, 78, 0, 1, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Search the corpse, Eat the corpse, Leave], 3]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Search the corpse]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: Equip3, pitch: 80, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['......']}
@@ -2451,19 +2451,19 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [38, 38, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Eat the corpse]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [B, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [54]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [38, 38, 1, 0, 5]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 314, p: [0, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2, Leave]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Search the corpse, Leave], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Search the corpse]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: Equip3, pitch: 80, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['......']}
@@ -2471,7 +2471,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [38, 38, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Leave]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -2516,17 +2516,17 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [1, 78, 0, 1, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Search the corpse, Eat the corpse, Leave], 3]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Search the corpse]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [There was nothing of value on it.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [There's nothing of value on it.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Eat the corpse]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [B, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [54]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [38, 38, 1, 0, 5]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 314, p: [0, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2, Leave]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -2657,37 +2657,38 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [It seems to be an unfinished record or report.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book1, pitch: 65, volume: 50}]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: &13 ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['The fog has caused the soldiers to fall ill,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['and medical supplies are low.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['The recon team sent to investigate']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['the village hasn''t reported back,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [and medical supplies are low.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The recon team sent to investigate]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['the village hasn''t reported back yet,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: *13}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [and the mentally unstable condition]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [of the sick soldiers is concerning.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Fortunately, there are still other supplies,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['so the city is still defended.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [so the city is still defended.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book1, pitch: 65, volume: 50}]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['The same illness is affecting residents,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['necessitating quarantine.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Temporary housing on the outskirts']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['has been requisitioned as a camp;']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['interestingly, this housing seems to have been built at the']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: &14 ['', 0, 1, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['The same illness is affecting the residents,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [necessitating a quarantine.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Temporary housing on the outskirts]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [has been requisitioned as a camp.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: *14}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Interestingly, this housing seems to have been built at the']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [same time as Chittenango. It may hold some relevant secrets.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book1, pitch: 65, volume: 50}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['A sick soldier suddenly began attacking others,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['resulting in multiple injuries.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Measures were taken to restrain him. Despite being]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['near a river, this complex has a sealed well...']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [resulting in multiple injuries.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Measures were taken to restrain him.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Despite being near a river,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [this complex has a sealed well...]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['The deputy reported of other soldiers with similar symptoms,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['necessitating investigation.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [necessitating investigation.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['The rest are stained with blood,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['making them indistinguishable.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [making them impossible to read.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   35: !ruby/object:RPG::Event
     id: 35
@@ -2789,8 +2790,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 142]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Use the Safe Key?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Yes, No], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Yes]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: Key, pitch: 50, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 126, p: [142, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [60]}
@@ -2798,7 +2799,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 125, p: [0, 0, 100000]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, No]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 'No']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}

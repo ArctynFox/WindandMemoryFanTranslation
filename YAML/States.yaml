@@ -9942,7 +9942,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 'Hit Rate -50%'
+  name: Hit Rate -50%
   priority: 50
   icon_index: 591
   message1: ''
@@ -12934,7 +12934,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 'HP x10'
+  name: HP x10
   priority: 50
   icon_index: 0
   message1: ''
@@ -14342,7 +14342,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: 'Soul Rend - Heart'
+  name: Soul Rend - Heart
   priority: 50
   icon_index: 0
   message1: ''

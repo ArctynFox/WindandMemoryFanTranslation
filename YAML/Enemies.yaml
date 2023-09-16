@@ -60835,7 +60835,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: 'Brain Eater Fertik'
+  name: Brain Eater Fertik
   gold: 0
   battler_hue: 0
   exp: 0
@@ -61089,7 +61089,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: 'Brain Eater Fertik'
+  name: Brain Eater Fertik
   gold: 375000
   battler_hue: 0
   exp: 0
@@ -64789,7 +64789,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Sarcastic Grass
+  name: Mocking Grass
   gold: 23333
   battler_hue: 0
   exp: 0

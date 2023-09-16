@@ -42186,7 +42186,7 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Skill
-  message2: 'The surrounding space is blurred!'
+  message2: The surrounding space is blurred!
   description: Mental attack
   name: Psychological Attack
   occasion: 1
@@ -42231,7 +42231,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: 'Attacks and causes defense to drop.'
+  description: Attacks and causes defense to drop.
   name: Psychosynchronization
   occasion: 1
   icon_index: 14
@@ -42347,7 +42347,7 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Skill
-  message2: 'The space around them is distorted!'
+  message2: The space around them is distorted!
   description: A powerful attack.
   name: Psychopuncture
   occasion: 1
@@ -42554,7 +42554,7 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: ''
-  name: 'King''s Command (False)'
+  name: King's Command (False)
   occasion: 1
   icon_index: 571
   message1: ' shouts a King''s Command!'
@@ -42696,7 +42696,7 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: ''
-  name: 'Ah!!!!'
+  name: Ah!!!!
   occasion: 1
   icon_index: 8
   message1: ': Ah!!!!!!'
@@ -43628,7 +43628,7 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: ''
-  name: 'Self-Destruct'
+  name: Self-Destruct
   occasion: 1
   icon_index: 17
   message1: ' uses Self-Destruct!'
@@ -44568,7 +44568,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: 'Release flames, causing a single enemy to burn.'
+  description: Release flames, causing a single enemy to burn.
   name: Flames
   occasion: 1
   icon_index: 96
@@ -46233,7 +46233,7 @@
   description: |-
     Shoot at the enemy, leaving them Vulnerable if used
     at the right moment. CD:2 Does not consume a turn.
-  name: 'Gun Break [Defender]'
+  name: Gun Break [Defender]
   occasion: 1
   icon_index: 137
   message1: ' uses Gun Break!'
@@ -46310,7 +46310,7 @@
   description: |-
     Shoot at the enemy, leaving them Vulnerable if used
     at the right moment. CD:0 Does not consume a turn.
-  name: 'Gun Break [Storm Defender]'
+  name: Gun Break [Storm Defender]
   occasion: 1
   icon_index: 137
   message1: ' uses Gun Break!'
@@ -46640,7 +46640,7 @@
   description: |-
     Shoot at the enemy, leaving them Vulnerable if used
     at the right moment. CD:0 Does not consume a turn.
-  name: 'Gun Break [Storm Defender S]'
+  name: Gun Break [Storm Defender S]
   occasion: 1
   icon_index: 137
   message1: ' uses Gun Break!'
@@ -49296,9 +49296,9 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Skill
-  message2: 'Let''s begin our adventure!'
+  message2: Let's begin our adventure!
   description: ''
-  name: 'Let''s Adventure Together!'
+  name: Let's Adventure Together!
   occasion: 1
   icon_index: 0
   message1: ''
@@ -49628,7 +49628,7 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: ''
-  name: 'Ghost Car - Impact'
+  name: Ghost Car - Impact
   occasion: 0
   icon_index: 0
   message1: ' is blasting toward you!'
@@ -49657,7 +49657,7 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: ''
-  name: 'Ghost Car - Triple Attack'
+  name: Ghost Car - Triple Attack
   occasion: 0
   icon_index: 0
   message1: ' becomes wrapped in endless resentment...'
@@ -49688,7 +49688,7 @@
   description: |-
     Uses Abyssal magic to reelase a dark bomb.
     The power scales with the caster's Magic.
-  name: 'Ghost Train - Orb of Darkness'
+  name: Ghost Train - Orb of Darkness
   occasion: 1
   icon_index: 103
   message1: ' uses Orb of Darkness!'
@@ -49717,7 +49717,7 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: ''
-  name: 'None - Elegy of the Soul Start'
+  name: None - Elegy of the Soul Start
   occasion: 0
   icon_index: 0
   message1: ' is gathering energy...'
@@ -49749,9 +49749,9 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Skill
-  message2: 'Endless souls swallow you up!'
+  message2: Endless souls swallow you up!
   description: ''
-  name: 'None - Elegy of the Soul'
+  name: None - Elegy of the Soul
   occasion: 0
   icon_index: 0
   message1: ' uses Elegy of the Soul!'
@@ -49783,7 +49783,7 @@
   repeats: 9
   tp_gain: 0
 - !ruby/object:RPG::Skill
-  message2: 'Your hands and feet become very heavy...'
+  message2: Your hands and feet become very heavy...
   description: ''
   name: Bondage of Mortal Coil
   occasion: 0
@@ -49817,7 +49817,7 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Skill
-  message2: 'The white light fades...'
+  message2: The white light fades...
   description: ''
   name: Inviolable
   occasion: 0
@@ -49928,7 +49928,7 @@
   description: |-
     Deals 1/2 of current blood damage to all enemies.
     Inflicts burn. CD:8
-  name: 'Pyroclastic Burst - Dorothy'
+  name: Pyroclastic Burst - Dorothy
   occasion: 1
   icon_index: 96
   message1: ' uses Pyroclastic Burst!'
@@ -49960,9 +49960,9 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Skill
-  message2: 'Scattered stardust falls from the sky...'
+  message2: Scattered stardust falls from the sky...
   description: ''
-  name: 'Stardust - Dorothy'
+  name: Stardust - Dorothy
   occasion: 0
   icon_index: 0
   message1: ''
@@ -49993,7 +49993,7 @@
   description: |-
     Shoots four giant soul arrows.
     The power scales with the caster's Magic. CD:20
-  name: 'Giant Soul Arrow Combo - Dorothy'
+  name: Giant Soul Arrow Combo - Dorothy
   occasion: 1
   icon_index: 102
   message1: ' uses Giant Soul Arrow Combo!'
@@ -50024,7 +50024,7 @@
   description: |-
     Uses an orb of darkness to perform four random attacks.
     The power scales with the caster's Magic. CD:4
-  name: 'Dark Chaos - Dorothy'
+  name: Dark Chaos - Dorothy
   occasion: 1
   icon_index: 103
   message1: ' uses Dark Chaos!'
@@ -50055,7 +50055,7 @@
   description: |-
     Deals 6 hits that ignore defense.
     CD:8
-  name: 'Destructive Arashi - Dorothy'
+  name: Destructive Arashi - Dorothy
   occasion: 1
   icon_index: 101
   message1: ' uses Destructive Arashi!'
@@ -50086,7 +50086,7 @@
   description: |-
     Become Immortal for a short time.
     CD:8
-  name: 'Requiem - Dorothy'
+  name: Requiem - Dorothy
   occasion: 1
   icon_index: 112
   message1: ' sings Requiem!'
@@ -50122,7 +50122,7 @@
   description: |-
     Rain hail upon 3 random enemies, reducing their Speed.
     30% chance to inflict Frostbite. CD:3
-  name: 'Frozen Magic Bullets - Dorothy'
+  name: Frozen Magic Bullets - Dorothy
   occasion: 1
   icon_index: 97
   message1: ' uses Frozen Magic Bullets!'
@@ -50159,10 +50159,10 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Skill
-  message2: 'Meteorites fall from the sky!'
+  message2: Meteorites fall from the sky!
   description: |
     Guarantees massive damage to all enemies.
-  name: 'Meteorites - Dorothy'
+  name: Meteorites - Dorothy
   occasion: 1
   icon_index: 119
   message1: ' unleashes their stored magic!'
@@ -50198,7 +50198,7 @@
   description: |-
     Smites all enemies three times and inflicts stun.
     CD:8
-  name: 'Beast of Thunder - Dorothy'
+  name: Beast of Thunder - Dorothy
   occasion: 1
   icon_index: 98
   message1: ' used Beast of Thunder!'
@@ -50572,7 +50572,7 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: ''
-  name: 'Soul Rend - Heart'
+  name: Soul Rend - Heart
   occasion: 0
   icon_index: 0
   message1: ''
@@ -50794,7 +50794,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: 'Deal three defense-ignoring attacks against one enemy.'
+  description: Deal three defense-ignoring attacks against one enemy.
   name: Assault
   occasion: 0
   icon_index: 130
@@ -50823,7 +50823,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: 'Deal six defense-ignoring attacks against one enemy.'
+  description: Deal six defense-ignoring attacks against one enemy.
   name: Destructive Assault
   occasion: 0
   icon_index: 658
