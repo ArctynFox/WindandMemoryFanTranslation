@@ -2764,7 +2764,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 213, p: [0, 8, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 梅可]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「...」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"..."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 梅可]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Since you''ve come here, you must know']}
