@@ -11,6 +11,6 @@ Download the latest release and follow the readme found inside the zip. Alternat
 
 # Troubleshooting
 First, please make sure you followed the installation instructions correctly.
-If you still have issues, such as the game always crashing at at a specific location or during specific dialogue, please create an issue on this repo [here](https://github.com/ArctynFox/BlackSoulsIIWindAndMemoryTranslation/issues/new). If you do this, please provide specific details on what you did leading up to the crash, or else I can't do much about it. It may also be helpful to provide your save file, as BS2 has a lot of progress flags that change interactions and how things behave.
+If you still have issues, such as the game always crashing at at a specific location or during specific dialogue, please create an issue on this repo [here](https://github.com/ArctynFox/WindAndMemoryFanTranslation/issues/new/choose/). If you do this, please provide specific details on what you did leading up to the crash, or else I can't do much about it. It may also be helpful to provide your save file, as BS2 has a lot of progress flags that change interactions and how things behave.
 
-I have never used RPG Maker before, and did not for this project. I edited the files manually, so there may be issues that wouldn't occur otherwise. Please bare with me.
+I have never used RPG Maker before, and ended up doing the initial translation entirely in decompiled database code, then moved to the actual RPG Maker VX Ace editor later. This is part of the cause for the crashes mentioned above; I am working to fix them, so please bear with me.
