@@ -1,0 +1,1 @@
+Font.default_size = 23

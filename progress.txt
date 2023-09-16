@@ -1,0 +1,102 @@
+Current progress:
+	scripts:
+		all complete
+	database:
+		CommonEvents complete and fixed
+		Armor complete (armor, weapon, and item descriptions need to have their length fixed)
+		Weapons complete
+		Items complete
+		Enemies complete
+		States complete
+		Troops complete (needs dialogue length fixed, lines 49641-56735)
+		Skills complete
+		Base game maps that were altered complete
+		Maps 100% complete
+			070 fixed
+			163 fixed
+			411 fixed
+			412 fixed
+			413 fixed
+			414 fixed
+			415 fixed
+			416 fixed
+			417 fixed
+			418 fixed
+			419 fixed
+			420 fixed
+			421 fixed
+			422 fixed
+			423 fixed
+			424 fixed
+			425 fixed
+			426 fixed
+			427 fixed
+			428 fixed
+			429 fixed
+			430 fixed
+			431 fixed
+			432 fixed
+			433 fixed
+			434 fixed
+			435 fixed
+			436 fixed
+			437 fixed
+			438 fixed
+			439 fixed
+			440 fixed
+			441 fixed
+			442 fixed
+			443 fixed
+			444 fixed
+			445 fixed
+			446 fixed
+			447 fixed
+			448 fixed
+			449 fixed
+			450 fixed
+			451 fixed
+			452 fixed
+			453 fixed
+			454 fixed
+			455 fixed
+			456 fixed
+			457 fixed
+			458 fixed
+			459 fixed
+			460 fixed
+			461 fixed
+			462 fixed
+			463 fixed
+			464 fixed
+			465 fixed
+			466 fixed
+			467 fixed
+			468 fixed
+			469 fixed
+			470 fixed
+			471 fixed
+			472 fixed
+			473 fixed
+			474 fixed
+			475 fixed
+			476 fixed
+			477 fixed
+	guide images (map of creeping field and beta map) untranslated currently
+
+
+If there are issues, setting japanese to false at the end of the System.yaml file might be a fix, as I changed that to true
+
+I have just discovered that the engine can only display up to 61 characters on one line properly, so I need to fit a *lot*
+	61 characters is equivalent to the following:
+		1234567890123456789012345678901234567890123456789012345678901
+	that's why, I'm labeling all of the maps in the list above as fixed once I do a second run through them
+	unfortunately, I may have to do a third pass as well though, considering how some dialogue can include a face image with it;
+	can't be bothered to manually test everything so I'll fix whatever I miss as it gets reported
+	* I tested some streaming dialogue in this map where, as opposed to the dialogue Toro and the mod creators use where they specify the character sprite/name and then give 1-4 lines of dialogue, I specify the character sprite/name and then just give all the dialogue they say.
+		RPG Maker automatically separates dialogue lines into chunks of 4, so it was kind of pointless for them to do a lot of it the way they did (unless that's literally how RPG Maker auto-codes it but that's kinda weird if so considering this also works)
+	update: new test has determined that dialogue with images is good up to exactly 50 characters on one line
+	tl;dr:
+		if there's a named character that should theoretically have a face image for their dialogue, limit each line to 50 chars
+		else, limit to 61
+		still need to fix map421 and CommonEvents
+	update: I think I've fixed everything I've done previously, but players should watch for lines that extend off-screen and notify me if there are any

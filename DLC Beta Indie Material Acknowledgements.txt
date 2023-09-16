@@ -1,0 +1,213 @@
+This document contains the source material used in this DLC mod. There may be some missing. Please contact us (the original dev team, not the translator) if you find any.
+○graphics (images, etc.)
+なまもの
+くろくろ(・ω・)
+ハイ
+DEEP SEASONS
+そういうんじゃないんだから
+TEDDY-PLAZA
+カミソリエッジ
+painhurt
+SchwarzeNacht
+Amysaurus121
+WTR
+ANOTHER_0
+Satanic †ale 
+hydrogen
+サボテンの花言葉
+ここどこ
+シアンのゆりかご
+sylfaの風のふくままに
+白洋菓子店
+RPGツクールXP RTP
+RPGツクールMV
+CLOSET
+folce-zero
+ニルバーナ城
+王国興亡記
+どっと†わうるど
+ガチョピョン
+チョコレート粉砕機
+LB工房
+tokkuriのまったり
+whtdragon
+ドイツ軍大佐
+ゆらゆらドット
+蓮賀庵
+Sherman3D
+ペロブスカイト
+文系脳でゲームを作る
+kuroneko
+パブリックドメインＱ
+おばけ
+とわ
+エイジ
+khaos・impact
+妄想蕪
+化け猫缶
+メカラウロコ
+りょうしゅん
+森の奥の隠れ家
+hiyo（知己夕子）
+えるふぁ
+白螺子屋
+貞子♂
+ケイ
+のんびりまったり
+Toy(e)
+犬分補給が最優先だ！
+ドット絵世界
+クロちゃん13
+コミュ将
+ひまつぶしの産物
+MJのツクール成長日記
+てきとーツクール　
+ぴぽや
+ビービー
+メガネ
+あのグラフィックス
+片倉響
+GAHAG 
+放課後の理科室
+NK日記
+そーいち
+ＧＡＤＡＳＵ
+そらまにぶろぐ
+あにめかにかる
+改々工房
+へぇ～太
+神凪洸
+JUNKHUNT
+Creava's Nest
+チョコミントの木
+ピンクドラム
+旅のヤドカリ
+きうきう
+猫小屋素材ぶろぐ
+モソモソの素材ページ
+ZEX
+ドット絵世界
+まゆたまP2
+建設中の茶柱
+ZeniCoil
+IXA
+urksn
+Vagabond Dog
+月光下の残影
+宝開君
+紫ジャージ
+迅雷
+Un Almacen
+卯月まめ
+INSOMNIA
+kuzu
+John Tenniel
+カニのようなヘビ
+
+○BGM/SFX/etc.
+The Music Box Japanese Horror
+On-Jin ～音人～
+老人を釣り上げた海
+富沢 泰
+小森　平
+M-ART
+月に憑かれたピエロ
+WEB WAVE LIB　
+ユーフルカ
+SOUNDEVOTEE
+GT-K 
+Music-palette
+オサナイユウタ
+河津 岳彦
+稿屋 隆 
+soundorbis
+KK
+ポケットサウンド
+d-elf.com
+こんとどぅふぇ
+今川彰人 
+かずち
+MFP
+魔王魂
+MATSU 
+drotzruhn
+でぃめとろ丼
+はつか
+SAKI×龍崎一 -星夢ゲイザー
+こおろぎ
+清水裕介
+Phalene
+Gimgigam
+one nine records / Audiostock
+yoro-zu / Audiostock
+TOGA
+Ucchii0-うっちーゼロ
+ウッドダイスP
+Demon Sultan Azathoth- H.P. Lovecraft Historical Society
+Carol of the Bells　-LordReserei
+Marron Fields Production 
+Music is VFR
+魔界Symphony / Audiostock
+LA_yukiya / Audiostock
+kogumax / Audiostock
+yourai / Audiostock
+moppy sound
+Tenkichi
+PeriTune
+楓葉 あき
+Zassh / Audiostock
+庄野剛史 / Audiostock
+SAKUMAMATATA / Audiostock
+NaruIDEA
+ISAo.
+lei
+ゆうり
+Tagord
+Celtic Adventure Sound Collection
+おしょう
+Keido Honda
+こっけ
+タイガーリリー
+むくむくおっきぃ
+あさぎいろ
+シロクマの嫁
+“Scarborough Fair” (arr. Mercuzio) FREE SHEET MUSIC - P. Barton, piano
+Music-Note.jp
+Justina
+TOGA
+Nessun_dorma
+YuliAudioCraft 
+mikaRing / Audiostock
+イナガワ シユウ / Audiostock
+さきぴ / Audiostock
+SAZANKA / Audiostock
+暁ゲン / Audiostock
+forvarme / Audiostock
+MappoCo / Audiostock
+サティ/ジムノペディ　第1番
+おさかなの音楽室
+チャイコフスキー/花のワルツ
+Royalty Free Music - Habanera
+Hasumi Akio / Audiostock
+http://sc.chinaz.com/
+https://pocket-se.info/
+
+○Scripts
+ウサギマスク
+gentlawk マップフォグ
+DEICIDE ALMA
+ももまるLab
+さば缶
+C Winter
+回想領域
+星潟
+サリサ・タイクーン
+白の魔
+ひきも記
+Libのツクールページ
+奈々
+マル
+mitsu-evo
+まったりツクール雑貨
+ペンギンの寝床
+fux2

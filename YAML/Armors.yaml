@@ -1,0 +1,8938 @@
+---
+- 
+- !ruby/object:RPG::Armor
+  description: |-
+    EVA&MEV+5%  MDF+5%  SPD-3%
+    Clothes fit for noble aristocracy.
+  name: Aristocrat's Clothes
+  icon_index: 442
+  price: 1000
+  note: 公爵夫人の館
+  id: 1
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.97
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    ATK+5%  MAG+5%  SPD-3%
+    The bloodied coat of a violent man.
+  name: Cloak of Violence
+  icon_index: 449
+  price: 1000
+  note: 公爵館
+  id: 2
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.97
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: |-
+    MAG+15%  MDF+15%  SPD-10%
+    Worn by the king of Andor, a land swallowed by darkness.
+  name: Cloak of the Frenzy King
+  icon_index: 454
+  price: 1000
+  note: フリッセル
+  id: 3
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.9
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.15
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.15
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: |-
+    HP+50%  SPD-4%
+    The angel came down in search of the fallen Goddess.
+  name: Angel's Raiment
+  icon_index: 448
+  price: 1000
+  note: 名無しの森
+  id: 4
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.96
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: |-
+    ATK+8%  DEF+5%  SPD-3%
+    Crafted of beast skin, this armor incites violent urges.
+  name: Leather Armor
+  icon_index: 434
+  price: 1000
+  note: ラドウィッジ
+  id: 5
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.97
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.08
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: |-
+    EVA&MEV+10%  SPD-2%  Takes Up Head Slot
+    Black garb worn by hunters to repel the blood of demonbeasts.
+  name: Hunter's Attire
+  icon_index: 710
+  price: 1000
+  note: "初期\r\n橋のたもと"
+  id: 6
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.98
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 2
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    EVA&MEV+5%  Fire RES+80%  Burn RES+80%
+    Little Match Girl's tunic. It wraps you in nostalgic warmth.
+  name: Match-Seller's Clothes
+  icon_index: 450
+  price: 1000
+  note: ラドウィッジ
+  id: 7
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 29
+    value: 0.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 3
+    value: 0.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    EVA&MEV+5%  Oil RES+100%
+    Worn by the slaughterhouse's demolishers. Reeks of blood.
+  name: Work Clothes
+  icon_index: 168
+  price: 1000
+  note: 屠殺場
+  id: 8
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 5
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    EVA&MEV+5%  DEF+3%
+    Worn by men of knowledge and culture.
+  name: Gentleman's Coat
+  icon_index: 726
+  price: 1000
+  note: ドロップ　紳士
+  id: 9
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.03
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    EVA&MEV+5% Madness RES+50%
+    Cross-dressing would really mark you as someone beyond help.
+  name: Whore's Clothes
+  icon_index: 441
+  price: 1000
+  note: グール　ドロップ
+  id: 10
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 28
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    DEF+10%  SPD-3%
+    A simple metal sheet to cover your front.
+  name: Plate Mail
+  icon_index: 432
+  price: 1000
+  note: 精神病棟
+  id: 11
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.97
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.1
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: |-
+    DEF+10%  All Ailments RES+30%  SPD-10%
+    Armor harboring the power of demons born of the Abyss.
+  name: Armor of the Abyss
+  icon_index: 435
+  price: 1000
+  note: 病みたる時計塔
+  id: 12
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.9
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 2
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 3
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 13
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 5
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 6
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 28
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 26
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 29
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 55
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 56
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 61
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 17
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 162
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 163
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 4
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 7
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 8
+    value: 0.7
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: |-
+    ATK+15%  DEF+15%  SPD-10%
+    Worn by a sun-seeking zealot lost in a land without prayer.
+  name: Armor of the Sun
+  icon_index: 437
+  price: 1000
+  note: 燻りの森
+  id: 13
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.9
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.15
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.15
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: |-
+    DEF+5%  MDF+7%  EVA&MEV+5%  SPD-4%
+    Garments worn by preachers and missionaries.
+  name: Clergy Clothes
+  icon_index: 456
+  price: 1000
+  note: "初期\r\nリポン大聖堂"
+  id: 14
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.07
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.96
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: |-
+    MAG+5%  MDF+10%  EVA&MEV+5%  SPD-4%
+    A coat awarded to graduates of Elheim's Academy of Magic.
+  name: Magician's Coat
+  icon_index: 443
+  price: 1000
+  note: "初期\r\n血涙の池"
+  id: 15
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.96
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: |-
+    DEF+8%  EVA&MEV+5%  SPD-2%
+    Worn by assassins and bandits to blend into shadows.
+  name: Cloak of Shadows
+  icon_index: 171
+  price: 1000
+  note: "初期\r\nリデル墓地"
+  id: 16
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.08
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.98
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: |-
+    DEF+15%  SPD-5%  Stun RES+30%
+    Steel armor popular among knights.
+  name: Knight's Armor
+  icon_index: 436
+  price: 1000
+  note: "初期\r\n公爵夫人の館"
+  id: 17
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.15
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 13
+    value: 0.7
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: |-
+    ATK+5%  DEF+10%  SPD-5%
+    Armor of warriors hungry for battle.
+  name: Warrior's Armor
+  icon_index: 169
+  price: 1000
+  note: "初期\r\nビリングズゲート"
+  id: 18
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: |-
+    DEF+10%  Flame RES+25%  Burn RES+25%  SPD-3%
+    Templar armor imbued with the blessing of Sheep God Milton.
+  name: Armor of Milton
+  icon_index: 170
+  price: 1000
+  note: "初期\r\nフリッセル"
+  id: 19
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.97
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 3
+    value: 0.75
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 29
+    value: 0.75
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: |-
+    DEF+30%  SPD-20%
+    Armor of the despotic knights of the Great Tower.
+  name: Armor of Babel
+  icon_index: 676
+  price: 1000
+  note: 屠殺場
+  id: 20
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.3
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: |-
+    EVA&MEV+15%  DEF-10%
+    The cloak worn by Arsène Lupin.
+  name: Phantom Thief's Mantle
+  icon_index: 446
+  price: 1000
+  note: 心臓の庭園
+  id: 21
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.15
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 0.9
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.15
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: |-
+    DEF+2%  MDF+3%  SPD-1%
+    Like a halo, it's said to reveal God's Word to the clergy.
+  name: Clergy Circlet
+  icon_index: 166
+  price: 1000
+  note: "初期\r\nリポン大聖堂"
+  id: 22
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.03
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.99
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.02
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: |-
+    MAG+3%  MDF+5%  SPD-2%
+    A hat awarded to graduates of Elheim's Academy of Magic.
+  name: Magician Hat
+  icon_index: 162
+  price: 1000
+  note: "初期\r\n血涙の池"
+  id: 23
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.98
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.03
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: |-
+    DEF+4%  SPD-1%
+    To conceal one's face, silence voice, and hide in shadows.
+  name: Thief's Mask
+  icon_index: 163
+  price: 1000
+  note: "初期\r\nリデル墓地"
+  id: 24
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.04
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.99
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: |-
+    DEF+8%  SPD-3%  Stun RES+20%
+    A steel helm popular among knights.
+  name: Knight's Helmet
+  icon_index: 164
+  price: 1000
+  note: "初期\r\n公爵夫人の館"
+  id: 25
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.97
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.08
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 13
+    value: 0.8
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: |-
+    ATK+4%  DEF+4%  SPD-3%
+    A horned helm indicating a preference for violence.
+  name: Viking Helm
+  icon_index: 459
+  price: 1000
+  note: "初期\r\n血涙"
+  id: 26
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.97
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.04
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.04
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: |-
+    DEF+6%  Flame RES+25%  Burn RES+25%  SPD-3%
+    Templar helm imbued with the blessing of Sheep God Milton.
+  name: Helm of Milton
+  icon_index: 458
+  price: 1000
+  note: "初期\r\nフリッセル"
+  id: 27
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.97
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.06
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 3
+    value: 0.75
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 29
+    value: 0.75
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: |-
+    SPD+5%  Madness RES+50%
+    Ears that were all the rage in Wonderland many times.
+  name: Bunny Headpiece
+  icon_index: 462
+  price: 1000
+  note: マリー・ハドソンイベント　死体
+  id: 28
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 28
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    MDF+20%  SPD-2%
+    Of a maid who served, thought of, and risked her life for you.
+  name: Maid Headdress
+  icon_index: 463
+  price: 1000
+  note: 名無しの森
+  id: 29
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.98
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.2
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    DEF+20%  SPD-10%
+    Helmet of the despotic knights of the Great Tower.
+  name: Helmet of Babel
+  icon_index: 674
+  price: 1000
+  note: 屠殺場
+  id: 30
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.9
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.2
+  params:
+  - 0
+  - 0
+  - 0
+  - -1
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: |-
+    ATK+2%  DEF+2%
+    A headband with a metal plate attached.
+  name: Hachigane
+  icon_index: 460
+  price: 1000
+  note: ラドウィッジ
+  id: 31
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.02
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.02
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: |-
+    MAG+8%  SPD-4%
+    A strange hat that brings happiness when worn.
+  name: Wonder Hat
+  icon_index: 165
+  price: 1000
+  note: 無限食
+  id: 32
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.96
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.08
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: |-
+    MAG+15%  SPD-2%
+    10/6 means 10 shillings and 6 pence! -The Hatter
+  name: The Hatter's Hat
+  icon_index: 727
+  price: 57000
+  note: 帽子屋
+  id: 33
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.98
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.15
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: |-
+    EVA&MEV+5%
+    The hat of a knight who flew freely in the sky.
+  name: Sky Knight's Cap
+  icon_index: 457
+  price: 1000
+  note: ラドウィッジ街　上層
+  id: 34
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: |-
+    MDF+10%  DEF+5%  SPD-3%
+    Sentence first, verdict afterwards, poor barrister beheaded.
+  name: Lawyer's Mask
+  icon_index: 465
+  price: 1000
+  note: フリッセル
+  id: 35
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.97
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: |-
+    ATK+20%  MAG+20%  SPD-15%
+    The mask used by Igor to hide his hideous face.
+  name: Igor's Mask
+  icon_index: 466
+  price: 1000
+  note: 名無しの森
+  id: 36
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.85
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: |-
+    SPD+5%  Madness RES+50%
+    Clothes banned for overexposure. That rabbit might like them.
+  name: Bunny Suit
+  icon_index: 826
+  price: 1000
+  note: ウィンターベル
+  id: 37
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 28
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    GRD Up [Small]  HP Regen+5%  SPD-3%
+    Some sort of meat, easy to imagine which kind.
+  name: Cannibal's Shield
+  icon_index: 291
+  price: 1000
+  note: ソニー・ビーン
+  id: 38
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.97
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: |-
+    GRD Up [Medium]  MAG+10%  SPD-4%
+    A shield of the knights guarding a holy temple.
+  name: Templar Shield
+  icon_index: 556
+  price: 1000
+  note: "初期\r\nフリッセル"
+  id: 39
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.96
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 6
+- !ruby/object:RPG::Armor
+  description: |-
+    ATK+5%  SPD-2%
+    An offensive shield encircled with an edge.
+  name: Blade Shield
+  icon_index: 431
+  price: 1000
+  note: 血涙
+  id: 40
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.98
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: |-
+    GRD Up [Small]  SPD+5%
+    A metal shield of unknown origin adorned with a crest.
+  name: Grass Crest Shield
+  icon_index: 430
+  price: 1000
+  note: 無限食　ミミック
+  id: 41
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 1.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: |-
+    GRD Up [Small]
+    Wooden planks barely qualifying as a shield.
+  name: Wooden Shield
+  icon_index: 505
+  price: 50
+  note: ラドウィッジ
+  id: 42
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 1.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: |-
+    EVA&MEV+10%
+    A small shield made to deflect attacks.
+  name: Buckler
+  icon_index: 160
+  price: 1000
+  note: ウサギ穴
+  id: 43
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.1
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: |-
+    GRD Up [Small] Poison RES+50% Poison Chance+30% SPD-1%
+    A shield covered with poisonous mushrooms.
+  name: Mushroom Shield
+  icon_index: 504
+  price: 1000
+  note: 胞子の森
+  id: 44
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.99
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 2
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 3
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 32
+    data_id: 2
+    value: 0.3
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: |-
+    GRD Up [Small]  EVA&MEV+5%  SPD-2%
+    A standard round wooden shield.
+  name: Round Shield
+  icon_index: 502
+  price: 1000
+  note: ラドウィッジ
+  id: 45
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.98
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: |-
+    GRD Up [Medium]  SPD-1%
+    A round metal shield commonly used by soldiers.
+  name: Iron Round Shield
+  icon_index: 507
+  price: 1000
+  note: リデル墓地
+  id: 46
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.99
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: |-
+    GRD Up [Small]  ATK+2%  SPD-2%
+    A metal shield said to have been used by ancient warriors.
+  name: Warrior's Round Shield
+  icon_index: 508
+  price: 1000
+  note: 血涙
+  id: 47
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.98
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.02
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: |-
+    EVA&MEV+15%  SPD-3%
+    A small metal shield with protrusions to deflect attacks.
+  name: Target Shield
+  icon_index: 161
+  price: 1000
+  note: 心臓の庭園
+  id: 48
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.15
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.97
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.15
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: |-
+    GRD Up [Medium]  Counter+30%  Bleed+30%  SPD-3%
+    A distorted shield covered in porcupine-like thorns.
+  name: Porcupine Shield
+  icon_index: 666
+  price: 1000
+  note: 憂さ晴らしソウル
+  id: 49
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.97
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 6
+    value: 0.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 32
+    data_id: 26
+    value: 0.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: |-
+    GRD Up [Small]  EVA&MEV+15%  SPD-5%
+    A light and powerful shield used by Griffy.
+  name: Griffin Shield
+  icon_index: 501
+  price: 1000
+  note: ''
+  id: 50
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.15
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.15
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 6
+- !ruby/object:RPG::Armor
+  description: |-
+    GRD Up [Large]  SPD-2%  Stun RES+50%
+    A steel shield popular among knights.
+  name: Knight's Shield
+  icon_index: 497
+  price: 1000
+  note: 公爵夫人の館
+  id: 51
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 2.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.98
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 13
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 6
+- !ruby/object:RPG::Armor
+  description: |-
+    GRD Up [Medium]  EVA&MEV+5%  SPD-4%
+    An orthodox medium-sized metal shield.
+  name: Kite Shield
+  icon_index: 509
+  price: 1000
+  note: リポン　ミミック
+  id: 52
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.96
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 6
+- !ruby/object:RPG::Armor
+  description: |-
+    GRD Up [Medium]  Flame RES+50%  Burn RES+50%  SPD-2%
+    A bright red metal shield symbolizing arson.
+  name: Red Shield
+  icon_index: 496
+  price: 1000
+  note: フランクリンボルヴォルト
+  id: 53
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.98
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 3
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 29
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 6
+- !ruby/object:RPG::Armor
+  description: |-
+    GRD Up [Medium]  Lightning RES+50%  SPD-2%
+    Mock Turtle's shell. Surely it's an imitation.
+  name: Mock Turtle's Shell
+  icon_index: 510
+  price: 1000
+  note: ウミガメレストラン
+  id: 54
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.98
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 5
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 6
+- !ruby/object:RPG::Armor
+  description: |-
+    GRD Up [Medium]  Bleed RES+100%  SPD-2%
+    The youngest pig's shield. Must be great against beasts.
+  name: Brick Shield
+  icon_index: 503
+  price: 1000
+  note: 名無しの森
+  id: 55
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.98
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 26
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 6
+- !ruby/object:RPG::Armor
+  description: |-
+    GRD Up [Medium]  Dark RES+50%  SPD-2%
+    A dark shield said to have been used by the black vanguard.
+  name: Black Vanguard's Shield
+  icon_index: 500
+  price: 1000
+  note: オックス・ウォード
+  id: 56
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.98
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 10
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 6
+- !ruby/object:RPG::Armor
+  description: |-
+    GRD Up [Medium]  Light RES+50%  SPD-2%
+    Said to have been used by the holy knight. Smells burnt.
+  name: Holy Knight's Shield
+  icon_index: 675
+  price: 10000
+  note: 燻りの森
+  id: 57
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.98
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 9
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 6
+- !ruby/object:RPG::Armor
+  description: |-
+    GRD Up [Medium]  Magic Resistance+50%  SPD-3%
+    A big, sturdy discolored seashell. There's nothing inside.
+  name: Shell Shield
+  icon_index: 363
+  price: 1000
+  note: カキお使い
+  id: 58
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 7
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.97
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: |-
+    GRD Up [Extra-Large]  SPD-3%
+    A shield used by one of Andor's knights of renown—Dega.
+  name: Dega's Great Shield
+  icon_index: 499
+  price: 1000
+  note: フリッセル
+  id: 59
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 3.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.97
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 6
+- !ruby/object:RPG::Armor
+  description: |-
+    GRD Up [Extra-Large]  All Element RES+25%　SPD-5%
+    A sign of glory, but glory is the beginning of sloth.
+  name: Greatshield of Sloth
+  icon_index: 498
+  price: 1000
+  note: イグゾー
+  id: 60
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 3
+    value: 0.75
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 4
+    value: 0.75
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 5
+    value: 0.75
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 9
+    value: 0.75
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 10
+    value: 0.75
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 3.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 6
+- !ruby/object:RPG::Armor
+  description: |-
+    GRD Up [Extra-Large]  All Ailments RES+30%  SPD-5%
+    Shield harboring the power of demons born of the Abyss.
+  name: Shield of the Abyss
+  icon_index: 690
+  price: 1000
+  note: クイーン・ランド
+  id: 61
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 2
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 3
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 13
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 5
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 6
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 28
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 26
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 29
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 55
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 56
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 61
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 17
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 3.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 162
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 163
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 8
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 7
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 4
+    value: 0.7
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 6
+- !ruby/object:RPG::Armor
+  description: |-
+    GRD Up [Extra-Large]  Debuff Immunity  SPD-8%
+    A selfish god stole a small fish to use in the crimson tale.
+  name: Deep Sea Shield
+  icon_index: 686
+  price: 1000
+  note: 深海
+  id: 62
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.92
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 12
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 12
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 12
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 12
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 12
+    data_id: 4
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 12
+    data_id: 5
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 12
+    data_id: 6
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 12
+    data_id: 7
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 3.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 6
+- !ruby/object:RPG::Armor
+  description: |-
+    Magic Reflect+50%  SPD-5%
+    The mirror of truth favored by a certain princess.
+  name: Mirror Greatshield
+  icon_index: 282
+  price: 10000
+  note: クイーン・ランド
+  id: 63
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 5
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 6
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 64
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: |-
+    Break turns into Gun Break.  ACC+5%
+    A gun imbued with the power of silver. Used to hunt beasts.
+  name: Silver Pistol
+  icon_index: 706
+  price: 1000
+  note: "初期\r\n橋のたもと"
+  id: 65
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 13
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 16
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 20
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - 10
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: |-
+    Break turns into Gun Break.  ACC+20%  SPD-5%
+    A long gun with high accuracy used by church hunters.
+  name: Church Rifle
+  icon_index: 633
+  price: 1000
+  note: リポン
+  id: 66
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 13
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 16
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 18
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.95
+  params:
+  - 0
+  - 0
+  - 35
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: |-
+    Break turns into Gun Break.  SPD-5%
+    A powerful shotgun used by Jack the Ripper.
+  name: Manslayer's Shotgun
+  icon_index: 634
+  price: 1000
+  note: ジャックのソウル
+  id: 67
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 13
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 16
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 19
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.95
+  params:
+  - 0
+  - 0
+  - 50
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: |-
+    Break turns into Gun Break.  Crit Chance+5%
+    A handgun of Kidd, a tragic pirate dragged into politics.
+  name: Pirate Handgun
+  icon_index: 707
+  price: 1000
+  note: キャプテン・キッド
+  id: 68
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 13
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 16
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 20
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - 40
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: |-
+    DEF+40%  SPD-20%
+    Crafted by the Carpenter to withstand the deep sea.
+  name: Deep Sea Knight's Helm
+  icon_index: 699
+  price: 1000
+  note: 深海
+  id: 69
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.4
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: |-
+    DEF+50%  SPD-30%
+    Crafted by the Carpenter to withstand the deep sea.
+  name: Deep Sea Knight's Armor
+  icon_index: 700
+  price: 1000
+  note: 深海
+  id: 70
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: |-
+    Crit Chance+5%  SPD-1%
+    For survival, even a friend's flesh isn't too nasty.
+  name: Sailor's Bandana
+  icon_index: 685
+  price: 1000
+  note: エレバス号
+  id: 71
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.99
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: |-
+    Crit Chance+15%  DEF+15%  SPD-10%
+    Born from a peach, she brought misfortune to the old couple.
+  name: Helmet of Onimusha
+  icon_index: 683
+  price: 1000
+  note: 船の墓場
+  id: 72
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.9
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.15
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.15
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: |-
+    Crit Chance+20%  DEF+20%  SPD-20%
+    Born from a peach, she brought misfortune to the old couple.
+  name: Armor of Onimusha
+  icon_index: 684
+  price: 1000
+  note: 船の墓場
+  id: 73
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.2
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: |-
+    Crit Chance+5%  EVA&MEV+5%
+    Many a sailor have found themselves invited to the deep sea.
+  name: Sailor Clothes
+  icon_index: 433
+  price: 1000
+  note: 船乗り　ドロップ
+  id: 74
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Break turns into Gun Break. SPD-20%
+    Absurd weight and absurd power, a man's dream. -Sinbad
+  name: Cannon
+  icon_index: 655
+  price: 1000
+  note: ビリングズゲート
+  id: 75
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 13
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 16
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 17
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.8
+  params:
+  - 0
+  - 0
+  - 100
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: |-
+    EVA&MEV+5% Toxicity+100% SPD-2% Start Combat Poisoned
+    Snakes wriggle inside. Embroidered with "Francis Liddell."
+  name: Viper's Clothing
+  icon_index: 440
+  price: 1000
+  note: "<戦闘前ステート付与:3,100>\r\nリデル墓地"
+  id: 76
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 32
+    data_id: 3
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.98
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: All Parameters-99%.
+  name: Ring of Fragile Life
+  icon_index: 513
+  price: 500
+  note: 首切り案内所
+  id: 77
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 0.01
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 0.01
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 0.01
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 0.01
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 0.01
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 0.01
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.01
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 7
+    value: 0.01
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 78
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: HP+5%.
+  name: Ring of Life
+  icon_index: 513
+  price: 1500
+  note: "チェシャ贈り物\r\nリデル墓地\r\n"
+  id: 79
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: GRD Up [Small].
+  name: Ring of the Enduring
+  icon_index: 513
+  price: 1500
+  note: 酒場
+  id: 80
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 1.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: HP Regen+3%.
+  name: Evil Eye Ring
+  icon_index: 513
+  price: 1500
+  note: 橋のたもと
+  id: 81
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: 0.03
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Physical Damage Resistance+20%.
+  name: Ring of Steel Protection
+  icon_index: 513
+  price: 1500
+  note: "橋のたもと\r\n大鷲のソウル"
+  id: 82
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 6
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 1
+    value: 0.8
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Fire Resistance+50%.
+  name: Flame Stoneplate Ring
+  icon_index: 513
+  price: 1500
+  note: "屠殺場\r\n燻りの森"
+  id: 83
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 3
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Lightning Resistance+50%.
+  name: Thunder Stoneplate Ring
+  icon_index: 513
+  price: 1500
+  note: "胞子の森\r\nオイスター"
+  id: 84
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 5
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Darkness Resistance+50%.
+  name: Dark Stoneplate Ring
+  icon_index: 513
+  price: 1500
+  note: "ブラックウェル　魔獣\r\n名無しの森"
+  id: 85
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 10
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Increases Magic Defense. Magic Damage Reduction+20%.
+  name: Spell Stoneplate Ring
+  icon_index: 513
+  price: 1500
+  note: "精神病棟\r\n妊婦のソウル"
+  id: 86
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 7
+    value: 0.8
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 50
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Doubles the Souls gained from enemies.
+  name: Silver Ring of Avarice
+  icon_index: 513
+  price: 0
+  note: "図書室の夢\r\n<保存禁止>"
+  id: 87
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 64
+    data_id: 4
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Doubles item droprates.
+  name: Golden Ring of Avarice
+  icon_index: 512
+  price: 0
+  note: "図書室の夢\r\n<保存禁止>"
+  id: 88
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 64
+    data_id: 5
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Poison&Toxic Resistance+100%.
+  name: Poisonbite Ring
+  icon_index: 513
+  price: 1500
+  note: ビル
+  id: 89
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 3
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: HP Regen+2%  Bleed Resistance+100%.
+  name: Bloodbite Ring
+  icon_index: 513
+  price: 1500
+  note: ブラウンリッグ
+  id: 90
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: 0.02
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 26
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Increases Attack.
+  name: Ring of the Edge
+  icon_index: 513
+  price: 1500
+  note: 血涙
+  id: 91
+  features: []
+  params:
+  - 0
+  - 0
+  - 50
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Prevents enemy critical strikes and Instant Kill abilities.
+  name: Resurrectionist's Ring
+  icon_index: 513
+  price: 1500
+  note: 死体盗みヘア
+  id: 92
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 3
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 1
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Crit Chance+20%.
+  name: Hornet Ring
+  icon_index: 513
+  price: 1500
+  note: 霧の公園
+  id: 93
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.2
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Increases Defense.
+  name: Ring of the Wall
+  icon_index: 513
+  price: 1500
+  note: 無限食物
+  id: 94
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 50
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: MP Regen+5%.
+  name: Ring of Goddess
+  icon_index: 513
+  price: 1500
+  note: ウェインライト
+  id: 95
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 8
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Mysterious fluid. HP+15%.
+  name: Sloppy
+  icon_index: 99
+  price: 1500
+  note: ヘイグ
+  id: 96
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.15
+  params:
+  - 3000
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Mysterious fluid. MP+5%.
+  name: Squishy
+  icon_index: 99
+  price: 1500
+  note: ヘイグ
+  id: 97
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 1.05
+  params:
+  - 0
+  - 200
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Increases Speed.
+  name: Wind God's Ring
+  icon_index: 513
+  price: 1500
+  note: 胞子の森
+  id: 98
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 50
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Increases Magic.
+  name: Sorcery Ring
+  icon_index: 513
+  price: 1500
+  note: リポン大聖堂
+  id: 99
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 50
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Chance to be targeted+300%.
+  name: Tyrant Ring
+  icon_index: 513
+  price: 10
+  note: 死んだ回数30
+  id: 100
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 0
+    value: 3.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: The wearer will no longer die from falling from high places.
+  name: Cheshire Cat's Ring
+  icon_index: 512
+  price: 10000
+  note: 霧の公園
+  id: 101
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 17
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Changes Break into Hard Break.
+  name: Ring of Rebellion
+  icon_index: 513
+  price: 1500
+  note: アーチボルド
+  id: 102
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 16
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 13
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Chance to Fear+50%  Fear Resistance+100%.
+  name: Ring of Fear
+  icon_index: 513
+  price: 1500
+  note: フレデリック
+  id: 103
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 56
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 32
+    data_id: 56
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Increases all parameters. HP Regen-20%.
+  name: Ring of Iron Maiden
+  icon_index: 513
+  price: 1500
+  note: 血涙
+  id: 104
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: -0.2
+  params:
+  - 1000
+  - 100
+  - 50
+  - 50
+  - 50
+  - 50
+  - 50
+  - 50
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Chance to Stun+10%  Stun Resistance+50%.
+  name: Knight's Ring
+  icon_index: 513
+  price: 1500
+  note: 逃亡騎士ジム
+  id: 105
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 32
+    data_id: 13
+    value: 0.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 13
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: MP Regen+3%.
+  name: Angel's Ring
+  icon_index: 513
+  price: 1500
+  note: 悪夢霊　アメリア
+  id: 106
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 8
+    value: 0.03
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: EVA&MEV+5%  Sleep Resistance+100%.
+  name: Tinkerbell's Ring
+  icon_index: 513
+  price: 1500
+  note: 病みたる時計塔
+  id: 107
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 6
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: EVA&MEV+10%.
+  name: Empty Ring
+  icon_index: 513
+  price: 1500
+  note: クリスティ
+  id: 108
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.1
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Automatically revive when incapacitated.
+    75% chance to break.
+  name: Ring of Draconic Blessing
+  icon_index: 512
+  price: 10000
+  note: "<自動蘇生:500,42,100>\r\n<自動蘇生破損:75>\r\nカボチャの拠点"
+  id: 109
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: MAG+50%  Max HP&MP-50%.
+  name: Dusk Crown Ring
+  icon_index: 513
+  price: 1500
+  note: ハロルド
+  id: 110
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Recovery+100%  %-based Damage Taken+100%.
+  name: Miracle Ring
+  icon_index: 513
+  price: 1500
+  note: オックス・ウォード
+  id: 111
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 2
+    value: 2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Increases Attack and Magic.
+    Damage received is doubled.
+  name: Ring of the Clown Murderer
+  icon_index: 513
+  price: 1500
+  note: ピエロ
+  id: 112
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 6
+    value: 2.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 7
+    value: 2.0
+  params:
+  - 0
+  - 0
+  - 200
+  - 0
+  - 200
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Greatly increases all parameters, sets MP to 0.
+  name: Ring of the Black Goat
+  icon_index: 176
+  price: 100000
+  note: "ぺろぺろちょうだい\r\n<合成設定:0,49,30>"
+  id: 113
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 7
+    value: 1.2
+  params:
+  - 5000
+  - 0
+  - 500
+  - 500
+  - 500
+  - 500
+  - 500
+  - 500
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Increases Attack.
+    Evasion&Magic Evasion-50%.
+  name: Ring of the Reaper
+  icon_index: 513
+  price: 1500
+  note: オイスター
+  id: 114
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: -0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: -0.5
+  params:
+  - 0
+  - 0
+  - 400
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Grants immunity to debuffs.
+  name: Barber's Ring
+  icon_index: 513
+  price: 1500
+  note: スウィーニートッド
+  id: 115
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 12
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 12
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 12
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 12
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 12
+    data_id: 4
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 12
+    data_id: 5
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 12
+    data_id: 6
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 12
+    data_id: 7
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: HP+100%  MP+100%  Defense-50%  Magic Defense-50%.
+  name: Ring of Vanity
+  icon_index: 513
+  price: 1500
+  note: オックス・ウォード
+  id: 116
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 2.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 2.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Chance to put to Sleep+50%  Sleep Resistance+100%.
+  name: Apple Ring
+  icon_index: 513
+  price: 1500
+  note: 屠殺場
+  id: 117
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 32
+    data_id: 6
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 6
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: All Parameters+5%  Evasion&Magic Evasion-5%.
+  name: Londinium Ring
+  icon_index: 513
+  price: 1500
+  note: キャロル川
+  id: 118
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 7
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: -0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: -0.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Basic Attack Hit Count+1.
+  name: Pumpkin Knight's Ring
+  icon_index: 513
+  price: 1500
+  note: パンプキン・オー
+  id: 119
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 34
+    data_id: 0
+    value: 1.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Accuracy+30%.
+  name: Sniper's Ring
+  icon_index: 513
+  price: 1500
+  note: 精神病棟
+  id: 120
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.3
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: MP Regen+10%.
+  name: Ring of the Deep
+  icon_index: 513
+  price: 1500
+  note: ビリングズゲート
+  id: 121
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 8
+    value: 0.1
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Increases Speed.
+  name: Ring of White Crow
+  icon_index: 513
+  price: 1500
+  note: 嘆きの浜辺
+  id: 122
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 100
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Special ring crafted in an Eastern land.
+    Changes Dodge into Acrobatics.
+  name: Dark Wood Grain Ring
+  icon_index: 513
+  price: 1500
+  note: "ぺろぺろ\r\n<合成設定:0,49,5>"
+  id: 123
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 87
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 12
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Doubles the effectiveness of recovery items.
+  name: Toto's Ring
+  icon_index: 513
+  price: 1500
+  note: 魔女の家の残骸
+  id: 124
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 3
+    value: 2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Increases Luck.
+  name: Four-leaf Clover Ring
+  icon_index: 513
+  price: 1500
+  note: "名無しの森\r\nぺろぺろちょうだい\r\n<合成設定:0,49,5>"
+  id: 125
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 200
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Auto-combat.
+  name: Puppet's Ring
+  icon_index: 513
+  price: 1500
+  note: 亡者コック
+  id: 126
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 0
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Crit Chance+60%  Defense-99%  Magic Defense-99%.
+  name: Ring of Reckless Hero
+  icon_index: 513
+  price: 5000
+  note: 屠殺場
+  id: 127
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.6
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 0.01
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 0.01
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Chance to cover enemies in Oil+100%.
+  name: Banker's Ring
+  icon_index: 513
+  price: 5000
+  note: 燻りの森
+  id: 128
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 32
+    data_id: 5
+    value: 1.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Light Resistance+50%.
+  name: Ring of Heaven
+  icon_index: 513
+  price: 1500
+  note: "輝星のビーストソウル\r\nオックス・ウォード"
+  id: 129
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 9
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Speed+15%.
+  name: Shoeshiner's Ring
+  icon_index: 513
+  price: 1500
+  note: ブージャム
+  id: 130
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.15
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Increases Speed  Evasion&Magic Evasion+20%.
+  name: Leaf's Ring
+  icon_index: 512
+  price: 20000
+  note: "クイーン・ランド\r\n<保存禁止>"
+  id: 131
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.2
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 200
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Madness Resistance+100%.
+  name: Butcher's Ring
+  icon_index: 513
+  price: 5000
+  note: ブッチャーのソウル
+  id: 132
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 28
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Feeble Resistance+100%  Bonus Action Chance 10%.
+  name: Harlot's Ring
+  icon_index: 513
+  price: 5000
+  note: ラドウィッジ上層
+  id: 133
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 61
+    data_id: 0
+    value: 0.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 55
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Fire/Lightning/Light/Darkness Resistance+20%.
+  name: Exorcist's Ring
+  icon_index: 513
+  price: 5000
+  note: ラドウィッジ上層
+  id: 134
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 3
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 5
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 9
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 10
+    value: 0.8
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Crit Chance+40%.
+  name: Ring of the Abyss
+  icon_index: 513
+  price: 5000
+  note: 名無しの森
+  id: 135
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.4
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Stun Resistance+50%  Counterattack Chance+10%.
+  name: Champion's Ring
+  icon_index: 513
+  price: 5000
+  note: バイロン
+  id: 136
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 13
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 6
+    value: 0.1
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Bonus Action Chance 100%  MP Costs doubled.
+  name: Black Rabbit Ring
+  icon_index: 512
+  price: 10000
+  note: 巨人の家のソウル
+  id: 137
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 61
+    data_id: 0
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 4
+    value: 2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Attack+50%  Accuracy-50%  Crit Chance-50%.
+  name: Troll Ring
+  icon_index: 513
+  price: 5000
+  note: 時計塔
+  id: 138
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: -0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: -0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Chance to apply Poison+30%  Chance to apply Deadly Poison+30%
+    Chance to apply Bleed+30%.
+  name: Mosquito Ring
+  icon_index: 513
+  price: 5000
+  note: ハノーヴァー
+  id: 139
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 32
+    data_id: 2
+    value: 0.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 32
+    data_id: 3
+    value: 0.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 32
+    data_id: 26
+    value: 0.3
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Attack+20%  Magic+20%.
+    Recovery from items halved.
+  name: Red Tearstone Ring
+  icon_index: 513
+  price: 1500
+  note: 血涙
+  id: 140
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 3
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Allows passage through the gates of Ox Ward University.
+  name: Edith's Ring
+  icon_index: 512
+  price: 0
+  note: "イーディス\r\n<保存禁止>\r\n"
+  id: 141
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: HP Regen+50%  HP-50%.
+  name: Walrus Ring
+  icon_index: 512
+  price: 10000
+  note: オイスター
+  id: 142
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Attack+50%  Speed-50%.
+  name: Ring of Broken Shackles
+  icon_index: 513
+  price: 1500
+  note: "ぺろぺろちょうだい\r\n<合成設定:0,49,15>"
+  id: 143
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: HP Regen+10%  MP Regen+10%.
+  name: Knight of Hearts' Ring
+  icon_index: 513
+  price: 1500
+  note: ハートの騎士のソウル
+  id: 144
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: 0.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 8
+    value: 0.1
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Speed+20%.
+  name: Knight of Spades' Ring
+  icon_index: 513
+  price: 1500
+  note: スペードの騎士のソウル
+  id: 145
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.2
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: DEF+10%  Stun Resistance+50%.
+  name: Knight of Clubs' Ring
+  icon_index: 513
+  price: 1500
+  note: クラブの騎士のソウル
+  id: 146
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 13
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Bonus Action Chance 50%  All Parameters+20%.
+  name: White Rabbit Ring
+  icon_index: 512
+  price: 10000
+  note: 童話コンプリート
+  id: 147
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 61
+    data_id: 0
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 7
+    value: 1.2
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: DEF+100%  HP Recovery Disabled.
+  name: God Fish's Ring
+  icon_index: 513
+  price: 10000
+  note: "<HP回復無効:100>\r\n神魚のソウル"
+  id: 148
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Crit Chance+50%  Accuracy+50%  Evasion+50%
+    Counterattack Chance+50%  All Parameters-30%.
+  name: Ring of Sin
+  icon_index: 513
+  price: 5000
+  note: 深海
+  id: 149
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 7
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 6
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: ATK+100%  Sets Magic to 1.
+  name: Celestial Ring
+  icon_index: 512
+  price: 10000
+  note: クティ
+  id: 150
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 2.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Instant Kill Chance+20%.
+  name: Blackbeard's Ring
+  icon_index: 513
+  price: 5000
+  note: 黒髭
+  id: 151
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 32
+    data_id: 1
+    value: 0.2
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Grants understanding of the incomprehensible language
+    of the dear little girl.
+  name: Prickett's Ring
+  icon_index: 512
+  price: 20000
+  note: "<保存禁止>\r\nプリケット誓約\r\n"
+  id: 152
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Defense+50%  Evasion-50%.
+  name: Ogre Ring
+  icon_index: 513
+  price: 5000
+  note: 侯爵夫人の館
+  id: 153
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: -0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Begin battles Evading.
+  name: Honeybee Ring
+  icon_index: 513
+  price: 1500
+  note: "<戦闘前ステート付与:16,100>\r\nぺろぺろちょうだい\r\n<合成設定:0,49,5>"
+  id: 154
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Begin battles in a state of Rampage.
+  name: Frenzy King's Ring
+  icon_index: 513
+  price: 1500
+  note: "<戦闘前ステート付与:38,100>\r\nぺろぺろちょうだい\r\n<合成設定:0,49,10>"
+  id: 155
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Speed+50%.
+  name: Skanda's Ring
+  icon_index: 513
+  price: 1500
+  note: "ぺろぺろちょうだい\r\n<合成設定:0,49,15>"
+  id: 156
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: All parameters increase at the start of combat.
+  name: Ring of My Struggle
+  icon_index: 513
+  price: 1500
+  note: "<戦闘前強化付与:2,10,100>\r\n<戦闘前強化付与:3,10,100>\r\n<戦闘前強化付与:4,10,100>\r\n<戦闘前強化付与:5,10,100>\r\n<戦闘前強化付与:6,10,100>\r\n<戦闘前強化付与:7,10,100>\r\nおぞましいヒンドリー"
+  id: 157
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Attack-99%.
+  name: Adultery Ring
+  icon_index: 513
+  price: 500
+  note: ハノーヴァー
+  id: 158
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 0.01
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: HP+10%.
+  name: Ring of Life+1
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 159
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.1
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: HP+25%
+  name: Ring of Life+2
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 160
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.25
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: HP+50%
+  name: Ring of Life +3
+  icon_index: 513
+  price: 1500
+  note: "混沌ダンジョン\r\nクリミア"
+  id: 161
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Guard Effectiveness Up [Medium].
+  name: Ring of the Enduring+1
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 162
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Guard Effectiveness Up [Large].
+  name: Ring of the Enduring+2
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 163
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 2.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Guard Effectiveness Up [Extra Large].
+  name: Ring of the Enduring+3
+  icon_index: 513
+  price: 1500
+  note: "混沌ダンジョン\r\n白の城下町"
+  id: 164
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 3.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    MDF+25%  MP Regen+5%  SPD-6%
+    Worn by a chaplain whose soul was taken by the Goddess.
+  name: Chaplain's Robe
+  icon_index: 714
+  price: 1000
+  note: 混沌ダンジョン
+  id: 165
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.25
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.94
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 8
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: |-
+    DEF+8%  All Ailments RES+20%  SPD-6%
+    Helm harboring the power of demons born of the Abyss.
+  name: Helm of the Abyss
+  icon_index: 717
+  price: 1000
+  note: 混沌ダンジョン
+  id: 166
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.94
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 2
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 3
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 13
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 5
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 6
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 28
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 26
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 29
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 55
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 56
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.08
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 17
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 61
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 162
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 163
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 7
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 8
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 4
+    value: 0.8
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: |-
+    GRD Up [L]  HP Regen+5%  Fire RES-50%  SPD-3%
+    Covered in vines harder than steel. Vulnerable to fire.
+  name: Bean Tree Shield
+  icon_index: 716
+  price: 10000
+  note: 混沌ダンジョン
+  id: 167
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 2.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.97
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 3
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: "GRD Up [M] SPD-3% Nullifies Enemy Crits&Instant Kill\r\nThe shield of the legendary King of Immortality."
+  name: Mercury Shield
+  icon_index: 667
+  price: 10000
+  note: 混沌ダンジョン
+  id: 168
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 2.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.97
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 3
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 1
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: |-
+    EVA&MEV+30%  HP Recovery Disabled
+    Painted with black blood, it radiates bottomless evil.
+  name: Abhorrent Coat
+  icon_index: 715
+  price: 1000
+  note: "キャロル川\r\n<HP回復無効:100>"
+  id: 169
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.3
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Crit Chance+15%  DEF+15%  SPD-10%
+    All-purpose armor made in the military empire Longaia.
+  name: Armor of Iron Valor
+  icon_index: 718
+  price: 1000
+  note: 混沌ダンジョン
+  id: 170
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.9
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.15
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.15
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: Mysterious fluid. HP+30%.
+  name: Sloppy+1
+  icon_index: 99
+  price: 1500
+  note: 混沌ダンジョン
+  id: 171
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.3
+  params:
+  - 4000
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Mysterious fluid. HP+40%.
+  name: Sloppy+2
+  icon_index: 99
+  price: 1500
+  note: 混沌ダンジョン
+  id: 172
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.4
+  params:
+  - 4500
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Mysterious fluid. HP+50%.
+  name: Sloppy+3
+  icon_index: 99
+  price: 1500
+  note: 混沌ダンジョン
+  id: 173
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.5
+  params:
+  - 5000
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Mysterious fluid. MP+10%.
+  name: Squishy+1
+  icon_index: 99
+  price: 1500
+  note: 混沌ダンジョン
+  id: 174
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 1.1
+  params:
+  - 0
+  - 300
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Mysterious fluid. MP+25%.
+  name: Squishy+2
+  icon_index: 99
+  price: 1500
+  note: 混沌ダンジョン
+  id: 175
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 1.25
+  params:
+  - 0
+  - 400
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Mysterious fluid. MP+40%.
+  name: Squishy+3
+  icon_index: 99
+  price: 1500
+  note: 混沌ダンジョン
+  id: 176
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 1.4
+  params:
+  - 0
+  - 500
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Evasion&Magic Evasion+15%.
+  name: Empty Ring+1
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 177
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.15
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.15
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Increases Speed  Evasion&Magic Evasion+20%.
+  name: Empty Ring +2
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 178
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.2
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Evasion&Magic Evasion+25%.
+  name: Empty Ring +3
+  icon_index: 513
+  price: 1500
+  note: "混沌ダンジョン\r\n白の城下町"
+  id: 179
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.25
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.25
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 180
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: HP Regen+8%.
+  name: Evil Eye Ring+1
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 181
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: 0.08
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: HP Regen+15%.
+  name: Evil Eye Ring+2
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 182
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: 0.15
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: HP Regen+20%.
+  name: Evil Eye Ring+3
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 183
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: 0.2
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: MP Regen+10%.
+  name: Ring of Goddess+1
+  icon_index: 513
+  price: 1500
+  note: "混沌ダンジョン\r\nクリミア"
+  id: 184
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 8
+    value: 0.1
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: MP Regen+15%.
+  name: Ring of Goddess+2
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 185
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 8
+    value: 0.15
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: MP Regen+20%.
+  name: Ring of Goddess+3
+  icon_index: 513
+  price: 1500
+  note: "混沌ダンジョン\r\n白の城"
+  id: 186
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 8
+    value: 0.2
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Physical Damage Resistance+25%.
+  name: Ring of Steel Protection+1
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 187
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 6
+    value: 0.75
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 1
+    value: 0.75
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Physical Damage Resistance+30%.
+  name: Ring of Steel Protection+2
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 188
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 6
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 1
+    value: 0.7
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Physical Damage Resistance+35%.
+  name: Ring of Steel Protection+3
+  icon_index: 513
+  price: 1500
+  note: "混沌ダンジョン\r\n雪原"
+  id: 189
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 6
+    value: 0.65
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 1
+    value: 0.65
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Increases Magic Defense, Magic Damage Resistance+25%.
+  name: Spell Stoneplate Ring+1
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 190
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 7
+    value: 0.75
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 50
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Increases Magic Defense, Magic Damage Resistance+30%
+  name: Spell Stoneplate Ring+2
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 191
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 7
+    value: 0.7
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 50
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Increases Magic Defense, Magic Damage Resistance+35%
+  name: Spell Stoneplate Ring+3
+  icon_index: 513
+  price: 1500
+  note: "混沌ダンジョン\r\n雪原"
+  id: 192
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 7
+    value: 0.65
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 50
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Accuracy+40%.
+  name: Sniper's Ring+1
+  icon_index: 513
+  price: 1500
+  note: 精神病棟
+  id: 193
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.4
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Accuracy+50%.
+  name: Sniper's Ring+2
+  icon_index: 513
+  price: 1500
+  note: 精神病棟
+  id: 194
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Accuracy+60%.
+  name: Sniper's Ring+3
+  icon_index: 513
+  price: 1500
+  note: "精神病棟\r\nクリミア"
+  id: 195
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.6
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Crit Chance+30%.
+  name: Hornet Ring+1
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 196
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.3
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Crit Chance+40%.
+  name: Hornet Ring+2
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 197
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.4
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Crit Chance+50%.
+  name: Hornet Ring+3
+  icon_index: 513
+  price: 1500
+  note: "混沌ダンジョン\r\n雪原"
+  id: 198
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Increases Attack.
+  name: Ring of the Edge+1
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 199
+  features: []
+  params:
+  - 0
+  - 0
+  - 100
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Increases Attack.
+  name: Ring of the Edge+2
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 200
+  features: []
+  params:
+  - 0
+  - 0
+  - 150
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Increases Attack.
+  name: Ring of the Edge+3
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 201
+  features: []
+  params:
+  - 0
+  - 0
+  - 200
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Increases Defense.
+  name: Ring of the Wall+1
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 202
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 100
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Increases Defense.
+  name: Ring of the Wall+2
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 203
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 150
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Increases Defense.
+  name: Ring of the Wall+3
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 204
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 200
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Increases Speed.
+  name: Wind God's Ring+1
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 205
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 100
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Increases Speed.
+  name: Wind God's Ring+2
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 206
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 150
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Increases Speed.
+  name: Wind God's Ring+3
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 207
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 200
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Increases Magic.
+  name: Sorcery Ring+1
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 208
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 100
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Increases Magic.
+  name: Sorcery Ring+2
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 209
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 150
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Increases Magic.
+  name: Sorcery Ring+3
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 210
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 200
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: All Parameters+10% Evasion&Magic Evasion-10%.
+  name: Londinium Ring+1
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 211
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 1.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 7
+    value: 1.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: -0.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: -0.1
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: All Parameters+20% Evasion&Magic Evasion-15%.
+  name: Londinium Ring+2
+  icon_index: 513
+  price: 1500
+  note: 混沌ダンジョン
+  id: 212
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 7
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: -0.15
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: -0.15
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: All Parameters+30% Evasion&Magic Evasion-20%.
+  name: Londinium Ring+3
+  icon_index: 513
+  price: 1500
+  note: "混沌ダンジョン\r\n白の城下街"
+  id: 213
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 1.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 7
+    value: 1.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: -0.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: -0.2
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Recovery-20%  %-based Damage Taken-20%.
+  name: Whittled Ring
+  icon_index: 513
+  price: 1500
+  note: 麻袋女
+  id: 214
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 2
+    value: 0.8
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    SPD+100%  Madness RES-100%
+    Indeed, there are Great Ones who wish for ghouls to follow them.
+  name: Yellow Cloth
+  icon_index: 824
+  price: 1000
+  note: クリミア
+  id: 215
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 28
+    value: 2.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: "80% chance to revive during combat  DEF-30%  MDF-30%\r\nExiled from Eden, lovely angels were born in a hospital-graveyard."
+  name: Guardian Angel
+  icon_index: 765
+  price: 1000
+  note: "<自動蘇生:500,42,80>\r\n乳母たちのソウル"
+  id: 216
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 0.7
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: "GRD Up [S]  Bonus Action Chance 100%  SPD-15%\r\nSecret desires for her are on Hyde. I'm not to blame. - Dr. Jekyll"
+  name: Two-Faced Buckler
+  icon_index: 777
+  price: 1000
+  note: ジキルとハイド
+  id: 217
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 61
+    data_id: 0
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.85
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: "At the start of combat, gain ATK+100% MAG+100% Crit+100% ACC+100%\r\nThe hood of a playwright elected \"Prince of Hell\" by his peers."
+  name: Playwright's Hood
+  icon_index: 781
+  price: 1000
+  note: "<戦闘前ステート付与:164,100>\r\nロルド"
+  id: 218
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 2
+  - 0
+  etype_id: 2
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: "HP+30%  SPD+50%\r\nYou received it from Lingeriena. Somehow, it reeks of blood."
+  name: Fake Angel's Wreath
+  icon_index: 315
+  price: 1000
+  note: ランジェリーナ
+  id: 219
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.3
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 500
+  - 0
+  etype_id: 2
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    HP&MP Regen+30%  Bonus Action Chance 50%
+    The mystery, woven beyond the night sky. Won't you look comical?
+  name: Mystery of Night Sky
+  icon_index: 746
+  price: 500000
+  note: メイベル
+  id: 220
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: 0.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 8
+    value: 0.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 61
+    data_id: 0
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Chance to apply Feeble+100%.
+  name: Corpse-Eater's Ring
+  icon_index: 513
+  price: 1500
+  note: クリミア
+  id: 221
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 32
+    data_id: 55
+    value: 1.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Increases all parameters.
+  name: Almighty Ring
+  icon_index: 513
+  price: 1500
+  note: クリミア看護墓地
+  id: 222
+  features: []
+  params:
+  - 5000
+  - 100
+  - 500
+  - 500
+  - 500
+  - 500
+  - 500
+  - 500
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Crit Chance+55%  Accuracy+55%  Evasion+55%
+    Counterattack Chance+55%  All Parameters-35%.
+  name: Ring of Sin+1
+  icon_index: 513
+  price: 1500
+  note: 混沌
+  id: 223
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 0.65
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 0.65
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 0.65
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 0.65
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 0.65
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 0.65
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.65
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 7
+    value: 0.65
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.55
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.55
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.55
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 6
+    value: 0.55
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Crit Chance+60%  Accuracy+60%  Evasion+60%
+    Counterattack Chance+60%  All Parameters-40%.
+  name: Ring of Sin+2
+  icon_index: 513
+  price: 1500
+  note: 混沌
+  id: 224
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 0.6
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 0.6
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 0.6
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 0.6
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 0.6
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 0.6
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.6
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 7
+    value: 0.6
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.6
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.6
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.6
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 6
+    value: 0.6
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    Crit Chance+70%  Accuracy+70%  Evasion+70%
+    Counterattack Chance+70%  All Parameters-45%.
+  name: Ring of Sin+3
+  icon_index: 513
+  price: 1500
+  note: "混沌\r\nウィンターベル"
+  id: 225
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 0.55
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 0.55
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 0.55
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 0.55
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 0.55
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 0.55
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.55
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 7
+    value: 0.55
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 6
+    value: 0.7
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Frostbite Resistance+100%  Chance to apply Frostbite+50%.
+  name: Unicorn's Ring
+  icon_index: 513
+  price: 1500
+  note: 一角獣の森
+  id: 226
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 32
+    data_id: 162
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 162
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Laceration Resistance+100%  Chance to apply Laceration+50%.
+  name: Lion's Ring
+  icon_index: 513
+  price: 1500
+  note: 獅子の砦
+  id: 227
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 32
+    data_id: 163
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 163
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Chance to be targeted-100%.
+  name: Poser's Ring
+  icon_index: 513
+  price: 1500
+  note: 心臓の庭園
+  id: 228
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 0
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Ice Resistance+50%.
+  name: Ice Stoneplate Ring
+  icon_index: 513
+  price: 1500
+  note: "雪原\r\n城下街"
+  id: 229
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 4
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Magic+100%  Attack-100%.
+  name: Old King's Ring
+  icon_index: 512
+  price: 10000
+  note: "ぺろぺろバード\r\nウィンターベル\r\n<合成設定:0,49,50>"
+  id: 230
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: HP-90%  Crit Chance+100%.
+  name: Polar Bear's Ring
+  icon_index: 512
+  price: 10000
+  note: "ぺろぺろバード\r\nウィンターベル\r\n<合成設定:0,49,50>"
+  id: 231
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 0.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 1.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: At the start of combat, gain DEF+900% MDF+900% HP&MP Regen+100%.
+  name: Ring of The Indomitable
+  icon_index: 513
+  price: 1500
+  note: "<戦闘前ステート付与:170,100>\r\n白の城下街\r\n"
+  id: 232
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    MDF+10%  Ice RES+20%  Magic Reflect+15%  SPD-5%
+    They serve as both the Theatre's assassins and performers' guides.
+  name: Winter Witch's Coat
+  icon_index: 750
+  price: 1000
+  note: 白の城下
+  id: 233
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 5
+    value: 0.15
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 4
+    value: 0.8
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: |-
+    DEF+15%  SPD-10%  Crit Avoidance+50%  Ice RES+30%
+    Once people of Winterbell, now they are nothing more than puppets.
+  name: Winter Warrior's Plate
+  icon_index: 751
+  price: 1000
+  note: 白の城下
+  id: 234
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.9
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.15
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 4
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 3
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: |-
+    DEF+8%  SPD-6%  Crit Avoidance+50%  Ice RES+20%
+    Once people of Winterbell, now they are nothing more than puppets.
+  name: Winter Warrior's Helm
+  icon_index: 735
+  price: 1000
+  note: 白の城下
+  id: 235
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.94
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.08
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 4
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 3
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: |-
+    Evasion+100%  Ice RES-50%
+    He cared not for schemes and plots, happy to be where he was.
+  name: Windless Wrap
+  icon_index: 447
+  price: 1000
+  note: 冬鐘の風のソウル
+  id: 236
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 4
+    value: 1.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: |-
+    GRD Up [M]  Basic Attack Hit Count+2  ATK-50%
+    Fame is a path to wealth, a shining road to escape poverty.
+  name: Ghost-Finder's Shield
+  icon_index: 767
+  price: 1000
+  note: カーナッキ
+  id: 237
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 34
+    data_id: 0
+    value: 2.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: Vulnerable Resistance+100%.
+  name: Unbreakable Ring
+  icon_index: 513
+  price: 1500
+  note: クリミア
+  id: 238
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 7
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 8
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    GRD Up [L]  HP+50%  SPD-10%
+    In the pits of Hell, the greedy will carry golden crosses.
+  name: Cross Greatshield
+  icon_index: 281
+  price: 1000
+  note: 白の城下町
+  id: 239
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 2.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.9
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: All Ailments Resistance+100%.
+  name: Black Knight's Ring
+  icon_index: 512
+  price: 10000
+  note: リンダメア
+  id: 240
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 4
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 13
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 5
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 6
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 28
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 26
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 29
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 55
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 56
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 61
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 17
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 162
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 163
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 8
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 7
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: Counterattack Chance+100%.
+  name: Counter Ring
+  icon_index: 513
+  price: 1500
+  note: 狂気山脈
+  id: 241
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 6
+    value: 1.0
+  params:
+  - 0
+  - 0
+  - 500
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: All Ailments Resistance+30%.
+  name: Ring of the Holy Forest
+  icon_index: 513
+  price: 1000
+  note: "キャンディー\r\n<合成設定:0,49,1>"
+  id: 242
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 2
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 3
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 13
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 5
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 6
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 28
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 26
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 29
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 55
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 56
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 61
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 17
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 162
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 163
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 8
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 7
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 4
+    value: 0.7
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: |-
+    MAG+50%  MDF+50%  MP-99%
+    She of the grotesque shrine proclaims, "That's surely a miracle."
+  name: Miracle Maiden's Garb
+  icon_index: 825
+  price: 1000
+  note: 混沌ダンジョン
+  id: 243
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 0.01
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: Magic Reflect+10%.
+  name: Treacle Ring
+  icon_index: 513
+  price: 1500
+  note: 白の城下町
+  id: 244
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 5
+    value: 0.1
+  params:
+  - 0
+  - 0
+  - 500
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 245
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 246
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 247
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 248
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 249
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 250
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 251
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 252
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 253
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 254
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 255
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 256
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 257
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 258
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 259
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 260
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 261
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 262
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: "HP+50%  ACC-20%  EVA&MEV-20%  Luck-20%  Crit-20%\r\nOminous, blood-red artifact left behind by ones who mistakenly entered another world."
+  name: Bloodstained Headband
+  icon_index: 182
+  price: 2000
+  note: ''
+  id: 263
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 7
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: -0.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: -0.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: -0.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 3
+    value: -0.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: -0.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "Defense-10%  Crit Chance+15%  Grants madness at the start of battle\r\nBloodstained artifact belonging to one who was driven to madness by illusions."
+  name: Bloodstained Sailor Uniform
+  icon_index: 714
+  price: 2000
+  note: <戦闘前ステート付与:28,100>
+  id: 264
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 0.9
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.15
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: "Defense+12%  Agility+11%  Madness Resistance-50%\r\nThe villagers' minds wore down gradually, to the point that what was on their head no longer mattered."
+  name: Villager's Straw Hat
+  icon_index: 162
+  price: 1000
+  note: ''
+  id: 265
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.11
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.12
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 28
+    value: 1.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "Attack+10%  Evasion+10%  Bonus Action Chance+25%\r\nMad white shadows engulfed the fields, leaving the blind inhabitants devoid of hope."
+  name: Villager's Garb
+  icon_index: 168
+  price: 1000
+  note: ''
+  id: 266
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 61
+    data_id: 0
+    value: 0.25
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.1
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 267
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 268
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 269
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 270
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 271
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 272
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 273
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 274
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: "Break turns into Gun Break  Crit Chance+100%  Speed+100%\r\nA weapon for testing purposes, inspired by the Colt Storm Defender S."
+  name: Cult Storm Defender S (Test Weapon)
+  icon_index: 706
+  price: 6000
+  note: ''
+  id: 275
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 13
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 16
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 1116
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 2.0
+  params:
+  - 0
+  - 0
+  - 444
+  - 0
+  - 444
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 276
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: "Break turns into Gun Break  Crit Chance+25%  Speed+5%\n\r\nA custom handgun for elite detectives."
+  name: Colt Defender
+  icon_index: 706
+  price: 6000
+  note: ''
+  id: 277
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 13
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 16
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 1104
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.25
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.05
+  params:
+  - 0
+  - 0
+  - 35
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: "Break turns into Gun Break  Crit Chance+30%  Speed+10%\r\nMy bullet time is limitless!"
+  name: Colt Storm Defender
+  icon_index: 706
+  price: 6000
+  note: ''
+  id: 278
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 13
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 16
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 1106
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.1
+  params:
+  - 0
+  - 0
+  - 35
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: "Break turns into Gun Break  Crit Chance+25%  Speed+5%\r\nA custom handgun for elite detectives."
+  name: Colt Defender
+  icon_index: 706
+  price: 6000
+  note: ''
+  id: 279
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 13
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 16
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 1104
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.25
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.05
+  params:
+  - 0
+  - 0
+  - 35
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: "Damage Taken-20%\r\nFrom endless days of torment, faith grows dim...."
+  name: Bryndi's Ring
+  icon_index: 513
+  price: 3000
+  note: ''
+  id: 280
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 1
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 2
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 3
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 4
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 5
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 8
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 9
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 10
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 11
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 13
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 14
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 15
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 16
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 17
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 18
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 12
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 19
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 20
+    value: 0.8
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 281
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: "Bleed Damage Taken-50%  HP-30%  Magic Reflect+20%  Evasion+20%\r\nChance to apply Bleed+30%  By embracing bloodthirst, you become their prey."
+  name: Cold Raven's Shroud
+  icon_index: 710
+  price: 0
+  note: ''
+  id: 282
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 11
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 32
+    data_id: 26
+    value: 0.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 5
+    value: 0.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 0.7
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "Start combat with Requiem\r\nA ring imprisoning a sacred soul...."
+  name: Soul Ring
+  icon_index: 513
+  price: 3000
+  note: <戦闘前ステート付与:27,100>
+  id: 283
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: "HP+1000%  HP Recovery Disabled  HP Drain 20% per turn\r\nWas there never a place for me in this journey?"
+  name: Strangler's Silks
+  icon_index: 433
+  price: 0
+  note: <HP回復無効:100>
+  id: 284
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 10.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: -0.2
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "Start combat with Evasion+100%\r\nIt treads through dazzling illusions, savoring blood, forever in search of its existence."
+  name: Shadowstalk
+  icon_index: 715
+  price: 5000
+  note: <戦闘前ステート付与:16,100>
+  id: 285
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 286
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 287
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 288
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 289
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 290
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 291
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 292
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 293
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 294
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 295
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 296
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 297
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 298
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 299
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 300
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0

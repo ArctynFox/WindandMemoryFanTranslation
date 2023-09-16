@@ -1,0 +1,351 @@
+--- !ruby/object:RPG::Map
+display_name: Dim Interstice
+tileset_id: 1
+width: 18
+height: 13
+scroll_type: 0
+specify_battleback: false
+battleback1_name: ''
+battleback2_name: ''
+autoplay_bgm: false
+bgm: !ruby/object:RPG::BGM {name: '', volume: 100, pitch: 100}
+autoplay_bgs: false
+bgs: !ruby/object:RPG::BGS {name: '', volume: 80, pitch: 100}
+disable_dashing: false
+encounter_list: []
+encounter_step: 30
+parallax_name: ''
+parallax_loop_x: false
+parallax_loop_y: false
+parallax_sx: 0
+parallax_sy: 0
+parallax_show: false
+note: ''
+data: !ruby/object:Table
+  dim: 3
+  x: 18
+  y: 13
+  z: 4
+  data:
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+events:
+  1: !ruby/object:RPG::Event
+    id: 1
+    name: EV001
+    x: 8
+    y: 9
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  2: !ruby/object:RPG::Event
+    id: 2
+    name: EV002
+    x: 8
+    y: 3
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: もこ
+        character_index: 0
+        direction: 8
+        pattern: 1
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 2
+      trigger: 3
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 242, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 241, p: [!ruby/object:RPG::BGM {name: 「星空下的回忆」, volume: 100, pitch: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [0, 8, true]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Hello, \N[1].']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I''m sorry I had to bring you here like this,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['but it''s the only way to keep her']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['from sensing my presence,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['even if only temporarily."']}
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 205
+        p:
+        - 0
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &1 !ruby/object:RPG::MoveCommand {code: 15, parameters: [100]}
+          - &2 !ruby/object:RPG::MoveCommand {code: 37, parameters: []}
+          - &3 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
+          - &4 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*3]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*4]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Up3, pitch: 150, volume: 70}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 255.0, b: 255.0, a: 255.0}, 60, false]}
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 205
+        p:
+        - 0
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &5 !ruby/object:RPG::MoveCommand {code: 41, parameters: [萝斯梅可行走图2, 0]}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*5]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [150]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [萝斯梅可 (2), 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"I''m Rose Moko,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['temporary leader of the once-great \c[2]Elder Race\c[0],']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['whose light has faded from the sky."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [萝斯梅可 (2), 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Most of the fuzzballs you''ve']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['encountered on your journey are']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['simply temporary vessels for our people."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [萝斯梅可 (2), 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"My people do not intend to obstruct']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['your search for the girl in your dreams.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [萝斯梅可 (2), 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['However, I believe you have already sensed']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['the dark tide surging beneath the illusory void,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['capable devouring everything.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [萝斯梅可 (2), 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['That''s how you were able to follow the']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]breadcrumbs\c[0] and come here, isn''t it?"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [-1, 8, true]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [萝斯梅可 (2), 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"The distant, frenzied rulers have']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['incited numerous absurd wars, leading to the']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['demise of countless innocent souls, and resulting']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['in countless tragedies beyond imagination."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [萝斯梅可 (2), 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"We of our clan are not rulers,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['and we do not wish to meddle']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['in the feast of the rulers of the dark souls,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['yet we are still affected by this,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['and we face a crisis of survival..."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [-1, 8, true]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [萝斯梅可 (2), 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"In the future we can foresee, as is recorded,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['only your assistance, \N[1],']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['can bring a glimmer of hope to our clan...']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I hope you can understand and help us;"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [萝斯梅可 (2), 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"In return, we of the clan will also']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['provide tools that can help you']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['escape from this dream.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['And, if you don''t mind..."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [萝斯梅可 (2), 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"I''m... also willing to be']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['a bargaining chip in this deal..."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [0, 8, true]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [萝斯梅可 (2), 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"So, what... do you think?"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Accept, Decline], 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Accept]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [萝斯梅可 (2), 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"You have my deepest gratitude..."']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Decline]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [萝斯梅可 (2), 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"... I am truly sorry, but my clan has lost most']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['of its assets during the war,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['so we cannot afford to give any higher reward...']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [萝斯梅可 (2), 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"However, as far as I know, in the shattered,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['miniature world my clan maintained,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['there once roamed a fading whisp of a soul...']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['named \c[2]Dorothy\c[0]...']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I believe that you might']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['find this information useful."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [-1, 1, false]}
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 205
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &6 !ruby/object:RPG::MoveCommand {code: 37, parameters: []}
+          - &7 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
+          - &8 !ruby/object:RPG::MoveCommand {code: 38, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*7]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*8]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [60]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [萝斯梅可 (2), 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"\N[1], you seem quite interested.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['So, if you are willing to assist my clan,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['then I and my clansmen will do our utmost to...']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['protect her from this deceptive']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['and chaotic cycle of darkness..."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [萝斯梅可 (2), 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"The power of the rift']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['can''t be sustained much longer...']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['so, before \c[2]she\c[0] notices the anomaly']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['that is your presence,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['please board the train for the Land of Paradise.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['My clansmen will be waiting on the train...']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['to assist you in reaching her."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [萝斯梅可 (2), 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Let us meet again on this journey, savior..."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [萝斯梅可 (2), 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"... Please remember,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['only commit truths to memory..."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, black, 0, 0, 0, 0, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 232, p: [1, ! '', 0, 0, 0, 0, 100, 100, 255, 0, 140, true]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 245, p: [!ruby/object:RPG::BGS {name: SC_wind, volume: 80, pitch: 85}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [120]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['O traveler embarking on a journey,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['please hold tightly onto this ticket.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Board the endless train.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Cherish the dreamscape from that childhood dream.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [It may be at the far side of the moon]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [or at the peak of the rain.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Or perhaps it can only be found]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [above the rainbow after the rain.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Just as peaceful as a lullaby,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [the winds of return gently caress the shattered earth.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [2, DLC2.5, 0, 0, 0, 0, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 232, p: [2, ! '', 0, 0, 0, 0, 100, 100, 255, 0, 100, true]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [180]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [萝斯梅可 (2), 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"... Until the destined traveler arrives..."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [100]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 246, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [1, 1010, 1011, 1012, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

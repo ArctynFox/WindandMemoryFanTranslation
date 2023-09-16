@@ -1,0 +1,5884 @@
+---
+- 
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 5
+  initial_level: 1
+  face_name: ''
+  class_id: 13
+  character_name: '!Flame'
+  id: 1
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 8
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 7
+    value: 0.01
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 8
+    value: 0.01
+  note: "<レベル限界増加:900>\r\n<戦闘終了後ステート解除:1>\r\n<戦闘中装備変更>\r\n<戦闘中装備変更禁止:4,3,2,1>\r\n<限界変動:0,99999>\r\n<限界変動:1,99999>\r\n<限界変動:2,99999>\r\n<限界変動:3,99999>\r\n<限界変動:4,99999>\r\n<限界変動:5,99999>\r\n<限界変動:6,99999>\r\n<限界変動:7,99999>"
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 3
+  character_index: 0
+  initial_level: 1
+  face_name: DS_Actor20
+  class_id: 1
+  character_name: $主人公
+  id: 2
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 8
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 7
+    value: 0.01
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 8
+    value: 0.01
+  note: "<レベル限界増加:900>\r\n<限界変動:0,99999>\r\n<限界変動:1,99999>\r\n<限界変動:2,99999>\r\n<限界変動:3,99999>\r\n<限界変動:4,99999>\r\n<限界変動:5,99999>\r\n<限界変動:6,99999>\r\n<限界変動:7,99999>\r\n<戦闘終了後ステート解除:1>\r\n<戦闘中装備変更>\r\n<戦闘中装備変更禁止:4,3,2,1>"
+  equips:
+  - 101
+  - 51
+  - 25
+  - 17
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 2
+  character_index: 2
+  initial_level: 1
+  face_name: Evil
+  class_id: 2
+  character_name: Evil
+  id: 3
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 8
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 7
+    value: 0.01
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 8
+    value: 0.01
+  note: "<レベル限界増加:900>\r\n<限界変動:0,99999>\r\n<限界変動:1,99999>\r\n<限界変動:2,99999>\r\n<限界変動:3,99999>\r\n<限界変動:4,99999>\r\n<限界変動:5,99999>\r\n<限界変動:6,99999>\r\n<限界変動:7,99999>\r\n<戦闘終了後ステート解除:1>\r\n<戦闘中装備変更>\r\n<戦闘中装備変更禁止:4,3,2,1>"
+  equips:
+  - 112
+  - 43
+  - 24
+  - 16
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 5
+  character_index: 5
+  initial_level: 1
+  face_name: Evil
+  class_id: 3
+  character_name: Evil
+  id: 4
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 8
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 7
+    value: 0.01
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 8
+    value: 0.01
+  note: "<レベル限界増加:900>\r\n<限界変動:0,99999>\r\n<限界変動:1,99999>\r\n<限界変動:2,99999>\r\n<限界変動:3,99999>\r\n<限界変動:4,99999>\r\n<限界変動:5,99999>\r\n<限界変動:6,99999>\r\n<限界変動:7,99999>\r\n<戦闘終了後ステート解除:1>\r\n<戦闘中装備変更>\r\n<戦闘中装備変更禁止:4,3,2,1>"
+  equips:
+  - 167
+  - 45
+  - 23
+  - 15
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 2
+  initial_level: 1
+  face_name: face079b
+  class_id: 4
+  character_name: fc_priestA_mageA_toku
+  id: 5
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 8
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 7
+    value: 0.01
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 8
+    value: 0.01
+  note: "<レベル限界増加:900>\r\n<限界変動:0,99999>\r\n<限界変動:1,99999>\r\n<限界変動:2,99999>\r\n<限界変動:3,99999>\r\n<限界変動:4,99999>\r\n<限界変動:5,99999>\r\n<限界変動:6,99999>\r\n<限界変動:7,99999>\r\n<戦闘終了後ステート解除:1>\r\n<戦闘中装備変更>\r\n<戦闘中装備変更禁止:4,3,2,1>"
+  equips:
+  - 200
+  - 45
+  - 22
+  - 14
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 7
+  character_index: 7
+  initial_level: 1
+  face_name: Evil
+  class_id: 5
+  character_name: Evil
+  id: 6
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 8
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 7
+    value: 0.01
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 8
+    value: 0.01
+  note: "<レベル限界増加:900>\r\n<限界変動:0,99999>\r\n<限界変動:1,99999>\r\n<限界変動:2,99999>\r\n<限界変動:3,99999>\r\n<限界変動:4,99999>\r\n<限界変動:5,99999>\r\n<限界変動:6,99999>\r\n<限界変動:7,99999>\r\n<戦闘終了後ステート解除:1>\r\n<戦闘中装備変更>\r\n<戦闘中装備変更禁止:4,3,2,1>"
+  equips:
+  - 156
+  - 47
+  - 26
+  - 18
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 2
+  character_index: 2
+  initial_level: 1
+  face_name: face071a
+  class_id: 6
+  character_name: fc_crusader
+  id: 7
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 8
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 7
+    value: 0.01
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 8
+    value: 0.01
+  note: "<レベル限界増加:900>\r\n<限界変動:0,99999>\r\n<限界変動:1,99999>\r\n<限界変動:2,99999>\r\n<限界変動:3,99999>\r\n<限界変動:4,99999>\r\n<限界変動:5,99999>\r\n<限界変動:6,99999>\r\n<限界変動:7,99999>\r\n<戦闘終了後ステート解除:1>\r\n<戦闘中装備変更>\r\n<戦闘中装備変更禁止:4,3,2,1>"
+  equips:
+  - 211
+  - 39
+  - 27
+  - 19
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: face073b
+  class_id: 7
+  character_name: 狩人
+  id: 8
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 8
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 7
+    value: 0.01
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 8
+    value: 0.01
+  note: "<レベル限界増加:900>\r\n<限界変動:0,99999>\r\n<限界変動:1,99999>\r\n<限界変動:2,99999>\r\n<限界変動:3,99999>\r\n<限界変動:4,99999>\r\n<限界変動:5,99999>\r\n<限界変動:6,99999>\r\n<限界変動:7,99999>\r\n<戦闘終了後ステート解除:1>\r\n<戦闘中装備変更>\r\n<戦闘中装備変更禁止:4,3,2,1>"
+  equips:
+  - 222
+  - 65
+  - 0
+  - 6
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 3
+  character_index: 3
+  initial_level: 1
+  face_name: Evil
+  class_id: 8
+  character_name: Evil
+  id: 9
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 8
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 7
+    value: 0.01
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 8
+    value: 0.01
+  note: "<レベル限界増加:900>\r\n<限界変動:0,99999>\r\n<限界変動:1,99999>\r\n<限界変動:2,99999>\r\n<限界変動:3,99999>\r\n<限界変動:4,99999>\r\n<限界変動:5,99999>\r\n<限界変動:6,99999>\r\n<限界変動:7,99999>\r\n<戦闘終了後ステート解除:1>\r\n<戦闘中装備変更>\r\n<戦闘中装備変更禁止:4,3,2,1>"
+  equips:
+  - 255
+  - 42
+  - 0
+  - 9
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 9
+  character_name: もこ
+  id: 10
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 8
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 7
+    value: 0.01
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 8
+    value: 0.01
+  note: "<レベル限界増加:900>\r\n<限界変動:0,99999>\r\n<限界変動:1,99999>\r\n<限界変動:2,99999>\r\n<限界変動:3,99999>\r\n<限界変動:4,99999>\r\n<限界変動:5,99999>\r\n<限界変動:6,99999>\r\n<限界変動:7,99999>\r\n<戦闘終了後ステート解除:1>\r\n<戦闘中装備変更>\r\n<戦闘中装備変更禁止:4,3,2,1>"
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 3
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 10
+  character_name: ''
+  id: 11
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 8
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 7
+    value: 0.01
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 8
+    value: 0.01
+  note: "<レベル限界増加:900>\r\n<限界変動:0,99999>\r\n<限界変動:1,99999>\r\n<限界変動:2,99999>\r\n<限界変動:3,99999>\r\n<限界変動:4,99999>\r\n<限界変動:5,99999>\r\n<限界変動:6,99999>\r\n<限界変動:7,99999>\r\n<戦闘終了後ステート解除:1>\r\n<戦闘中装備変更>\r\n<戦闘中装備変更禁止:4,3,2,1>"
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 12
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Poro
+  face_index: 1
+  character_index: 1
+  initial_level: 99
+  face_name: poro
+  class_id: 25
+  character_name: ''
+  id: 13
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 51
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 51
+    data_id: 4
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 2.0
+  note: "<レベル限界増加:900>\r\n<限界変動:0,99999>\r\n<限界変動:1,9999>\r\n<限界変動:2,9999>\r\n<限界変動:3,9999>\r\n<限界変動:4,9999>\r\n<限界変動:5,9999>\r\n<限界変動:6,9999>\r\n<限界変動:7,9999>"
+  equips:
+  - 89
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: Automatically fights. Summoned by Red Hood.
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 14
+  features: []
+  note: 注意！スキル名前のため弄らない
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 15
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 16
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Node
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ノーデ
+  class_id: 39
+  character_name: $ノーデ
+  id: 17
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 3
+    value: 2.0
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv0
+    [HP+10% / Recovery from Items*2]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Node
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ノーデ
+  class_id: 39
+  character_name: $ノーデ
+  id: 18
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.25
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 3
+    value: 2.0
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv1
+    [HP+25% / Recovery from Items*2]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Node
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ノーデ
+  class_id: 39
+  character_name: $ノーデ
+  id: 19
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.35
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 3
+    value: 2.0
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv2
+    [HP+35% / Recovery from Items*2]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Node
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ノーデ
+  class_id: 39
+  character_name: $ノーデ
+  id: 20
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 3
+    value: 2.0
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv3
+    [HP+50% / Recovery from Items*2]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Bill
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ビル
+  class_id: 40
+  character_name: ビル
+  id: 21
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 1.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 4
+    value: 0.5
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv0
+    [MP+10% / MP Costs*1/2]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Bill
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ビル
+  class_id: 40
+  character_name: ビル
+  id: 22
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 4
+    value: 0.5
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv1
+    [MP+20% / MP Costs*1/2]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Bill
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ビル
+  class_id: 40
+  character_name: ビル
+  id: 23
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 1.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 4
+    value: 0.5
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv2
+    [MP+30% / MP Costs*1/2]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Bill
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ビル
+  class_id: 40
+  character_name: ビル
+  id: 24
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 4
+    value: 0.5
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv3
+    [MP+50% / MP Costs*1/2]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Dodo
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ドド
+  class_id: 41
+  character_name: $ドド
+  id: 25
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 64
+    data_id: 3
+    value: 0.0
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv0
+    [SPD+10% / Preemptive Strike Rate Up]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Dodo
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ドド
+  class_id: 41
+  character_name: $ドド
+  id: 26
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 64
+    data_id: 3
+    value: 0.0
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv1
+    [SPD+20% / Preemptive Strike Rate Up]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Dodo
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ドド
+  class_id: 41
+  character_name: $ドド
+  id: 27
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 64
+    data_id: 3
+    value: 0.0
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv2
+    [SPD+30% / Preemptive Strike Rate Up]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Dodo
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ドド
+  class_id: 41
+  character_name: $ドド
+  id: 28
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 64
+    data_id: 3
+    value: 0.0
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv3
+    [SPD+50% / Preemptive Strike Rate Up]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Shisha
+  face_index: 0
+  character_index: 1
+  initial_level: 1
+  face_name: シーシャ
+  class_id: 42
+  character_name: シーシャ
+  id: 29
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.15
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 1.5
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv0
+    [DEF+15% / Guard Effectiveness Up [S]]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Shisha
+  face_index: 0
+  character_index: 1
+  initial_level: 1
+  face_name: シーシャ
+  class_id: 42
+  character_name: シーシャ
+  id: 30
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 1.5
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv1
+    [DEF+20% / Guard Effectiveness Up [S]]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Shisha
+  face_index: 0
+  character_index: 1
+  initial_level: 1
+  face_name: シーシャ
+  class_id: 42
+  character_name: シーシャ
+  id: 31
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.35
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 1.5
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv2
+    [DEF+35% / Guard Effectiveness Up [S]]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Shisha
+  face_index: 0
+  character_index: 1
+  initial_level: 1
+  face_name: シーシャ
+  class_id: 42
+  character_name: シーシャ
+  id: 32
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 2.0
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv3
+    [DEF+50% / Guard Effectiveness Up [M]]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Margaret
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: 公爵夫人
+  class_id: 43
+  character_name: $公爵夫人
+  id: 33
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 61
+    data_id: 0
+    value: 0.15
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.95
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv0
+    [Bonus Action 15% / SPD-5%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Margaret
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: 公爵夫人
+  class_id: 43
+  character_name: $公爵夫人
+  id: 34
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 61
+    data_id: 0
+    value: 0.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.85
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv1
+    [Bonus Action 30% / SPD-15%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Margaret
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: 公爵夫人
+  class_id: 43
+  character_name: $公爵夫人
+  id: 35
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 61
+    data_id: 0
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.7
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv2
+    [Bonus Action 50% / SPD-30%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Margaret
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: 公爵夫人
+  class_id: 43
+  character_name: $公爵夫人
+  id: 36
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 61
+    data_id: 0
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.5
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv3
+    [Bonus Action 100% / SPD-50%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Lorina
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ロリーナ
+  class_id: 44
+  character_name: $ロリーナ
+  id: 37
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 3
+    value: 0.85
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 4
+    value: 0.85
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 5
+    value: 0.85
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 9
+    value: 0.85
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 10
+    value: 0.85
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv0
+    [Fire/Lightning/Ice/Dark/Light Resistance+15%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Lorina
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ロリーナ
+  class_id: 44
+  character_name: $ロリーナ
+  id: 38
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 3
+    value: 0.75
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 4
+    value: 0.75
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 5
+    value: 0.75
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 9
+    value: 0.75
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 10
+    value: 0.75
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv1
+    [Fire/Lightning/Ice/Dark/Light Resistance+25%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Lorina
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ロリーナ
+  class_id: 44
+  character_name: $ロリーナ
+  id: 39
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 3
+    value: 0.65
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 4
+    value: 0.65
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 5
+    value: 0.65
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 9
+    value: 0.65
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 10
+    value: 0.65
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv2
+    [Fire/Lightning/Ice/Dark/Light Resistance+35%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Lorina
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ロリーナ
+  class_id: 44
+  character_name: $ロリーナ
+  id: 40
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 3
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 4
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 5
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 9
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 10
+    value: 0.5
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv3
+    [Fire/Lightning/Ice/Dark/Light Resistance+50%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Hatta
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: 帽子屋
+  class_id: 45
+  character_name: $帽子屋
+  id: 41
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 28
+    value: 0.9
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv0
+    [MAG+10% / Madness Resistance+10%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Hatta
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: 帽子屋
+  class_id: 45
+  character_name: $帽子屋
+  id: 42
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 28
+    value: 0.7
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv1
+    [MAG+20% / Madness Resistance+30%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Hatta
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: 帽子屋
+  class_id: 45
+  character_name: $帽子屋
+  id: 43
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.35
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 28
+    value: 0.5
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv2
+    [MAG+35% / Madness Resistance+50%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Hatta
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: 帽子屋
+  class_id: 45
+  character_name: $帽子屋
+  id: 44
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 28
+    value: 0.0
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv3
+    [MAG+50% / Madness Resistance+100%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Mock Turtle
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ウミガメ
+  class_id: 46
+  character_name: ウミガメモドキ
+  id: 45
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.15
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 1.5
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv0
+    [MDF+15% / Guard Effectiveness Up [S]]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Mock Turtle
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ウミガメ
+  class_id: 46
+  character_name: ウミガメモドキ
+  id: 46
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 1.5
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv1
+    [MDF+20% / Guard Effectiveness Up [S]]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Mock Turtle
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ウミガメ
+  class_id: 46
+  character_name: ウミガメモドキ
+  id: 47
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.35
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 1.5
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv2
+    [MDF+35% / Guard Effectiveness Up [S]]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Mock Turtle
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ウミガメ
+  class_id: 46
+  character_name: ウミガメモドキ
+  id: 48
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 2.0
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv3
+    [MDF+50% / Guard Effectiveness Up [M]]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 49
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Ugly Duckling
+  face_index: 0
+  character_index: 1
+  initial_level: 1
+  face_name: ahiru
+  class_id: 27
+  character_name: ''
+  id: 50
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 51
+    data_id: 6
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 2
+    value: 0.0
+  note: "<レベル限界増加:900>\r\n<限界変動:0,99999>\r\n<限界変動:1,9999>\r\n<限界変動:2,9999>\r\n<限界変動:3,9999>\r\n<限界変動:4,9999>\r\n<限界変動:5,9999>\r\n<限界変動:6,9999>\r\n<限界変動:7,9999>"
+  equips:
+  - 93
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: Lutwidge Town
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Hansel
+  face_index: 0
+  character_index: 1
+  initial_level: 1
+  face_name: へんぜる
+  class_id: 28
+  character_name: ''
+  id: 51
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 51
+    data_id: 6
+    value: 0.0
+  note: "<レベル限界増加:900>\r\n<限界変動:0,99999>\r\n<限界変動:1,9999>\r\n<限界変動:2,9999>\r\n<限界変動:3,9999>\r\n<限界変動:4,9999>\r\n<限界変動:5,9999>\r\n<限界変動:6,9999>\r\n<限界変動:7,9999>"
+  equips:
+  - 94
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: Infinite Food
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Gretel
+  face_index: 0
+  character_index: 1
+  initial_level: 1
+  face_name: ぐれーてる
+  class_id: 29
+  character_name: ''
+  id: 52
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 51
+    data_id: 6
+    value: 0.0
+  note: "<レベル限界増加:900>\r\n<限界変動:0,99999>\r\n<限界変動:1,9999>\r\n<限界変動:2,9999>\r\n<限界変動:3,9999>\r\n<限界変動:4,9999>\r\n<限界変動:5,9999>\r\n<限界変動:6,9999>\r\n<限界変動:7,9999>"
+  equips:
+  - 94
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: Infinite Food
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Sinbad
+  face_index: 0
+  character_index: 1
+  initial_level: 1
+  face_name: シンド
+  class_id: 30
+  character_name: ''
+  id: 53
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 51
+    data_id: 6
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 2
+    value: 0.0
+  note: "<レベル限界増加:900>\r\n<限界変動:0,99999>\r\n<限界変動:1,9999>\r\n<限界変動:2,9999>\r\n<限界変動:3,9999>\r\n<限界変動:4,9999>\r\n<限界変動:5,9999>\r\n<限界変動:6,9999>\r\n<限界変動:7,9999>"
+  equips:
+  - 95
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: Infinite Food
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Musicians of Bremen
+  face_index: 0
+  character_index: 1
+  initial_level: 1
+  face_name: ぶれーめん
+  class_id: 31
+  character_name: ''
+  id: 54
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 51
+    data_id: 6
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 2
+    value: 0.0
+  note: "<レベル限界増加:900>\r\n<限界変動:0,99999>\r\n<限界変動:1,9999>\r\n<限界変動:2,9999>\r\n<限界変動:3,9999>\r\n<限界変動:4,9999>\r\n<限界変動:5,9999>\r\n<限界変動:6,9999>\r\n<限界変動:7,9999>"
+  equips:
+  - 96
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: Slaughterhouse
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Hans
+  face_index: 0
+  character_index: 1
+  initial_level: 1
+  face_name: はんす
+  class_id: 32
+  character_name: ''
+  id: 55
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 51
+    data_id: 6
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 2
+    value: 0.0
+  note: "<レベル限界増加:900>\r\n<限界変動:0,99999>\r\n<限界変動:1,9999>\r\n<限界変動:2,9999>\r\n<限界変動:3,9999>\r\n<限界変動:4,9999>\r\n<限界変動:5,9999>\r\n<限界変動:6,9999>\r\n<限界変動:7,9999>"
+  equips:
+  - 97
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: Mental Ward
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Patrasche
+  face_index: 0
+  character_index: 1
+  initial_level: 1
+  face_name: ぱと
+  class_id: 33
+  character_name: ''
+  id: 56
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 51
+    data_id: 6
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 2
+    value: 0.0
+  note: "<レベル限界増加:900>\r\n<限界変動:0,99999>\r\n<限界変動:1,9999>\r\n<限界変動:2,9999>\r\n<限界変動:3,9999>\r\n<限界変動:4,9999>\r\n<限界変動:5,9999>\r\n<限界変動:6,9999>\r\n<限界変動:7,9999>"
+  equips:
+  - 98
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: Carroll River
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Catherine
+  face_index: 0
+  character_index: 1
+  initial_level: 1
+  face_name: kata
+  class_id: 34
+  character_name: ''
+  id: 57
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 51
+    data_id: 6
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 2
+    value: 0.0
+  note: "<レベル限界増加:900>\r\n<限界変動:0,99999>\r\n<限界変動:1,9999>\r\n<限界変動:2,9999>\r\n<限界変動:3,9999>\r\n<限界変動:4,9999>\r\n<限界変動:5,9999>\r\n<限界変動:6,9999>\r\n<限界変動:7,9999>"
+  equips:
+  - 99
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: Ox Ford
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: The Little Prince
+  face_index: 0
+  character_index: 1
+  initial_level: 1
+  face_name: ほし
+  class_id: 35
+  character_name: ''
+  id: 58
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 51
+    data_id: 6
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 1
+    value: 0.0
+  note: "<レベル限界増加:900>\r\n<限界変動:0,99999>\r\n<限界変動:1,9999>\r\n<限界変動:2,9999>\r\n<限界変動:3,9999>\r\n<限界変動:4,9999>\r\n<限界変動:5,9999>\r\n<限界変動:6,9999>\r\n<限界変動:7,9999>"
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: Clock Tower
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Knight in Armor
+  face_index: 0
+  character_index: 1
+  initial_level: 1
+  face_name: よろい
+  class_id: 36
+  character_name: ''
+  id: 59
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 51
+    data_id: 6
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 2
+    value: 0.0
+  note: "<レベル限界増加:900>\r\n<限界変動:0,99999>\r\n<限界変動:1,9999>\r\n<限界変動:2,9999>\r\n<限界変動:3,9999>\r\n<限界変動:4,9999>\r\n<限界変動:5,9999>\r\n<限界変動:6,9999>\r\n<限界変動:7,9999>"
+  equips:
+  - 91
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: Spore Forest
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Pumpkin-O'
+  face_index: 0
+  character_index: 1
+  initial_level: 1
+  face_name: ぱんぷ
+  class_id: 37
+  character_name: ''
+  id: 60
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 51
+    data_id: 6
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 2
+    value: 0.0
+  note: "<レベル限界増加:900>\r\n<限界変動:0,99999>\r\n<限界変動:1,9999>\r\n<限界変動:2,9999>\r\n<限界変動:3,9999>\r\n<限界変動:4,9999>\r\n<限界変動:5,9999>\r\n<限界変動:6,9999>\r\n<限界変動:7,9999>"
+  equips:
+  - 90
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: Spore Forest
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Griffy
+  face_index: 0
+  character_index: 1
+  initial_level: 1
+  face_name: グリフィ
+  class_id: 53
+  character_name: ''
+  id: 61
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 51
+    data_id: 6
+    value: 0.0
+  note: "<レベル限界増加:900>\r\n<限界変動:0,99999>\r\n<限界変動:1,9999>\r\n<限界変動:2,9999>\r\n<限界変動:3,9999>\r\n<限界変動:4,9999>\r\n<限界変動:5,9999>\r\n<限界変動:6,9999>\r\n<限界変動:7,9999>"
+  equips:
+  - 88
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: Garden of the Heart
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Humpty Dumpty
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ハン
+  class_id: 1
+  character_name: ''
+  id: 62
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ハン２
+  class_id: 1
+  character_name: $ハンプティ２
+  id: 63
+  features: []
+  note: グース名前
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ((((((Name of the Goose))))))
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: The Donkey King
+  face_index: 0
+  character_index: 1
+  initial_level: 1
+  face_name: roba
+  class_id: 38
+  character_name: ''
+  id: 64
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 51
+    data_id: 6
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 1
+    value: 0.0
+  note: "<レベル限界増加:900>\r\n<限界変動:0,99999>\r\n<限界変動:1,9999>\r\n<限界変動:2,9999>\r\n<限界変動:3,9999>\r\n<限界変動:4,9999>\r\n<限界変動:5,9999>\r\n<限界変動:6,9999>\r\n<限界変動:7,9999>"
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: Frissel
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Daddy-Long-Legs
+  face_index: 0
+  character_index: 1
+  initial_level: 1
+  face_name: あし
+  class_id: 54
+  character_name: ''
+  id: 65
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 51
+    data_id: 6
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 3
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 1
+    value: 0.0
+  note: "<レベル限界増加:900>\r\n<限界変動:0,99999>\r\n<限界変動:1,9999>\r\n<限界変動:2,9999>\r\n<限界変動:3,9999>\r\n<限界変動:4,9999>\r\n<限界変動:5,9999>\r\n<限界変動:6,9999>\r\n<限界変動:7,9999>"
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: Queensland
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Vernai
+  face_index: 3
+  character_index: 1
+  initial_level: 1
+  face_name: うさぎ騎士
+  class_id: 55
+  character_name: ''
+  id: 66
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 51
+    data_id: 6
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 2
+    value: 0.0
+  note: "<レベル限界増加:900>\r\n<限界変動:0,99999>\r\n<限界変動:1,9999>\r\n<限界変動:2,9999>\r\n<限界変動:3,9999>\r\n<限界変動:4,9999>\r\n<限界変動:5,9999>\r\n<限界変動:6,9999>\r\n<限界変動:7,9999>"
+  equips:
+  - 87
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: Jubjub, Bandersnatch, Jabberwock
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Red Hood
+  face_index: 0
+  character_index: 0
+  initial_level: 99
+  face_name: 紅ずきん
+  class_id: 24
+  character_name: $紅
+  id: 67
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 0
+    value: 0.0
+  note: "<レベル限界増加:900>\r\n<限界変動:0,99999>\r\n<限界変動:1,9999>\r\n<限界変動:2,9999>\r\n<限界変動:3,9999>\r\n<限界変動:4,9999>\r\n<限界変動:5,9999>\r\n<限界変動:6,9999>\r\n<限界変動:7,9999>"
+  equips:
+  - 92
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: Everywhere.
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Robin Hood
+  face_index: 4
+  character_index: 1
+  initial_level: 1
+  face_name: ロビン
+  class_id: 56
+  character_name: ''
+  id: 68
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 51
+    data_id: 6
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 2
+    value: 0.0
+  note: "<レベル限界増加:900>\r\n<限界変動:0,99999>\r\n<限界変動:1,9999>\r\n<限界変動:2,9999>\r\n<限界変動:3,9999>\r\n<限界変動:4,9999>\r\n<限界変動:5,9999>\r\n<限界変動:6,9999>\r\n<限界変動:7,9999>"
+  equips:
+  - 86
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: Bandersnatch
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Mary
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: メアリー
+  class_id: 15
+  character_name: $メアリー
+  id: 69
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 4
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 0
+    value: 0.0
+  note: "<レベル限界増加:900>\r\n<限界変動:0,99999>\r\n<限界変動:1,9999>\r\n<限界変動:2,9999>\r\n<限界変動:3,9999>\r\n<限界変動:4,9999>\r\n<限界変動:5,9999>\r\n<限界変動:6,9999>\r\n<限界変動:7,9999>"
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: Fairy.
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Nameless Forest Name Memory
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 70
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Griffy
+  face_index: 0
+  character_index: 1
+  initial_level: 1
+  face_name: グリフィ
+  class_id: 59
+  character_name: ''
+  id: 71
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 51
+    data_id: 6
+    value: 0.0
+  note: "<レベル限界増加:900>\r\n<限界変動:0,99999>\r\n<限界変動:1,9999>\r\n<限界変動:2,9999>\r\n<限界変動:3,9999>\r\n<限界変動:4,9999>\r\n<限界変動:5,9999>\r\n<限界変動:6,9999>\r\n<限界変動:7,9999>"
+  equips:
+  - 88
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: Meryphillia Battle
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Victoria
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ビク
+  class_id: 47
+  character_name: $ビクトリア
+  id: 72
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 7
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 8
+    value: 0.05
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv0
+    [LCK+50% / HP&MP Regen+5%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Victoria
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ビク
+  class_id: 47
+  character_name: $ビクトリア
+  id: 73
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 7
+    value: 1.6
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 8
+    value: 0.05
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv1
+    [LCK+60% / HP&MP Regen+5%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Victoria
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ビク
+  class_id: 47
+  character_name: $ビクトリア
+  id: 74
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 7
+    value: 1.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 8
+    value: 0.05
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv2
+    [LCK+70% / HP&MP Regen+5%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Victoria
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ビク
+  class_id: 47
+  character_name: $ビクトリア
+  id: 75
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 7
+    value: 2.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: 0.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 8
+    value: 0.1
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv3
+    [LCK+100% / HP&MP Regen+10%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Bandersnatch
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: バン
+  class_id: 47
+  character_name: バンダースナッチ
+  id: 76
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 6
+    value: 0.1
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv0
+    [ATK+10% / Counterattack Chance+10%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Bandersnatch
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: バン
+  class_id: 47
+  character_name: バンダースナッチ
+  id: 77
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 6
+    value: 0.15
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv1
+    [ATK+20% / Counterattack Chance+15%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Bandersnatch
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: バン
+  class_id: 47
+  character_name: バンダースナッチ
+  id: 78
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.35
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 6
+    value: 0.2
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv2
+    [ATK+35% / Counterattack Chance+20%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Bandersnatch
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: バン
+  class_id: 47
+  character_name: バンダースナッチ
+  id: 79
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 6
+    value: 0.3
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv3
+    [ATK+50% / Counterattack Chance+30%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Jubjub
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ジャブ
+  class_id: 47
+  character_name: $ジャブジャブ
+  id: 80
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 5
+    value: 0.1
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv0
+    [EVA&MEV+5% / Magic Reflect+10%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Jubjub
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ジャブ
+  class_id: 47
+  character_name: $ジャブジャブ
+  id: 81
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 5
+    value: 0.15
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv1
+    [EVA&MEV+10% / Magic Reflect+15%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Jubjub
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ジャブ
+  class_id: 47
+  character_name: $ジャブジャブ
+  id: 82
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.15
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.15
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 5
+    value: 0.2
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv2
+    [EVA&MEV+15% / Magic Reflect+20%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Jubjub
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ジャブ
+  class_id: 47
+  character_name: $ジャブジャブ
+  id: 83
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 5
+    value: 0.3
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv3
+    [EVA&MEV+30% / Magic Reflect+30%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Jabberwock
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ジャバ
+  class_id: 47
+  character_name: $ジャバ
+  id: 84
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.05
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv0
+    [Crit Chance+5% / Accuracy+5%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Jabberwock
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ジャバ
+  class_id: 47
+  character_name: $ジャバ
+  id: 85
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.1
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv1
+    [Crit Chance+10% / Accuracy+10%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Jabberwock
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ジャバ
+  class_id: 47
+  character_name: $ジャバ
+  id: 86
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.15
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.15
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv2
+    [Crit Chance+15% / Accuracy+15%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Jabberwock
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ジャバ
+  class_id: 47
+  character_name: $ジャバ
+  id: 87
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.3
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv3
+    [Crit Chance+30% / Accuracy+30%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Wolris
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: シヴーチ
+  class_id: 47
+  character_name: セイウチ
+  id: 88
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: 0.1
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv0
+    [HP Regen+10%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Wolris
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: シヴーチ
+  class_id: 47
+  character_name: セイウチ
+  id: 89
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: 0.15
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv1
+    [HP Regen+15%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Wolris
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: シヴーチ
+  class_id: 47
+  character_name: セイウチ
+  id: 90
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: 0.2
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv2
+    [HP Regen+20%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Wolris
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: シヴーチ
+  class_id: 47
+  character_name: セイウチ
+  id: 91
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: 0.3
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv3
+    [HP Regen+30%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Kuti
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: クティ
+  class_id: 47
+  character_name: $クティ
+  id: 92
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 61
+    data_id: 0
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 34
+    data_id: 0
+    value: 1.0
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv0
+    [Bonus Action 5% / Basic Attack Count+1]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Kuti
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: クティ
+  class_id: 47
+  character_name: $クティ
+  id: 93
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 61
+    data_id: 0
+    value: 0.15
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 34
+    data_id: 0
+    value: 1.0
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv1
+    [Bonus Action 15% / Basic Attack Count+1]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Kuti
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: クティ
+  class_id: 47
+  character_name: $クティ
+  id: 94
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 61
+    data_id: 0
+    value: 0.35
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 34
+    data_id: 0
+    value: 1.0
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv2
+    [Bonus Action 35% / Basic Attack Count+1]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Kuti
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: クティ
+  class_id: 47
+  character_name: $クティ
+  id: 95
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 61
+    data_id: 0
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 34
+    data_id: 0
+    value: 1.0
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv3
+    [Bonus Action 50% / Basic Attack Count+1]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Prickett
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: プリ
+  class_id: 47
+  character_name: プリケット
+  id: 96
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 0
+    value: 2.0
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv0
+    [Chance to be targeted+200%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Prickett
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: プリ
+  class_id: 47
+  character_name: プリケット
+  id: 97
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 0
+    value: 3.0
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv1
+    [Chance to be targeted+300%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Prickett
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: プリ
+  class_id: 47
+  character_name: プリケット
+  id: 98
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 0
+    value: 4.0
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv2
+    [Chance to be targeted+400%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Prickett
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: プリ
+  class_id: 47
+  character_name: プリケット
+  id: 99
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 64
+    data_id: 4
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 64
+    data_id: 5
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 0
+    value: 5.0
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv3
+    [Aggro+500% / Drop Rates Doubled]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Pinocchio
+  face_index: 0
+  character_index: 1
+  initial_level: 1
+  face_name: ピノッキオ
+  class_id: 57
+  character_name: ''
+  id: 100
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 51
+    data_id: 6
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 56
+    value: 5.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 1.0
+  note: "<レベル限界増加:900>\r\n<限界変動:0,99999>\r\n<限界変動:1,9999>\r\n<限界変動:2,9999>\r\n<限界変動:3,9999>\r\n<限界変動:4,9999>\r\n<限界変動:5,9999>\r\n<限界変動:6,9999>\r\n<限界変動:7,9999>"
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: Deep Sea
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Puppet
+  face_index: 0
+  character_index: 1
+  initial_level: 1
+  face_name: ピノッキオ２
+  class_id: 58
+  character_name: ''
+  id: 101
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 51
+    data_id: 6
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 56
+    value: 5.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 14
+    data_id: 1
+    value: 0.0
+  note: "<レベル限界増加:900>\r\n<限界変動:0,99999>\r\n<限界変動:1,9999>\r\n<限界変動:2,9999>\r\n<限界変動:3,9999>\r\n<限界変動:4,9999>\r\n<限界変動:5,9999>\r\n<限界変動:6,9999>\r\n<限界変動:7,9999>"
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: Deep Sea
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Tweedles
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: トゥ双子
+  class_id: 47
+  character_name: $双子
+  id: 102
+  features: []
+  note: <逃走成功率増加:25>
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv0
+    [Escape Success Rate+25%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Tweedles
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: トゥ双子
+  class_id: 47
+  character_name: $双子
+  id: 103
+  features: []
+  note: <逃走成功率増加:50>
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv1
+    [Escape Success Rate+50%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Tweedles
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: トゥ双子
+  class_id: 47
+  character_name: $双子
+  id: 104
+  features: []
+  note: <逃走成功率増加:70>
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv2
+    [Escape Success Rate+70%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Tweedles
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: トゥ双子
+  class_id: 47
+  character_name: $双子
+  id: 105
+  features: []
+  note: <逃走成功率増加:100>
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv3
+    [Escape Success Rate+100%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 106
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Meryphillia
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: me
+  class_id: 21
+  character_name: $メリフィリア
+  id: 107
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 51
+    data_id: 1
+    value: 0.0
+  note: "<レベル限界増加:900>\r\n<限界変動:0,99999>\r\n<限界変動:1,9999>\r\n<限界変動:2,9999>\r\n<限界変動:3,9999>\r\n<限界変動:4,9999>\r\n<限界変動:5,9999>\r\n<限界変動:6,9999>\r\n<限界変動:7,9999>"
+  equips:
+  - 426
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Hein
+  face_index: 2
+  character_index: 0
+  initial_level: 1
+  face_name: hain
+  class_id: 22
+  character_name: $ハイン
+  id: 108
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 51
+    data_id: 4
+    value: 0.0
+  note: "<レベル限界増加:900>\r\n<限界変動:0,99999>\r\n<限界変動:1,9999>\r\n<限界変動:2,9999>\r\n<限界変動:3,9999>\r\n<限界変動:4,9999>\r\n<限界変動:5,9999>\r\n<限界変動:6,9999>\r\n<限界変動:7,9999>"
+  equips:
+  - 372
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Prickett
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: プリ
+  class_id: 47
+  character_name: プリケット
+  id: 109
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 0
+    value: 2.0
+  note: デート中
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv0
+    [Chance to be targeted+200%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 110
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Wall of Flesh
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: niku
+  class_id: 61
+  character_name: ''
+  id: 111
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 14
+    data_id: 27
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 14
+    data_id: 4
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 14
+    data_id: 12
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 0
+    value: 3.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 5.01
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 9.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 9.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 837
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: 1.0
+  note: "<スキル無効:33>\r\n<スキル無効:34>"
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Carnacki
+  face_index: 2
+  character_index: 6
+  initial_level: 1
+  face_name: カーナッキ
+  class_id: 17
+  character_name: People4
+  id: 112
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 51
+    data_id: 4
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 9.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 7.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: 0.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 8
+    value: 0.3
+  note: "<レベル限界増加:900>\r\n<限界変動:0,99999>\r\n<限界変動:1,99999>\r\n<限界変動:2,99999>\r\n<限界変動:3,99999>\r\n<限界変動:4,99999>\r\n<限界変動:5,99999>\r\n<限界変動:6,99999>\r\n<限界変動:7,99999>"
+  equips:
+  - 85
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Florence
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: フローレンス
+  class_id: 18
+  character_name: $フローレンス
+  id: 113
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 51
+    data_id: 4
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 9.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 3.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: 0.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 8
+    value: 0.2
+  note: "<レベル限界増加:900>\r\n<限界変動:0,99999>\r\n<限界変動:1,99999>\r\n<限界変動:2,99999>\r\n<限界変動:3,99999>\r\n<限界変動:4,99999>\r\n<限界変動:5,99999>\r\n<限界変動:6,99999>\r\n<限界変動:7,99999>"
+  equips:
+  - 83
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Gerda
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ゲルダ
+  class_id: 19
+  character_name: $ゲルダ
+  id: 114
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 51
+    data_id: 4
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 9.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 8
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 0
+    value: 0.0
+  note: "<レベル限界増加:900>\r\n<限界変動:0,99999>\r\n<限界変動:1,99999>\r\n<限界変動:2,99999>\r\n<限界変動:3,99999>\r\n<限界変動:4,99999>\r\n<限界変動:5,99999>\r\n<限界変動:6,99999>\r\n<限界変動:7,99999>"
+  equips:
+  - 84
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Sho
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: シヨ
+  class_id: 47
+  character_name: '!$シヨ'
+  id: 115
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 2
+    value: 0.8
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv0
+    [%-based Damage Taken-20% / Recovery-20%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Sho
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: シヨ
+  class_id: 47
+  character_name: '!$シヨ'
+  id: 116
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 2
+    value: 0.7
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv1
+    [%-based Damage Taken-30% / Recovery-30%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Sho
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: シヨ
+  class_id: 47
+  character_name: '!$シヨ'
+  id: 117
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 2
+    value: 0.6
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv2
+    [%-based Damage Taken-40% / Recovery-40%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Sho
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: シヨ
+  class_id: 47
+  character_name: '!$シヨ'
+  id: 118
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 2
+    value: 0.5
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: |-
+    Covenant Lv3
+    [%-based Damage Taken-50% / Recovery-50%]
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 119
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 99 #mod changed this actor's features, initial level, class_id, name, and description
+  face_name: ''
+  class_id: 64
+  character_name: ''
+  id: 120
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 9.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 7.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: 0.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 8
+    value: 0.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 41
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 51
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 52
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 52
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 52
+    data_id: 4
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 51
+    data_id: 4
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 51
+    data_id: 9
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 51
+    data_id: 10
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 51
+    data_id: 7
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 51
+    data_id: 8
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 51
+    data_id: 6
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 51
+    data_id: 5
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 51
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 51
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 52
+    data_id: 5
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 52
+    data_id: 6
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 32
+    data_id: 13
+    value: 0.02
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 0
+    value: 0.0
+  note: "<レベル限界増加:900>\r\n<限界変動:0,99999>\r\n<限界変動:1,99999>\r\n<限界変動:2,99999>\r\n<限界変動:3,99999>\r\n<限界変動:4,99999>\r\n<限界変動:5,99999>\r\n<限界変動:6,99999>\r\n<限界変動:7,99999>"
+  equips:
+  - 177
+  - 0
+  - 29
+  - 243
+  - 147
+  nickname: Brave Fox
+  description: Strong, probably.
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor #this actor was also changed by the mod
+  name: Rosemaker
+  face_index: 0
+  character_index: 0
+  initial_level: 99
+  face_name: 萝斯梅可 (2)
+  class_id: 65
+  character_name: 萝斯梅可行走图2
+  id: 121
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 9.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: 0.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 8
+    value: 0.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 9.0
+  note: "<レベル限界増加:900>\r\n<限界変動:0,99999>\r\n<限界変動:1,99999>\r\n<限界変動:2,99999>\r\n<限界変動:3,99999>\r\n<限界変動:4,99999>\r\n<限界変動:5,99999>\r\n<限界変動:6,99999>\r\n<限界変動:7,99999>"
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: Moko queen
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor #this actor was also changed by the mod
+  name: Dorothy
+  face_index: 0
+  character_index: 0
+  initial_level: 99
+  face_name: 多萝西 (2)
+  class_id: 63
+  character_name: 【多萝西2】
+  id: 122
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 10.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 10.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: 0.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 8
+    value: 0.3
+  note: "<レベル限界増加:900>\r\n<限界変動:0,99999>\r\n<限界変動:1,99999>\r\n<限界変動:2,99999>\r\n<限界変動:3,99999>\r\n<限界変動:4,99999>\r\n<限界変動:5,99999>\r\n<限界変動:6,99999>\r\n<限界変動:7,99999>"
+  equips:
+  - 544
+  - 0
+  - 23
+  - 15
+  - 210
+  nickname: Witch with a lot of potential.
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 123
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 124
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 125
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 126
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 127
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 128
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 129
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 130
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 131
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 132
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 133
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 134
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 135
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 136
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 137
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 138
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 139
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 140
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 141
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 142
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 143
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 144
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 145
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 146
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 147
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 148
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 149
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 150
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 151
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 152
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 153
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 154
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 155
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 156
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 157
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 158
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 159
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 160
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 161
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 162
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 163
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 164
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 165
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 166
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 167
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 168
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 169
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 170
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 171
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 172
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 173
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 174
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 175
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 176
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 177
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 178
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 179
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 180
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 181
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 182
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 183
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 184
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 185
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 186
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 187
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 188
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 189
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 190
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 191
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 192
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 193
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 194
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 195
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 196
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 197
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 198
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 199
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 200
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0

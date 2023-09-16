@@ -1,0 +1,3340 @@
+---
+29: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: デバッグ
+  expanded: false
+  order: 1
+  scroll_y: 384
+  parent_id: 0
+7: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: OP
+  expanded: false
+  order: 2
+  scroll_y: 320
+  parent_id: 0
+101: !ruby/object:RPG::MapInfo
+  scroll_x: 704
+  name: 図書室の夢
+  expanded: true
+  order: 21
+  scroll_y: 906
+  parent_id: 0
+121: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: ED
+  expanded: true
+  order: 8
+  scroll_y: 464
+  parent_id: 7
+1: !ruby/object:RPG::MapInfo
+  scroll_x: 640
+  name: 墜落部屋
+  expanded: false
+  order: 27
+  scroll_y: 1462
+  parent_id: 0
+2: !ruby/object:RPG::MapInfo
+  scroll_x: 1274
+  name: ラドウィッジ市街
+  expanded: false
+  order: 34
+  scroll_y: 777
+  parent_id: 0
+4: !ruby/object:RPG::MapInfo
+  scroll_x: 1424
+  name: ３
+  expanded: false
+  order: 39
+  scroll_y: 480
+  parent_id: 2
+6: !ruby/object:RPG::MapInfo
+  scroll_x: 809
+  name: 霧の公園
+  expanded: false
+  order: 55
+  scroll_y: 1939
+  parent_id: 0
+8: !ruby/object:RPG::MapInfo
+  scroll_x: 800
+  name: ラドウィッジ市街 上層●
+  expanded: false
+  order: 139
+  scroll_y: 1168
+  parent_id: 0
+9: !ruby/object:RPG::MapInfo
+  scroll_x: 950
+  name: オックス・ウォード学院
+  expanded: true
+  order: 142
+  scroll_y: 1925
+  parent_id: 0
+12: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: 精神病棟
+  expanded: true
+  order: 56
+  scroll_y: 400
+  parent_id: 0
+17: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: 月面
+  expanded: false
+  order: 148
+  scroll_y: 320
+  parent_id: 9
+24: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: 病みたる時計塔
+  expanded: false
+  order: 150
+  scroll_y: 400
+  parent_id: 0
+25: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: ビリングズゲート魚市場
+  expanded: true
+  order: 86
+  scroll_y: 480
+  parent_id: 0
+26: !ruby/object:RPG::MapInfo
+  scroll_x: 448
+  name: 嘆きの浜辺
+  expanded: false
+  order: 110
+  scroll_y: 1120
+  parent_id: 0
+27: !ruby/object:RPG::MapInfo
+  scroll_x: 416
+  name: ウミガメレストラン
+  expanded: false
+  order: 112
+  scroll_y: 320
+  parent_id: 26
+28: !ruby/object:RPG::MapInfo
+  scroll_x: 496
+  name: 'オイスターの腐死海  '
+  expanded: false
+  order: 114
+  scroll_y: 480
+  parent_id: 0
+30: !ruby/object:RPG::MapInfo
+  scroll_x: 1120
+  name: 屠殺場●
+  expanded: false
+  order: 93
+  scroll_y: 480
+  parent_id: 0
+31: !ruby/object:RPG::MapInfo
+  scroll_x: 1600
+  name: キャロル川●
+  expanded: false
+  order: 100
+  scroll_y: 1120
+  parent_id: 0
+32: !ruby/object:RPG::MapInfo
+  scroll_x: 560
+  name: 古き羊の店
+  expanded: true
+  order: 105
+  scroll_y: 560
+  parent_id: 31
+33: !ruby/object:RPG::MapInfo
+  scroll_x: 1120
+  name: リデル墓地
+  expanded: true
+  order: 48
+  scroll_y: 2568
+  parent_id: 34
+34: !ruby/object:RPG::MapInfo
+  scroll_x: 960
+  name: リポン大聖堂●
+  expanded: false
+  order: 44
+  scroll_y: 1120
+  parent_id: 0
+35: !ruby/object:RPG::MapInfo
+  scroll_x: 960
+  name: 心臓の庭園
+  expanded: false
+  order: 125
+  scroll_y: 1120
+  parent_id: 0
+36: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: 紅城フリッセル
+  expanded: false
+  order: 127
+  scroll_y: 560
+  parent_id: 0
+37: !ruby/object:RPG::MapInfo
+  scroll_x: 1040
+  name: 血涙の池
+  expanded: false
+  order: 50
+  scroll_y: 631
+  parent_id: 0
+38: !ruby/object:RPG::MapInfo
+  scroll_x: 1434
+  name: 胞子の森
+  expanded: false
+  order: 68
+  scroll_y: 691
+  parent_id: 0
+39: !ruby/object:RPG::MapInfo
+  scroll_x: 880
+  name: 茸村
+  expanded: false
+  order: 186
+  scroll_y: 720
+  parent_id: 0
+40: !ruby/object:RPG::MapInfo
+  scroll_x: 560
+  name: 巨人の家 BOSS
+  expanded: false
+  order: 187
+  scroll_y: 480
+  parent_id: 39
+42: !ruby/object:RPG::MapInfo
+  scroll_x: 617
+  name: ２●
+  expanded: false
+  order: 190
+  scroll_y: 433
+  parent_id: 81
+43: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: ５　BOSS
+  expanded: false
+  order: 155
+  scroll_y: 720
+  parent_id: 24
+44: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: 名無しの森
+  expanded: true
+  order: 159
+  scroll_y: 400
+  parent_id: 45
+45: !ruby/object:RPG::MapInfo
+  scroll_x: 640
+  name: ハノーヴァー廃駅
+  expanded: true
+  order: 156
+  scroll_y: 631
+  parent_id: 0
+46: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: クイーン・ランド
+  expanded: false
+  order: 162
+  scroll_y: 480
+  parent_id: 0
+47: !ruby/object:RPG::MapInfo
+  scroll_x: 368
+  name: 燻りの森
+  expanded: false
+  order: 210
+  scroll_y: 800
+  parent_id: 0
+48: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: 子供部屋
+  expanded: false
+  order: 196
+  scroll_y: 1262
+  parent_id: 81
+49: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: 少女の悪夢
+  expanded: false
+  order: 204
+  scroll_y: 1262
+  parent_id: 139
+51: !ruby/object:RPG::MapInfo
+  scroll_x: 960
+  name: ウサギ穴
+  expanded: false
+  order: 28
+  scroll_y: 631
+  parent_id: 0
+52: !ruby/object:RPG::MapInfo
+  scroll_x: 672
+  name: １ BOSS
+  expanded: false
+  order: 29
+  scroll_y: 808
+  parent_id: 51
+53: !ruby/object:RPG::MapInfo
+  scroll_x: 960
+  name: ３●
+  expanded: false
+  order: 32
+  scroll_y: 968
+  parent_id: 51
+54: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: ２
+  expanded: true
+  order: 30
+  scroll_y: 400
+  parent_id: 51
+55: !ruby/object:RPG::MapInfo
+  scroll_x: 640
+  name: ４
+  expanded: false
+  order: 46
+  scroll_y: 2568
+  parent_id: 61
+5: !ruby/object:RPG::MapInfo
+  scroll_x: 1125
+  name: １●
+  expanded: true
+  order: 35
+  scroll_y: 1593
+  parent_id: 2
+56: !ruby/object:RPG::MapInfo
+  scroll_x: 720
+  name: ２
+  expanded: true
+  order: 37
+  scroll_y: 1262
+  parent_id: 2
+3: !ruby/object:RPG::MapInfo
+  scroll_x: 640
+  name: ４●
+  expanded: true
+  order: 40
+  scroll_y: 480
+  parent_id: 2
+58: !ruby/object:RPG::MapInfo
+  scroll_x: 809
+  name: ドジソン橋　BOSS
+  expanded: false
+  order: 42
+  scroll_y: 720
+  parent_id: 2
+59: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: 売春小屋
+  expanded: false
+  order: 41
+  scroll_y: 480
+  parent_id: 3
+60: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: ７
+  expanded: false
+  order: 178
+  scroll_y: 320
+  parent_id: 46
+61: !ruby/object:RPG::MapInfo
+  scroll_x: 720
+  name: １
+  expanded: true
+  order: 45
+  scroll_y: 960
+  parent_id: 34
+62: !ruby/object:RPG::MapInfo
+  scroll_x: 784
+  name: ２
+  expanded: false
+  order: 47
+  scroll_y: 512
+  parent_id: 34
+63: !ruby/object:RPG::MapInfo
+  scroll_x: 880
+  name: １●
+  expanded: true
+  order: 51
+  scroll_y: 724
+  parent_id: 37
+64: !ruby/object:RPG::MapInfo
+  scroll_x: 640
+  name: ２
+  expanded: false
+  order: 53
+  scroll_y: 480
+  parent_id: 37
+65: !ruby/object:RPG::MapInfo
+  scroll_x: 720
+  name: ３ BOSS
+  expanded: false
+  order: 54
+  scroll_y: 2897
+  parent_id: 37
+66: !ruby/object:RPG::MapInfo
+  scroll_x: 1040
+  name: １
+  expanded: false
+  order: 57
+  scroll_y: 720
+  parent_id: 12
+67: !ruby/object:RPG::MapInfo
+  scroll_x: 3600
+  name: ２●
+  expanded: true
+  order: 58
+  scroll_y: 400
+  parent_id: 12
+68: !ruby/object:RPG::MapInfo
+  scroll_x: 800
+  name: ３
+  expanded: false
+  order: 61
+  scroll_y: 631
+  parent_id: 12
+69: !ruby/object:RPG::MapInfo
+  scroll_x: 800
+  name: ４
+  expanded: true
+  order: 62
+  scroll_y: 800
+  parent_id: 12
+70: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: ５
+  expanded: true
+  order: 64
+  scroll_y: 480
+  parent_id: 12
+71: !ruby/object:RPG::MapInfo
+  scroll_x: 1440
+  name: １
+  expanded: false
+  order: 69
+  scroll_y: 640
+  parent_id: 38
+72: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: ２
+  expanded: false
+  order: 70
+  scroll_y: 320
+  parent_id: 38
+73: !ruby/object:RPG::MapInfo
+  scroll_x: 640
+  name: ３　BOSS
+  expanded: true
+  order: 71
+  scroll_y: 496
+  parent_id: 38
+74: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: ４
+  expanded: false
+  order: 73
+  scroll_y: 480
+  parent_id: 38
+41: !ruby/object:RPG::MapInfo
+  scroll_x: 496
+  name: 公爵夫人の館
+  expanded: true
+  order: 78
+  scroll_y: 592
+  parent_id: 0
+75: !ruby/object:RPG::MapInfo
+  scroll_x: 560
+  name: １●
+  expanded: false
+  order: 79
+  scroll_y: 631
+  parent_id: 41
+76: !ruby/object:RPG::MapInfo
+  scroll_x: 368
+  name: ２
+  expanded: true
+  order: 80
+  scroll_y: 560
+  parent_id: 41
+77: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: ３
+  expanded: false
+  order: 82
+  scroll_y: 808
+  parent_id: 41
+78: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: ４
+  expanded: false
+  order: 83
+  scroll_y: 560
+  parent_id: 41
+79: !ruby/object:RPG::MapInfo
+  scroll_x: 560
+  name: ５
+  expanded: false
+  order: 84
+  scroll_y: 720
+  parent_id: 41
+80: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: ６　BOSS
+  expanded: false
+  order: 85
+  scroll_y: 480
+  parent_id: 41
+81: !ruby/object:RPG::MapInfo
+  scroll_x: 592
+  name: 無限食物
+  expanded: false
+  order: 188
+  scroll_y: 320
+  parent_id: 0
+82: !ruby/object:RPG::MapInfo
+  scroll_x: 640
+  name: １
+  expanded: false
+  order: 189
+  scroll_y: 592
+  parent_id: 81
+83: !ruby/object:RPG::MapInfo
+  scroll_x: 720
+  name: ４　BOSS
+  expanded: false
+  order: 192
+  scroll_y: 624
+  parent_id: 81
+84: !ruby/object:RPG::MapInfo
+  scroll_x: 960
+  name: ３
+  expanded: false
+  order: 191
+  scroll_y: 480
+  parent_id: 81
+85: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: ６　BOSS
+  expanded: false
+  order: 67
+  scroll_y: 1904
+  parent_id: 12
+86: !ruby/object:RPG::MapInfo
+  scroll_x: 1120
+  name: １
+  expanded: false
+  order: 87
+  scroll_y: 2076
+  parent_id: 25
+87: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: ５
+  expanded: false
+  order: 74
+  scroll_y: 480
+  parent_id: 38
+88: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: ５－１
+  expanded: false
+  order: 75
+  scroll_y: 480
+  parent_id: 87
+89: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: ５－２
+  expanded: false
+  order: 76
+  scroll_y: 480
+  parent_id: 87
+90: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: ５－３
+  expanded: false
+  order: 77
+  scroll_y: 480
+  parent_id: 87
+91: !ruby/object:RPG::MapInfo
+  scroll_x: 880
+  name: ２
+  expanded: false
+  order: 88
+  scroll_y: 320
+  parent_id: 25
+92: !ruby/object:RPG::MapInfo
+  scroll_x: 640
+  name: ３●
+  expanded: false
+  order: 89
+  scroll_y: 320
+  parent_id: 25
+93: !ruby/object:RPG::MapInfo
+  scroll_x: 720
+  name: ４　BOSS
+  expanded: true
+  order: 90
+  scroll_y: 1291
+  parent_id: 25
+94: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: ４－１
+  expanded: false
+  order: 91
+  scroll_y: 320
+  parent_id: 93
+95: !ruby/object:RPG::MapInfo
+  scroll_x: 617
+  name: １
+  expanded: false
+  order: 94
+  scroll_y: 433
+  parent_id: 30
+96: !ruby/object:RPG::MapInfo
+  scroll_x: 880
+  name: ２●
+  expanded: false
+  order: 95
+  scroll_y: 640
+  parent_id: 30
+102: !ruby/object:RPG::MapInfo
+  scroll_x: 560
+  name: ３●
+  expanded: false
+  order: 96
+  scroll_y: 433
+  parent_id: 30
+103: !ruby/object:RPG::MapInfo
+  scroll_x: 1686
+  name: ４●
+  expanded: false
+  order: 98
+  scroll_y: 480
+  parent_id: 30
+105: !ruby/object:RPG::MapInfo
+  scroll_x: 640
+  name: ５　BOSS
+  expanded: false
+  order: 99
+  scroll_y: 544
+  parent_id: 30
+106: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: ３－１
+  expanded: false
+  order: 97
+  scroll_y: 368
+  parent_id: 102
+107: !ruby/object:RPG::MapInfo
+  scroll_x: 960
+  name: １
+  expanded: false
+  order: 101
+  scroll_y: 720
+  parent_id: 31
+108: !ruby/object:RPG::MapInfo
+  scroll_x: 960
+  name: ２ BOSS
+  expanded: false
+  order: 102
+  scroll_y: 720
+  parent_id: 31
+109: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: ３ BOSS
+  expanded: false
+  order: 103
+  scroll_y: 1034
+  parent_id: 31
+111: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: １
+  expanded: false
+  order: 106
+  scroll_y: 480
+  parent_id: 32
+113: !ruby/object:RPG::MapInfo
+  scroll_x: 512
+  name: １●
+  expanded: false
+  order: 111
+  scroll_y: 352
+  parent_id: 26
+115: !ruby/object:RPG::MapInfo
+  scroll_x: 368
+  name: カボチャの拠点
+  expanded: true
+  order: 193
+  scroll_y: 336
+  parent_id: 81
+116: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: １
+  expanded: false
+  order: 194
+  scroll_y: 559
+  parent_id: 115
+117: !ruby/object:RPG::MapInfo
+  scroll_x: 800
+  name: １
+  expanded: false
+  order: 115
+  scroll_y: 1288
+  parent_id: 28
+118: !ruby/object:RPG::MapInfo
+  scroll_x: 560
+  name: ２
+  expanded: false
+  order: 116
+  scroll_y: 528
+  parent_id: 28
+119: !ruby/object:RPG::MapInfo
+  scroll_x: 816
+  name: ２－１
+  expanded: false
+  order: 117
+  scroll_y: 724
+  parent_id: 118
+120: !ruby/object:RPG::MapInfo
+  scroll_x: 496
+  name: ３●
+  expanded: false
+  order: 119
+  scroll_y: 400
+  parent_id: 28
+122: !ruby/object:RPG::MapInfo
+  scroll_x: 496
+  name: ４
+  expanded: false
+  order: 120
+  scroll_y: 400
+  parent_id: 28
+123: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: ５
+  expanded: false
+  order: 121
+  scroll_y: 404
+  parent_id: 28
+124: !ruby/object:RPG::MapInfo
+  scroll_x: 1101
+  name: ６
+  expanded: false
+  order: 122
+  scroll_y: 1159
+  parent_id: 28
+125: !ruby/object:RPG::MapInfo
+  scroll_x: 448
+  name: ７
+  expanded: false
+  order: 123
+  scroll_y: 384
+  parent_id: 28
+126: !ruby/object:RPG::MapInfo
+  scroll_x: 1760
+  name: １
+  expanded: true
+  order: 211
+  scroll_y: 416
+  parent_id: 47
+127: !ruby/object:RPG::MapInfo
+  scroll_x: 672
+  name: ２　BOSS
+  expanded: false
+  order: 214
+  scroll_y: 464
+  parent_id: 47
+128: !ruby/object:RPG::MapInfo
+  scroll_x: 448
+  name: ３
+  expanded: false
+  order: 216
+  scroll_y: 320
+  parent_id: 47
+129: !ruby/object:RPG::MapInfo
+  scroll_x: 1280
+  name: ４
+  expanded: false
+  order: 217
+  scroll_y: 1262
+  parent_id: 47
+130: !ruby/object:RPG::MapInfo
+  scroll_x: 368
+  name: テニエル橋
+  expanded: false
+  order: 43
+  scroll_y: 640
+  parent_id: 2
+131: !ruby/object:RPG::MapInfo
+  scroll_x: 368
+  name: ２－１
+  expanded: false
+  order: 38
+  scroll_y: 352
+  parent_id: 56
+132: !ruby/object:RPG::MapInfo
+  scroll_x: 960
+  name: ５
+  expanded: false
+  order: 33
+  scroll_y: 608
+  parent_id: 51
+133: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: ２－１
+  expanded: false
+  order: 215
+  scroll_y: 400
+  parent_id: 127
+135: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: １
+  expanded: false
+  order: 128
+  scroll_y: 560
+  parent_id: 36
+137: !ruby/object:RPG::MapInfo
+  scroll_x: 336
+  name: ９　BOSS
+  expanded: false
+  order: 138
+  scroll_y: 528
+  parent_id: 36
+144: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: ３
+  expanded: false
+  order: 130
+  scroll_y: 480
+  parent_id: 36
+145: !ruby/object:RPG::MapInfo
+  scroll_x: 1040
+  name: ２●
+  expanded: false
+  order: 129
+  scroll_y: 416
+  parent_id: 36
+147: !ruby/object:RPG::MapInfo
+  scroll_x: 1120
+  name: ４
+  expanded: false
+  order: 131
+  scroll_y: 1608
+  parent_id: 36
+148: !ruby/object:RPG::MapInfo
+  scroll_x: 1120
+  name: ５●
+  expanded: false
+  order: 133
+  scroll_y: 800
+  parent_id: 36
+134: !ruby/object:RPG::MapInfo
+  scroll_x: 640
+  name: ６
+  expanded: false
+  order: 135
+  scroll_y: 640
+  parent_id: 36
+138: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: ５－１
+  expanded: false
+  order: 134
+  scroll_y: 598
+  parent_id: 148
+142: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: ７
+  expanded: false
+  order: 136
+  scroll_y: 1036
+  parent_id: 36
+143: !ruby/object:RPG::MapInfo
+  scroll_x: 640
+  name: ８
+  expanded: false
+  order: 137
+  scroll_y: 400
+  parent_id: 36
+146: !ruby/object:RPG::MapInfo
+  scroll_x: 352
+  name: ４
+  expanded: false
+  order: 107
+  scroll_y: 400
+  parent_id: 31
+151: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: １
+  expanded: false
+  order: 140
+  scroll_y: 720
+  parent_id: 8
+153: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: ２ BOSS
+  expanded: false
+  order: 141
+  scroll_y: 441
+  parent_id: 8
+155: !ruby/object:RPG::MapInfo
+  scroll_x: 1495
+  name: １
+  expanded: false
+  order: 143
+  scroll_y: 755
+  parent_id: 9
+154: !ruby/object:RPG::MapInfo
+  scroll_x: 704
+  name: ２　BOSS
+  expanded: false
+  order: 144
+  scroll_y: 968
+  parent_id: 9
+149: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: ３　BOSS
+  expanded: false
+  order: 145
+  scroll_y: 528
+  parent_id: 9
+150: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: ４
+  expanded: false
+  order: 146
+  scroll_y: 320
+  parent_id: 9
+156: !ruby/object:RPG::MapInfo
+  scroll_x: 1040
+  name: 終わらないお茶会
+  expanded: false
+  order: 149
+  scroll_y: 1040
+  parent_id: 0
+23: !ruby/object:RPG::MapInfo
+  scroll_x: 880
+  name: ５
+  expanded: false
+  order: 147
+  scroll_y: 631
+  parent_id: 9
+157: !ruby/object:RPG::MapInfo
+  scroll_x: 978
+  name: １
+  expanded: false
+  order: 151
+  scroll_y: 866
+  parent_id: 24
+158: !ruby/object:RPG::MapInfo
+  scroll_x: 608
+  name: ２　BOSS
+  expanded: false
+  order: 152
+  scroll_y: 720
+  parent_id: 24
+159: !ruby/object:RPG::MapInfo
+  scroll_x: 996
+  name: ３
+  expanded: false
+  order: 153
+  scroll_y: 480
+  parent_id: 24
+160: !ruby/object:RPG::MapInfo
+  scroll_x: 960
+  name: ４
+  expanded: false
+  order: 154
+  scroll_y: 480
+  parent_id: 24
+161: !ruby/object:RPG::MapInfo
+  scroll_x: 1125
+  name: １
+  expanded: false
+  order: 160
+  scroll_y: 3666
+  parent_id: 44
+162: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: ２
+  expanded: false
+  order: 161
+  scroll_y: 480
+  parent_id: 44
+163: !ruby/object:RPG::MapInfo
+  scroll_x: 640
+  name: １
+  expanded: false
+  order: 157
+  scroll_y: 320
+  parent_id: 45
+164: !ruby/object:RPG::MapInfo
+  scroll_x: 880
+  name: ２
+  expanded: false
+  order: 158
+  scroll_y: 1036
+  parent_id: 45
+166: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: チャールズ酒場
+  expanded: false
+  order: 36
+  scroll_y: 320
+  parent_id: 5
+57: !ruby/object:RPG::MapInfo
+  scroll_x: 512
+  name: １
+  expanded: true
+  order: 163
+  scroll_y: 2176
+  parent_id: 46
+165: !ruby/object:RPG::MapInfo
+  scroll_x: 624
+  name: ２
+  expanded: false
+  order: 171
+  scroll_y: 560
+  parent_id: 46
+167: !ruby/object:RPG::MapInfo
+  scroll_x: 560
+  name: ３
+  expanded: false
+  order: 174
+  scroll_y: 631
+  parent_id: 46
+168: !ruby/object:RPG::MapInfo
+  scroll_x: 800
+  name: ４
+  expanded: false
+  order: 175
+  scroll_y: 631
+  parent_id: 46
+169: !ruby/object:RPG::MapInfo
+  scroll_x: 336
+  name: ５
+  expanded: false
+  order: 176
+  scroll_y: 320
+  parent_id: 46
+170: !ruby/object:RPG::MapInfo
+  scroll_x: 656
+  name: ６　BOSS
+  expanded: false
+  order: 177
+  scroll_y: 480
+  parent_id: 46
+171: !ruby/object:RPG::MapInfo
+  scroll_x: 592
+  name: １
+  expanded: false
+  order: 197
+  scroll_y: 448
+  parent_id: 48
+172: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: ２　
+  expanded: false
+  order: 198
+  scroll_y: 320
+  parent_id: 48
+173: !ruby/object:RPG::MapInfo
+  scroll_x: 416
+  name: ２－１
+  expanded: false
+  order: 172
+  scroll_y: 352
+  parent_id: 165
+174: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: ２－２
+  expanded: false
+  order: 173
+  scroll_y: 352
+  parent_id: 165
+175: !ruby/object:RPG::MapInfo
+  scroll_x: 368
+  name: ３　BOSS
+  expanded: false
+  order: 199
+  scroll_y: 400
+  parent_id: 48
+50: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: ２－１
+  expanded: false
+  order: 59
+  scroll_y: 880
+  parent_id: 67
+176: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: ２－２
+  expanded: false
+  order: 60
+  scroll_y: 880
+  parent_id: 67
+177: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: １－１
+  expanded: false
+  order: 164
+  scroll_y: 631
+  parent_id: 57
+178: !ruby/object:RPG::MapInfo
+  scroll_x: 704
+  name: １
+  expanded: false
+  order: 205
+  scroll_y: 800
+  parent_id: 49
+179: !ruby/object:RPG::MapInfo
+  scroll_x: 416
+  name: ３　BOSS
+  expanded: false
+  order: 207
+  scroll_y: 352
+  parent_id: 49
+136: !ruby/object:RPG::MapInfo
+  scroll_x: 1056
+  name: ２－１
+  expanded: false
+  order: 31
+  scroll_y: 2248
+  parent_id: 54
+152: !ruby/object:RPG::MapInfo
+  scroll_x: 1125
+  name: 地下牢
+  expanded: true
+  order: 22
+  scroll_y: 621
+  parent_id: 101
+181: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: 童話庫
+  expanded: false
+  order: 26
+  scroll_y: 400
+  parent_id: 101
+183: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: ４イベント
+  expanded: false
+  order: 132
+  scroll_y: 320
+  parent_id: 147
+184: !ruby/object:RPG::MapInfo
+  scroll_x: 384
+  name: １
+  expanded: false
+  order: 49
+  scroll_y: 640
+  parent_id: 33
+185: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: プレイヤー初期位置
+  expanded: false
+  order: 7
+  scroll_y: 208
+  parent_id: 7
+110: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: １
+  expanded: true
+  order: 3
+  scroll_y: 384
+  parent_id: 7
+97: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: １－１
+  expanded: false
+  order: 4
+  scroll_y: 384
+  parent_id: 110
+98: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: １－２
+  expanded: false
+  order: 5
+  scroll_y: 384
+  parent_id: 110
+99: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: １－３
+  expanded: false
+  order: 6
+  scroll_y: 384
+  parent_id: 110
+100: !ruby/object:RPG::MapInfo
+  scroll_x: 656
+  name: 回想部屋
+  expanded: false
+  order: 25
+  scroll_y: 631
+  parent_id: 101
+16: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: １－１
+  expanded: false
+  order: 52
+  scroll_y: 320
+  parent_id: 63
+18: !ruby/object:RPG::MapInfo
+  scroll_x: 352
+  name: ３－１
+  expanded: false
+  order: 72
+  scroll_y: 320
+  parent_id: 73
+19: !ruby/object:RPG::MapInfo
+  scroll_x: 592
+  name: 無限食物倒した
+  expanded: false
+  order: 195
+  scroll_y: 320
+  parent_id: 81
+20: !ruby/object:RPG::MapInfo
+  scroll_x: 560
+  name: ５－１
+  expanded: false
+  order: 65
+  scroll_y: 688
+  parent_id: 70
+21: !ruby/object:RPG::MapInfo
+  scroll_x: 496
+  name: ５－２
+  expanded: false
+  order: 66
+  scroll_y: 560
+  parent_id: 70
+22: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: ４－１
+  expanded: false
+  order: 63
+  scroll_y: 400
+  parent_id: 69
+104: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: １
+  expanded: false
+  order: 126
+  scroll_y: 518
+  parent_id: 35
+180: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: ３－１
+  expanded: false
+  order: 104
+  scroll_y: 576
+  parent_id: 109
+182: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: １－１
+  expanded: false
+  order: 212
+  scroll_y: 400
+  parent_id: 126
+186: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: 家
+  expanded: false
+  order: 15
+  scroll_y: 320
+  parent_id: 188
+187: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: 外
+  expanded: false
+  order: 16
+  scroll_y: 432
+  parent_id: 188
+188: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: Ｇエンド
+  expanded: true
+  order: 12
+  scroll_y: 208
+  parent_id: 121
+190: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: Ｂルート
+  expanded: true
+  order: 9
+  scroll_y: 208
+  parent_id: 121
+191: !ruby/object:RPG::MapInfo
+  scroll_x: 704
+  name: １
+  expanded: false
+  order: 10
+  scroll_y: 900
+  parent_id: 190
+192: !ruby/object:RPG::MapInfo
+  scroll_x: 704
+  name: １－１
+  expanded: false
+  order: 11
+  scroll_y: 767
+  parent_id: 190
+194: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: ２
+  expanded: false
+  order: 206
+  scroll_y: 441
+  parent_id: 49
+193: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: ４
+  expanded: false
+  order: 208
+  scroll_y: 384
+  parent_id: 49
+189: !ruby/object:RPG::MapInfo
+  scroll_x: 720
+  name: 脱出
+  expanded: false
+  order: 13
+  scroll_y: 320
+  parent_id: 188
+195: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: 脱出２
+  expanded: false
+  order: 14
+  scroll_y: 560
+  parent_id: 188
+10: !ruby/object:RPG::MapInfo
+  scroll_x: 640
+  name: ８
+  expanded: false
+  order: 124
+  scroll_y: 724
+  parent_id: 28
+11: !ruby/object:RPG::MapInfo
+  scroll_x: 1120
+  name: 船の墓場
+  expanded: false
+  order: 179
+  scroll_y: 800
+  parent_id: 0
+13: !ruby/object:RPG::MapInfo
+  scroll_x: 720
+  name: ２
+  expanded: false
+  order: 183
+  scroll_y: 640
+  parent_id: 11
+14: !ruby/object:RPG::MapInfo
+  scroll_x: 1248
+  name: ３
+  expanded: false
+  order: 184
+  scroll_y: 719
+  parent_id: 11
+15: !ruby/object:RPG::MapInfo
+  scroll_x: 544
+  name: ４
+  expanded: false
+  order: 185
+  scroll_y: 719
+  parent_id: 11
+114: !ruby/object:RPG::MapInfo
+  scroll_x: 818
+  name: １
+  expanded: true
+  order: 180
+  scroll_y: 384
+  parent_id: 11
+112: !ruby/object:RPG::MapInfo
+  scroll_x: 862
+  name: １－１
+  expanded: false
+  order: 181
+  scroll_y: 320
+  parent_id: 114
+139: !ruby/object:RPG::MapInfo
+  scroll_x: 1200
+  name: 深海●
+  expanded: false
+  order: 200
+  scroll_y: 1262
+  parent_id: 0
+140: !ruby/object:RPG::MapInfo
+  scroll_x: 384
+  name: ２－２
+  expanded: false
+  order: 118
+  scroll_y: 320
+  parent_id: 118
+141: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: １ BOSS
+  expanded: false
+  order: 201
+  scroll_y: 877
+  parent_id: 139
+196: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: ２
+  expanded: false
+  order: 202
+  scroll_y: 320
+  parent_id: 139
+197: !ruby/object:RPG::MapInfo
+  scroll_x: 368
+  name: ３
+  expanded: false
+  order: 203
+  scroll_y: 800
+  parent_id: 139
+198: !ruby/object:RPG::MapInfo
+  scroll_x: 800
+  name: １
+  expanded: false
+  order: 23
+  scroll_y: 352
+  parent_id: 152
+199: !ruby/object:RPG::MapInfo
+  scroll_x: 1041
+  name: １－２
+  expanded: false
+  order: 182
+  scroll_y: 320
+  parent_id: 114
+200: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: ２－１
+  expanded: false
+  order: 81
+  scroll_y: 480
+  parent_id: 76
+201: !ruby/object:RPG::MapInfo
+  scroll_x: 448
+  name: 嘆きの浜辺(浸水）
+  expanded: false
+  order: 113
+  scroll_y: 724
+  parent_id: 26
+202: !ruby/object:RPG::MapInfo
+  scroll_x: 576
+  name: 混沌ダンジョン
+  expanded: false
+  order: 218
+  scroll_y: 368
+  parent_id: 0
+203: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: '1'
+  expanded: false
+  order: 220
+  scroll_y: 469
+  parent_id: 204
+204: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 1～10
+  expanded: true
+  order: 219
+  scroll_y: 208
+  parent_id: 202
+205: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 11～20
+  expanded: false
+  order: 230
+  scroll_y: 208
+  parent_id: 202
+206: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 21～30
+  expanded: false
+  order: 241
+  scroll_y: 208
+  parent_id: 202
+207: !ruby/object:RPG::MapInfo
+  scroll_x: 640
+  name: '2'
+  expanded: false
+  order: 221
+  scroll_y: 640
+  parent_id: 204
+208: !ruby/object:RPG::MapInfo
+  scroll_x: 560
+  name: '3'
+  expanded: false
+  order: 222
+  scroll_y: 560
+  parent_id: 204
+209: !ruby/object:RPG::MapInfo
+  scroll_x: 416
+  name: '4'
+  expanded: false
+  order: 223
+  scroll_y: 480
+  parent_id: 204
+210: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: '5'
+  expanded: false
+  order: 224
+  scroll_y: 400
+  parent_id: 204
+211: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: '6'
+  expanded: false
+  order: 225
+  scroll_y: 876
+  parent_id: 204
+212: !ruby/object:RPG::MapInfo
+  scroll_x: 800
+  name: '7'
+  expanded: false
+  order: 226
+  scroll_y: 560
+  parent_id: 204
+213: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: '8'
+  expanded: false
+  order: 227
+  scroll_y: 480
+  parent_id: 204
+214: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: '9'
+  expanded: false
+  order: 228
+  scroll_y: 1291
+  parent_id: 204
+215: !ruby/object:RPG::MapInfo
+  scroll_x: 800
+  name: ２
+  expanded: false
+  order: 24
+  scroll_y: 352
+  parent_id: 152
+216: !ruby/object:RPG::MapInfo
+  scroll_x: 464
+  name: '10'
+  expanded: false
+  order: 229
+  scroll_y: 448
+  parent_id: 204
+217: !ruby/object:RPG::MapInfo
+  scroll_x: 560
+  name: '11'
+  expanded: false
+  order: 231
+  scroll_y: 480
+  parent_id: 205
+218: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: '12'
+  expanded: false
+  order: 232
+  scroll_y: 480
+  parent_id: 205
+219: !ruby/object:RPG::MapInfo
+  scroll_x: 560
+  name: '13'
+  expanded: false
+  order: 233
+  scroll_y: 480
+  parent_id: 205
+220: !ruby/object:RPG::MapInfo
+  scroll_x: 576
+  name: '14'
+  expanded: false
+  order: 234
+  scroll_y: 362
+  parent_id: 205
+221: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: '15'
+  expanded: false
+  order: 235
+  scroll_y: 531
+  parent_id: 205
+222: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: '16'
+  expanded: false
+  order: 236
+  scroll_y: 581
+  parent_id: 205
+223: !ruby/object:RPG::MapInfo
+  scroll_x: 560
+  name: '17'
+  expanded: false
+  order: 237
+  scroll_y: 320
+  parent_id: 205
+224: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: '18'
+  expanded: false
+  order: 238
+  scroll_y: 876
+  parent_id: 205
+225: !ruby/object:RPG::MapInfo
+  scroll_x: 560
+  name: '19'
+  expanded: false
+  order: 239
+  scroll_y: 560
+  parent_id: 205
+226: !ruby/object:RPG::MapInfo
+  scroll_x: 688
+  name: '20'
+  expanded: false
+  order: 240
+  scroll_y: 724
+  parent_id: 205
+227: !ruby/object:RPG::MapInfo
+  scroll_x: 560
+  name: '21'
+  expanded: false
+  order: 242
+  scroll_y: 400
+  parent_id: 206
+228: !ruby/object:RPG::MapInfo
+  scroll_x: 544
+  name: '22'
+  expanded: false
+  order: 243
+  scroll_y: 400
+  parent_id: 206
+229: !ruby/object:RPG::MapInfo
+  scroll_x: 560
+  name: '23'
+  expanded: false
+  order: 244
+  scroll_y: 435
+  parent_id: 206
+230: !ruby/object:RPG::MapInfo
+  scroll_x: 448
+  name: '24'
+  expanded: false
+  order: 245
+  scroll_y: 362
+  parent_id: 206
+231: !ruby/object:RPG::MapInfo
+  scroll_x: 608
+  name: '25'
+  expanded: false
+  order: 246
+  scroll_y: 480
+  parent_id: 206
+232: !ruby/object:RPG::MapInfo
+  scroll_x: 560
+  name: '26'
+  expanded: false
+  order: 247
+  scroll_y: 720
+  parent_id: 206
+233: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: '27'
+  expanded: false
+  order: 248
+  scroll_y: 956
+  parent_id: 206
+234: !ruby/object:RPG::MapInfo
+  scroll_x: 704
+  name: '28'
+  expanded: false
+  order: 249
+  scroll_y: 608
+  parent_id: 206
+235: !ruby/object:RPG::MapInfo
+  scroll_x: 672
+  name: '29'
+  expanded: false
+  order: 250
+  scroll_y: 608
+  parent_id: 206
+236: !ruby/object:RPG::MapInfo
+  scroll_x: 576
+  name: '30'
+  expanded: false
+  order: 251
+  scroll_y: 640
+  parent_id: 206
+237: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 31～40
+  expanded: false
+  order: 252
+  scroll_y: 208
+  parent_id: 202
+238: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: '31'
+  expanded: false
+  order: 253
+  scroll_y: 480
+  parent_id: 237
+239: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: '32'
+  expanded: false
+  order: 254
+  scroll_y: 480
+  parent_id: 237
+240: !ruby/object:RPG::MapInfo
+  scroll_x: 560
+  name: '33'
+  expanded: false
+  order: 255
+  scroll_y: 509
+  parent_id: 237
+241: !ruby/object:RPG::MapInfo
+  scroll_x: 368
+  name: '34'
+  expanded: false
+  order: 256
+  scroll_y: 1226
+  parent_id: 237
+242: !ruby/object:RPG::MapInfo
+  scroll_x: 640
+  name: '35'
+  expanded: false
+  order: 257
+  scroll_y: 640
+  parent_id: 237
+243: !ruby/object:RPG::MapInfo
+  scroll_x: 1104
+  name: '36'
+  expanded: false
+  order: 258
+  scroll_y: 1198
+  parent_id: 237
+244: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: '37'
+  expanded: false
+  order: 259
+  scroll_y: 400
+  parent_id: 237
+245: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: '38'
+  expanded: false
+  order: 260
+  scroll_y: 560
+  parent_id: 237
+246: !ruby/object:RPG::MapInfo
+  scroll_x: 544
+  name: '39'
+  expanded: false
+  order: 261
+  scroll_y: 272
+  parent_id: 237
+247: !ruby/object:RPG::MapInfo
+  scroll_x: 560
+  name: '40'
+  expanded: false
+  order: 262
+  scroll_y: 694
+  parent_id: 237
+248: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 41～50
+  expanded: false
+  order: 263
+  scroll_y: 208
+  parent_id: 202
+249: !ruby/object:RPG::MapInfo
+  scroll_x: 1120
+  name: '41'
+  expanded: false
+  order: 264
+  scroll_y: 1152
+  parent_id: 248
+250: !ruby/object:RPG::MapInfo
+  scroll_x: 720
+  name: '42'
+  expanded: false
+  order: 265
+  scroll_y: 1406
+  parent_id: 248
+251: !ruby/object:RPG::MapInfo
+  scroll_x: 544
+  name: '43'
+  expanded: false
+  order: 266
+  scroll_y: 608
+  parent_id: 248
+252: !ruby/object:RPG::MapInfo
+  scroll_x: 544
+  name: 食屍鬼の巣
+  expanded: false
+  order: 92
+  scroll_y: 448
+  parent_id: 25
+253: !ruby/object:RPG::MapInfo
+  scroll_x: 368
+  name: '44'
+  expanded: false
+  order: 267
+  scroll_y: 480
+  parent_id: 248
+254: !ruby/object:RPG::MapInfo
+  scroll_x: 512
+  name: '45'
+  expanded: false
+  order: 268
+  scroll_y: 496
+  parent_id: 248
+255: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: '46'
+  expanded: false
+  order: 269
+  scroll_y: 496
+  parent_id: 248
+256: !ruby/object:RPG::MapInfo
+  scroll_x: 617
+  name: '47'
+  expanded: false
+  order: 270
+  scroll_y: 560
+  parent_id: 248
+257: !ruby/object:RPG::MapInfo
+  scroll_x: 784
+  name: '48'
+  expanded: false
+  order: 271
+  scroll_y: 1196
+  parent_id: 248
+258: !ruby/object:RPG::MapInfo
+  scroll_x: 560
+  name: '49'
+  expanded: false
+  order: 272
+  scroll_y: 907
+  parent_id: 248
+259: !ruby/object:RPG::MapInfo
+  scroll_x: 720
+  name: '50'
+  expanded: false
+  order: 273
+  scroll_y: 1036
+  parent_id: 248
+260: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: １－２
+  expanded: true
+  order: 165
+  scroll_y: 560
+  parent_id: 57
+261: !ruby/object:RPG::MapInfo
+  scroll_x: 528
+  name: ５
+  expanded: false
+  order: 108
+  scroll_y: 480
+  parent_id: 31
+262: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: ボス部屋
+  expanded: true
+  order: 307
+  scroll_y: 208
+  parent_id: 202
+263: !ruby/object:RPG::MapInfo
+  scroll_x: 672
+  name: '１ '
+  expanded: false
+  order: 308
+  scroll_y: 970
+  parent_id: 262
+264: !ruby/object:RPG::MapInfo
+  scroll_x: 672
+  name: ２
+  expanded: false
+  order: 309
+  scroll_y: 720
+  parent_id: 262
+265: !ruby/object:RPG::MapInfo
+  scroll_x: 672
+  name: ３
+  expanded: false
+  order: 310
+  scroll_y: 720
+  parent_id: 262
+266: !ruby/object:RPG::MapInfo
+  scroll_x: 672
+  name: ４
+  expanded: false
+  order: 311
+  scroll_y: 720
+  parent_id: 262
+267: !ruby/object:RPG::MapInfo
+  scroll_x: 672
+  name: ５
+  expanded: false
+  order: 312
+  scroll_y: 720
+  parent_id: 262
+268: !ruby/object:RPG::MapInfo
+  scroll_x: 672
+  name: ６
+  expanded: false
+  order: 313
+  scroll_y: 720
+  parent_id: 262
+269: !ruby/object:RPG::MapInfo
+  scroll_x: 672
+  name: ７
+  expanded: false
+  order: 314
+  scroll_y: 720
+  parent_id: 262
+270: !ruby/object:RPG::MapInfo
+  scroll_x: 672
+  name: ８
+  expanded: false
+  order: 315
+  scroll_y: 720
+  parent_id: 262
+271: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: 混沌ラスボス
+  expanded: true
+  order: 317
+  scroll_y: 640
+  parent_id: 262
+272: !ruby/object:RPG::MapInfo
+  scroll_x: 672
+  name: ９
+  expanded: false
+  order: 316
+  scroll_y: 720
+  parent_id: 262
+273: !ruby/object:RPG::MapInfo
+  scroll_x: 560
+  name: ５　BOSS
+  expanded: false
+  order: 209
+  scroll_y: 433
+  parent_id: 49
+274: !ruby/object:RPG::MapInfo
+  scroll_x: 416
+  name: ２－１
+  expanded: false
+  order: 166
+  scroll_y: 352
+  parent_id: 260
+275: !ruby/object:RPG::MapInfo
+  scroll_x: 640
+  name: １－３
+  expanded: true
+  order: 167
+  scroll_y: 400
+  parent_id: 57
+276: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: １－４
+  expanded: false
+  order: 168
+  scroll_y: 320
+  parent_id: 275
+277: !ruby/object:RPG::MapInfo
+  scroll_x: 1136
+  name: １－５
+  expanded: true
+  order: 169
+  scroll_y: 560
+  parent_id: 275
+279: !ruby/object:RPG::MapInfo
+  scroll_x: 1136
+  name: １－６
+  expanded: false
+  order: 170
+  scroll_y: 560
+  parent_id: 277
+278: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: '56'
+  expanded: false
+  order: 280
+  scroll_y: 480
+  parent_id: 281
+280: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: デバッグ
+  expanded: false
+  order: 320
+  scroll_y: 368
+  parent_id: 202
+281: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 51～60
+  expanded: false
+  order: 274
+  scroll_y: 208
+  parent_id: 202
+282: !ruby/object:RPG::MapInfo
+  scroll_x: 496
+  name: '51'
+  expanded: false
+  order: 275
+  scroll_y: 444
+  parent_id: 281
+283: !ruby/object:RPG::MapInfo
+  scroll_x: 800
+  name: '52'
+  expanded: false
+  order: 276
+  scroll_y: 1162
+  parent_id: 281
+284: !ruby/object:RPG::MapInfo
+  scroll_x: 800
+  name: '53'
+  expanded: false
+  order: 277
+  scroll_y: 1016
+  parent_id: 281
+285: !ruby/object:RPG::MapInfo
+  scroll_x: 800
+  name: '54'
+  expanded: false
+  order: 278
+  scroll_y: 560
+  parent_id: 281
+286: !ruby/object:RPG::MapInfo
+  scroll_x: 720
+  name: '55'
+  expanded: false
+  order: 279
+  scroll_y: 438
+  parent_id: 281
+287: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: '57'
+  expanded: false
+  order: 281
+  scroll_y: 480
+  parent_id: 281
+288: !ruby/object:RPG::MapInfo
+  scroll_x: 1120
+  name: '58'
+  expanded: false
+  order: 282
+  scroll_y: 724
+  parent_id: 281
+289: !ruby/object:RPG::MapInfo
+  scroll_x: 912
+  name: '59'
+  expanded: false
+  order: 283
+  scroll_y: 1100
+  parent_id: 281
+290: !ruby/object:RPG::MapInfo
+  scroll_x: 830
+  name: '60'
+  expanded: false
+  order: 284
+  scroll_y: 846
+  parent_id: 281
+291: !ruby/object:RPG::MapInfo
+  scroll_x: 592
+  name: 宇宙
+  expanded: false
+  order: 318
+  scroll_y: 448
+  parent_id: 271
+292: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: 虚無
+  expanded: false
+  order: 319
+  scroll_y: 384
+  parent_id: 271
+293: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 61～70
+  expanded: true
+  order: 285
+  scroll_y: 208
+  parent_id: 202
+294: !ruby/object:RPG::MapInfo
+  scroll_x: 880
+  name: '61'
+  expanded: false
+  order: 286
+  scroll_y: 336
+  parent_id: 293
+295: !ruby/object:RPG::MapInfo
+  scroll_x: 1120
+  name: '62'
+  expanded: false
+  order: 287
+  scroll_y: 560
+  parent_id: 293
+296: !ruby/object:RPG::MapInfo
+  scroll_x: 544
+  name: '63'
+  expanded: false
+  order: 288
+  scroll_y: 724
+  parent_id: 293
+297: !ruby/object:RPG::MapInfo
+  scroll_x: 1040
+  name: '64'
+  expanded: false
+  order: 289
+  scroll_y: 640
+  parent_id: 293
+298: !ruby/object:RPG::MapInfo
+  scroll_x: 1040
+  name: '65'
+  expanded: false
+  order: 290
+  scroll_y: 942
+  parent_id: 293
+299: !ruby/object:RPG::MapInfo
+  scroll_x: 560
+  name: '66'
+  expanded: false
+  order: 291
+  scroll_y: 480
+  parent_id: 293
+300: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: '67'
+  expanded: false
+  order: 292
+  scroll_y: 480
+  parent_id: 293
+301: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: '68'
+  expanded: false
+  order: 293
+  scroll_y: 400
+  parent_id: 293
+302: !ruby/object:RPG::MapInfo
+  scroll_x: 640
+  name: '69'
+  expanded: false
+  order: 294
+  scroll_y: 766
+  parent_id: 293
+303: !ruby/object:RPG::MapInfo
+  scroll_x: 702
+  name: '70'
+  expanded: false
+  order: 295
+  scroll_y: 478
+  parent_id: 293
+304: !ruby/object:RPG::MapInfo
+  scroll_x: 560
+  name: ６
+  expanded: false
+  order: 109
+  scroll_y: 433
+  parent_id: 31
+305: !ruby/object:RPG::MapInfo
+  scroll_x: 624
+  name: '71'
+  expanded: false
+  order: 297
+  scroll_y: 469
+  parent_id: 306
+306: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 71～80
+  expanded: true
+  order: 296
+  scroll_y: 208
+  parent_id: 202
+307: !ruby/object:RPG::MapInfo
+  scroll_x: 512
+  name: '72'
+  expanded: false
+  order: 298
+  scroll_y: 464
+  parent_id: 306
+308: !ruby/object:RPG::MapInfo
+  scroll_x: 624
+  name: '73'
+  expanded: false
+  order: 299
+  scroll_y: 448
+  parent_id: 306
+309: !ruby/object:RPG::MapInfo
+  scroll_x: 448
+  name: '74'
+  expanded: false
+  order: 300
+  scroll_y: 528
+  parent_id: 306
+310: !ruby/object:RPG::MapInfo
+  scroll_x: 448
+  name: クリミア看護墓地
+  expanded: false
+  order: 323
+  scroll_y: 400
+  parent_id: 0
+311: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: １－２
+  expanded: false
+  order: 213
+  scroll_y: 400
+  parent_id: 126
+312: !ruby/object:RPG::MapInfo
+  scroll_x: 960
+  name: １
+  expanded: true
+  order: 324
+  scroll_y: 968
+  parent_id: 310
+313: !ruby/object:RPG::MapInfo
+  scroll_x: 1440
+  name: １－１
+  expanded: true
+  order: 325
+  scroll_y: 640
+  parent_id: 312
+314: !ruby/object:RPG::MapInfo
+  scroll_x: 368
+  name: １－２
+  expanded: false
+  order: 326
+  scroll_y: 320
+  parent_id: 313
+315: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: '75'
+  expanded: false
+  order: 301
+  scroll_y: 480
+  parent_id: 306
+316: !ruby/object:RPG::MapInfo
+  scroll_x: 1728
+  name: ２
+  expanded: true
+  order: 328
+  scroll_y: 400
+  parent_id: 310
+317: !ruby/object:RPG::MapInfo
+  scroll_x: 336
+  name: 棺
+  expanded: false
+  order: 342
+  scroll_y: 352
+  parent_id: 310
+318: !ruby/object:RPG::MapInfo
+  scroll_x: 1120
+  name: ２－１●
+  expanded: false
+  order: 329
+  scroll_y: 320
+  parent_id: 316
+319: !ruby/object:RPG::MapInfo
+  scroll_x: 1782
+  name: ３
+  expanded: true
+  order: 330
+  scroll_y: 400
+  parent_id: 310
+320: !ruby/object:RPG::MapInfo
+  scroll_x: 1508
+  name: ３－１
+  expanded: false
+  order: 331
+  scroll_y: 847
+  parent_id: 319
+321: !ruby/object:RPG::MapInfo
+  scroll_x: 1314
+  name: ４
+  expanded: true
+  order: 332
+  scroll_y: 400
+  parent_id: 310
+322: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: ４－１
+  expanded: false
+  order: 333
+  scroll_y: 648
+  parent_id: 321
+323: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: １－３
+  expanded: false
+  order: 327
+  scroll_y: 320
+  parent_id: 312
+324: !ruby/object:RPG::MapInfo
+  scroll_x: 448
+  name: ４－２
+  expanded: false
+  order: 334
+  scroll_y: 480
+  parent_id: 321
+325: !ruby/object:RPG::MapInfo
+  scroll_x: 2080
+  name: ５
+  expanded: true
+  order: 336
+  scroll_y: 1262
+  parent_id: 310
+326: !ruby/object:RPG::MapInfo
+  scroll_x: 1280
+  name: ５－１
+  expanded: false
+  order: 337
+  scroll_y: 336
+  parent_id: 325
+327: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: ５－２
+  expanded: false
+  order: 338
+  scroll_y: 400
+  parent_id: 325
+328: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: ６　BOSS
+  expanded: false
+  order: 339
+  scroll_y: 2248
+  parent_id: 310
+329: !ruby/object:RPG::MapInfo
+  scroll_x: 496
+  name: ７　BOSS
+  expanded: true
+  order: 340
+  scroll_y: 480
+  parent_id: 310
+330: !ruby/object:RPG::MapInfo
+  scroll_x: 880
+  name: ７－１
+  expanded: false
+  order: 341
+  scroll_y: 631
+  parent_id: 329
+331: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: ウィンターベル
+  expanded: false
+  order: 343
+  scroll_y: 320
+  parent_id: 0
+332: !ruby/object:RPG::MapInfo
+  scroll_x: 2704
+  name: １
+  expanded: false
+  order: 344
+  scroll_y: 400
+  parent_id: 331
+333: !ruby/object:RPG::MapInfo
+  scroll_x: 720
+  name: ２
+  expanded: false
+  order: 345
+  scroll_y: 400
+  parent_id: 331
+334: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: 一角獣の森
+  expanded: false
+  order: 346
+  scroll_y: 640
+  parent_id: 331
+335: !ruby/object:RPG::MapInfo
+  scroll_x: 560
+  name: 獅子の砦
+  expanded: false
+  order: 347
+  scroll_y: 480
+  parent_id: 331
+336: !ruby/object:RPG::MapInfo
+  scroll_x: 1600
+  name: １
+  expanded: false
+  order: 351
+  scroll_y: 2524
+  parent_id: 337
+337: !ruby/object:RPG::MapInfo
+  scroll_x: 384
+  name: 雪原
+  expanded: true
+  order: 350
+  scroll_y: 320
+  parent_id: 331
+338: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: 狂気山脈
+  expanded: false
+  order: 348
+  scroll_y: 320
+  parent_id: 331
+339: !ruby/object:RPG::MapInfo
+  scroll_x: 560
+  name: 白の城下街
+  expanded: false
+  order: 356
+  scroll_y: 320
+  parent_id: 331
+340: !ruby/object:RPG::MapInfo
+  scroll_x: 1920
+  name: １
+  expanded: false
+  order: 349
+  scroll_y: 1760
+  parent_id: 338
+341: !ruby/object:RPG::MapInfo
+  scroll_x: 336
+  name: ２
+  expanded: false
+  order: 352
+  scroll_y: 304
+  parent_id: 337
+342: !ruby/object:RPG::MapInfo
+  scroll_x: 640
+  name: ３－２
+  expanded: false
+  order: 355
+  scroll_y: 882
+  parent_id: 343
+343: !ruby/object:RPG::MapInfo
+  scroll_x: 720
+  name: ３●
+  expanded: false
+  order: 353
+  scroll_y: 648
+  parent_id: 331
+344: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: ３－１　BOSS
+  expanded: false
+  order: 354
+  scroll_y: 375
+  parent_id: 343
+345: !ruby/object:RPG::MapInfo
+  scroll_x: 336
+  name: １●
+  expanded: false
+  order: 357
+  scroll_y: 631
+  parent_id: 339
+347: !ruby/object:RPG::MapInfo
+  scroll_x: 560
+  name: ２　地上
+  expanded: true
+  order: 358
+  scroll_y: 1449
+  parent_id: 339
+348: !ruby/object:RPG::MapInfo
+  scroll_x: 818
+  name: 離れの牢獄
+  expanded: false
+  order: 410
+  scroll_y: 320
+  parent_id: 331
+346: !ruby/object:RPG::MapInfo
+  scroll_x: 368
+  name: ３
+  expanded: true
+  order: 360
+  scroll_y: 631
+  parent_id: 339
+349: !ruby/object:RPG::MapInfo
+  scroll_x: 560
+  name: ４　地上
+  expanded: true
+  order: 363
+  scroll_y: 2496
+  parent_id: 339
+350: !ruby/object:RPG::MapInfo
+  scroll_x: 416
+  name: ３－１ BOSS
+  expanded: false
+  order: 361
+  scroll_y: 720
+  parent_id: 346
+351: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: ５　BOSS
+  expanded: false
+  order: 366
+  scroll_y: 400
+  parent_id: 339
+352: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: ６
+  expanded: false
+  order: 367
+  scroll_y: 648
+  parent_id: 339
+353: !ruby/object:RPG::MapInfo
+  scroll_x: 960
+  name: ７
+  expanded: true
+  order: 368
+  scroll_y: 2256
+  parent_id: 339
+354: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: ７－１
+  expanded: true
+  order: 371
+  scroll_y: 240
+  parent_id: 355
+355: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: ７－２
+  expanded: true
+  order: 369
+  scroll_y: 240
+  parent_id: 353
+356: !ruby/object:RPG::MapInfo
+  scroll_x: 1424
+  name: ７－３
+  expanded: false
+  order: 374
+  scroll_y: 400
+  parent_id: 353
+357: !ruby/object:RPG::MapInfo
+  scroll_x: 336
+  name: ４－１
+  expanded: false
+  order: 364
+  scroll_y: 512
+  parent_id: 349
+358: !ruby/object:RPG::MapInfo
+  scroll_x: 368
+  name: ４－３
+  expanded: false
+  order: 335
+  scroll_y: 400
+  parent_id: 321
+359: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: ３－２
+  expanded: false
+  order: 362
+  scroll_y: 400
+  parent_id: 346
+360: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: ７－４
+  expanded: false
+  order: 375
+  scroll_y: 608
+  parent_id: 353
+361: !ruby/object:RPG::MapInfo
+  scroll_x: 656
+  name: ７ー５
+  expanded: false
+  order: 376
+  scroll_y: 480
+  parent_id: 353
+362: !ruby/object:RPG::MapInfo
+  scroll_x: 560
+  name: ７ー６
+  expanded: false
+  order: 377
+  scroll_y: 724
+  parent_id: 353
+363: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: ７－７
+  expanded: true
+  order: 378
+  scroll_y: 336
+  parent_id: 353
+364: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: ７－７７
+  expanded: false
+  order: 379
+  scroll_y: 336
+  parent_id: 363
+365: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: ７－７７７
+  expanded: false
+  order: 380
+  scroll_y: 336
+  parent_id: 363
+366: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: ７－７７７７
+  expanded: false
+  order: 381
+  scroll_y: 336
+  parent_id: 363
+367: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: ７－７７７７７
+  expanded: false
+  order: 382
+  scroll_y: 336
+  parent_id: 363
+368: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: ７－７７７７７７
+  expanded: false
+  order: 383
+  scroll_y: 336
+  parent_id: 363
+369: !ruby/object:RPG::MapInfo
+  scroll_x: 368
+  name: ７－８●
+  expanded: false
+  order: 384
+  scroll_y: 400
+  parent_id: 353
+370: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: ７－９
+  expanded: false
+  order: 385
+  scroll_y: 320
+  parent_id: 353
+371: !ruby/object:RPG::MapInfo
+  scroll_x: 1234
+  name: ７－１０
+  expanded: false
+  order: 386
+  scroll_y: 352
+  parent_id: 353
+372: !ruby/object:RPG::MapInfo
+  scroll_x: 704
+  name: ７－１１ BOSS
+  expanded: true
+  order: 387
+  scroll_y: 352
+  parent_id: 353
+373: !ruby/object:RPG::MapInfo
+  scroll_x: 704
+  name: １
+  expanded: false
+  order: 388
+  scroll_y: 505
+  parent_id: 372
+374: !ruby/object:RPG::MapInfo
+  scroll_x: 560
+  name: ２
+  expanded: true
+  order: 389
+  scroll_y: 352
+  parent_id: 372
+375: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: ７－２２
+  expanded: false
+  order: 370
+  scroll_y: 240
+  parent_id: 355
+376: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: ７－１１
+  expanded: false
+  order: 372
+  scroll_y: 240
+  parent_id: 354
+377: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: ７－１２
+  expanded: false
+  order: 373
+  scroll_y: 240
+  parent_id: 354
+378: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: リデル家
+  expanded: true
+  order: 401
+  scroll_y: 208
+  parent_id: 339
+379: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 居間
+  expanded: false
+  order: 402
+  scroll_y: 208
+  parent_id: 378
+380: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: １階廊下
+  expanded: false
+  order: 404
+  scroll_y: 208
+  parent_id: 378
+381: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 玄関
+  expanded: false
+  order: 403
+  scroll_y: 208
+  parent_id: 378
+382: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: ２階廊下
+  expanded: false
+  order: 405
+  scroll_y: 208
+  parent_id: 378
+383: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 自室
+  expanded: false
+  order: 406
+  scroll_y: 208
+  parent_id: 378
+384: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 次女の部屋
+  expanded: false
+  order: 407
+  scroll_y: 208
+  parent_id: 378
+385: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 三女の部屋
+  expanded: false
+  order: 408
+  scroll_y: 208
+  parent_id: 378
+386: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 長女の部屋
+  expanded: false
+  order: 409
+  scroll_y: 208
+  parent_id: 378
+387: !ruby/object:RPG::MapInfo
+  scroll_x: 384
+  name: BADEND
+  expanded: false
+  order: 400
+  scroll_y: 320
+  parent_id: 372
+388: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: Ｈエンド
+  expanded: true
+  order: 17
+  scroll_y: 208
+  parent_id: 121
+390: !ruby/object:RPG::MapInfo
+  scroll_x: 560
+  name: 脱出
+  expanded: false
+  order: 18
+  scroll_y: 576
+  parent_id: 388
+389: !ruby/object:RPG::MapInfo
+  scroll_x: 960
+  name: 脱出２
+  expanded: false
+  order: 19
+  scroll_y: 320
+  parent_id: 388
+391: !ruby/object:RPG::MapInfo
+  scroll_x: 336
+  name: ラスト
+  expanded: false
+  order: 20
+  scroll_y: 320
+  parent_id: 388
+392: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: ５　BOSS
+  expanded: false
+  order: 390
+  scroll_y: 400
+  parent_id: 374
+393: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: ３　BOSS
+  expanded: false
+  order: 391
+  scroll_y: 496
+  parent_id: 374
+394: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: ２
+  expanded: false
+  order: 392
+  scroll_y: 368
+  parent_id: 374
+395: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: ２－１
+  expanded: false
+  order: 393
+  scroll_y: 400
+  parent_id: 374
+396: !ruby/object:RPG::MapInfo
+  scroll_x: 638
+  name: ５　BOSS
+  expanded: false
+  order: 394
+  scroll_y: 564
+  parent_id: 374
+398: !ruby/object:RPG::MapInfo
+  scroll_x: 336
+  name: ９　BOSS
+  expanded: false
+  order: 395
+  scroll_y: 400
+  parent_id: 374
+399: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: ６　BOSS
+  expanded: false
+  order: 396
+  scroll_y: 480
+  parent_id: 374
+400: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: ３－１
+  expanded: false
+  order: 397
+  scroll_y: 480
+  parent_id: 374
+401: !ruby/object:RPG::MapInfo
+  scroll_x: 704
+  name: ２　BOSS
+  expanded: false
+  order: 399
+  scroll_y: 400
+  parent_id: 374
+402: !ruby/object:RPG::MapInfo
+  scroll_x: 352
+  name: ３
+  expanded: false
+  order: 398
+  scroll_y: 352
+  parent_id: 374
+397: !ruby/object:RPG::MapInfo
+  scroll_x: 638
+  name: '76'
+  expanded: false
+  order: 302
+  scroll_y: 1760
+  parent_id: 306
+403: !ruby/object:RPG::MapInfo
+  scroll_x: 1948
+  name: '77'
+  expanded: false
+  order: 303
+  scroll_y: 256
+  parent_id: 306
+404: !ruby/object:RPG::MapInfo
+  scroll_x: 1280
+  name: '78'
+  expanded: false
+  order: 304
+  scroll_y: 1600
+  parent_id: 306
+405: !ruby/object:RPG::MapInfo
+  scroll_x: 2240
+  name: '79'
+  expanded: false
+  order: 305
+  scroll_y: 1760
+  parent_id: 306
+406: !ruby/object:RPG::MapInfo
+  scroll_x: 809
+  name: '80'
+  expanded: false
+  order: 306
+  scroll_y: 460
+  parent_id: 306
+407: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 死灰復燃
+  expanded: true
+  order: 321
+  scroll_y: 208
+  parent_id: 202
+408: !ruby/object:RPG::MapInfo
+  scroll_x: 672
+  name: '１ '
+  expanded: false
+  order: 322
+  scroll_y: 724
+  parent_id: 407
+409: !ruby/object:RPG::MapInfo
+  scroll_x: 560
+  name: ２　屋根
+  expanded: false
+  order: 359
+  scroll_y: 2248
+  parent_id: 347
+410: !ruby/object:RPG::MapInfo
+  scroll_x: 560
+  name: ４　屋根
+  expanded: false
+  order: 365
+  scroll_y: 951
+  parent_id: 349
+411: !ruby/object:RPG::MapInfo
+  scroll_x: 1120
+  name: 轮回的列车
+  expanded: false
+  order: 413
+  scroll_y: 320
+  parent_id: 420
+419: !ruby/object:RPG::MapInfo
+  scroll_x: 288
+  name: 女王房间
+  expanded: false
+  order: 412
+  scroll_y: 208
+  parent_id: 420
+420: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: 转场地图
+  expanded: true
+  order: 411
+  scroll_y: 400
+  parent_id: 0
+421: !ruby/object:RPG::MapInfo
+  scroll_x: 3694
+  name: 移动草原
+  expanded: true
+  order: 423
+  scroll_y: 6149
+  parent_id: 0
+422: !ruby/object:RPG::MapInfo
+  scroll_x: 352
+  name: 车站仓库
+  expanded: true
+  order: 424
+  scroll_y: 272
+  parent_id: 421
+423: !ruby/object:RPG::MapInfo
+  scroll_x: 352
+  name: 车站仓库2F
+  expanded: false
+  order: 425
+  scroll_y: 272
+  parent_id: 422
+424: !ruby/object:RPG::MapInfo
+  scroll_x: 397
+  name: 废镇
+  expanded: false
+  order: 435
+  scroll_y: 1116
+  parent_id: 421
+425: !ruby/object:RPG::MapInfo
+  scroll_x: 1040
+  name: 废镇西
+  expanded: false
+  order: 445
+  scroll_y: 631
+  parent_id: 421
+426: !ruby/object:RPG::MapInfo
+  scroll_x: 800
+  name: 废镇东
+  expanded: false
+  order: 448
+  scroll_y: 480
+  parent_id: 421
+427: !ruby/object:RPG::MapInfo
+  scroll_x: 1280
+  name: 废镇东BOSS
+  expanded: false
+  order: 449
+  scroll_y: 592
+  parent_id: 421
+428: !ruby/object:RPG::MapInfo
+  scroll_x: 336
+  name: 教会
+  expanded: true
+  order: 440
+  scroll_y: 512
+  parent_id: 424
+429: !ruby/object:RPG::MapInfo
+  scroll_x: 1264
+  name: 荒村
+  expanded: true
+  order: 457
+  scroll_y: 480
+  parent_id: 421
+430: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 翡翠城
+  expanded: false
+  order: 471
+  scroll_y: 208
+  parent_id: 0
+431: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 天空岛
+  expanded: false
+  order: 472
+  scroll_y: 208
+  parent_id: 0
+432: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 大荒原
+  expanded: false
+  order: 473
+  scroll_y: 208
+  parent_id: 0
+433: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 迷雾森林
+  expanded: false
+  order: 474
+  scroll_y: 208
+  parent_id: 0
+434: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 深渊
+  expanded: false
+  order: 475
+  scroll_y: 208
+  parent_id: 0
+435: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 备用2
+  expanded: false
+  order: 476
+  scroll_y: 208
+  parent_id: 0
+436: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 备用3
+  expanded: false
+  order: 477
+  scroll_y: 208
+  parent_id: 0
+412: !ruby/object:RPG::MapInfo
+  scroll_x: 1120
+  name: 列车1
+  expanded: false
+  order: 414
+  scroll_y: 320
+  parent_id: 411
+413: !ruby/object:RPG::MapInfo
+  scroll_x: 1422
+  name: 列车2
+  expanded: false
+  order: 415
+  scroll_y: 320
+  parent_id: 412
+414: !ruby/object:RPG::MapInfo
+  scroll_x: 1120
+  name: 列车3
+  expanded: false
+  order: 416
+  scroll_y: 320
+  parent_id: 412
+415: !ruby/object:RPG::MapInfo
+  scroll_x: 1120
+  name: 列车4
+  expanded: false
+  order: 417
+  scroll_y: 320
+  parent_id: 412
+416: !ruby/object:RPG::MapInfo
+  scroll_x: 1120
+  name: 燃烧的列车
+  expanded: false
+  order: 418
+  scroll_y: 320
+  parent_id: 411
+417: !ruby/object:RPG::MapInfo
+  scroll_x: 1120
+  name: 幽灵列车
+  expanded: false
+  order: 419
+  scroll_y: 320
+  parent_id: 411
+418: !ruby/object:RPG::MapInfo
+  scroll_x: 1120
+  name: 燃烧结局
+  expanded: false
+  order: 421
+  scroll_y: 320
+  parent_id: 411
+437: !ruby/object:RPG::MapInfo
+  scroll_x: 1120
+  name: 解脱结局
+  expanded: false
+  order: 422
+  scroll_y: 320
+  parent_id: 411
+438: !ruby/object:RPG::MapInfo
+  scroll_x: 1360
+  name: 荒村中心
+  expanded: false
+  order: 462
+  scroll_y: 621
+  parent_id: 429
+439: !ruby/object:RPG::MapInfo
+  scroll_x: 1120
+  name: 荒村东
+  expanded: true
+  order: 466
+  scroll_y: 512
+  parent_id: 429
+440: !ruby/object:RPG::MapInfo
+  scroll_x: 397
+  name: 荒村南
+  expanded: true
+  order: 460
+  scroll_y: 2018
+  parent_id: 429
+441: !ruby/object:RPG::MapInfo
+  scroll_x: 560
+  name: 荒村北
+  expanded: true
+  order: 463
+  scroll_y: 560
+  parent_id: 429
+442: !ruby/object:RPG::MapInfo
+  scroll_x: 352
+  name: 荒村仓库
+  expanded: true
+  order: 458
+  scroll_y: 272
+  parent_id: 429
+443: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: 地下室
+  expanded: false
+  order: 447
+  scroll_y: 368
+  parent_id: 425
+444: !ruby/object:RPG::MapInfo
+  scroll_x: 960
+  name: 废镇东下
+  expanded: false
+  order: 450
+  scroll_y: 560
+  parent_id: 421
+445: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: 坠落之屋内
+  expanded: false
+  order: 455
+  scroll_y: 938
+  parent_id: 449
+446: !ruby/object:RPG::MapInfo
+  scroll_x: 352
+  name: 荒村仓库2F
+  expanded: false
+  order: 459
+  scroll_y: 272
+  parent_id: 442
+448: !ruby/object:RPG::MapInfo
+  scroll_x: 336
+  name: 教会阁楼
+  expanded: false
+  order: 444
+  scroll_y: 512
+  parent_id: 428
+447: !ruby/object:RPG::MapInfo
+  scroll_x: 1744
+  name: 出城
+  expanded: true
+  order: 451
+  scroll_y: 560
+  parent_id: 421
+449: !ruby/object:RPG::MapInfo
+  scroll_x: 720
+  name: 坠落之屋
+  expanded: false
+  order: 454
+  scroll_y: 880
+  parent_id: 421
+450: !ruby/object:RPG::MapInfo
+  scroll_x: 1136
+  name: 黄昏之路
+  expanded: false
+  order: 465
+  scroll_y: 480
+  parent_id: 429
+451: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: 监禁室
+  expanded: false
+  order: 456
+  scroll_y: 320
+  parent_id: 449
+452: !ruby/object:RPG::MapInfo
+  scroll_x: 880
+  name: 追忆的道路
+  expanded: true
+  order: 452
+  scroll_y: 560
+  parent_id: 447
+453: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: 草原地穴
+  expanded: false
+  order: 433
+  scroll_y: 1788
+  parent_id: 468
+454: !ruby/object:RPG::MapInfo
+  scroll_x: 640
+  name: 废镇西尽头
+  expanded: false
+  order: 446
+  scroll_y: 560
+  parent_id: 425
+455: !ruby/object:RPG::MapInfo
+  scroll_x: 428
+  name: 荒村南下
+  expanded: false
+  order: 461
+  scroll_y: 612
+  parent_id: 440
+456: !ruby/object:RPG::MapInfo
+  scroll_x: 1120
+  name: 荒村东尽头
+  expanded: true
+  order: 467
+  scroll_y: 560
+  parent_id: 439
+457: !ruby/object:RPG::MapInfo
+  scroll_x: 960
+  name: 车厢
+  expanded: true
+  order: 426
+  scroll_y: 320
+  parent_id: 422
+459: !ruby/object:RPG::MapInfo
+  scroll_x: 1125
+  name: 地下
+  expanded: true
+  order: 428
+  scroll_y: 3214
+  parent_id: 422
+458: !ruby/object:RPG::MapInfo
+  scroll_x: 640
+  name: 重组列车
+  expanded: false
+  order: 427
+  scroll_y: 320
+  parent_id: 457
+460: !ruby/object:RPG::MapInfo
+  scroll_x: 1920
+  name: 地下
+  expanded: true
+  order: 429
+  scroll_y: 3219
+  parent_id: 459
+461: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: 民房
+  expanded: false
+  order: 464
+  scroll_y: 320
+  parent_id: 441
+462: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: 商店
+  expanded: false
+  order: 436
+  scroll_y: 320
+  parent_id: 424
+463: !ruby/object:RPG::MapInfo
+  scroll_x: 1408
+  name: 废镇
+  expanded: true
+  order: 441
+  scroll_y: 847
+  parent_id: 428
+464: !ruby/object:RPG::MapInfo
+  scroll_x: 1408
+  name: 废镇
+  expanded: false
+  order: 442
+  scroll_y: 1462
+  parent_id: 463
+465: !ruby/object:RPG::MapInfo
+  scroll_x: 336
+  name: 教会全灭
+  expanded: false
+  order: 443
+  scroll_y: 512
+  parent_id: 428
+466: !ruby/object:RPG::MapInfo
+  scroll_x: 800
+  name: 黑空间
+  expanded: false
+  order: 420
+  scroll_y: 320
+  parent_id: 417
+468: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: 奇怪的房间
+  expanded: true
+  order: 432
+  scroll_y: 320
+  parent_id: 476
+467: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: 商店2F
+  expanded: false
+  order: 437
+  scroll_y: 320
+  parent_id: 424
+470: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: 商店3F
+  expanded: false
+  order: 438
+  scroll_y: 320
+  parent_id: 424
+469: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: 回想小屋
+  expanded: false
+  order: 439
+  scroll_y: 320
+  parent_id: 424
+471: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: 民房2
+  expanded: false
+  order: 469
+  scroll_y: 320
+  parent_id: 439
+472: !ruby/object:RPG::MapInfo
+  scroll_x: 1125
+  name: 胆小兔落穴
+  expanded: false
+  order: 453
+  scroll_y: 979
+  parent_id: 452
+473: !ruby/object:RPG::MapInfo
+  scroll_x: 2074
+  name: 地下通道
+  expanded: false
+  order: 468
+  scroll_y: 659
+  parent_id: 456
+474: !ruby/object:RPG::MapInfo
+  scroll_x: 448
+  name: 民房3
+  expanded: false
+  order: 470
+  scroll_y: 384
+  parent_id: 439
+475: !ruby/object:RPG::MapInfo
+  scroll_x: 1920
+  name: 地下
+  expanded: true
+  order: 430
+  scroll_y: 2178
+  parent_id: 460
+476: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: 终场
+  expanded: true
+  order: 431
+  scroll_y: 400
+  parent_id: 475
+477: !ruby/object:RPG::MapInfo
+  scroll_x: 1434
+  name: 地下隧道
+  expanded: false
+  order: 434
+  scroll_y: 621
+  parent_id: 459
