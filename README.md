@@ -7,7 +7,7 @@ I tried to follow at least some degree of QA, but I haven't had time to test muc
 Black Souls II and consequently the Journey of Wind and Memory mod include sexual and violent content, as well as various content that could be traumatic. If you are under the age of 18, please turn back.
 
 # Installation
-Download the latest release and follow the readme found inside the zip. Alternatively, clone this repository and use Ruby with the RubyGem RVPacker (will require some modification as some features and packages are deprecated, see [rvpacker](https://github.com/Solistra/rvpacker) and its branches) to pack the game yourself and merge with BS2 files. My repo does not include the necessary graphics and audio files, please retrieve those from the original mod creators found in the Source.txt file.
+Download the latest release and follow the readme found inside the zip. Alternatively, clone this repository and use Ruby with the RubyGem RVPacker (will require some modification as some features and packages are deprecated, see [rvpacker](https://github.com/Solistra/rvpacker) and its branches) to pack the game yourself and merge with BS2 files. My repo does not include the necessary graphics and audio files, please retrieve those from the original mod creators found in the Source.txt file. I also do not include any of the base game files that have not been modified, please purchase the game from Toro on dlsite to support the official release.
 
 # Troubleshooting
 First, please make sure you followed the installation instructions correctly.
