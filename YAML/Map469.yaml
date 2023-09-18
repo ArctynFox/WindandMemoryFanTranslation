@@ -776,7 +776,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Recall \c[2]Dorothy (Serve)\c[0]?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Recall \c[2]Dorothy (Service)\c[0]?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
@@ -1503,18 +1503,18 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [all creatures that showed any signs of agression.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['It kept running, becoming faster and smaller over time.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['Eventually, it grew so small it squeezed']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['through the door of a tiny cottage.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [through the door of a tiny cottage.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['"Maybe like this, I won''t be caught," it thought.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['However, not long after,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['a hurricane tore the door off its hinges.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['The disaster made the rabbit even more']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [a hurricane tore the door off its hinges.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [The disaster made the rabbit even more]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['nervous, and it became too afraid']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['to approach any living creature,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['eventually starving itself into madness.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [eventually starving itself into madness.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['One day, as a scream drew near,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['a lump of flesh fell in front of it.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [a lump of flesh fell in front of it.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['Ah, perhaps only the dead can bring peace of mind.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [It immediately pounced on it and feasted heartily.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['With the nourishment of flesh and blood,']}
@@ -1609,13 +1609,13 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['"What''s happened to me?" He said,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [in an unexpectedly shrill voice.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['"I should have escaped in a hot air baloon!"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['He exclaimed in frustration.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [He exclaimed in frustration.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['However, as his body was on the opposite side']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['of the ancient idol in the forest,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [these strange sounds were interpreted by]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [villagers as the god's presence.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['The fraud believed that this could help']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [The fraud believed that this could help]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['return him to his original form,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [so he began to decieve the villagers.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
@@ -1624,7 +1624,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['but then he heard an annoying voice say,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['"Hehe, do you want to hear the story I wrote?"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['Knowing that he himself was deceiving the villagers,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['he quickly ordered for his peer to be disposed.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [he quickly ordered for his peer to be disposed.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -1712,14 +1712,14 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 105, p: [2, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['When the station was bustling, the whistle stood there.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['When the station was abandoned, even buried in the darkness,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['it remained silent.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [it remained silent.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Perhaps it was an especially pathological and enduring]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [affirmation of order on the surface that kept it dormant]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [until the moment the anomaly ended.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['"The next station is--']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['Ladies and gentlement--do not--be impatient--please--']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['get off--the train--please--']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Ladies and gentlement--do not--be impatient--please--]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [get off--the train--please--]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['devour, dissolve, hunt, eradicate..."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
@@ -1849,12 +1849,12 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['To unlock all CG content,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['defeat the bosses of the four unique areas.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [defeat the bosses of the four unique areas.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['The clocks on the wall represent the bosses,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['and will shatter once they are defeated.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [and will shatter once they are defeated.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['If not shattered, you can investigate']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['each clock to learn the boss''s location.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [each clock to learn the boss's location.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   2: !ruby/object:RPG::Event
     id: 2
@@ -2339,7 +2339,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['After taking the pink candy,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['you remember Rose Moko''s offering.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [you remember Rose Moko's offering.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -2767,11 +2767,11 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Disable H-scenes?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: bookclose, pitch: 80, volume: 100}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [20, 20, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

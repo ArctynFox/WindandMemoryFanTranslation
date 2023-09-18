@@ -67,7 +67,7 @@ test_battlers:
   - 0
   - 0
 _: 7829367
-edit_map_id: 445
+edit_map_id: 469
 battle_end_me: !ruby/object:RPG::ME
   name: sei_ge_cowbell01
   pitch: 100
@@ -1611,7 +1611,7 @@ variables:
 - ''
 - ''
 battle_bgm: !ruby/object:RPG::BGM {name: 戦闘, volume: 100, pitch: 100}
-version_id: 45189381
+version_id: 93312786
 start_map_id: 185
 battler_name: Skeleton
 magic_number: 77696160
@@ -3373,7 +3373,7 @@ terms: !ruby/object:RPG::System::Terms
   - MP
   - ''
   - ''
-test_troop_id: 691
+test_troop_id: 641
 boat: !ruby/object:RPG::System::Vehicle
   start_y: 0
   bgm: !ruby/object:RPG::BGM {name: River, volume: 80, pitch: 80}

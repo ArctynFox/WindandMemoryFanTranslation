@@ -170,16 +170,16 @@
 37: !ruby/object:RPG::MapInfo
   scroll_x: 1040
   name: 血涙の池
-  expanded: false
+  expanded: true
   order: 50
-  scroll_y: 631
+  scroll_y: 657
   parent_id: 0
 38: !ruby/object:RPG::MapInfo
   scroll_x: 1434
   name: 胞子の森
-  expanded: false
+  expanded: true
   order: 68
-  scroll_y: 691
+  scroll_y: 656
   parent_id: 0
 39: !ruby/object:RPG::MapInfo
   scroll_x: 880
@@ -221,12 +221,12 @@
   name: ハノーヴァー廃駅
   expanded: true
   order: 156
-  scroll_y: 631
+  scroll_y: 934
   parent_id: 0
 46: !ruby/object:RPG::MapInfo
   scroll_x: 480
   name: クイーン・ランド
-  expanded: false
+  expanded: true
   order: 162
   scroll_y: 480
   parent_id: 0
@@ -256,7 +256,7 @@
   name: ウサギ穴
   expanded: false
   order: 28
-  scroll_y: 631
+  scroll_y: 657
   parent_id: 0
 52: !ruby/object:RPG::MapInfo
   scroll_x: 672
@@ -361,7 +361,7 @@
   name: ３ BOSS
   expanded: false
   order: 54
-  scroll_y: 2897
+  scroll_y: 2863
   parent_id: 37
 66: !ruby/object:RPG::MapInfo
   scroll_x: 1040
@@ -382,7 +382,7 @@
   name: ３
   expanded: false
   order: 61
-  scroll_y: 631
+  scroll_y: 657
   parent_id: 12
 69: !ruby/object:RPG::MapInfo
   scroll_x: 800
@@ -438,7 +438,7 @@
   name: １●
   expanded: false
   order: 79
-  scroll_y: 631
+  scroll_y: 665
   parent_id: 41
 76: !ruby/object:RPG::MapInfo
   scroll_x: 368
@@ -959,11 +959,11 @@
   scroll_y: 320
   parent_id: 45
 164: !ruby/object:RPG::MapInfo
-  scroll_x: 880
+  scroll_x: 1051
   name: ２
   expanded: false
   order: 158
-  scroll_y: 1036
+  scroll_y: 1263
   parent_id: 45
 166: !ruby/object:RPG::MapInfo
   scroll_x: 400
@@ -1096,7 +1096,7 @@
   name: 地下牢
   expanded: true
   order: 22
-  scroll_y: 621
+  scroll_y: 657
   parent_id: 101
 181: !ruby/object:RPG::MapInfo
   scroll_x: 400
@@ -1159,7 +1159,7 @@
   name: 回想部屋
   expanded: false
   order: 25
-  scroll_y: 631
+  scroll_y: 665
   parent_id: 101
 16: !ruby/object:RPG::MapInfo
   scroll_x: 320
@@ -2317,14 +2317,14 @@
   scroll_y: 320
   parent_id: 0
 332: !ruby/object:RPG::MapInfo
-  scroll_x: 2704
+  scroll_x: 3123
   name: １
   expanded: false
   order: 344
   scroll_y: 400
   parent_id: 331
 333: !ruby/object:RPG::MapInfo
-  scroll_x: 720
+  scroll_x: 723
   name: ２
   expanded: false
   order: 345
@@ -2345,16 +2345,16 @@
   scroll_y: 480
   parent_id: 331
 336: !ruby/object:RPG::MapInfo
-  scroll_x: 1600
+  scroll_x: 708
   name: １
   expanded: false
   order: 351
-  scroll_y: 2524
+  scroll_y: 15343
   parent_id: 337
 337: !ruby/object:RPG::MapInfo
   scroll_x: 384
   name: 雪原
-  expanded: true
+  expanded: false
   order: 350
   scroll_y: 320
   parent_id: 331
@@ -2373,11 +2373,11 @@
   scroll_y: 320
   parent_id: 331
 340: !ruby/object:RPG::MapInfo
-  scroll_x: 1920
+  scroll_x: 708
   name: １
   expanded: false
   order: 349
-  scroll_y: 1760
+  scroll_y: 2863
   parent_id: 338
 341: !ruby/object:RPG::MapInfo
   scroll_x: 336
@@ -2398,14 +2398,14 @@
   name: ３●
   expanded: false
   order: 353
-  scroll_y: 648
+  scroll_y: 640
   parent_id: 331
 344: !ruby/object:RPG::MapInfo
   scroll_x: 480
   name: ３－１　BOSS
   expanded: false
   order: 354
-  scroll_y: 375
+  scroll_y: 368
   parent_id: 343
 345: !ruby/object:RPG::MapInfo
   scroll_x: 336
@@ -2417,7 +2417,7 @@
 347: !ruby/object:RPG::MapInfo
   scroll_x: 560
   name: ２　地上
-  expanded: true
+  expanded: false
   order: 358
   scroll_y: 1449
   parent_id: 339
@@ -2431,14 +2431,14 @@
 346: !ruby/object:RPG::MapInfo
   scroll_x: 368
   name: ３
-  expanded: true
+  expanded: false
   order: 360
-  scroll_y: 631
+  scroll_y: 665
   parent_id: 339
 349: !ruby/object:RPG::MapInfo
   scroll_x: 560
   name: ４　地上
-  expanded: true
+  expanded: false
   order: 363
   scroll_y: 2496
   parent_id: 339
@@ -2466,7 +2466,7 @@
 353: !ruby/object:RPG::MapInfo
   scroll_x: 960
   name: ７
-  expanded: true
+  expanded: false
   order: 368
   scroll_y: 2256
   parent_id: 339
@@ -2641,7 +2641,7 @@
 378: !ruby/object:RPG::MapInfo
   scroll_x: 272
   name: リデル家
-  expanded: true
+  expanded: false
   order: 401
   scroll_y: 208
   parent_id: 339
@@ -2872,7 +2872,7 @@
 411: !ruby/object:RPG::MapInfo
   scroll_x: 1120
   name: 轮回的列车
-  expanded: false
+  expanded: true
   order: 413
   scroll_y: 320
   parent_id: 420
@@ -3005,7 +3005,7 @@
 412: !ruby/object:RPG::MapInfo
   scroll_x: 1120
   name: 列车1
-  expanded: false
+  expanded: true
   order: 414
   scroll_y: 320
   parent_id: 411
@@ -3040,7 +3040,7 @@
 417: !ruby/object:RPG::MapInfo
   scroll_x: 1120
   name: 幽灵列车
-  expanded: false
+  expanded: true
   order: 419
   scroll_y: 320
   parent_id: 411
