@@ -5152,12 +5152,12 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I''m waiting for my master.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Are you my master?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Yes, No, Put on your hat], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Yes]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No', Put on your hat], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['How is that possible?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, No]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 213, p: [16, 3, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['That''s what I''m saying~']}
@@ -5219,12 +5219,12 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I''m waiting for my master.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Are you my master?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[是, 否], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 是]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [多萝西 (2), 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['How is that possible?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 否]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 213, p: [16, 3, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [多萝西 (2), 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['That''s what I''m saying~']}
@@ -5279,13 +5279,13 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [It's Moko.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Invite her to the party?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Invite, No], 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Invite, 'No'], 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Invite]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 216, p: [0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 129, p: [121, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, No]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -5374,13 +5374,13 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [It's Dorothy.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Invite her to the party?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Invite, No], 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Invite, 'No'], 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Invite]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 216, p: [0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 129, p: [122, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, No]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -5638,13 +5638,13 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [It's Tangerine.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Invite her to the party?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Invite, No], 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Invite, 'No'], 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Invite]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 216, p: [0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 129, p: [120, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, No]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

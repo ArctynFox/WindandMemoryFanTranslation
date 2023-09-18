@@ -287,8 +287,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「精锐敌人1」, 3, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Oh, you wretch... are you as resentful of this']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['dark and cruel world as I am?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Yes, No], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Yes]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Decadent Lord]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [「精锐敌人1」, 3, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Heh... Given who you are, you may actually be able to...']}
@@ -296,7 +296,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['You take back... The sanctum... Our sanctum..."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, No]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Decadent Lord]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [「精锐敌人1」, 3, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"...So you actually enjoy it?']}
@@ -509,8 +509,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 161]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Insert Soul of Sarcastic Grass?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Yes, No], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Yes]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 126, p: [161, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 212, p: [0, 39, true]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [60]}
@@ -546,7 +546,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [C, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 115, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, No]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 'No']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 115, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}

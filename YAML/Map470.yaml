@@ -153,7 +153,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Go to the recollection room?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Yes, No], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Book2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 469, 8, 5, 2, 1]}

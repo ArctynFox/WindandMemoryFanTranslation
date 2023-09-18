@@ -773,6 +773,10 @@ class Window_Base < Window
       name = "Disheartened Man"
     elsif name == "护卫"
       name = "Bodyguard"
+    elsif name == "奇怪的女人"
+      name = "Strange Girl"
+    elsif name == "格劳"
+      name = "Grau"
     end
     
     @name_windows[name] ||= Window_FaceName.new(name, self.z + 10)

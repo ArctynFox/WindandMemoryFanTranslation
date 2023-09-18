@@ -1268,13 +1268,13 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['A golden pendant, stained with blood.....']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Take it?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Yes, No], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Yes]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [152, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [1135, 1135, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, No]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -3391,7 +3391,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [1032, 1032, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Moko moko ran away...]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Moko moko runs away...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [60]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
@@ -3464,7 +3464,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [1032, 1032, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Moko moko ran away...]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Moko moko runs away...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [60]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}

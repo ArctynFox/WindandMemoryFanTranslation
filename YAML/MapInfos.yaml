@@ -2921,9 +2921,9 @@
 425: !ruby/object:RPG::MapInfo
   scroll_x: 1040
   name: 废镇西
-  expanded: false
+  expanded: true
   order: 445
-  scroll_y: 631
+  scroll_y: 657
   parent_id: 421
 426: !ruby/object:RPG::MapInfo
   scroll_x: 800
@@ -3178,11 +3178,11 @@
   scroll_y: 560
   parent_id: 425
 455: !ruby/object:RPG::MapInfo
-  scroll_x: 428
+  scroll_x: 708
   name: 荒村南下
   expanded: false
   order: 461
-  scroll_y: 612
+  scroll_y: 657
   parent_id: 440
 456: !ruby/object:RPG::MapInfo
   scroll_x: 1120
@@ -3301,7 +3301,7 @@
   name: 胆小兔落穴
   expanded: false
   order: 453
-  scroll_y: 979
+  scroll_y: 943
   parent_id: 452
 473: !ruby/object:RPG::MapInfo
   scroll_x: 2074

@@ -413,8 +413,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [希莉娅, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"I heard... their screams...']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Did you kill them?"']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [[Yes, No], 0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, Yes]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['Yes', 'No'], 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [希莉娅, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"Either way, I won''t hate you,']}
@@ -422,7 +422,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['After all, there''s not much difference']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['between you and them..."']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, No]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, 'No']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
@@ -892,14 +892,14 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Under the ring lies Brindis''s farewell letter...']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Read it?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Yes, No], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Yes]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Book1, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [120]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [There's nothing written in it.......]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, No]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
