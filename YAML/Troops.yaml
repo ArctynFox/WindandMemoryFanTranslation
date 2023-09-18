@@ -49716,7 +49716,7 @@
     hidden: false
     x: 320
     enemy_id: 598
-  name: Anatoly the Hunter
+  name: Hunter Anatoly
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -49727,12 +49727,15 @@
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [and listen to the distant whistle..."]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 追猎的阿纳托利]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「幽灵列车长」, 2, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Be it luxurious castles, verdant fields, or distant forests,']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ahhh... As long as the train runs, the hunt will never cease..."']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Be it luxurious castles, verdant fields,']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['or distant forests,']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ahhh... As long as the train runs,']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [the hunt will never cease..."]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 追猎的阿纳托利]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「幽灵列车长」, 2, 0, 2]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come, my passengers,']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [continue this endless journey. Only with blood and flames]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [continue this endless journey.]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Only with blood and flames]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [can you reveal your true selves!!!"]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     span: 0
@@ -49757,10 +49760,12 @@
     - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"You... That aura, that profound darkness...']}
     - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [AAAHHH!! IT'S HER!"]}
     - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 追猎的阿纳托利]}
-    - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [「幽灵列车长」, 3, 0, 2]}
+    - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: &1 [「幽灵列车长」, 3, 0, 2]}
     - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"WHY DOES SHE WANT TO DESTROY ALL OF THIS!!?']}
-    - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ONLY BY CONTINUING THIS JOURNEY CAN THEY FIND REDEMPTION!!]}
-    - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['MY LOVE, APART FROM DEATH,']}
+    - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ONLY BY CONTINUING THIS JOURNEY]}
+    - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [CAN THEY FIND REDEMPTION!!]}
+    - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: *1}
+    - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"MY LOVE, APART FROM DEATH,']}
     - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [THERE'S NO OTHER WAY TO BE REDEEMED!!"]}
     - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 追猎的阿纳托利]}
     - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [「幽灵列车长」, 3, 0, 2]}
@@ -49789,10 +49794,14 @@
   - !ruby/object:RPG::Troop::Page
     list:
     - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 追猎的阿纳托利]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「幽灵列车长」, 1, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Isn''t it better for this journey to remain endless?']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['The train billows thick smoke, driving on an endless path...']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Even someone as humble as me can catch her glance, right?"']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: &2 [「幽灵列车长」, 1, 0, 2]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Isn''t it better for']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['this journey to remain endless?']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['The train billows thick smoke,']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [driving on an endless path..."]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: *2}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Even someone as humble as me']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['can catch her glance, right?"']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 追猎的阿纳托利]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「幽灵列车长」, 1, 0, 2]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"The goddess of my dreams, I pursue you.']}
@@ -49805,7 +49814,8 @@
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['       more than anyone else."']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 追猎的阿纳托利]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「幽灵列车长」, 3, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「\c[2]\{ALLOW ME TO BE THE ONE TO SLIT YOUR THROAT!!\}\c[0]」']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"\c[2]\{ALLOW ME TO BE THE ONE']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['TO SLIT YOUR THROAT!!\}\c[0]"']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 333, p: [0, 0, 42]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     span: 0
@@ -50124,7 +50134,8 @@
   - !ruby/object:RPG::Troop::Page
     list:
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The King's Command summons a random numbered group of voles (Only once).]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The King's Command summons]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [a random-sized group of voles (Only once).]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Becomes enraged at half health.]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     span: 0
@@ -50185,7 +50196,7 @@
     hidden: false
     x: 320
     enemy_id: 606
-  name: Floren the Crow
+  name: Corvian Floren
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -50198,7 +50209,8 @@
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['「精锐敌人2」 ', 1, 0, 2]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Hehe! Offer yourself, offer yourself,']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['In this endless field, become nourishment!']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Your soul will grow into the most delicious fruit!"]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Your soul will grow into]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [the most delicious fruit!"]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
@@ -50233,7 +50245,8 @@
     - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['「精锐敌人2」 ', 1, 0, 2]}
     - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Hehe, how wonderful!']}
     - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Plum juice is even flowing from my body!]}
-    - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Hehe! Come, let''s enjoy it together, let''s dance together!"']}
+    - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Hehe! Come, let''s enjoy it together,']}
+    - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [let's dance together!"]}
     - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 鸦人佛伦斯]}
     - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['「精锐敌人2」 ', 1, 0, 2]}
     - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Ehehehehehe!!"']}
@@ -50259,10 +50272,13 @@
   - !ruby/object:RPG::Troop::Page
     list:
     - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 鸦人佛伦斯]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['「精锐敌人2」 ', 0, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"It hurts so much... What are these, black feathers?']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Oh, I get it! I must be a plum! Since I''ve only eaten plums!']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Hehe! You have plums, give them to me!!"']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: &3 ['「精锐敌人2」 ', 0, 0, 2]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"It hurts so much...']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['What are these, black feathers?']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Oh, I get it! I must be a plum!']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Since I've only eaten plums!"]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: *3}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Hehe! You have plums, give them to me!!"']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 鸦人佛伦斯]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['「精锐敌人2」 ', 1, 0, 2]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"As long as I eat plums, everything will be fine.']}
@@ -51435,20 +51451,30 @@
       turn_b: 0
   - !ruby/object:RPG::Troop::Page
     list:
-    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [希莉娅, 3, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"\c[7]I once endured endless torment, accompanied by the blaspheme of the mad.']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Until I heard His voice, the redemption summoned by my long prayers...']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['My benevolent Father."\c[0]']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [希莉娅, 3, 0, 2]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: &4 [希莉娅, 3, 0, 2]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"\c[7]I once endured endless torment,']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [accompanied by the blaspheme of the mad.]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Until I heard His voice,']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['the redemption summoned by my long prayers...\c[0]"']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: *4}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"\c[7]My benevolent Father.\c[0]"']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: &5 [希莉娅, 3, 0, 2]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"\c[7]I will extol Your virtues.']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I will pass on Your teachings.]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I will praise Your holiness.]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I will engrave Your scriptures on the oldest basalt.\c[0]"']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [希莉娅, 3, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"\c[7]I will enter Your dwelling place by Your abundant grace.']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I will bow to Your holy temple with reverence in my heart.]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['My rock, my Redeemer, may the words of my youth']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['and the thoughts of my heart be acceptable in Your sight.\c[0]"']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I will praise Your holiness.\c[0]"']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: *5}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"\c[7]I will engrave Your scriptures']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['on the oldest basalt.\c[0]"']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: &6 [希莉娅, 3, 0, 2]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"\c[7]I will enter Your dwelling place']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [by Your abundant grace.]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I will bow to Your holy temple]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['with reverence in my heart.\c[0]"']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: *6}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"\c[7]My rock, my Redeemer,']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [may the words of my youth]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [and the thoughts of my heart]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['be acceptable in Your sight.\c[0]"']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [20]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 242, p: [2]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 255.0, b: 255.0, a: 255.0}, 20, true]}
@@ -51489,7 +51515,9 @@
   - !ruby/object:RPG::Troop::Page
     list:
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [希莉娅, 3, 1, 1]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"\c[7]He will judge the world with righteousness and the peoples with equity.\c[0]"']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"\c[7]He will judge']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [the world with righteousness]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['and the peoples with equity.\c[0]"']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [希莉娅, 3, 1, 1]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"\c[7]He was born to be king.\c[0]"']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 255.0, b: 255.0, a: 255.0}, 20, true]}
@@ -51586,7 +51614,7 @@
   - !ruby/object:RPG::Troop::Page
     list:
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「\c[7]在静默中回归他的怀抱吧......\c[0]」']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"\c[7]Quietly return to his embrace......\c[0]"']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 212, p: [-1, 616, false]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 313, p: [0, 0, 1, 27]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 313, p: [0, 0, 0, 1]}
@@ -51667,7 +51695,7 @@
   - !ruby/object:RPG::Troop::Page
     list:
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [CLICK CLICK CLICK CLICK CLICK]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [SLICE SLICE SLICE SLICE SLICE]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 3, 1, 2]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['.....\N[1]...']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -51699,13 +51727,19 @@
     list:
     - !ruby/object:RPG::EventCommand {i: 0, c: 333, p: [-1, 0, 10]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「稻草人」, 0, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"No matter how hard I try, I cannot overcome the barriers of common sense..."']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"No matter how hard I try,']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I cannot overcome the barriers]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [of common sense..."]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 3, 0, 2]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"So, you can talk! Damn it!"']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「稻草人」, 0, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"In the wheat fields, even wearing a crown makes me look like a clown.']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Only the crow possesses the shining true knowledge...]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I''ve finally found you... My master, my Dorothy!"']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: &7 [「稻草人」, 0, 0, 2]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"In the wheat fields, even wearing a crown']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [makes me look like a clown.]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Only the crow possesses]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [the shining true knowledge..."]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: *7}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"I''ve finally found you...']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['My master, my Dorothy!"']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 2, 0, 2]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"!!!"']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 0.0, g: 0.0, b: 0.0, a: 255.0}, 30, false]}
@@ -51738,19 +51772,27 @@
     - !ruby/object:RPG::EventCommand {i: 0, c: 333, p: [-1, 0, 10]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 283, p: [未标题-1, '']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「稻草人」, 1, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"The brain... It thinks, or doesn''t think, or ultimately thinks endlessly, boundlessly..."']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"The brain... It thinks, or doesn''t think,']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['or ultimately thinks endlessly, boundlessly..."']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: &8 [「稻草人」, 1, 0, 2]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Emotions without consciousness']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [have to face the end of the universe!]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [My brain is trembling~]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['It''s joy, the joy of reunion!!"']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: *8}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Reuniting with my master']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [gives my brain a sense of life again!]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Master, oh master,']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['let''s be together forever, like before!"']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「稻草人」, 1, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Emotions without consciousness have to face the end of the universe!']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['My brain is trembling~ It''s joy, the joy of reunion!!']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Reuniting with my master gives my brain a sense of life again!]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Master, oh master, let''s be together forever, like before!"']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「稻草人」, 1, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Nonono, you''re not master, nonono, you are master, nonono...']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Nonono, you''re not master,']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['nonono, you are master, nonono...']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Let me see if your brain really is master's!!!"]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 2, 0, 2]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"What a disgusting thing to say!"']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 3, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Don''t try to make it seem like I know you! Taste my explosive fire spell!!"']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Don''t try to make it seem like I know you!']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Taste my explosive fire spell!!"]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
@@ -51825,19 +51867,28 @@
     - !ruby/object:RPG::EventCommand {i: 0, c: 241, p: [!ruby/object:RPG::BGM {name: 「危险迫近」, volume: 85, pitch: 60}]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Monster5, pitch: 90, volume: 100}]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「稻草人」, 2, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"The brain, a work of art, the source of sin, an unforgettable blessing..."']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"The brain, a work of art,']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['the source of sin,']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [an unforgettable blessing..."]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「稻草人」, 2, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"This excitement, this tremor, like once-bewitched words of the witch!']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Dark traveler, you must understand, having once knelt to your past self,']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['you must surely understand this excitement, this tremor!!!']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"This excitement, this tremor,']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [like once-bewitched words of the witch!"]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「稻草人」, 2, 0, 2]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Dark traveler, you must understand,']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['having once knelt to your past self,']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [you must surely understand]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['this excitement, this tremor!!!"']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「稻草人」, 3, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Her outward appearance is that of a fiery, dazzling sun."']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Her outward appearance']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['is that of a fiery, dazzling sun."']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「稻草人」, 2, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"But she hides a treasure as soft as the moonlight."']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"But she hides a treasure']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [as soft as the moonlight."]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「稻草人」, 2, 0, 2]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Give up your ignorant love and longing..."']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「稻草人」, 3, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Share the deliciousness of this brain with me!!!"']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Share the deliciousness']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [of this brain with me!!!"]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
     - !ruby/object:RPG::EventCommand {i: 0, c: 283, p: ['', '']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 336, p: [0, 710]}
@@ -51929,17 +51980,22 @@
     list:
     - !ruby/object:RPG::EventCommand {i: 0, c: 333, p: [-1, 0, 10]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 2, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Why are you suddenly attacking me..... Aren''t we friends.......?"']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 2, 0, 2]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Why are you suddenly attacking me.....']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Aren''t we friends.......?"']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: &9 [多萝西 (2), 2, 0, 2]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"\N[1], you''re radiating such a dark aura.....']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Has madness turned you into this demonic presence?']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['... Could it have been that straw creep from earlier...?"']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Has madness turned you]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['into this demonic presence?"']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: *9}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"...Could it have been']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['that straw creep from earlier...?"']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Kill...\c[0]']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Kill her...\c[0]']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 3, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Don''t attack your friends!! \N[1], snap out of it!!!"']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Don''t attack your friends!!']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\N[1], snap out of it!!!"']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [30]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 337, p: [0, 705]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [30]}
@@ -51952,13 +52008,15 @@
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 2, 0, 2]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"..."']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 2, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"How... I clearly hit... But there was no effect..."']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"How... I clearly hit...']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [But there was no effect..."]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Dorothy...\c[0]']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Kill her...\c[0]']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 3, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"No matter what happens, I''m sorry, \N[1]!!!"']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"No matter what happens,']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I''m sorry, \N[1]!!!"']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
@@ -51978,12 +52036,14 @@
     list:
     - !ruby/object:RPG::EventCommand {i: 0, c: 333, p: [-1, 0, 10]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 2, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Ugh... It hurts... \N[1], you really went all out...']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Why aren't you coming to your senses..."]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Ugh... It hurts...']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\N[1], you really went all out...']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Why aren''t you coming to your senses?..."']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Kill her...\c[0]']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 3, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Why should I let you kill me?!! I won''t give up!!']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Why should I let you kill me?!!']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I won't give up!!]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Take this!!!"]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     span: 0
@@ -52003,7 +52063,8 @@
   - !ruby/object:RPG::Troop::Page
     list:
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 2, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"I''ve exhausted... my magic... How could this..."']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"I''ve exhausted... my magic...']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [How could this..."]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Dorothy... Kill her....\c[0]']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 2, 0, 2]}
@@ -52025,7 +52086,8 @@
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [In the end....\!]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Forever forgotten...\c[0]']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 3, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Who would want such an ending?! How could I die like this?!!"']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Who would want such an ending?!']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['How could I die like this?!!"']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['....']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 2, 0, 2]}
@@ -52135,9 +52197,11 @@
     list:
     - !ruby/object:RPG::EventCommand {i: 0, c: 333, p: [-1, 0, 10]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 0, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"What are you doing!? Are you working with that creep?!"']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"What are you doing!?']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Are you working with that creep?!"']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 0, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Prepare to be obliterated! I won''t show mercy!"']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Prepare to be obliterated!']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I won't show mercy!"]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 333, p: [-1, 0, 42]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     span: 0
@@ -52157,7 +52221,8 @@
   - !ruby/object:RPG::Troop::Page
     list:
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 0, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Ugh... You''re strong... But I''ll never give up..."']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Ugh... You''re strong...']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [But I'll never give up..."]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 0, 0, 2]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Whimper... Memories... Ahhh..."']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 242, p: [3]}
@@ -52169,7 +52234,8 @@
     - !ruby/object:RPG::EventCommand {i: 0, c: 334, p: [-1]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 241, p: [!ruby/object:RPG::BGM {name: 「多萝西战斗2」, volume: 100, pitch: 85}]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 0, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"I never thought... that I would be betrayed in the end again... my... disciple..."']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"I never thought... that I would be betrayed']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [in the end again... by my... disciple..."]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: 領域, pitch: 100, volume: 100}]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[5]''Surging Chaos''']}
@@ -52877,16 +52943,21 @@
     hidden: false
     x: 320
     enemy_id: 646
-  name: Mocking Grass
+  name: Sarcastic Grass
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
     - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 讥讽之草]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「精锐敌人1」, 6, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Ah—— Ah—— Are you a mage, a knight? A warrior, a thief?...']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Yes, yes, you have the strength of a bear, speed of a leopard, wisdom of an owl,']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['but you can''t save anyone! You can''t save anyone, you poor wretch!']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Why not just rot in the soil now so that your excess energy will be put to use?"']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: &10 [「精锐敌人1」, 6, 0, 2]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Ah—— Ah——']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Are you a mage, a knight? A warrior, a thief?...']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Yes, yes, you have the strength of a bear,']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['speed of a leopard, wisdom of an owl,"']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: *10}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"but you can''t save anyone!']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['You can''t save anyone, you poor wretch!']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Why not just rot in the soil now]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['so that your excess energy will be put to use?"']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 122, p: [1040, 1040, 0, 0, 1]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     span: 0
@@ -52908,20 +52979,22 @@
     - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [1, 1040, 0, 1, 0]}
     - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 讥讽之草]}
     - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [「精锐敌人1」, 6, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Woah—— Hey, hey, all you''re doing is tormenting a blade of grass!']}
+    - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Woah—— Hey, hey, all you''re doing']}
+    - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [is tormenting a blade of grass!]}
     - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Alright, alright, tell me what you want.']}
     - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['A brain? A heart? Some guts?"']}
-    - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Is the brain the root of evil?', '\c[2]Will the knife drawn from the heart be bloodstained?if(s[1227])', Give me your guts, 'Nanomachines, son!'], 0]}
+    - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Is the brain the root of evil?', '\c[2]Is the heart''s knife bloodstained?if(s[1227])', Give me your guts, 'Nanomachines, son!'], 0]}
     - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Is the brain the root of evil?']}
     - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 讥讽之草]}
     - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [「精锐敌人1」, 6, 0, 2]}
     - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"No, no, you idiot!']}
-    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['If that were the case, why do you have such a dark soul?"']}
+    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['If that were the case,']}
+    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['why do you have such a dark soul?"']}
     - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-    - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, '\c[2]Will the knife drawn from the heart be bloodstained?if(s[1227])']}
+    - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, '\c[2]Is the heart''s knife bloodstained?if(s[1227])']}
     - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 讥讽之草]}
     - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [「精锐敌人1」, 6, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"No, it won''t; unlike you,']}
+    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"No, it isn''t; unlike you,']}
     - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [my knife will never be stained with blood."]}
     - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [1040, 1040, 1, 0, 1]}
     - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
@@ -52943,10 +53016,14 @@
     - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
     - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [1, 1040, 0, 2, 0]}
     - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 讥讽之草]}
-    - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [「精锐敌人1」, 6, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Hah! AHAHAHAHAHAHA! Put down your weapon!']}
-    - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['That is, if you want to hear the whereabouts of that beloved girl!']}
-    - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Second question: Who saved poor little Dorothy?']}
+    - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: &11 [「精锐敌人1」, 6, 0, 2]}
+    - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Hah! AHAHAHAHAHAHA!']}
+    - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Put down your weapon!]}
+    - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['That is, if you want to hear']}
+    - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [the whereabouts of that beloved girl!"]}
+    - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: *11}
+    - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Second question:']}
+    - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Who saved poor little Dorothy?']}
     - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['The Scarecrow, the Tin Man, or the Lion?"']}
     - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['What is the Scarecrow doing?', 'How many rust spots does the Tin Man have?', 'Who did the Lion banish from the forest?', '\c[2]Try making chicken soup!if(s[1228])'], 0]}
     - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'What is the Scarecrow doing?']}
@@ -52971,11 +53048,13 @@
     - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [3, '\c[2]Try making chicken soup!if(s[1228])']}
     - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [1040, 1040, 1, 0, 1]}
     - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 讥讽之草]}
-    - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [「精锐敌人1」, 6, 0, 2]}
+    - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: &12 [「精锐敌人1」, 6, 0, 2]}
     - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Oh! Oh! You devil!']}
-    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [You killed that poor old mother hen!]}
-    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['But the girl also despised the vile dwarf,']}
-    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [so she cut you open and turned you into garnish for the soup!"]}
+    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [You killed that poor old mother hen!"]}
+    - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: *12}
+    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"But the girl also despised the vile dwarf,']}
+    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [so she cut you open and]}
+    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [turned you into garnish for the soup!"]}
     - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
     - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
     - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -52984,14 +53063,19 @@
     - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 讥讽之草]}
     - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [「精锐敌人1」, 6, 0, 2]}
     - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"... I''m feeling refreshed~~ To thank you,']}
-    - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['I, in my gentlemanly mercy, will graciously allow you a turn~']}
+    - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['I, in my gentlemanly mercy,']}
+    - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [will graciously allow you a turn~]}
     - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Now, what will you ask?"']}
     - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Why are you so ignorant?', 'Why do you turn a deaf ear?', '\c[2]Why are you indifferent?if(s[1229])', 'Why do you see no one?'], 0]}
     - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Why are you so ignorant?']}
     - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 讥讽之草]}
-    - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [「精锐敌人1」, 6, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"When a girl is immersed in dreams of power, naturally she knows nothing.']}
-    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Subconscious hymns to the pagan deities echo in her mind]}
+    - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: &13 [「精锐敌人1」, 6, 0, 2]}
+    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"When a girl is immersed']}
+    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['in dreams of power,']}
+    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [naturally she knows nothing."]}
+    - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: *13}
+    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Subconscious hymns to the']}
+    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [pagan deities echo in her mind]}
     - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [and turn past beauty into torture."]}
     - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
     - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 'Why do you turn a deaf ear?']}
@@ -53005,7 +53089,8 @@
     - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2, '\c[2]Why are you indifferent?if(s[1229])']}
     - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 讥讽之草]}
     - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [「精锐敌人1」, 6, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"The forest animals, of course, remain indifferent.']}
+    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"The forest animals,']}
+    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['of course, remain indifferent.']}
     - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [They bury their courage in graves]}
     - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [only because the cost of resistance is too high."]}
     - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [1040, 1040, 1, 0, 1]}
@@ -53025,7 +53110,8 @@
     - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'What have you experienced?']}
     - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 讥讽之草]}
     - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [「精锐敌人1」, 6, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Deceit, love, and conversations with the unfortunate."']}
+    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Deceit, love, and conversations']}
+    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [with the unfortunate."]}
     - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
     - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 'Who do you love?']}
     - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 讥讽之草]}
@@ -53052,29 +53138,36 @@
     - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'What is the beginning?']}
     - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 讥讽之草]}
     - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [「精锐敌人1」, 6, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Vegetables cast in glass, sloppy instruments, and endless journeys.']}
-    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Never-ending fairy tales and death—— You have nothing."]}
+    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Vegetables cast in glass,']}
+    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['sloppy instruments, and endless journeys.']}
+    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Never-ending fairy tales and death——]}
+    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [You have nothing."]}
     - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
     - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, '\c[2]What is now?if(s[1231])']}
     - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 讥讽之草]}
-    - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [「精锐敌人1」, 6, 0, 2]}
+    - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: &14 [「精锐敌人1」, 6, 0, 2]}
     - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Now, now is... Ah, now...']}
     - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Now is...... Hehehehe!]}
-    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Now is you wasting your breath while I reap pleasure.]}
-    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Throw your false sweet talk to the gods."]}
+    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Now is you wasting your breath]}
+    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [while I reap pleasure."]}
+    - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: *14}
+    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Throw your false sweet talk to the gods."']}
     - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [1040, 1040, 1, 0, 1]}
     - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
     - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2, 'What is the end?']}
     - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 讥讽之草]}
     - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [「精锐敌人1」, 6, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"The princess and the girl are bound in a foreign land,']}
-    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [waiting for the mighty armies and carriages to carry them to their burial..."]}
+    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"The princess and the girl']}
+    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['are bound in a foreign land,']}
+    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [waiting for the mighty armies]}
+    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [and carriages to carry them to their burial..."]}
     - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [1231, 1231, 0]}
     - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
     - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [3, 'What is the epilogue?']}
     - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 讥讽之草]}
     - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [「精锐敌人1」, 6, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"The remains of a once-proud knight, buried by fate with futile struggles. Hahaha~"']}
+    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"The remains of a once-proud knight,']}
+    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [buried by fate with futile struggles. Hahaha~"]}
     - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
     - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
     - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -53085,11 +53178,14 @@
     - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, Throw the flower of curses]}
     - !ruby/object:RPG::EventCommand {i: 3, c: 126, p: [105, 1, 0, 1]}
     - !ruby/object:RPG::EventCommand {i: 3, c: 108, p: [NW名前指定 讥讽之草]}
-    - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [「精锐敌人1」, 6, 0, 2]}
+    - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: &15 [「精锐敌人1」, 6, 0, 2]}
     - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"Cough, cough! What have you done?']}
-    - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['What have you done?! Cough! You swine,']}
-    - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['pour me a cup of silver milk to steady my emotions,']}
-    - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [then roll into the cycle and dream your spring and autumn dreams of saving everyone!"]}
+    - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['What have you done?! Cough!"']}
+    - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: *15}
+    - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"You swine, pour me a cup of silver milk']}
+    - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['to steady my emotions, then roll into']}
+    - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [the cycle and dream your spring]}
+    - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [and autumn dreams of saving everyone!"]}
     - !ruby/object:RPG::EventCommand {i: 3, c: 333, p: [-1, 0, 1]}
     - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
     - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
@@ -53098,7 +53194,8 @@
     - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 讥讽之草]}
     - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [「精锐敌人1」, 6, 0, 2]}
     - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Wasting so much time on a fool like you!']}
-    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Hehehe—— Go on, continue to hit a dead end all on your own!"']}
+    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Hehehe—— Go on, continue to hit']}
+    - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [a dead end all on your own!"]}
     - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [1232, 1232, 0]}
     - !ruby/object:RPG::EventCommand {i: 2, c: 340, p: []}
     - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
@@ -53511,7 +53608,7 @@
     hidden: true
     x: 440
     enemy_id: 705
-  name: Emissary, Lamb*2
+  name: Harbinger, Lamb*2
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -53640,8 +53737,10 @@
     list:
     - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 少女]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"As long as everyone is together, everything will return to normal...']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Father, wait for me, I will bring everyone to you..."']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"As long as everyone is together,']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [everything will return to normal...]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Father, wait for me,']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I will bring everyone to you..."]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Fire1, pitch: 50, volume: 100}]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 204.0, g: 0.0, b: 0.0, a: 255.0}, 60, true]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [60]}
@@ -53653,7 +53752,9 @@
     - !ruby/object:RPG::EventCommand {i: 0, c: 336, p: [0, 699]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 魔兽化的少女]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"With everyone, let''s dance together, to the edge of eternity."']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"With everyone,']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['let''s dance together,']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [to the edge of eternity."]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 334, p: [-1]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 333, p: [-1, 1, 10]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -53689,16 +53790,24 @@
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「稻草人」, 1, 0, 2]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Hehehehehe...... AHAHAHAHA!!!"']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「稻草人」, 1, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"I can feel your tenderness, your deliciousness, master!!!"']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"I can feel your tenderness,']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['your deliciousness, master!!!"']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「稻草人」, 1, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"My brain is trembling, master, I''m finally with you forever!"']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"My brain is trembling, master,']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I'm finally with you forever!"]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「稻草人」, 1, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"You want to know too, right? The endless search''s end,']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['this final journey of destruction. Ahh, I''ve become perfect..."']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「稻草人」, 1, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"No... How can this be... This ever-expanding desire...']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I killed my teachger and devoured her... How can this be... No!!! NO!!!]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [You can't treat me like this!!! AHHHHHHH!!!"]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"You want to know too, right?']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['The endless search''s end,']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [this final journey of destruction.]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ahh, I''ve become perfect..."']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: &16 [「稻草人」, 1, 0, 2]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"No... How can this be...']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [This ever-expanding desire...]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I killed my teachger and devoured her...]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [How can this be... No!!! NO!!!"]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: *16}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"You can''t treat me like this!!!']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [AHHHHHHH!!!"]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「稻草人」, 1, 0, 2]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Give me your brain!! Give it to me!!"']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [60]}
@@ -53804,7 +53913,8 @@
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「格劳」, 0, 0, 2]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Would you mind sharing a bit with me?..."']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「格劳」, 0, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Can you really bring yourself to do it... She''s still alive, you know~"']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Can you really bring yourself to do it...']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['She''s still alive, you know~"']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
@@ -53844,9 +53954,11 @@
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「格劳」, 0, 0, 2]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"I''m so hungry... I''ve eaten so much..."']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「格劳」, 0, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"I can''t get rid of this hunger... What can fill me up?!"']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"I can''t get rid of this hunger...']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['What can fill me up?!"']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「格劳」, 0, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"You look so delicious... Your black soul must be filling!!"']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"You look so delicious...']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Your black soul must be filling!!"]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
@@ -53869,9 +53981,12 @@
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「格劳」, 1, 0, 2]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Blood... It hurts so much... Don''t..."']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「格劳」, 1, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Don''t kill me... I don''t want to die... Ahhh..."']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Don''t kill me...']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I don't want to die...]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ahhh..."]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「格劳」, 1, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"\{\c[2]I DON''T WANT TO DIE YET!!!! AHHHH!!!\c[0]"']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"\{\c[2]I DON''T WANT TO DIE YET!!!!']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['AHHHH!!!\c[0]"']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 333, p: [-1, 0, 42]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 313, p: [0, 0, 0, 28]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -54012,17 +54127,22 @@
     list:
     - !ruby/object:RPG::EventCommand {i: 0, c: 333, p: [-1, 0, 10]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 2, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Why are you suddenly attacking me... Aren''t we friends?..."']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Why are you suddenly attacking me...']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Aren''t we friends?..."']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 2, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"\N[1], your aura is soaked in such deep madness.....']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Is this maddness what''s turning you into this embodiment of desire?"']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"\N[1], your aura is soaked']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [in such deep madness.....]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Is this maddness what's turning you]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['into this embodiment of desire?"']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Master...\c[0]']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Master...\c[0]']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 3, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"No! Let go of me! I''m not going to let you violate me!!']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I''m trying to save you, \N[1]! Please come to your senses!"']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"No! Let go of me!']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I'm not going to let you violate me!!]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I''m trying to save you, \N[1]!']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Please come to your senses!"]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [30]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 337, p: [0, 705]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [30]}
@@ -54035,13 +54155,15 @@
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 2, 0, 2]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"..."']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 2, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"How could... I already hit... But it didn''t work..."']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"How could... I already hit...']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [But it didn't work..."]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Master...\c[0]']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Master...\c[0]']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 3, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"No matter what happens, \N[1], I''m sorry!!!"']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"No matter what happens,']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\N[1], I''m sorry!!!"']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
@@ -54066,7 +54188,8 @@
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Master...\c[0]']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 3, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"I''m supposed to be your master! I won''t give up this easily!']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"I''m supposed to be your master!']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I won't give up this easily!]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Take this!!!"]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     span: 0
@@ -54086,7 +54209,8 @@
   - !ruby/object:RPG::Troop::Page
     list:
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 2, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"I''ve used up... all of my magic... How could..."']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"I''ve used up... all of my magic...']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [How could..."]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Master...\c[0]']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 2, 0, 2]}
@@ -54108,7 +54232,8 @@
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [And finally....\!]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]being abandoned forever\c[0]']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 3, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"How could I let it end like this? How can I let myself be violated like this?!!"']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"How could I let it end like this?']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['How can I let myself be violated like this?!!"']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['....']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 2, 0, 2]}
@@ -54124,11 +54249,13 @@
     - !ruby/object:RPG::EventCommand {i: 0, c: 333, p: [-1, 0, 42]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 241, p: [!ruby/object:RPG::BGM {name: 「多萝西战斗1」, volume: 100, pitch: 85}]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 3, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\N[1], I won''t show mercy!! Prepare for your inevitable defeat!"']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\N[1], I won''t show mercy!!']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Prepare for your inevitable defeat!"]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: 領域, pitch: 100, volume: 100}]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[5]''Surging Chaos''']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[10]Multiplies the effects of debuffs for one turn after Dorothy uses a spell.']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[10]Multiplies the effects of debuffs']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [for one turn after Dorothy uses a spell.]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [1423, 1423, 0]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     span: 0
@@ -54195,7 +54322,8 @@
     list:
     - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 追猎的阿纳托利]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 3, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"This journey will never end! At the crimson road''s end, she stands...']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"This journey will never end!']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['At the crimson road''s end, she stands...']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['    Ah, Prunella! Lead us to your distant curtain!"']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {r: -68.0, g: -68.0, b: -68.0, a: 0.0}, 60, true]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 336, p: [0, 714]}
@@ -54207,7 +54335,8 @@
     - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: MBJH_SE_Laughter_man1, pitch: 55, volume: 100}]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]''Endless Cycle of Cruelty''']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[10]Both sides'' critical hit rate increases by 50% and attacks always hit.']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[10]Both sides'' critical hit rate']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [increases by 50% and attacks always hit.]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 313, p: [0, 0, 0, 402]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 333, p: [-1, 0, 402]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 333, p: [-1, 0, 412]}
@@ -54232,10 +54361,14 @@
   - !ruby/object:RPG::Troop::Page
     list:
     - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 追猎的阿纳托利]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 3, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"The railway''s edge is nothing but endless night... Are you retracting your love?']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['    Our revelry should never stop, even until the world''s end! Please respond to me!!']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['    \c[2]Prunella!"']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: &17 ['', 3, 0, 2]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"The railway''s edge is nothing but endless night...']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Are you retracting your love?']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['    Our revelry should never stop,']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['    even until the world''s end!"']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: *17}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['    Please respond to me!!']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['        \c[2]Prunella!"']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 339, p: [0, 0, 1216, -1]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [30]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -54433,8 +54566,9 @@
   - !ruby/object:RPG::Troop::Page
     list:
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"I can''t... fall yet... I must... complete my mission...']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Luny......."]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"I can''t... fall yet...']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I must... complete my mission...]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Lumi......."]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 334, p: [-1]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 333, p: [-1, 0, 10]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [1423, 1423, 0]}
@@ -54456,8 +54590,9 @@
   - !ruby/object:RPG::Troop::Page
     list:
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"You must die! You have to die! Otherwise, how can I request her forgiveness']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['in that world?!"']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"You must die! You have to die!']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Otherwise, how can I ask her for forgiveness']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['when I get to the other side?!"']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 334, p: [-1]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 333, p: [-1, 0, 10]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [1424, 1424, 0]}
@@ -54737,7 +54872,8 @@
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['..."']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 会说话的花]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「精锐敌人1」, 5, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"I will combine all the resentment and curses...']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"I will combine all the']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [resentment and curses...]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [to offer this world endless torment..."]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     span: 0
@@ -56691,9 +56827,13 @@
   - !ruby/object:RPG::Troop::Page
     list:
     - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 追猎的阿纳托利]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「幽灵列车长」, 4, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"This journey will never end, and at the end of the crimson path, she stands...']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['    Ah! Prunella! Take us to the shores of your veiled realm!']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: &18 [「幽灵列车长」, 4, 0, 2]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"This journey will never end,']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['and at the end of the crimson path,']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [she stands..."]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: *18}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['    "Ah! Prunella!']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['     Take us to the shores of your veiled realm!"']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {r: -68.0, g: -68.0, b: -68.0, a: 0.0}, 60, true]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 336, p: [0, 714]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 283, p: [en7a5, '']}
@@ -56704,7 +56844,8 @@
     - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: MBJH_SE_Laughter_man1, pitch: 55, volume: 100}]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]''Endless Cycle of Cruelty''']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[10]Both sides'' critical rate is increased by 50%, and attacks always hit.']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[10]Both sides'' critical rate is increased']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['by 50%, and attacks always hit.']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 313, p: [0, 0, 0, 402]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 333, p: [-1, 0, 402]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 333, p: [-1, 0, 412]}
@@ -56729,10 +56870,13 @@
   - !ruby/object:RPG::Troop::Page
     list:
     - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 追猎的阿纳托利]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「幽灵列车长」, 5, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"The boundaries of the railway are shrouded in darkness... Prunella!!!']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['    Our revelry will prevail to the end! Goddess! Please answer by plea!']}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['    \c[2]Prunella!"']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: &19 [「幽灵列车长」, 5, 0, 2]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"The boundaries of the railway']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [are shrouded in darkness... Prunella!!!]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['    Our revelry will prevail to the end!']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['    Goddess! Please answer by plea!"']}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: *19}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['    \c[2]"Prunella!"']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 339, p: [0, 0, 1216, -1]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [30]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

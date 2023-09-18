@@ -1417,7 +1417,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 女孩]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Daddy said... There''s still food in the warehouse...']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [He should be bear there...]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [He should be near there...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Please... Help me find him..."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Accept, Refuse], 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Accept]}

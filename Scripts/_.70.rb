@@ -726,7 +726,7 @@ class Window_Base < Window
     elsif name == "串刺し公女クルティザンヌ"
       name = "Courtisane the Impaler"
     elsif name == "追猎的阿纳托利"
-      name = "Anatoly the Hunter"
+      name = "Hunter Anatoly"
     elsif name == "贪婪的乌鸦"
       name = "Greedy Crow"
     elsif name == "鸦人佛伦斯"
@@ -777,6 +777,8 @@ class Window_Base < Window
       name = "Strange Girl"
     elsif name == "格劳"
       name = "Grau"
+    elsif name == "多萝西"
+      name = "Dorothy"
     end
     
     @name_windows[name] ||= Window_FaceName.new(name, self.z + 10)

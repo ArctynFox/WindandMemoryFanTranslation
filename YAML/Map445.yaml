@@ -867,7 +867,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Dilapidated shelves. It''s unclear what they once held.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Dilapidated shelves. It's unclear what they once held.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['......']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -991,16 +991,16 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 241, p: [!ruby/object:RPG::BGM {name: 「交织的过往」, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, black, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['I once dreamed of embarking on a marvelous adventure;\!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I once dreamed of embarking on a marvelous adventure;\!]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['to be the protagonist on an endless journey,\!']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['crossing countless obstacles with close companions,\!']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['and ultimately defeating the wicked witch together.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [and ultimately defeating the wicked witch together.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [2, A1, 0, 0, 0, 0, 100, 100, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [2, ! '', 0, 0, 0, 0, 100, 100, 255, 0, 60, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['But when I came to my senses,\!']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['I realized that it was all just a fantasy\!']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['born from the mundane reality I was living in.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I realized that it was all just a fantasy\!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [born from the mundane reality I was living in.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [100]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
@@ -1008,11 +1008,11 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Tch! What else can we do?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['If you had any backbone, we wouldn''t have to fight']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['for that girl''s adoption! Now we''ve missed out on']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['the inheritance and gained another burden..."']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [for that girl's adoption! Now we've missed out on]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [the inheritance and gained another burden..."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"I get it, I get it, it''s all my fault, I''m such an idiot.']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Please don''t let her hear this...\!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Please don't let her hear this...\!]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['...Ah. She''s right here."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['... ...']}
@@ -1020,11 +1020,11 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Dorothy, I''m really sorry about your parents...']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['But we, as your aunt and uncle, will take good care of you.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Come, let me show you to your room.']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['You''re going to like it."']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [You're going to like it."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"We don''t have any children of our own,']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['but from today onwards, we''re all family.']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['This is your new home."']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [This is your new home."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['... ...']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 242, p: [4]}
@@ -1151,7 +1151,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [She said I would like her disciple too.\!]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['...She really likes her disciple a lot!\!']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['But she...\! She...\!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [But she...\! She...\!]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Who is she, exactly?...']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['......']}
@@ -1159,7 +1159,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Toto, we''re going on an adventure today too, right?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Where are we going this time?——']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Just don''t let that bald uncle of mine catch us,']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['or Auntie will get angry again."']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [or Auntie will get angry again."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Click]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
@@ -1294,7 +1294,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Is all of this just a dream?...\!']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['...Yeah, in reality, such an absurd thing wouldn''t happen.\!']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Like a nightmare, I just have to wake up']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['and everything will return to normal...']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [and everything will return to normal...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['......']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [100]}
@@ -1307,18 +1307,18 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"She looks like she''s on the verge of death."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Ugh, what bad luck.']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Dying here will make this street even dirtier."']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Dying here will make this street even dirtier."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"...Toto? Adventure? Witch? What on earth...']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['This person must have been kicked out']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['due to a mental disorder."']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [This person must have been kicked out]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [due to a mental disorder."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Call people from the mental hospital to take her away!"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Mental hospital? You''ll pay for this."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Hehe, we are gentlemen after all,']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['doing volunteer work for those janitors."']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [doing volunteer work for those janitors."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['......']}
@@ -1423,7 +1423,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Dorothy]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"This carpet... This table...']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['And this bottle of wine...']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [And this bottle of wine...]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['It''s my first time here, and yet...']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Why does it all feel so familiar?"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Dorothy]}
@@ -1433,11 +1433,11 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Dorothy]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"I see... But there don''t seem to be any']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['signs of corruption here.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['It probably isn''t the source of the anomalies..."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [signs of corruption here.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [It probably isn't the source of the anomalies..."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Let''s report back']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['big sis Meko as soon as possible."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [big sis Meko as soon as possible."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   11: !ruby/object:RPG::Event
     id: 11
@@ -1485,7 +1485,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Dorothy]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"This place is really run-down...']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ohhhh... Why are there so many spiders..."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ohhhh... Why are there so many spiders..."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Dorothy]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Mhh.... \N[1]... I have a strange feeling...']}
@@ -1493,11 +1493,11 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Dorothy]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"It doesn''t feel as thick as the fog,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['but there''s a distinct chill...']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Like it''s peering into something..."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [but there's a distinct chill...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Like it's peering into something..."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Could it be a ghost?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['A ghost standing behind us..."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [A ghost standing behind us..."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [-1, 8, true]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [0, 3, true]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Dorothy]}
@@ -1552,30 +1552,31 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Dorothy]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 4, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Ugh, still haven''t found anything useful...']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['It seems this place really has']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['nothing to do with the anomaly."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [It seems this place really has]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [nothing to do with the anomaly."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 4, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Moko asked me to investigate']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['and come back immediately.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['She''ll take care of the rest... Sigh..."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [and come back immediately.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [She'll take care of the rest... Sigh..."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {r: 24.0, g: 0.0, b: 0.0, a: 0.0}, 20, true]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Dorothy]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: &1 [多萝西 (2), 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"\N[1], you seem lost in thought.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Did something happen? Speaking of,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Moko mentioned she found a reliable helper,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['that I might run into them along the way."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [that I might run into them along the way."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: *1}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"...Could it have been you she was talking about?"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [-1, 8, true]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Dorothy]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 1, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Huh? ...Hehe, it seems like we''re']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['really meant to be."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [really meant to be."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 1, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"How about we go to Emerald City together?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['The effects of the anomaly haven''t']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The effects of the anomaly haven't]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['fully subsided yet, and having you by my side']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['would make me feel a lot safer..."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [would make me feel a lot safer..."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Dorothy], 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Dorothy]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -1602,11 +1603,12 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"My, just who is this master?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['...Your expression is quite terrifying..."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Dorothy]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 2, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: &2 [多萝西 (2), 2, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Ah... Could it be that you''ve']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['also been afflicted by the poison?...']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I''ll administer the antidote. Antidotal magic...']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I'll administer the antidote. Antidotal magic...]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Uh... What was the last sentence?..."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: *2}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Oh... Quickly, I must remember..."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [120]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 246, p: [3]}
@@ -1628,7 +1630,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Dorothy]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [多萝西 (2), 2, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Huh?! Wait! What are you trying to do?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Ugh! Don''t! Don''t come closer!"']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Ugh! Don't! Don't come closer!"]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 132, p: [!ruby/object:RPG::BGM {name: 「谢幕演出」, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 709, false, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 601, p: []}
@@ -1656,8 +1658,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [多萝西 (2), 3, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"You need to sober up!']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Even if you''re not in control,']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['this is unforgivable!']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['I''m fighting back!"']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [this is unforgivable!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I'm fighting back!"]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 132, p: [!ruby/object:RPG::BGM {name: 「谢幕演出」, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 673, false, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 601, p: []}
@@ -1680,19 +1682,17 @@ events:
           skippable: false
           wait: true
           list:
-          - &1 !ruby/object:RPG::MoveCommand {code: 42, parameters: [200]}
-          - &2 !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
-          - &3 !ruby/object:RPG::MoveCommand {code: 42, parameters: [150]}
+          - &3 !ruby/object:RPG::MoveCommand {code: 42, parameters: [200]}
           - &4 !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
-          - &5 !ruby/object:RPG::MoveCommand {code: 42, parameters: [100]}
+          - &5 !ruby/object:RPG::MoveCommand {code: 42, parameters: [150]}
           - &6 !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
-          - &7 !ruby/object:RPG::MoveCommand {code: 42, parameters: [50]}
+          - &7 !ruby/object:RPG::MoveCommand {code: 42, parameters: [100]}
           - &8 !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
-          - &9 !ruby/object:RPG::MoveCommand {code: 42, parameters: [0]}
-          - &10 !ruby/object:RPG::MoveCommand {code: 39, parameters: []}
+          - &9 !ruby/object:RPG::MoveCommand {code: 42, parameters: [50]}
+          - &10 !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
+          - &11 !ruby/object:RPG::MoveCommand {code: 42, parameters: [0]}
+          - &12 !ruby/object:RPG::MoveCommand {code: 39, parameters: []}
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*1]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*3]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*4]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*5]}
@@ -1701,6 +1701,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*8]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*9]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*10]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*11]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*12]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [30]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 223, p: [!ruby/object:Tone {r: 10.0, g: 5.0, b: 5.0, a: 80.0}, 60, true]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [1406, 1406, 0]}
@@ -1736,7 +1738,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Dorothy]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [多萝西 (2), 2, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Huh?! Wait! What are you trying to do?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Ugh! Don''t! Don''t come closer!"']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Ugh! Don't! Don't come closer!"]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 132, p: [!ruby/object:RPG::BGM {name: 「谢幕演出」, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 301, p: [0, 709, false, true]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 601, p: []}
@@ -1756,7 +1758,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 604, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, '\c[2]杀害\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, '\c[2]Kill\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Dorothy]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [多萝西 (2), 2, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"\N[1]... Wht are you doing?!"']}
@@ -1764,8 +1766,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [多萝西 (2), 3, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"You need to sober up!']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Even if you''re not in control,']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['this is unforgivable!']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['I''m fighting back!"']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [this is unforgivable!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I'm fighting back!"]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 132, p: [!ruby/object:RPG::BGM {name: 「谢幕演出」, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 301, p: [0, 673, false, true]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 601, p: []}
@@ -1788,19 +1790,17 @@ events:
           skippable: false
           wait: true
           list:
-          - &11 !ruby/object:RPG::MoveCommand {code: 42, parameters: [200]}
-          - &12 !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
-          - &13 !ruby/object:RPG::MoveCommand {code: 42, parameters: [150]}
+          - &13 !ruby/object:RPG::MoveCommand {code: 42, parameters: [200]}
           - &14 !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
-          - &15 !ruby/object:RPG::MoveCommand {code: 42, parameters: [100]}
+          - &15 !ruby/object:RPG::MoveCommand {code: 42, parameters: [150]}
           - &16 !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
-          - &17 !ruby/object:RPG::MoveCommand {code: 42, parameters: [50]}
+          - &17 !ruby/object:RPG::MoveCommand {code: 42, parameters: [100]}
           - &18 !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
-          - &19 !ruby/object:RPG::MoveCommand {code: 42, parameters: [0]}
-          - &20 !ruby/object:RPG::MoveCommand {code: 39, parameters: []}
+          - &19 !ruby/object:RPG::MoveCommand {code: 42, parameters: [50]}
+          - &20 !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
+          - &21 !ruby/object:RPG::MoveCommand {code: 42, parameters: [0]}
+          - &22 !ruby/object:RPG::MoveCommand {code: 39, parameters: []}
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 505, p: [*11]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 505, p: [*12]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 505, p: [*13]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 505, p: [*14]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 505, p: [*15]}
@@ -1809,6 +1809,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 505, p: [*18]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 505, p: [*19]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 505, p: [*20]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 505, p: [*21]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 505, p: [*22]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [30]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 223, p: [!ruby/object:Tone {r: 10.0, g: 5.0, b: 5.0, a: 80.0}, 60, true]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 121, p: [1406, 1406, 0]}
@@ -1842,7 +1844,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"...You looked really scary just now...']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Well, let''s get out of here for now.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['To get to Emerald City,']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['we need to head west from the village."']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [we need to head west from the village."]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [1186, 1186, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [1138, 1138, 0]}

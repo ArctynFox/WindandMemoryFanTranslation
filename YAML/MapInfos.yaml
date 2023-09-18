@@ -3059,11 +3059,11 @@
   scroll_y: 320
   parent_id: 411
 438: !ruby/object:RPG::MapInfo
-  scroll_x: 1203
+  scroll_x: 2011
   name: 荒村中心
   expanded: false
   order: 462
-  scroll_y: 1423
+  scroll_y: 657
   parent_id: 429
 439: !ruby/object:RPG::MapInfo
   scroll_x: 717
@@ -3112,7 +3112,7 @@
   name: 坠落之屋内
   expanded: false
   order: 455
-  scroll_y: 938
+  scroll_y: 665
   parent_id: 449
 446: !ruby/object:RPG::MapInfo
   scroll_x: 352
@@ -3138,7 +3138,7 @@
 449: !ruby/object:RPG::MapInfo
   scroll_x: 720
   name: 坠落之屋
-  expanded: false
+  expanded: true
   order: 454
   scroll_y: 880
   parent_id: 421
