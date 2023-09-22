@@ -9,7 +9,9 @@ DLC Startup and Entry Methods
 
 Activation: Trigger the event of the master craftsman in the mental hospital
 
-How to enter: Go to the Witch House Ruins in the Mental Ward at 0 SEN, find the new puzzle left here and get the core device, find the four missing pieces of the core device by solving the puzzle to combine the device to trigger the beginning of the plot. Finally, board the train at Station Hanover and make the right choice in the car to start the DLC journey.
+How to enter: Go to the Witch House Ruins in the Mental Ward at 0 SEN, find the new puzzle left here and get the core device, find the four missing pieces of the core device by solving the puzzle to make the device to trigger the beginning of the plot. Finally, board the train at Station Hanover and make the right choice to start the DLC journey.
+
+Original mod: https://twitter.com/nandou_zhen/status/1573534729994764288
 
 【Production Credits and Acknowledgement of Contributors】
 Production team：
