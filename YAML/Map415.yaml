@@ -2345,8 +2345,8 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['There was no sound,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['and it seemed like a hole had opened above your head.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['He isn''t making a sound.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['It looks as though a hole had opened in his head.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   37: !ruby/object:RPG::Event
     id: 37
