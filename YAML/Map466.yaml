@@ -215,12 +215,12 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*3]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*4]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Anatoly the Hunter]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Hunter Anatoly]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「幽灵列车长」, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Her door is the terminus of travelers,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['staining tracks with blood.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['In the hoarse roar, I will glimpse her entirely."']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Anatoly the Hunter]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Hunter Anatoly]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「幽灵列车长」, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Join us, we''ll journey together!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: 'N蒸汽火车_耳聆网_[声音ID：16890]', pitch: 100, volume: 80}]}
@@ -272,7 +272,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 132, p: [!ruby/object:RPG::BGM {name: corps choir01, volume: 100, pitch: 50}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 301, p: [0, 710, false, true]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 601, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Anatoly the Hunter]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Hunter Anatoly]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [「幽灵列车长」, 5, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Ah... Damn, damn it!!!']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['My journey!! My... dreams..."']}
