@@ -2192,7 +2192,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Making love with Rose Moko.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Making love with Rose Fluffy.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -2232,7 +2232,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Recall \c[2]Rose Moko (Consensual)\c[0]?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Recall \c[2]Rose Fluffy (Consensual)\c[0]?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
@@ -2282,7 +2282,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Recall \c[2]Rose Moko (Consensual)\c[0]?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Recall \c[2]Rose Fluffy (Consensual)\c[0]?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
@@ -2339,7 +2339,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['After taking the pink candy,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [you remember Rose Moko's offering.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [you remember Rose Fluffy's offering.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -2379,7 +2379,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Recall \c[2]"Rose Moko" (Consensual)\c[0]?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Recall \c[2]"Rose Fluffy" (Consensual)\c[0]?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
@@ -2429,7 +2429,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Recall \c[2]"Rose Moko" (Consensual)\c[0]?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Recall \c[2]"Rose Fluffy" (Consensual)\c[0]?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
@@ -2619,7 +2619,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Unconditional devotion to Rose Moko.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Unconditional devotion to Rose Fluffy.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -2659,7 +2659,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Recall \c[2]Rose Moko (Ejaculation)\c[0]的回想么？']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Recall \c[2]Rose Fluffy (Ejaculation)\c[0]的回想么？']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
@@ -2709,7 +2709,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Recall \c[2]Rose Moko (Ejaculation)\c[0]?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Recall \c[2]Rose Fluffy (Ejaculation)\c[0]?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}

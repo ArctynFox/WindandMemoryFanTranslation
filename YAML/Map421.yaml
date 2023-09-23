@@ -2814,7 +2814,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [It seems to have reverted to a regular moko.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [It seems to have reverted to a regular fluffy.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Touch, Leave], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Touch]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 213, p: [0, 4, true]}
@@ -13116,23 +13116,23 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*97]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*98]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [21, 4, false]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 moko]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Fluffy]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Good day,\N[1].\!']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Do not be surprised that I can speak.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Didn''t we meet not long ago?"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 moko]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Fluffy]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"I''m sorry, for various reasons,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I cannot personally come to you right now.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I can only convey this message to you like this."]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 moko]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Fluffy]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Have you had a safe journey?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['To evade \C[2]her\C[0] surveillance,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [we used an ability unique to our clan...]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [to hide your soul in a past time and space..."]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 moko]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Fluffy]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"This place was originally a fragment']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [of a garden with no anomalies."]}
@@ -13141,7 +13141,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['there have been changes, and some hidden \C[2]things\C[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [seem to have been activated.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Please be very careful."]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 moko]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Fluffy]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"I''ll provide assistance while you explore.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Please take care."]}
@@ -53198,7 +53198,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [1032, 1032, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Moko moko runs away...]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [The fluffy beast runs away...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [60]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
@@ -53271,7 +53271,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [1032, 1032, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Moko moko runs away...]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [The fluffy beast runs away...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [60]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
@@ -53388,7 +53388,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [1032, 1032, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Moko moko runs away...]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [The fluffy beast runs away...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [60]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
@@ -53461,7 +53461,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [1032, 1032, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Moko moko runs away...]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [The fluffy beast runs away...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [60]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
@@ -53881,7 +53881,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]If you have a problem, ask Moko!\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]If you have a problem, ask Fluffy!\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   314: !ruby/object:RPG::Event
     id: 314

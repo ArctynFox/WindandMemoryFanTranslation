@@ -1555,7 +1555,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [It seems this place really has]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [nothing to do with the anomaly."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 4, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Moko asked me to investigate']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Rose asked me to investigate']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [and come back immediately.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [She'll take care of the rest... Sigh..."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {r: 24.0, g: 0.0, b: 0.0, a: 0.0}, 20, true]}
@@ -1563,7 +1563,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: &1 [多萝西 (2), 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"\N[1], you seem lost in thought.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Did something happen? Speaking of,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Moko mentioned she found a reliable helper,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Rose mentioned she found a reliable helper,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [that I might run into them along the way."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: *1}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"...Could it have been you she was talking about?"']}

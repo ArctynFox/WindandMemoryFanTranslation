@@ -181,7 +181,7 @@ module A1_System::NameWindow
     "「格劳」"    => "Grau",
     "「稻草人」"    => "Scarecrow",
     "桔子"    => "Tangerine",
-    "萝斯梅可 (2)"    => "Rose Moko",
+    "萝斯梅可 (2)"    => "Rose Fluffy",
   }
 end
 #==============================================================================
@@ -746,7 +746,7 @@ class Window_Base < Window
     elsif name == "鸦人佛伦斯"
       name = "Floren the Crow"
     elsif name == "梅可"
-      name = "Moko"
+      name = "Fluffy"
     elsif name == "鏉戞皯"
       name = "Sui1jxiXuzaakQ"
     elsif name == "村民"

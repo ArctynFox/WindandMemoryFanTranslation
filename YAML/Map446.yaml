@@ -548,5 +548,5 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Look for Moko now, something good might happen.\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Look for Rose now, something good might happen.\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

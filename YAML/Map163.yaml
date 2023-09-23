@@ -585,7 +585,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Moko has two candies...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The fluffy beast offers two candies...]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Red candy, Blue candy], 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Red candy]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [112, 0, 0, 1]}

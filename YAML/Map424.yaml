@@ -12770,7 +12770,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [1032, 1032, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Moko moko runs away...]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [The fluffy beast runs away...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [60]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
@@ -12843,7 +12843,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [1032, 1032, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Moko moko runs away...]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [The fluffy beast runs away...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [60]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}

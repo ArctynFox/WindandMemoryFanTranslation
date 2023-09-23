@@ -212,7 +212,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*5]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [150]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [萝斯梅可 (2), 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"I''m Rose Moko,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"I''m Rose Fluffy,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['temporary leader of the once-great \c[2]Elder Race\c[0],']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['whose light has faded from the sky."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [萝斯梅可 (2), 0, 0, 2]}

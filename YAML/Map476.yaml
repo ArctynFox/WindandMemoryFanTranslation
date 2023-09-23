@@ -348,7 +348,7 @@ events:
       priority_type: 1
       trigger: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[About this place, About Moko, About Dorothy], 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[About this place, About Fluffies, About Dorothy], 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, About this place]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Decadent Lord]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [「精锐敌人1」, 3, 0, 2]}
@@ -356,15 +356,15 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['You poor soul. This place is a fragment of a box garden,']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['rooted on the corpse of the Black Goat."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [「精锐敌人1」, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"The moko clan managed to make this']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"The Fluffy clan managed to make this']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [half-finished pocket dimension with sheer luck.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Without it, I would have become']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['a Dominator''s food long ago..."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, About Moko]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, About Fluffies]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Decadent Lord]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [「精锐敌人1」, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Those Moko... Perhaps they''re not']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Those Fluffies... Perhaps they''re not']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['the creatures I used to know.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['But they survive the watchful eye of the Dominators,"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [「精锐敌人1」, 3, 0, 2]}

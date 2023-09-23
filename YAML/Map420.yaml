@@ -5276,7 +5276,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [It's Moko.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [It's Rose.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Invite her to the party?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Invite, 'No'], 0]}

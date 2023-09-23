@@ -2033,7 +2033,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Dorothy]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 4, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"I wonder what the previous owner was like?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['And why did Moko specifically ask me']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['And why did Rose specifically ask me']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['to investigate this place?..."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [-1, 8, true]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
