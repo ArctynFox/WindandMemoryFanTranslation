@@ -54087,15 +54087,17 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [散落的记事本纸张]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There are scattered pages of a notebook.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book1, pitch: 65, volume: 50}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [那些“陷阱”似乎有着传送的能力。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [观察到怪物也能触发陷阱，不知道被送到了哪里。]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [也能送我们回家吗？]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [It seems these "traps" have teleportation capabilities.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['The monsters can also trigger the traps,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [and it's uncertain where they lead.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Can they send us back home?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book1, pitch: 65, volume: 50}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [地下的探索也必须要加紧进行....]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The underground exploration efforts]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [also need to be intensified...]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   317: !ruby/object:RPG::Event
     id: 317

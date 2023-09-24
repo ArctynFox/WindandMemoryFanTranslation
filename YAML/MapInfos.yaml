@@ -2891,11 +2891,11 @@
   scroll_y: 400
   parent_id: 0
 421: !ruby/object:RPG::MapInfo
-  scroll_x: 3972
+  scroll_x: 3013
   name: 移动草原
   expanded: true
   order: 423
-  scroll_y: 3129
+  scroll_y: 6538
   parent_id: 0
 422: !ruby/object:RPG::MapInfo
   scroll_x: 352
@@ -3112,7 +3112,7 @@
   name: 坠落之屋内
   expanded: false
   order: 455
-  scroll_y: 665
+  scroll_y: 859
   parent_id: 449
 446: !ruby/object:RPG::MapInfo
   scroll_x: 352

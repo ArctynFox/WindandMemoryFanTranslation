@@ -1549,30 +1549,33 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [7, 7, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Dorothy]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 4, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 多萝西]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: &1 [多萝西 (2), 4, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Ugh, still haven''t found anything useful...']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [It seems this place really has]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [nothing to do with the anomaly."]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 4, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 多萝西]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: *1}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Rose asked me to investigate']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [and come back immediately.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [She'll take care of the rest... Sigh..."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {r: 24.0, g: 0.0, b: 0.0, a: 0.0}, 20, true]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Dorothy]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: &1 [多萝西 (2), 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 多萝西]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: &2 [多萝西 (2), 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"\N[1], you seem lost in thought.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Did something happen? Speaking of,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Rose mentioned she found a reliable helper,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [that I might run into them along the way."]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: *1}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 多萝西]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: *2}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"...Could it have been you she was talking about?"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [-1, 8, true]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Dorothy]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Huh? ...Hehe, it seems like we''re']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 多萝西]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: &3 [多萝西 (2), 1, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Huh?... Hehe, it seems like we''re']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [really meant to be."]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 1, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 多萝西]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: *3}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"How about we go to Emerald City together?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The effects of the anomaly haven't]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['fully subsided yet, and having you by my side']}
@@ -1582,33 +1585,33 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 241, p: [!ruby/object:RPG::BGM {name: 心音, volume: 100, pitch: 100}]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Dorothy]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 多萝西]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Huh? Do you have something else to do?"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Master...], 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Master...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Dorothy]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 多萝西]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 1, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Hmm? Master...? Are you talking about me?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Don''t make jokes like that, I''m still young...']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['You''re looking quite green, are you alright?...']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['You''re looking quite green, are you alright?..."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['\c[2]Master...\c[0]'], 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, '\c[2]Master...\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Dorothy]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 多萝西]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 2, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"My, just who is this master?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['...Your expression is quite terrifying..."']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Dorothy]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: &2 [多萝西 (2), 2, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 多萝西]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 2, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Ah... Could it be that you''ve']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['also been afflicted by the poison?...']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['also been affected by the poison?...']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I'll administer the antidote. Antidotal magic...]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Uh... What was the last sentence?..."']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: *2}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 2, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Oh... Quickly, I must remember..."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [120]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 246, p: [3]}
@@ -1627,7 +1630,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [100]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['\c[2]Rape\c[0]', '\c[2]Kill\c[0]'], 5]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, '\c[2]Rape\c[0]']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Dorothy]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 多萝西]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [多萝西 (2), 2, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Huh?! Wait! What are you trying to do?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Ugh! Don't! Don't come closer!"]}
@@ -1644,7 +1647,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [1404, 1404, 0, 0, 10]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [1186, 1186, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [7, 7, 1]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 132, p: [!ruby/object:RPG::BGM {name: 戦闘, volume: 100, pitch: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 132, p: [!ruby/object:RPG::BGM {name: 戦闘, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 603, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [424]}
@@ -1652,10 +1655,10 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 604, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, '\c[2]Kill\c[0]']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Dorothy]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 多萝西]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [多萝西 (2), 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"\N[1]... Wht are you doing?!"']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Dorothy]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"\N[1]... What are you doing?!"']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 多萝西]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [多萝西 (2), 3, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"You need to sober up!']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Even if you''re not in control,']}
@@ -1670,7 +1673,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [doro, 0, 1, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: [brain_noise_start]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Dorothy]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 多萝西]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [多萝西 (2), 2, 1, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Guh... Why, dis-disciple... I thought..."']}
       - !ruby/object:RPG::EventCommand
@@ -1683,18 +1686,17 @@ events:
           skippable: false
           wait: true
           list:
-          - &3 !ruby/object:RPG::MoveCommand {code: 42, parameters: [200]}
-          - &4 !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
-          - &5 !ruby/object:RPG::MoveCommand {code: 42, parameters: [150]}
-          - &6 !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
-          - &7 !ruby/object:RPG::MoveCommand {code: 42, parameters: [100]}
-          - &8 !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
-          - &9 !ruby/object:RPG::MoveCommand {code: 42, parameters: [50]}
-          - &10 !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
-          - &11 !ruby/object:RPG::MoveCommand {code: 42, parameters: [0]}
-          - &12 !ruby/object:RPG::MoveCommand {code: 39, parameters: []}
+          - &4 !ruby/object:RPG::MoveCommand {code: 42, parameters: [200]}
+          - &5 !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
+          - &6 !ruby/object:RPG::MoveCommand {code: 42, parameters: [150]}
+          - &7 !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
+          - &8 !ruby/object:RPG::MoveCommand {code: 42, parameters: [100]}
+          - &9 !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
+          - &10 !ruby/object:RPG::MoveCommand {code: 42, parameters: [50]}
+          - &11 !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
+          - &12 !ruby/object:RPG::MoveCommand {code: 42, parameters: [0]}
+          - &13 !ruby/object:RPG::MoveCommand {code: 39, parameters: []}
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*3]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*4]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*5]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*6]}
@@ -1704,6 +1706,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*10]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*11]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*12]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*13]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [30]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 223, p: [!ruby/object:Tone {r: 10.0, g: 5.0, b: 5.0, a: 80.0}, 60, true]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [1406, 1406, 0]}
@@ -1725,22 +1728,22 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: 心音, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 60, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [60]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Dorothy]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 多萝西]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [多萝西 (2), 2, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Ah!... I remember now!..."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 212, p: [0, 705, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 212, p: [-1, 40, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [120]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Dorothy]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 多萝西]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [多萝西 (2), 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"H-has it started to take effect?..."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [100]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['\c[2]Rape\c[0]', '\c[2]Kill\c[0]'], 5]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, '\c[2]Rape\c[0]']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Dorothy]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 多萝西]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [多萝西 (2), 2, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Huh?! Wait! What are you trying to do?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Ugh! Don't! Don't come closer!"]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Ugh! Don't! Don't come closer!"]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 132, p: [!ruby/object:RPG::BGM {name: 「谢幕演出」, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 301, p: [0, 709, false, true]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 601, p: []}
@@ -1762,15 +1765,15 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 604, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, '\c[2]Kill\c[0]']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Dorothy]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 多萝西]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [多萝西 (2), 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"\N[1]... Wht are you doing?!"']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Dorothy]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"\N[1]... What are you doing?!"']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 多萝西]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [多萝西 (2), 3, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"You need to sober up!']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Even if you''re not in control,']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [this is unforgivable!]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I'm fighting back!"]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Even if you''re not in control,']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [this is unforgivable!]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [I'm fighting back!"]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 132, p: [!ruby/object:RPG::BGM {name: 「谢幕演出」, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 301, p: [0, 673, false, true]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 601, p: []}
@@ -1780,7 +1783,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [doro, 0, 1, 1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: [brain_noise_start]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 108, p: [NW名前指定 Dorothy]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 108, p: [NW名前指定 多萝西]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [多萝西 (2), 2, 1, 1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"Guh... Why, dis-disciple... I thought..."']}
       - !ruby/object:RPG::EventCommand
@@ -1793,18 +1796,17 @@ events:
           skippable: false
           wait: true
           list:
-          - &13 !ruby/object:RPG::MoveCommand {code: 42, parameters: [200]}
-          - &14 !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
-          - &15 !ruby/object:RPG::MoveCommand {code: 42, parameters: [150]}
-          - &16 !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
-          - &17 !ruby/object:RPG::MoveCommand {code: 42, parameters: [100]}
-          - &18 !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
-          - &19 !ruby/object:RPG::MoveCommand {code: 42, parameters: [50]}
-          - &20 !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
-          - &21 !ruby/object:RPG::MoveCommand {code: 42, parameters: [0]}
-          - &22 !ruby/object:RPG::MoveCommand {code: 39, parameters: []}
+          - &14 !ruby/object:RPG::MoveCommand {code: 42, parameters: [200]}
+          - &15 !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
+          - &16 !ruby/object:RPG::MoveCommand {code: 42, parameters: [150]}
+          - &17 !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
+          - &18 !ruby/object:RPG::MoveCommand {code: 42, parameters: [100]}
+          - &19 !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
+          - &20 !ruby/object:RPG::MoveCommand {code: 42, parameters: [50]}
+          - &21 !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
+          - &22 !ruby/object:RPG::MoveCommand {code: 42, parameters: [0]}
+          - &23 !ruby/object:RPG::MoveCommand {code: 39, parameters: []}
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 505, p: [*13]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 505, p: [*14]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 505, p: [*15]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 505, p: [*16]}
@@ -1814,6 +1816,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 505, p: [*20]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 505, p: [*21]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 505, p: [*22]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 505, p: [*23]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [30]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 223, p: [!ruby/object:Tone {r: 10.0, g: 5.0, b: 5.0, a: 80.0}, 60, true]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 121, p: [1406, 1406, 0]}
@@ -1838,14 +1841,14 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 223, p: [!ruby/object:Tone {r: 10.0, g: 5.0, b: 5.0, a: 80.0}, 60, true]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 213, p: [-1, 8, true]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 213, p: [0, 8, true]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Dorothy]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 多萝西]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [多萝西 (2), 2, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"...A-are you okay?...']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Back then, you were affected too,']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['weren''t you?...']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Dorothy]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['weren''t you?..."']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 多萝西]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [多萝西 (2), 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"...You looked really scary just now...']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"...You looked really scarry just now...']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Well, let''s get out of here for now.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['To get to Emerald City,']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [we need to head west from the village."]}

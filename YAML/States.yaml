@@ -10218,7 +10218,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ' became enraged!'
-  name: 'Enraged'
+  name: Enraged
   priority: 50
   icon_index: 571
   message1: ' became enraged!'
