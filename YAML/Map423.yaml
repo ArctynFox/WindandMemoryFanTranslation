@@ -1109,7 +1109,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Kill annoying creatures to acquire their essence.\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Kill phantoms to acquire their essence.\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   14: !ruby/object:RPG::Event
     id: 14
@@ -1201,6 +1201,6 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]The breath is an essential ingredient']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['for creating the fusion.\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]The essence is an essential ingredient']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['in creating the Fusion Source.\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
