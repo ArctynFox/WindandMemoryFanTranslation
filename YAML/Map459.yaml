@@ -10013,7 +10013,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*14]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 283, p: [Castle, '']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 132, p: [!ruby/object:RPG::BGM {name: 「中枢信号错误」, volume: 100, pitch: 80}]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 223, p: [!ruby/object:Tone {r: -68.0, g: -68.0, b: -68.0, a: 0.0}, 15, true]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 223, p: [!ruby/object:Tone {r: 0.0, g: 0.0, b: 0.0, a: 187.0}, 15, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 715, false, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 601, p: []}
       - !ruby/object:RPG::EventCommand

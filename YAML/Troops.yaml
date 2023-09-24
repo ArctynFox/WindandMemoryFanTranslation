@@ -51524,7 +51524,7 @@
     - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 255.0, b: 255.0, a: 255.0}, 20, true]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 335, p: [1]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 335, p: [2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {r: 80.0, g: 80.0, b: 80.0, a: 0.0}, 20, true]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {r: 40.0, g: 40.0, b: 40.0, a: 0.0}, 20, true]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 333, p: [0, 0, 10]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 333, p: [1, 0, 10]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 333, p: [2, 0, 10]}
@@ -53962,7 +53962,7 @@
     - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: false
+      turn_valid: true
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -54794,6 +54794,7 @@
       turn_b: 0
   - !ruby/object:RPG::Troop::Page
     list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 241, p: [!ruby/object:RPG::BGM {name: 「中枢信号错误」, volume: 100, pitch: 115}]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 245, p: [!ruby/object:RPG::BGS {name: 铁道警报, volume: 100, pitch: 150}]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 0.0, g: 0.0, b: 255.0, a: 255.0}, 30, true]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 30, true]}
@@ -54806,7 +54807,6 @@
     - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: 咆哮2, pitch: 125, volume: 100}]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 336, p: [0, 650]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 200, true]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 132, p: [!ruby/object:RPG::BGM {name: 「中枢信号错误」, volume: 100, pitch: 110}]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 245, p: [!ruby/object:RPG::BGS {name: '', volume: 100, pitch: 150}]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 334, p: [-1]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 333, p: [-1, 0, 42]}

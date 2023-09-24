@@ -217,7 +217,7 @@ module StarAuraEffect
   
   T[0] = {
   :opacity => 160,
-  :zoom_rate => 0.02,
+  :zoom_rate => 0.03,
   :erase_start => 5,
   :erase_speed => 8,
   :x_add => 0,
@@ -226,26 +226,12 @@ module StarAuraEffect
   :blend_type => 1,
   :position_type => 1,
   :trace => true,
-  :color => [0,0,255,128],
+  :color => [255,255,255,0],
   :tone => [0,0,0,0]
   }
   T[1] = {
   :opacity => 160,
-  :zoom_rate => 0.02,
-  :erase_start => 5,
-  :erase_speed => 8,
-  :x_add => 0,
-  :y_add => 0,
-  :z => -1,
-  :blend_type => 1,
-  :position_type => 1,
-  :trace => true,
-  :color => [0,255,0,128],
-  :tone => [0,0,0,0]
-  }
-  T[2] = {
-  :opacity => 160,
-  :zoom_rate => 0.02,
+  :zoom_rate => 0.03,
   :erase_start => 5,
   :erase_speed => 8,
   :x_add => 0,
@@ -257,9 +243,9 @@ module StarAuraEffect
   :color => [255,0,0,128],
   :tone => [0,0,0,0]
   }
-  T[3] = {
-  :opacity => 192,
-  :zoom_rate => 0.00,
+  T[2] = {
+  :opacity => 160,
+  :zoom_rate => 0.03,
   :erase_start => 5,
   :erase_speed => 8,
   :x_add => 0,
@@ -267,8 +253,22 @@ module StarAuraEffect
   :z => -1,
   :blend_type => 1,
   :position_type => 1,
-  :trace => false,
-  :color => [0,128,255,128],
+  :trace => true,
+  :color => [0,0,255,128],
+  :tone => [0,0,0,0]
+  }
+  T[3] = {
+  :opacity => 160,
+  :zoom_rate => 0.02,
+  :erase_start => 5,
+  :erase_speed => 8,
+  :x_add => 0,
+  :y_add => 0,
+  :z => -1,
+  :blend_type => 1,
+  :position_type => 1,
+  :trace => true,
+  :color => [255,255,255,0],
   :tone => [0,0,0,0]
   }
   
@@ -292,17 +292,21 @@ module StarAuraEffect
   #30フレーム目にオーラタイプID2の設定のスプライトを追加する。
   
   P[0] = {
-  :end => 30,
+  :end => 70,
   :pattern => {
-  0 => [1],
-  10 => [0],
-  20 => [2]
+  0 => [0],
+  15 => [0],
+  30 => [0],
+  45 => [0]
   }}
   
   P[1] = {
-  :end => 10,
+  :end => 40,
   :pattern => {
-  0 => [0]
+  0 => [1],
+  10 => [2],
+  20 => [1],
+  30 => [2]
   }}
   
 end

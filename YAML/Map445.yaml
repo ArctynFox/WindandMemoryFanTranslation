@@ -1644,6 +1644,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [1404, 1404, 0, 0, 10]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [1186, 1186, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [7, 7, 1]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 132, p: [!ruby/object:RPG::BGM {name: 戦闘, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 603, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [424]}
@@ -1710,6 +1711,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [1404, 1404, 0, 0, 10]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [1186, 1186, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [7, 7, 1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 132, p: [!ruby/object:RPG::BGM {name: 戦闘, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 603, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [424]}
@@ -1752,6 +1754,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [1404, 1404, 0, 0, 10]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 121, p: [1186, 1186, 1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 121, p: [7, 7, 1]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 132, p: [!ruby/object:RPG::BGM {name: 戦闘, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 603, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 117, p: [424]}
@@ -1818,6 +1821,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [1404, 1404, 0, 0, 10]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 121, p: [1186, 1186, 1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 121, p: [7, 7, 1]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 132, p: [!ruby/object:RPG::BGM {name: 戦闘, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 603, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 117, p: [424]}
@@ -1850,6 +1854,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [1138, 1138, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [1404, 1404, 0, 0, 10]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [7, 7, 1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 132, p: [!ruby/object:RPG::BGM {name: 戦闘, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [60]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}

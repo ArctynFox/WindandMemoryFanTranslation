@@ -32,13 +32,13 @@ airship: !ruby/object:RPG::System::Vehicle
 test_battlers:
 - !ruby/object:RPG::System::TestBattler
   actor_id: 1
-  level: 1
+  level: 99
   equips:
   - 545
   - 275
-  - 0
-  - 0
-  - 0
+  - 218
+  - 215
+  - 147
 - !ruby/object:RPG::System::TestBattler
   actor_id: 122
   level: 99
@@ -67,7 +67,7 @@ test_battlers:
   - 0
   - 0
 _: 7829367
-edit_map_id: 421
+edit_map_id: 443
 battle_end_me: !ruby/object:RPG::ME
   name: sei_ge_cowbell01
   pitch: 100
@@ -1611,7 +1611,7 @@ variables:
 - ''
 - ''
 battle_bgm: !ruby/object:RPG::BGM {name: 戦闘, volume: 100, pitch: 100}
-version_id: 8913566
+version_id: 51551837
 start_map_id: 185
 battler_name: Skeleton
 magic_number: 77696160
@@ -2849,7 +2849,7 @@ switches:
 - 草对话4
 - 草对话5
 - 草溜了
-- ''
+- 狐溜了
 - ''
 - ''
 - ''

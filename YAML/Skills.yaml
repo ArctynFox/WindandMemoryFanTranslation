@@ -45169,7 +45169,7 @@
     variance: 20
     critical: true
   success_rate: 100
-  hit_type: 1
+  hit_type: 0
   stype_id: 0
   tp_cost: 0
   required_wtype_id1: 0
@@ -45184,7 +45184,7 @@
   icon_index: 119
   message1: ' uses Dazzling Glare!'
   scope: 2
-  animation_id: 591
+  animation_id: 33
   note: <運無視ステート付与>
   mp_cost: 20
   speed: 0
@@ -46250,6 +46250,11 @@
     data_id: 8
     value1: 1.0
     value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 21
+    data_id: 17
+    value1: 1.0
+    value2: 0.0
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 1
     element_id: 1
@@ -46664,8 +46669,8 @@
     value2: 0.0
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 1
-    element_id: 1
-    formula: 444444+a.atk * 44 - b.def * 2
+    element_id: 2
+    formula: 4444444+a.atk * 44 - b.def * 2
     variance: 40
     critical: true
   success_rate: 100

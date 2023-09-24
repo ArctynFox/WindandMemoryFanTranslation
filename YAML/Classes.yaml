@@ -10671,7 +10671,7 @@
     note: ''
   - !ruby/object:RPG::Class::Learning
     level: 20
-    skill_id: 148
+    skill_id: 150
     note: ''
   id: 63
   features:
@@ -10862,7 +10862,7 @@
   learnings:
   - !ruby/object:RPG::Class::Learning
     level: 1
-    skill_id: 1
+    skill_id: 1116
     note: ''
   - !ruby/object:RPG::Class::Learning
     level: 1

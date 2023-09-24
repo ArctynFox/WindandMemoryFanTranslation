@@ -248,16 +248,16 @@ events:
     pages:
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
-        switch1_valid: false
+        switch1_valid: true
         switch2_valid: false
-        variable_valid: false
+        variable_valid: true
         self_switch_valid: false
         item_valid: false
         actor_valid: false
-        switch1_id: 1
+        switch1_id: 1130
         switch2_id: 1
-        variable_id: 1
-        variable_value: 0
+        variable_id: 1030
+        variable_value: 4
         self_switch_ch: A
         item_id: 1
         actor_id: 1
@@ -265,7 +265,7 @@ events:
         tile_id: 0
         character_name: '!Other3'
         character_index: 2
-        direction: 4
+        direction: 8
         pattern: 0
       move_type: 0
       move_speed: 3
@@ -283,6 +283,16 @@ events:
       priority_type: 1
       trigger: 0
       list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Go back to where the traps are.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Trigger damaging traps 33 times.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Eat the purple candy.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Step on teleporter traps 44 times.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Go catch ???, hehe~']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   5: !ruby/object:RPG::Event
     id: 5
@@ -1298,5 +1308,6 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]What is it?\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]What is it,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Lye○''s alchemy workshop?\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

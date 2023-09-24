@@ -8390,7 +8390,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Be wary of ambush.\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]It''s an elite monster!\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   41: !ruby/object:RPG::Event
     id: 41

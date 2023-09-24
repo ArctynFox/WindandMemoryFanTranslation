@@ -9,7 +9,7 @@
 7: !ruby/object:RPG::MapInfo
   scroll_x: 320
   name: OP
-  expanded: false
+  expanded: true
   order: 2
   scroll_y: 320
   parent_id: 0
@@ -1092,7 +1092,7 @@
   scroll_y: 2248
   parent_id: 54
 152: !ruby/object:RPG::MapInfo
-  scroll_x: 1125
+  scroll_x: 1131
   name: 地下牢
   expanded: true
   order: 22

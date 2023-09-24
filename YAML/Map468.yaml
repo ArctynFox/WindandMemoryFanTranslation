@@ -184,6 +184,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: ['NW名前指定 ???']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [桔子, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Aaah!! What are you doing!! Don''t!!"']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [1205, 1205, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 117, p: [395]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [B, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -212,6 +213,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: ['NW名前指定 ???']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [桔子, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Aaah!! What are you doing!! Don''t!!"']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [1205, 1205, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [395]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [B, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}

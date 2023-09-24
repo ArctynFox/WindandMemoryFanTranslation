@@ -9864,7 +9864,7 @@
   - !ruby/object:RPG::BaseItem::Feature
     code: 22
     data_id: 7
-    value: -0.1
+    value: 0.1
   - !ruby/object:RPG::BaseItem::Feature
     code: 21
     data_id: 2
@@ -10217,24 +10217,48 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: ''
-  name: ''
+  message2: ' became enraged!'
+  name: 'Enraged'
   priority: 50
-  icon_index: 0
-  message1: ''
-  message4: ''
+  icon_index: 571
+  message1: ' became enraged!'
+  message4: ' tired out.'
   restriction: 0
-  message3: ''
+  message3: ' is on a rampage!'
   note: ''
   id: 279
-  features: []
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 7
+    value: 1.5
   auto_removal_timing: 0
-  min_turns: 1
-  max_turns: 1
+  min_turns: 10
+  max_turns: 10
   chance_by_damage: 100
   steps_to_remove: 100
   remove_by_walking: false
-  remove_at_battle_end: false
+  remove_at_battle_end: true
   remove_by_damage: false
   remove_by_restriction: false
   description: ''

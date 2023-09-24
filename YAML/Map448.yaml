@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: Sactuary Tower
+display_name: Sanctuary Attic
 tileset_id: 154
 width: 21
 height: 32
@@ -258,7 +258,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [希莉娅, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"... No matter how they died,']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['it was a fate they deserved.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [it was a fate they deserved.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['So, what about me, \N[1]?']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['How will you deal with me?']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
@@ -266,8 +266,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [希莉娅, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Are you here to use me?...']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Being a vent for sexual desire']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['is probably my only value..."']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Being a vent for sexual desire]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [is probably my only value..."]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Can I do something for you?', Stay silent], 2]}
@@ -275,30 +275,30 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [希莉娅, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Cough... \|\N[1], please forgive my caprice...']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['If possible...']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [If possible...]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Could you find my sister out there?..."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [希莉娅, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Her name is Grau; she''s an orphan, like me.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Unlike the others, who made fun of me,']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['she called me her sister."']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [she called me her sister."]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [希莉娅, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"When I still wasn''t used to my blindness,']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['she was there to support me.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [she was there to support me.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['She was adopted by a wealthy family,']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['while I ended up at this cathedral..."']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [while I ended up at this cathedral..."]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [希莉娅, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"The outside world has become']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['twisted beyond recognition...']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [twisted beyond recognition...]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['If you can, please save her..."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [希莉娅, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"It''s alright if you don''t find her, though.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['After all, you have your own mission and journey.']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['For a woman like me...']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['it''s better to forget about her..."']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [For a woman like me...]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [it's better to forget about her..."]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [1413, 1413, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [1404, 1404, 0, 0, 9]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
@@ -306,10 +306,10 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [希莉娅, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"I won''t blame you,']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['as you have your own mission and journey.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [as you have your own mission and journey.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Meanwhile, I''m just a passing']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['traveler on your journey,']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['soon to disappear."']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [soon to disappear."]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -418,9 +418,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [希莉娅, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"Either way, I won''t hate you,']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['but I won''t be grateful either...']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [but I won't be grateful either...]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['After all, there''s not much difference']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['between you and them..."']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [between you and them..."]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, 'No']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
@@ -434,7 +434,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [希莉娅, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Are you here to use me?']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['For you, all my worth only amounts to that,']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['doesn''t it..."']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [doesn't it..."]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['\c[2]Rape', Stay silent], 2]}
@@ -507,7 +507,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [希莉娅, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"\N[1], you''ve come... I''m still okay..."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Celia seems to be acting strangely...']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Celia seems to be acting strangely...]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Talk, Service, '\c[2]Kill\c[0]', Leave], 4]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Talk]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Celia]}
@@ -518,9 +518,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [希莉娅, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Not yet?... I''m sorry, if you can''t find her,']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['please don''t dwell on it.']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Our kind of people..."']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['our fate was probably set from the start..."']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [please don't dwell on it.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Our kind of people..."]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [our fate was probably set from the start..."]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 119, p: [对话结束]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
@@ -534,7 +534,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"I see... she was corrupted into a monster...']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['I guess there was no other choice, then...']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['To be removed from this world,']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['it might be a form of release for her..."']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [it might be a form of release for her..."]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [希莉娅, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"No matter... Thank you, really..."']}
@@ -547,11 +547,11 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [希莉娅, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Ah... She lost her memory?...']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['That''s not particularly surprising..."']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [That's not particularly surprising..."]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [希莉娅, 1, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"In any case... at least she''s still alive...']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Thank you..."']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Thank you..."]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [1415, 1415, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 119, p: [对话结束]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
@@ -564,7 +564,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [希莉娅, 1, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"\N[1], have you been']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['holding back this whole time?...']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['I understand... If you don''t mind...']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [I understand... If you don't mind...]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Please, let me help you release it..."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [C, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
@@ -572,7 +572,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [希莉娅, 1, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Are you not satisfied yet?...']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['I understand..."']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [I understand..."]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 117, p: [387]}
@@ -633,7 +633,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [希莉娅, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"\N[1], you''ve come back... I''m still here..."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Celia seems to be acting strangely...']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Celia seems to be acting strangely...]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Talk, Service, '\c[2]Kill\c[0]', Leave], 4]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Talk]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Celia]}
@@ -642,12 +642,12 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [希莉娅, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"\N[1]... Even in this apocalyptic world,']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['You still maintain your sanity..."']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [You still maintain your sanity..."]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [希莉娅, 1, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"To fulfill my final wish... \N[1]...']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['I don''t know how to thank you anymore...']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['I really don''t have anything to reward you with.']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [I don't know how to thank you anymore...]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [I really don't have anything to reward you with.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Well, unless you don''t mind my body..."']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 123, p: [B, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
@@ -655,9 +655,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [希莉娅, 1, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"\N[1], you''re here... Just by being near you,']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['there''s always a flutter in my heart...']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [there's always a flutter in my heart...]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Ah... What am I saying?']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Please... Forget about that..."']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [Please... Forget about that..."]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [[Make love, Leave], 2]}
@@ -680,7 +680,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [希莉娅, 1, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"\N[1]...']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['As long as you are willing... Anytime..."']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [As long as you are willing... Anytime..."]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
@@ -692,7 +692,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [希莉娅, 1, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"\N[1], are you still']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['holding back your desires?...']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['I understand... If you don''t mind...']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [I understand... If you don't mind...]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Please, let me help you release it..."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [D, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
@@ -700,7 +700,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [希莉娅, 1, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Your lust still hasn''t subsided?...']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Very well then..."']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Very well then..."]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 117, p: [387]}
@@ -890,7 +890,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [1420, 1420, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Under the ring lies Brindis''s farewell letter...']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Under the ring lies Brindis's farewell letter...]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Read it?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
@@ -1215,10 +1215,10 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['The girl lies disheveled,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['her body bearing signs of abuse and stains.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [her body bearing signs of abuse and stains.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['When she hears your footsteps,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['her scarred body trembles slightly.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [her scarred body trembles slightly.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [希莉娅, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"......"']}
@@ -1240,9 +1240,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [希莉娅, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"\N[1], you must be disgusted']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['by my ruined body...']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['I''m just a whore for other peoples'' desires...']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['It''s best if you don''t come closer..."']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [by my ruined body...]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I'm just a whore for other peoples' desires...]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [It's best if you don't come closer..."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 213, p: [-1, 8, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 212, p: [8, 37, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Celia]}
@@ -1321,10 +1321,10 @@ events:
       trigger: 3
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['The girl lies there like a puppet with its strings cut.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['A slight rise and fall of her chest shows she is alive.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The girl lies there like a puppet with its strings cut.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [A slight rise and fall of her chest shows she is alive.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['The color has left her eyes, and her body is dirty and']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['covered in marks.\|']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [covered in marks.\|]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Some of it was because of \c[2]me\c[0].']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['\c[2]Rape\c[0]', Leave], 2]}

@@ -4145,8 +4145,8 @@
     value: 0.0
   note: "<レベル限界増加:900>\r\n<限界変動:0,99999>\r\n<限界変動:1,99999>\r\n<限界変動:2,99999>\r\n<限界変動:3,99999>\r\n<限界変動:4,99999>\r\n<限界変動:5,99999>\r\n<限界変動:6,99999>\r\n<限界変動:7,99999>"
   equips:
-  - 177
-  - 0
+  - 509
+  - 275
   - 29
   - 243
   - 147
@@ -4155,7 +4155,7 @@
   max_level: 99
   icon_index: 0
 - !ruby/object:RPG::Actor
-  name: Rosemaker
+  name: Rose Fluffy
   face_index: 0
   character_index: 0
   initial_level: 99
@@ -4195,7 +4195,7 @@
   - 0
   - 0
   - 0
-  nickname: Moko queen
+  nickname: Fluffy queen
   description: ''
   max_level: 99
   icon_index: 0
