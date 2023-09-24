@@ -2891,11 +2891,11 @@
   scroll_y: 400
   parent_id: 0
 421: !ruby/object:RPG::MapInfo
-  scroll_x: 3013
+  scroll_x: 2590
   name: 移动草原
   expanded: true
   order: 423
-  scroll_y: 6538
+  scroll_y: 6732
   parent_id: 0
 422: !ruby/object:RPG::MapInfo
   scroll_x: 352
