@@ -2891,11 +2891,11 @@
   scroll_y: 400
   parent_id: 0
 421: !ruby/object:RPG::MapInfo
-  scroll_x: 2590
+  scroll_x: 2876
   name: 移动草原
   expanded: true
   order: 423
-  scroll_y: 6732
+  scroll_y: 6666
   parent_id: 0
 422: !ruby/object:RPG::MapInfo
   scroll_x: 352
@@ -2912,7 +2912,7 @@
   scroll_y: 272
   parent_id: 422
 424: !ruby/object:RPG::MapInfo
-  scroll_x: 708
+  scroll_x: 1131
   name: 废镇
   expanded: true
   order: 435
@@ -3010,7 +3010,7 @@
   scroll_y: 320
   parent_id: 411
 413: !ruby/object:RPG::MapInfo
-  scroll_x: 1422
+  scroll_x: 1120
   name: 列车2
   expanded: false
   order: 415
@@ -3199,11 +3199,11 @@
   scroll_y: 320
   parent_id: 422
 459: !ruby/object:RPG::MapInfo
-  scroll_x: 1125
+  scroll_x: 2708
   name: 地下
   expanded: true
   order: 428
-  scroll_y: 3214
+  scroll_y: 4300
   parent_id: 422
 458: !ruby/object:RPG::MapInfo
   scroll_x: 640
@@ -3332,7 +3332,7 @@
   scroll_y: 400
   parent_id: 475
 477: !ruby/object:RPG::MapInfo
-  scroll_x: 1434
+  scroll_x: 1428
   name: 地下隧道
   expanded: false
   order: 434

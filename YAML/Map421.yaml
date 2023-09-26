@@ -3121,7 +3121,7 @@ events:
       trigger: 1
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Compartment Key was used!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Old Carriage Key was used!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 126, p: [134, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: エレベーター・開く, pitch: 100, volume: 70}]}
