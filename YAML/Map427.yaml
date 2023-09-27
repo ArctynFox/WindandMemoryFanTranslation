@@ -4815,7 +4815,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['but it seems my concern was misplaced.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [？？？, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Are you here to investigate']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['the anomaly too? Did big sis Meko']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['the anomaly too? Did big sis Rose']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['also entrust others with a mission?"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [45, 1, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [？？？, 0, 0, 2]}

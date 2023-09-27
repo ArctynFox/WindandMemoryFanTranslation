@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: Winderkel Village East
+display_name: Windacre Village East
 tileset_id: 157
 width: 70
 height: 32

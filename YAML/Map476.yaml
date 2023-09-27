@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: Bottom of the Abyss
+display_name: Bottom of the Well of Darkness
 tileset_id: 165
 width: 30
 height: 25

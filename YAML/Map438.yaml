@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: Dwinkel Village
+display_name: Windacre Village
 tileset_id: 155
 width: 85
 height: 65
@@ -7285,7 +7285,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Welcome to Dwinkel!!!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Welcome to Windacre!!!']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   95: !ruby/object:RPG::Event
     id: 95

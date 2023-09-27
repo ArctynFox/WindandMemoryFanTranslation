@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: Deep Dark
+display_name: Subterranean Unknown
 tileset_id: 169
 width: 120
 height: 150

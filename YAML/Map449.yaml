@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: Fallen House
+display_name: House in the Whirlwind
 tileset_id: 159
 width: 45
 height: 55

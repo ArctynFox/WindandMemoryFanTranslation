@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: Fallen House Interior
+display_name: House in the Whirlwind Interior
 tileset_id: 161
 width: 30
 height: 60
@@ -1437,7 +1437,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [It probably isn't the source of the anomalies..."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [多萝西 (2), 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Let''s report back']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [big sis Meko as soon as possible."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [big sis Rose as soon as possible."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   11: !ruby/object:RPG::Event
     id: 11

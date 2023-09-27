@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: Setatz Convenience Store
+display_name: Zeta Konbini
 tileset_id: 3
 width: 20
 height: 20
@@ -467,14 +467,14 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Talk]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [「塞塔兹」, 1, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Oh, you figured it out?']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Yes, I used to be a famous explorer, Setatz Kote.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Yes, I used to be a famous explorer, Zeta Kote.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['I''ve always aspired to seek treasure']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['and uncover the truth behind legends~']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['But, you know, people need to make a living."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [「塞塔兹」, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Later, I realized that my instincts and keen eye']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['are suitable for being a shrewd merchant.']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['That''s how Setatz Convenience Store came to be!']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['That''s how Zeta Konbini came to be!']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Life was going well before the fog came.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['But now, it might be best for me']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['to pick up my old profession again~"']}
@@ -656,7 +656,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['the anomalies out there."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「塞塔兹」, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Do you need to buy anything?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Setatz is famous here, or, it used to be...']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Zeta is famous here, or, it used to be...']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['There are no customers now,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['but we had a good reputation~']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Daily necessities, consumables, rare items,']}
@@ -675,7 +675,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['After all, it will take some time']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['to reorganize the supplies.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「塞塔兹」, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Setatz will remain open for the time being,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Zeta will remain open for the time being,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['so feel free to indulge your soul!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -763,7 +763,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['(｡･∀･)ﾉﾞ Dear friend, if you''re reading this,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['it means I''ve embarked on a journey~']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Setatz Convenience Store Chittenango Branch']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Zeta Konbini Chittenango Branch']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['is now permanently closed~']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book1, pitch: 65, volume: 50}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
@@ -780,12 +780,12 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['an incredibly promising investment.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['That''s why, I propose we make a deal:']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Become the spokesperson for Setatz Convenience Store~']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Become the spokesperson for Zeta Konbini~']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Promote my products wherever you go!']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['But I haven''t forgotten about compensation:']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book1, pitch: 65, volume: 50}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['You are now the manager of this branch of Setatz!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['You are now the manager of this branch of Zeta!']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['You can freely use the merchandise here,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['and the living quarters on the roof are at your disposal~']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Don''t disappoint the discerning eyes of a lady (me)~']}
@@ -800,7 +800,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['So that''s all~']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I look forward to meeting you again in the Emerald City~~']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['                        -----Your dear Setatz Kote']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['                        -----Your dear Zeta Kote']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [30]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 126, p: [143, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [60]}
@@ -847,7 +847,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['(｡･∀･)ﾉﾞ Dear friend, if you''re reading this,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['it means I''ve embarked on a journey~']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Setatz Convenience Store Chittenango Branch']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Zeta Konbini Chittenango Branch']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['is now permanently closed~']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book1, pitch: 65, volume: 50}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
@@ -864,12 +864,12 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['an incredibly promising investment.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['That''s why, I propose we make a deal:']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Become the spokesperson for Setatz Convenience Store~']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Become the spokesperson for Zeta Konbini~']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Promote my products wherever you go!']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['But I haven''t forgotten about compensation:']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book1, pitch: 65, volume: 50}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['You are now the manager of this branch of Setatz!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['You are now the manager of this branch of Zeta!']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['You can freely use the merchandise here,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['and the living quarters on the roof are at your disposal~']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Don''t disappoint the discerning eyes of a lady (me)~']}
@@ -884,7 +884,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['So that''s all~']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I look forward to meeting you again in the Emerald City~~']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['                        -----Your dear Setatz Kote']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['                        -----Your dear Zeta Kote']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   8: !ruby/object:RPG::Event
     id: 8

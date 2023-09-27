@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: Outside of Chittenango
+display_name: Chittenango Outskirts
 tileset_id: 160
 width: 90
 height: 35

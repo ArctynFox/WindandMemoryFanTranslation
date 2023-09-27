@@ -2933,11 +2933,11 @@
   scroll_y: 480
   parent_id: 421
 427: !ruby/object:RPG::MapInfo
-  scroll_x: 1280
+  scroll_x: 1370
   name: 废镇东BOSS
   expanded: false
   order: 449
-  scroll_y: 592
+  scroll_y: 463
   parent_id: 421
 428: !ruby/object:RPG::MapInfo
   scroll_x: 336
@@ -2947,11 +2947,11 @@
   scroll_y: 512
   parent_id: 424
 429: !ruby/object:RPG::MapInfo
-  scroll_x: 1264
+  scroll_x: 1268
   name: 荒村
   expanded: true
   order: 457
-  scroll_y: 480
+  scroll_y: 463
   parent_id: 421
 430: !ruby/object:RPG::MapInfo
   scroll_x: 272
@@ -3059,25 +3059,25 @@
   scroll_y: 320
   parent_id: 411
 438: !ruby/object:RPG::MapInfo
-  scroll_x: 2011
+  scroll_x: 1588
   name: 荒村中心
   expanded: false
   order: 462
   scroll_y: 657
   parent_id: 429
 439: !ruby/object:RPG::MapInfo
-  scroll_x: 717
+  scroll_x: 1120
   name: 荒村东
   expanded: true
   order: 466
   scroll_y: 512
   parent_id: 429
 440: !ruby/object:RPG::MapInfo
-  scroll_x: 731
+  scroll_x: 720
   name: 荒村南
   expanded: true
   order: 460
-  scroll_y: 2063
+  scroll_y: 471
   parent_id: 429
 441: !ruby/object:RPG::MapInfo
   scroll_x: 560
@@ -3129,25 +3129,25 @@
   scroll_y: 512
   parent_id: 428
 447: !ruby/object:RPG::MapInfo
-  scroll_x: 1744
+  scroll_x: 1131
   name: 出城
   expanded: true
   order: 451
-  scroll_y: 560
+  scroll_y: 593
   parent_id: 421
 449: !ruby/object:RPG::MapInfo
   scroll_x: 720
   name: 坠落之屋
   expanded: true
   order: 454
-  scroll_y: 880
+  scroll_y: 1288
   parent_id: 421
 450: !ruby/object:RPG::MapInfo
-  scroll_x: 1136
+  scroll_x: 1131
   name: 黄昏之路
   expanded: false
   order: 465
-  scroll_y: 480
+  scroll_y: 497
   parent_id: 429
 451: !ruby/object:RPG::MapInfo
   scroll_x: 320
@@ -3161,14 +3161,14 @@
   name: 追忆的道路
   expanded: true
   order: 452
-  scroll_y: 560
+  scroll_y: 471
   parent_id: 447
 453: !ruby/object:RPG::MapInfo
   scroll_x: 400
   name: 草原地穴
   expanded: false
   order: 433
-  scroll_y: 1734
+  scroll_y: 1928
   parent_id: 468
 454: !ruby/object:RPG::MapInfo
   scroll_x: 640
@@ -3178,7 +3178,7 @@
   scroll_y: 560
   parent_id: 425
 455: !ruby/object:RPG::MapInfo
-  scroll_x: 708
+  scroll_x: 720
   name: 荒村南下
   expanded: false
   order: 461
@@ -3301,14 +3301,14 @@
   name: 胆小兔落穴
   expanded: false
   order: 453
-  scroll_y: 943
+  scroll_y: 1137
   parent_id: 452
 473: !ruby/object:RPG::MapInfo
-  scroll_x: 2074
+  scroll_x: 2068
   name: 地下通道
   expanded: false
   order: 468
-  scroll_y: 640
+  scroll_y: 817
   parent_id: 456
 474: !ruby/object:RPG::MapInfo
   scroll_x: 448
@@ -3336,5 +3336,5 @@
   name: 地下隧道
   expanded: false
   order: 434
-  scroll_y: 657
+  scroll_y: 3377
   parent_id: 459

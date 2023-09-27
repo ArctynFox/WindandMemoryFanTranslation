@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: South of Winderkel Village
+display_name: South of Windacre Village
 tileset_id: 155
 width: 45
 height: 85
@@ -8791,7 +8791,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['   Ahead']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Dwinkel Village']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' Windacre Village']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   91: !ruby/object:RPG::Event
     id: 91

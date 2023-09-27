@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: Andraste Logging Camp
+display_name: Andrach Lumberyard
 tileset_id: 155
 width: 75
 height: 30

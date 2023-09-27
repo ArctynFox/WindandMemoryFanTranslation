@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: South of Winderkel Village
+display_name: Windacre South Outskirts
 tileset_id: 155
 width: 45
 height: 85
@@ -7014,9 +7014,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['  Notice']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Due to an unknown illness caused by toxic fog,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Winderkel is now under complete lockdown.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Outsiders are prohibited from entering Winderkel.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['This order is in effect until further notice.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Windacre is now under complete lockdown.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Outsiders are prohibited from entering Windacre.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [This order is in effect until further notice.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   16: !ruby/object:RPG::Event
     id: 16
@@ -8304,7 +8304,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['  Notice']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Due to an unknown illness caused by toxic fog,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Winderkel is now under complete lockdown.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Outsiders are prohibited from entering Winderkel.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['This order is in effect until further notice.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Windacre is now under complete lockdown.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Outsiders are prohibited from entering Windacre.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [This order is in effect until further notice.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

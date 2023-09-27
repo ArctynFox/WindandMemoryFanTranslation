@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: Ancient Secret Passage
+display_name: Forgotten Underpass
 tileset_id: 158
 width: 100
 height: 40

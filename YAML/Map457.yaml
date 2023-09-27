@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: Temporary Wagon Camp
+display_name: Temporary Carriage Camp
 tileset_id: 150
 width: 60
 height: 20
@@ -157,17 +157,17 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The cave below is extremely creepy.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['However, Ren said that it might be']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['the source of everything happening outside.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [the source of everything happening outside.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['If we can investigate it thoroughly,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['it may be a clue to finding a way out of here.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [it may be a clue to finding a way out of here.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['It really is creepy, though...']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book1, pitch: 65, volume: 50}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The tunnels in the cave seem to vary in age.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Some appear to be relatively recent,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['but others show signs of being artificially excavated.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Could someone else have investigated']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [but others show signs of being artificially excavated.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Could someone else have investigated]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['the secrets underground as well?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   2: !ruby/object:RPG::Event

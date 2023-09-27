@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-display_name: Reorganized Wagons
+display_name: Reorganized Carriage
 tileset_id: 150
 width: 40
 height: 20
