@@ -1034,7 +1034,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Cherishing and protecting adorable and']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['pitiful fairies is our motto.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['We welcome everyone to join the Fairy Care Association!']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['                         ——Bao Kai']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['                         ——宝开']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [-1, 8, true]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   10: !ruby/object:RPG::Event
@@ -1087,11 +1087,11 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [A fish sprinkled with black pepper. Attack +114514]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['                                   ——Shakusha']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['                                   ——沙库沙']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [A fish drizzled with premium mustard. Magic +114514]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['                  ——Too lazy to come up with a name']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['                  ——懒得想名字']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [-1, 8, true]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   11: !ruby/object:RPG::Event
@@ -1144,7 +1144,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Hi everyone, I''m Da Shanmeng, in charge of H copywriting.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I''m really crippled by not being able']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['to write more over-the-top.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['                                         ——Da Shanmeng']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['                                         ——大山猛']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There seems to be writing on the back of the note.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book1, pitch: 65, volume: 50}]}
@@ -1199,7 +1199,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [It appears to be a manuscript.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book1, pitch: 65, volume: 50}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Hi, everyone. I''m Chuanyuebufei, in charge of copywriting.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Hi, everyone. I''m 穿越不菲, in charge of copywriting.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['If you read some strange modern poem or riddle,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['There''s no doubt that I wrote it (bushi)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book1, pitch: 65, volume: 50}]}
@@ -1220,7 +1220,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I can''t read it either XD)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['                                  ——Chuanyuebufei']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['                                  ——穿越不菲']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [-1, 8, true]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   12: !ruby/object:RPG::Event
@@ -1275,7 +1275,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Take]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [-Black Soul High School Second Year-]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['        -Yùlù Júzi-']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['        -玉露桔子-']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [-1, 8, true]}
