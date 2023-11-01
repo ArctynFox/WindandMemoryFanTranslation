@@ -3063,7 +3063,7 @@
   name: 荒村中心
   expanded: false
   order: 462
-  scroll_y: 657
+  scroll_y: 463
   parent_id: 429
 439: !ruby/object:RPG::MapInfo
   scroll_x: 1120

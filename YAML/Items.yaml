@@ -4661,7 +4661,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: Your fists have gotten tougher.
-  name: Liev
+  name: Leaf Doll
   consumable: false
   occasion: 2
   icon_index: 786

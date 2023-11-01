@@ -176,6 +176,7 @@ module A1_System::NameWindow
     "ハインリヒ"    => "Frog Heinrich",
     "多萝西 (2)"    => "Dorothy",
     "「塞塔兹」"    => "Zeta",
+    "「塞塔兹」"    => "Zeta",
     "希莉娅"    => "Celia",
     "？？？"    => "???",
     "「格劳」"    => "Grau",

@@ -651,7 +651,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Ah, it''s alright. You must have a mission of your own.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['But even if you can only stay here for a short time,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [this sanctuary is the safest place in the world.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['...I won''t disturb you anly longer. Feel free to rest."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['...I won''t disturb you any longer. Feel free to rest."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [60]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 122, p: [1404, 1404, 0, 0, 4]}
@@ -1560,10 +1560,6 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [希莉娅, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"This is the only way I can manage']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [to eke out a living in this world..."]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [希莉娅, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Don''t worry about me,']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [this kind of work is actually quite easy...]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [The people who come to pray are all good people."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [希莉娅, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Don''t worry about me,']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [this kind of work is actually quite easy...]}
@@ -4441,7 +4437,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Hahaha, welcome!']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Your performance just now was truly outstanding.]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I can finally breathe a sih of relief.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I can finally breathe a sigh of relief.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I've been on edge for the past few days."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 贵族]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: &103 ['', 0, 0, 2]}
