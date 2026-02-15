@@ -12158,6 +12158,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' of the end of this land. Always ''til the end!"']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 318, p: [1, 14, 0, 340]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [D, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['steam = SteamUserStatsLite.instance']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['steam.set_achievement ''Run like Dodo''']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['steam.update']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 115, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}

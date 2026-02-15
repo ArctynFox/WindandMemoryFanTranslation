@@ -5,6 +5,9 @@
   name: 篝火
   switch_id: 1
   list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['steam = SteamUserStatsLite.instance']}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['steam.set_achievement ''fire''']}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['steam.update']}
   - !ruby/object:RPG::EventCommand {i: 0, c: 251, p: []}
   - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Fire6, pitch: 70, volume: 80}]}
   - !ruby/object:RPG::EventCommand {i: 0, c: 117, p: [6]}
@@ -3101,6 +3104,9 @@
   name: 主人公　墜落死
   switch_id: 1
   list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['steam = SteamUserStatsLite.instance']}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['steam.set_achievement ''fall''']}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['steam.update']}
   - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [1, 6, 0, 9, 0]}
   - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
   - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
@@ -4080,6 +4086,9 @@
   - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: MBJH_SE_Knockitdown, pitch: 100, volume: 80}]}
   - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [60]}
   - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 102, 29, 7, 2, 0]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['steam = SteamUserStatsLite.instance']}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['steam.set_achievement ''Fresh Meat''']}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['steam.update']}
   - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [7, 7, 1]}
   - !ruby/object:RPG::EventCommand {i: 0, c: 206, p: []}
   - !ruby/object:RPG::EventCommand
@@ -8360,6 +8369,9 @@
   - !ruby/object:RPG::EventCommand {i: 5, c: 230, p: [60]}
   - !ruby/object:RPG::EventCommand {i: 5, c: 222, p: []}
   - !ruby/object:RPG::EventCommand {i: 5, c: 318, p: [1, 14, 0, 339]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['steam = SteamUserStatsLite.instance']}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['steam.set_achievement ''Devouring Beast''']}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['steam.update']}
   - !ruby/object:RPG::EventCommand {i: 5, c: 213, p: [5, 3, true]}
   - !ruby/object:RPG::EventCommand {i: 5, c: 101, p: [バン, 0, 0, 2]}
   - !ruby/object:RPG::EventCommand {i: 5, c: 401, p: ["\"Way to go♡"]}
@@ -22389,6 +22401,9 @@
   switch_id: 1
   list:
   - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 618, 0]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['steam = SteamUserStatsLite.instance']}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['steam.set_achievement ''Serpent God''']}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['steam.update']}
   - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [42, 42, 0, 2, 1, 100]}
   - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 42, 0, 1, 0]}
   - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [0, 934, 0]}
@@ -23920,6 +23935,9 @@
   - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
   - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
   - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['steam = SteamUserStatsLite.instance']}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['steam.set_achievement ''new game''']}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['steam.update']}
   - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 110, 15, 12, 2, 0]}
   - !ruby/object:RPG::EventCommand {i: 0, c: 135, p: [0]}
   - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
