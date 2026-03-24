@@ -36,7 +36,7 @@ class Game_System
   # ● 日本語モード判定
   #--------------------------------------------------------------------------
   def japanese?
-    return false #this line just tells RPG Maker that the game is the English version. Wasn't present in the mod, presumably as it was based off the Japanese version.
+    return false
     $data_system.japanese
   end
   #--------------------------------------------------------------------------

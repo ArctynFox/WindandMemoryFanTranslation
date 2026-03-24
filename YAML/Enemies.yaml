@@ -1,5 +1,5 @@
 ---
-- 
+-
 - !ruby/object:RPG::Enemy
   name: Headless Hollow
   gold: 48
@@ -11467,7 +11467,7 @@
     kind: 0
     data_id: 17
 - !ruby/object:RPG::Enemy
-  name: ==Nameless Forest==
+  name: "==Nameless Forest=="
   gold: 0
   battler_hue: 0
   exp: 0
@@ -12197,7 +12197,7 @@
     kind: 0
     data_id: 1
 - !ruby/object:RPG::Enemy
-  name: =================
+  name: "================="
   gold: 0
   battler_hue: 0
   exp: 0
@@ -14231,7 +14231,7 @@
     kind: 0
     data_id: 17
 - !ruby/object:RPG::Enemy
-  name: ====BOSSES====
+  name: "====BOSSES===="
   gold: 0
   battler_hue: 0
   exp: 0
@@ -26845,7 +26845,7 @@
     skill_id: 576
     condition_param2: 0
     condition_param1: 33
-  note: <限界変動:6,99999>
+  note: "<限界変動:6,99999>"
   id: 299
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -31403,7 +31403,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: ====Chaos Dungeon====
+  name: "====Chaos Dungeon===="
   gold: 0
   battler_hue: 0
   exp: 0
@@ -42593,11 +42593,11 @@
     kind: 1
     data_id: 10
 - !ruby/object:RPG::Enemy
-  name: ???
+  name: "???"
   gold: 0
   battler_hue: 0
   exp: 0
-  battler_name: 【変身用】
+  battler_name: "【変身用】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -42605,7 +42605,7 @@
     skill_id: 1
     condition_param2: 0
     condition_param1: 0
-  note: <HIDE_HP>
+  note: "<HIDE_HP>"
   id: 475
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -42645,11 +42645,11 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: ???2
+  name: "???2"
   gold: 0
   battler_hue: 0
   exp: 0
-  battler_name: 【変身用】
+  battler_name: "【変身用】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -42657,7 +42657,7 @@
     skill_id: 1
     condition_param2: 0
     condition_param1: 0
-  note: <HIDE_HP>
+  note: "<HIDE_HP>"
   id: 476
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -44297,7 +44297,7 @@
   gold: 900000
   battler_hue: 0
   exp: 0
-  battler_name: 【変身用】
+  battler_name: "【変身用】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -46680,7 +46680,7 @@
     skill_id: 794
     condition_param2: 0
     condition_param1: 33
-  note: <自動蘇生:500,42,80>
+  note: "<自動蘇生:500,42,80>"
   id: 511
   eva: 5
   features:
@@ -47294,7 +47294,7 @@
     skill_id: 820
     condition_param2: 0
     condition_param1: 0
-  note: <限界変動:3,100000>
+  note: "<限界変動:3,100000>"
   id: 517
   eva: 5
   features:
@@ -47418,7 +47418,7 @@
     skill_id: 821
     condition_param2: 0
     condition_param1: 0
-  note: <限界変動:3,100000>
+  note: "<限界変動:3,100000>"
   id: 518
   eva: 5
   features:
@@ -47592,7 +47592,7 @@
     skill_id: 925
     condition_param2: 6
     condition_param1: 6
-  note: <限界変動:3,100000>
+  note: "<限界変動:3,100000>"
   id: 519
   eva: 5
   features:
@@ -48412,7 +48412,7 @@
     skill_id: 831
     condition_param2: 0
     condition_param1: 0
-  note: <限界変動:5,100000>
+  note: "<限界変動:5,100000>"
   id: 527
   eva: 5
   features:
@@ -49562,7 +49562,7 @@
     skill_id: 304
     condition_param2: 8
     condition_param1: 8
-  note: <限界変動:0,1000000>
+  note: "<限界変動:0,1000000>"
   id: 541
   eva: 5
   features:
@@ -49696,7 +49696,7 @@
     skill_id: 935
     condition_param2: 0
     condition_param1: 32
-  note: <限界変動:5,100000>
+  note: "<限界変動:5,100000>"
   id: 543
   eva: 5
   features:
@@ -51298,7 +51298,7 @@
     skill_id: 977
     condition_param2: 0
     condition_param1: 31
-  note: <必中絶対回避>
+  note: "<必中絶対回避>"
   id: 556
   eva: 5
   features:
@@ -54779,7 +54779,7 @@
   gold: 0
   battler_hue: 0
   exp: 0
-  battler_name: 【変身用】
+  battler_name: "【変身用】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -54921,7 +54921,7 @@
   gold: 0
   battler_hue: 0
   exp: 0
-  battler_name: 【変身用】
+  battler_name: "【変身用】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -55067,7 +55067,7 @@
   gold: 0
   battler_hue: 0
   exp: 0
-  battler_name: 【変身用】
+  battler_name: "【変身用】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -55213,7 +55213,7 @@
   gold: 0
   battler_hue: 0
   exp: 0
-  battler_name: 【変身用】
+  battler_name: "【変身用】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -55355,7 +55355,7 @@
   gold: 0
   battler_hue: 0
   exp: 0
-  battler_name: 【変身用】
+  battler_name: "【変身用】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -55501,7 +55501,7 @@
   gold: 0
   battler_hue: 0
   exp: 0
-  battler_name: 【変身用】
+  battler_name: "【変身用】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -55647,7 +55647,7 @@
   gold: 0
   battler_hue: 0
   exp: 0
-  battler_name: 【変身用】
+  battler_name: "【変身用】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -55789,7 +55789,7 @@
   gold: 0
   battler_hue: 0
   exp: 0
-  battler_name: 【変身用】
+  battler_name: "【変身用】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -56689,7 +56689,7 @@
   gold: 66666
   battler_hue: 0
   exp: 0
-  battler_name: 【ss】
+  battler_name: "【ss】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -56837,7 +56837,7 @@
   gold: 300000
   battler_hue: 330
   exp: 0
-  battler_name: 【zldantl】
+  battler_name: "【zldantl】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -57015,7 +57015,7 @@
   gold: 12500
   battler_hue: 330
   exp: 0
-  battler_name: 【ZW】
+  battler_name: "【ZW】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -57227,7 +57227,7 @@
   gold: 60000
   battler_hue: 360
   exp: 0
-  battler_name: 【NNQQ】
+  battler_name: "【NNQQ】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 1
@@ -57259,7 +57259,7 @@
     skill_id: 1009
     condition_param2: 0
     condition_param1: 0
-  note: 【恶意】
+  note: "【恶意】"
   id: 601
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -57399,7 +57399,7 @@
   gold: 98000
   battler_hue: 0
   exp: 0
-  battler_name: 【dwdts2】
+  battler_name: "【dwdts2】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -57555,7 +57555,7 @@
     skill_id: 1019
     condition_param2: 0.4
     condition_param1: 0
-  note: 【精英】
+  note: "【精英】"
   id: 603
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -57855,7 +57855,7 @@
   gold: 888888
   battler_hue: 0
   exp: 0
-  battler_name: 【tldwy】
+  battler_name: "【tldwy】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -57869,7 +57869,7 @@
     skill_id: 1024
     condition_param2: 0.4
     condition_param1: 0
-  note: 【精英】
+  note: "【精英】"
   id: 605
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -58021,7 +58021,7 @@
   gold: 150000
   battler_hue: 0
   exp: 0
-  battler_name: 【jedwy】
+  battler_name: "【jedwy】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -58201,7 +58201,7 @@
   gold: 9000
   battler_hue: 0
   exp: 0
-  battler_name: 【bqsdynz】
+  battler_name: "【bqsdynz】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -58361,7 +58361,7 @@
     skill_id: 1029
     condition_param2: 0.3
     condition_param1: 0
-  note: 【boss】
+  note: "【boss】"
   id: 608
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -58553,7 +58553,7 @@
   gold: 100000
   battler_hue: 0
   exp: 0
-  battler_name: 【TFZY】
+  battler_name: "【TFZY】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -58573,7 +58573,7 @@
     skill_id: 1031
     condition_param2: 0.6
     condition_param1: 0
-  note: 【boss】
+  note: "【boss】"
   id: 609
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -58753,7 +58753,7 @@
   gold: 14000
   battler_hue: 0
   exp: 0
-  battler_name: 【fkdcm】
+  battler_name: "【fkdcm】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -58887,7 +58887,7 @@
   gold: 16000
   battler_hue: 0
   exp: 0
-  battler_name: 【bydcm1】
+  battler_name: "【bydcm1】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -59021,7 +59021,7 @@
   gold: 10000
   battler_hue: 0
   exp: 0
-  battler_name: 【bzdtf】
+  battler_name: "【bzdtf】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -59155,7 +59155,7 @@
   gold: 32000
   battler_hue: 0
   exp: 0
-  battler_name: 【fkdtf2】
+  battler_name: "【fkdtf2】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -59175,7 +59175,7 @@
     skill_id: 1037
     condition_param2: 0.5
     condition_param1: 0
-  note: 【精英】
+  note: "【精英】"
   id: 613
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -59351,7 +59351,7 @@
   gold: 13000
   battler_hue: 0
   exp: 0
-  battler_name: 【BYZW】
+  battler_name: "【BYZW】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -59509,7 +59509,7 @@
   gold: 15000
   battler_hue: 0
   exp: 0
-  battler_name: 【byq】
+  battler_name: "【byq】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -59701,7 +59701,7 @@
   gold: 7800
   battler_hue: 200
   exp: 0
-  battler_name: 【gydsm】
+  battler_name: "【gydsm】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -59815,7 +59815,7 @@
   gold: 9000
   battler_hue: 0
   exp: 0
-  battler_name: 【dkdsm】
+  battler_name: "【dkdsm】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -60043,7 +60043,7 @@
   gold: 18000
   battler_hue: 0
   exp: 0
-  battler_name: 【XJT1】
+  battler_name: "【XJT1】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -60223,7 +60223,7 @@
   gold: 17500
   battler_hue: 0
   exp: 0
-  battler_name: 【xjz】
+  battler_name: "【xjz】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -60333,7 +60333,7 @@
   gold: 250000
   battler_hue: 0
   exp: 0
-  battler_name: 【wsz3】
+  battler_name: "【wsz3】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -60471,7 +60471,7 @@
     skill_id: 1049
     condition_param2: 0.3
     condition_param1: 0
-  note: 【稀有】
+  note: "【稀有】"
   id: 623
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -60655,7 +60655,7 @@
   gold: 22000
   battler_hue: 0
   exp: 0
-  battler_name: 【XJT2】
+  battler_name: "【XJT2】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -60839,7 +60839,7 @@
   gold: 0
   battler_hue: 0
   exp: 0
-  battler_name: 【稻草人】
+  battler_name: "【稻草人】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -60877,7 +60877,7 @@
     skill_id: 1030
     condition_param2: 0
     condition_param1: 0
-  note: 【boss】
+  note: "【boss】"
   id: 625
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -61093,7 +61093,7 @@
   gold: 375000
   battler_hue: 0
   exp: 0
-  battler_name: 【稻草人 - 狂暴】
+  battler_name: "【稻草人 - 狂暴】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -61131,7 +61131,7 @@
     skill_id: 1055
     condition_param2: 0.3
     condition_param1: 0
-  note: 【boss】
+  note: "【boss】"
   id: 626
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -61351,7 +61351,7 @@
   gold: 23000
   battler_hue: 0
   exp: 0
-  battler_name: 【XJT4】
+  battler_name: "【XJT4】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -61535,7 +61535,7 @@
   gold: 22500
   battler_hue: 0
   exp: 0
-  battler_name: 【xjt5】
+  battler_name: "【xjt5】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -61757,7 +61757,7 @@
     skill_id: 1060
     condition_param2: 0.3
     condition_param1: 0
-  note: 【稀有】
+  note: "【稀有】"
   id: 629
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -61975,7 +61975,7 @@
     skill_id: 1230
     condition_param2: 0
     condition_param1: 0
-  note: 【稀有】
+  note: "【稀有】"
   id: 630
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -62379,7 +62379,7 @@
   gold: 15000
   battler_hue: 20
   exp: 0
-  battler_name: 【qs2】
+  battler_name: "【qs2】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -62509,7 +62509,7 @@
   gold: 0
   battler_hue: 0
   exp: 0
-  battler_name: 【sb1】
+  battler_name: "【sb1】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -62619,7 +62619,7 @@
   gold: 12000
   battler_hue: 0
   exp: 0
-  battler_name: 【gs】
+  battler_name: "【gs】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -62723,7 +62723,7 @@
   gold: 77777
   battler_hue: 0
   exp: 0
-  battler_name: 「HSNQ」
+  battler_name: "「HSNQ」"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -62925,7 +62925,7 @@
   gold: 280000
   battler_hue: 0
   exp: 0
-  battler_name: 「铁道警笛头1」
+  battler_name: "「铁道警笛头1」"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -63385,7 +63385,7 @@
     skill_id: 1230
     condition_param2: 0
     condition_param1: 0
-  note: 【稀有】
+  note: "【稀有】"
   id: 638
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -63673,7 +63673,7 @@
   gold: 12500
   battler_hue: 20
   exp: 0
-  battler_name: 【受难者】
+  battler_name: "【受难者】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -63797,7 +63797,7 @@
   gold: 12500
   battler_hue: 330
   exp: 0
-  battler_name: 【泥岩】
+  battler_name: "【泥岩】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -63971,7 +63971,7 @@
   gold: 15000
   battler_hue: 20
   exp: 0
-  battler_name: 【游离者】
+  battler_name: "【游离者】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -64133,7 +64133,7 @@
   gold: 13000
   battler_hue: 0
   exp: 0
-  battler_name: 【融合植物】
+  battler_name: "【融合植物】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -64279,7 +64279,7 @@
   gold: 11500
   battler_hue: 330
   exp: 0
-  battler_name: 【遇难者】
+  battler_name: "【遇难者】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -64433,7 +64433,7 @@
   gold: 280000
   battler_hue: 330
   exp: 0
-  battler_name: 【狩猎者】
+  battler_name: "【狩猎者】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -64647,7 +64647,7 @@
   gold: 16000
   battler_hue: 0
   exp: 0
-  battler_name: 【监视者】
+  battler_name: "【监视者】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -64793,7 +64793,7 @@
   gold: 23333
   battler_hue: 0
   exp: 0
-  battler_name: 【呱呱草】
+  battler_name: "【呱呱草】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -65069,7 +65069,7 @@
   gold: 0
   battler_hue: 0
   exp: 0
-  battler_name: 「格劳」
+  battler_name: "「格劳」"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -65179,7 +65179,7 @@
   gold: 175000
   battler_hue: 0
   exp: 0
-  battler_name: 「格劳魔兽化」
+  battler_name: "「格劳魔兽化」"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -65405,7 +65405,7 @@
   gold: 280000
   battler_hue: 0
   exp: 0
-  battler_name: 「铁道警笛头2」
+  battler_name: "「铁道警笛头2」"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -65559,7 +65559,7 @@
   gold: 17777
   battler_hue: 0
   exp: 0
-  battler_name: '「HSYY」 '
+  battler_name: "「HSYY」 "
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -68253,7 +68253,7 @@
   gold: 0
   battler_hue: 0
   exp: 0
-  battler_name: '[FWZD]'
+  battler_name: "[FWZD]"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 1
@@ -68267,7 +68267,7 @@
     skill_id: 1108
     condition_param2: 0
     condition_param1: 0
-  note: 【精英】
+  note: "【精英】"
   id: 699
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -68939,7 +68939,7 @@
   gold: 0
   battler_hue: 0
   exp: 0
-  battler_name: 「施虐者」
+  battler_name: "「施虐者」"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 1
@@ -68959,7 +68959,7 @@
     skill_id: 1037
     condition_param2: 0.5
     condition_param1: 0
-  note: 【精英】
+  note: "【精英】"
   id: 703
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -69131,7 +69131,7 @@
   gold: 0
   battler_hue: 0
   exp: 0
-  battler_name: 「死亡的含义」
+  battler_name: "「死亡的含义」"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 1
@@ -69151,7 +69151,7 @@
     skill_id: 1037
     condition_param2: 0.5
     condition_param1: 0
-  note: 【精英】
+  note: "【精英】"
   id: 704
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -69619,7 +69619,7 @@
   gold: 0
   battler_hue: 0
   exp: 0
-  battler_name: 【堕落神父】
+  battler_name: "【堕落神父】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -69933,7 +69933,7 @@
   gold: 0
   battler_hue: 0
   exp: 0
-  battler_name: '[CZHY]'
+  battler_name: "[CZHY]"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -70023,7 +70023,7 @@
     skill_id: 1055
     condition_param2: 0.3
     condition_param1: 0
-  note: 【boss】
+  note: "【boss】"
   id: 710
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -70481,7 +70481,7 @@
     skill_id: 1208
     condition_param2: 4
     condition_param1: 1
-  note: 【稀有】
+  note: "【稀有】"
   id: 712
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -86087,7 +86087,7 @@
   gold: 18000
   battler_hue: 0
   exp: 0
-  battler_name: 【XJT1】
+  battler_name: "【XJT1】"
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0

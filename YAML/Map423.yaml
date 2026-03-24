@@ -8,9 +8,15 @@ specify_battleback: false
 battleback1_name: ''
 battleback2_name: ''
 autoplay_bgm: false
-bgm: !ruby/object:RPG::BGM {name: '', volume: 100, pitch: 100}
+bgm: !ruby/object:RPG::BGM
+  name: ''
+  volume: 100
+  pitch: 100
 autoplay_bgs: false
-bgs: !ruby/object:RPG::BGS {name: '', volume: 80, pitch: 100}
+bgs: !ruby/object:RPG::BGS
+  name: ''
+  volume: 80
+  pitch: 100
 disable_dashing: false
 encounter_list: []
 encounter_step: 30
@@ -20,7 +26,7 @@ parallax_loop_y: false
 parallax_sx: 0
 parallax_sy: 0
 parallax_show: false
-note: <色調 20, 20, -40, 150>
+note: "<色調 20, 20, -40, 150>"
 data: !ruby/object:Table
   dim: 3
   x: 22
@@ -131,7 +137,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: true
@@ -144,7 +152,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: Equip3, pitch: 80, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['......']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ["......"]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 126, p: [39, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [38, 38, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [A, 0]}
@@ -164,7 +172,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: Equip3, pitch: 80, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['......']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ["......"]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 126, p: [39, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [38, 38, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [A, 0]}
@@ -204,7 +212,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: true
@@ -262,7 +272,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -294,7 +306,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!$Shadow-Mirror(Ace)'
+        character_name: "!$Shadow-Mirror(Ace)"
         character_index: 0
         direction: 8
         pattern: 2
@@ -306,7 +318,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: true
@@ -335,7 +349,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [60]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 212, p: [2, 38, true]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['The mirror has been restored!']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [The mirror has been restored!]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [1174, 1174, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
@@ -360,7 +374,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!$Shadow-Mirror(Ace)'
+        character_name: "!$Shadow-Mirror(Ace)"
         character_index: 0
         direction: 2
         pattern: 0
@@ -372,7 +386,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: false
       direction_fix: true
@@ -391,10 +407,18 @@ events:
           skippable: false
           wait: true
           list:
-          - &1 !ruby/object:RPG::MoveCommand {code: 37, parameters: []}
-          - &2 !ruby/object:RPG::MoveCommand {code: 12, parameters: []}
-          - &3 !ruby/object:RPG::MoveCommand {code: 39, parameters: []}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &1 !ruby/object:RPG::MoveCommand
+            code: 37
+            parameters: []
+          - &2 !ruby/object:RPG::MoveCommand
+            code: 12
+            parameters: []
+          - &3 !ruby/object:RPG::MoveCommand
+            code: 39
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*3]}
@@ -412,9 +436,15 @@ events:
           skippable: false
           wait: true
           list:
-          - &4 !ruby/object:RPG::MoveCommand {code: 38, parameters: []}
-          - &5 !ruby/object:RPG::MoveCommand {code: 40, parameters: []}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &4 !ruby/object:RPG::MoveCommand
+            code: 38
+            parameters: []
+          - &5 !ruby/object:RPG::MoveCommand
+            code: 40
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*4]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*5]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -453,7 +483,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -487,7 +519,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!Flame'
+        character_name: "!Flame"
         character_index: 7
         direction: 2
         pattern: 1
@@ -499,7 +531,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: true
       direction_fix: true
@@ -541,7 +575,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -573,7 +609,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!Flame'
+        character_name: "!Flame"
         character_index: 6
         direction: 2
         pattern: 0
@@ -585,15 +621,37 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 17, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 19, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 16, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 17
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 18
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 19
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 16
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: false
       direction_fix: false
@@ -633,7 +691,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: false
       direction_fix: true
@@ -665,7 +725,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!Flame'
+        character_name: "!Flame"
         character_index: 6
         direction: 2
         pattern: 0
@@ -677,15 +737,37 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 17, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 19, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 16, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 17
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 18
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 19
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 16
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: false
       direction_fix: false
@@ -725,7 +807,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: false
       direction_fix: true
@@ -769,7 +853,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: true
@@ -779,35 +865,35 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book1, pitch: 65, volume: 50}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['The warehouse is very sturdy.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['We''ve finally escaped the monsters.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The warehouse is very sturdy.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [We've finally escaped the monsters.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Why is something like this happening, when...']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['We were meant to just be going on an outing together.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [We were meant to just be going on an outing together.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book1, pitch: 65, volume: 50}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['We don''t know how everyone else is doing,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['out there being chased by those monsters...']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['We should have listened to Ren earlier...']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [out there being chased by those monsters...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [We should have listened to Ren earlier...]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book1, pitch: 65, volume: 50}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['This seems to be the place that person saw.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [This seems to be the place that person saw.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Apart from those useless parts,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['the second floor seems to be a storage area.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I haven''t found anything useful; it''s all discarded items.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I wonder how everyone is doing...']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [the second floor seems to be a storage area.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I haven't found anything useful; it's all discarded items.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I wonder how everyone is doing...]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book1, pitch: 65, volume: 50}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['There are strange sounds and tremors outside again.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There are strange sounds and tremors outside again.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I saw a massive shadow through the crack in the door,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['and the surroundings seemed distorted...']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [and the surroundings seemed distorted...]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I don''t dare to go out anymore,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I''d much rather stay trapped than be caught.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I'd much rather stay trapped than be caught.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book1, pitch: 65, volume: 50}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['It''s so painful... like something has been pulled out...']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Everything around me seems to be twisting...']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['The mirror... The mirror is glowing...']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['It looks as though something has appeared inside it...']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [It's so painful... like something has been pulled out...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Everything around me seems to be twisting...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The mirror... The mirror is glowing...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [It looks as though something has appeared inside it...]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   8: !ruby/object:RPG::Event
     id: 8
@@ -844,7 +930,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -853,31 +941,31 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['A pile of crumpled checklists. The dates are unreadable.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [A pile of crumpled checklists. The dates are unreadable.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book1, pitch: 65, volume: 50}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['X/XX']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Wheat ―――― 12 boxes']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Tequila ―――― 4 boxes']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['(Be careful not to let Ale sneak a drink, he loves tequila)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [X/XX]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Wheat ―――― 12 boxes]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Tequila ―――― 4 boxes]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["(Be careful not to let Ale sneak a drink, he loves tequila)"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book1, pitch: 65, volume: 50}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['X/XX']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Tobacco ―――― 5 boxes']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Glass items ―――― 4 boxes']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ceramics ―――― 8 pieces (Placed in truck 3)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [X/XX]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Tobacco ―――― 5 boxes]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Glass items ―――― 4 boxes]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ceramics ―――― 8 pieces (Placed in truck 3)]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book1, pitch: 65, volume: 50}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['XX/XX']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Wheat ―――― 5 boxes']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Iron tools ―――― 2 boxes']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Furniture ―――― 6 pieces']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [XX/XX]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Wheat ―――― 5 boxes]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Iron tools ―――― 2 boxes]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Furniture ―――― 6 pieces]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book1, pitch: 65, volume: 50}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['XX/XX']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Antiques ―――― 3 boxes (be extra careful with the mirror)']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Famous paintings ―――― 12 pieces']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Statue ―――― 1']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [XX/XX]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Antiques ―――― 3 boxes (be extra careful with the mirror)]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Famous paintings ―――― 12 pieces]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Statue ―――― 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   9: !ruby/object:RPG::Event
     id: 9
@@ -914,7 +1002,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -923,7 +1013,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]A very familiar mode of transportation.\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\\c[2]A very familiar mode of transportation.\\c[0]"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   10: !ruby/object:RPG::Event
     id: 10
@@ -960,7 +1050,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -969,7 +1061,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Seek the Fusion Source,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\\c[2]Seek the Fusion Source,"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['therefore inquire at station.\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   11: !ruby/object:RPG::Event
@@ -1007,7 +1099,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -1016,7 +1110,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]To repair the mirror, seek the fragments and Fusion Source.\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\\c[2]To repair the mirror, seek the fragments and Fusion Source.\\c[0]"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   12: !ruby/object:RPG::Event
     id: 12
@@ -1053,7 +1147,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -1062,7 +1158,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Finding fragments will require']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\\c[2]Finding fragments will require"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['calmly feeling for their presence.\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   13: !ruby/object:RPG::Event
@@ -1100,7 +1196,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -1109,7 +1207,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Kill phantoms to acquire their essence.\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\\c[2]Kill phantoms to acquire their essence.\\c[0]"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   14: !ruby/object:RPG::Event
     id: 14
@@ -1146,7 +1244,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -1155,7 +1255,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Calm? More like 0 SEN!\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\\c[2]Calm? More like 0 SEN!\\c[0]"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   15: !ruby/object:RPG::Event
     id: 15
@@ -1192,7 +1292,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -1201,6 +1303,6 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]The essence is an essential ingredient']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\\c[2]The essence is an essential ingredient"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['in creating the Fusion Source.\c[0]']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

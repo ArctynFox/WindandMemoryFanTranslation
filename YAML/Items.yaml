@@ -1,5 +1,5 @@
 ---
-- 
+-
 - !ruby/object:RPG::Item
   description: |-
     Restores 50% HP, can be refilled at bonfires.
@@ -85,7 +85,7 @@
   price: 200
   scope: 7
   animation_id: 238
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 3
   features: []
@@ -122,7 +122,7 @@
   price: 80
   scope: 7
   animation_id: 40
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 4
   features: []
@@ -159,7 +159,7 @@
   price: 100
   scope: 7
   animation_id: 40
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 5
   features: []
@@ -191,7 +191,7 @@
   price: 200
   scope: 7
   animation_id: 40
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 6
   features: []
@@ -223,7 +223,7 @@
   price: 500
   scope: 7
   animation_id: 37
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 7
   features: []
@@ -687,7 +687,7 @@
   price: 5000
   scope: 7
   animation_id: 248
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 19
   features: []
@@ -783,7 +783,7 @@
   price: 250
   scope: 7
   animation_id: 216
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 22
   features: []
@@ -815,7 +815,7 @@
   price: 2500
   scope: 7
   animation_id: 40
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 23
   features: []
@@ -882,7 +882,7 @@
   price: 5000
   scope: 7
   animation_id: 0
-  note: <合成設定:0,49,5>
+  note: "<合成設定:0,49,5>"
   speed: 0
   id: 25
   features: []
@@ -982,7 +982,7 @@
   price: 10000
   scope: 7
   animation_id: 0
-  note: <合成設定:0,49,10>
+  note: "<合成設定:0,49,10>"
   speed: 0
   id: 29
   features: []
@@ -1073,7 +1073,7 @@
   price: 800
   scope: 11
   animation_id: 57
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 32
   features: []
@@ -1110,7 +1110,7 @@
   price: 800
   scope: 11
   animation_id: 66
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 33
   features: []
@@ -1142,7 +1142,7 @@
   price: 800
   scope: 11
   animation_id: 77
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 34
   features: []
@@ -1563,7 +1563,7 @@
   price: 1000
   scope: 7
   animation_id: 238
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 48
   features: []
@@ -1659,7 +1659,7 @@
   price: 25
   scope: 1
   animation_id: 207
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 51
   features: []
@@ -1718,7 +1718,7 @@
   price: 50
   scope: 11
   animation_id: 215
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 53
   features: []
@@ -1755,7 +1755,7 @@
   price: 500
   scope: 7
   animation_id: 37
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 54
   features: []
@@ -1819,7 +1819,7 @@
   price: 4
   scope: 7
   animation_id: 208
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 56
   features: []
@@ -1851,7 +1851,7 @@
   price: 300
   scope: 7
   animation_id: 208
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 57
   features: []
@@ -1883,7 +1883,7 @@
   price: 300
   scope: 7
   animation_id: 208
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 58
   features: []
@@ -1915,7 +1915,7 @@
   price: 300
   scope: 7
   animation_id: 208
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 59
   features: []
@@ -1947,7 +1947,7 @@
   price: 1500
   scope: 7
   animation_id: 40
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 60
   features: []
@@ -1979,7 +1979,7 @@
   price: 300
   scope: 7
   animation_id: 208
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 61
   features: []
@@ -2171,7 +2171,7 @@
   price: 0
   scope: 11
   animation_id: 0
-  note: <保存禁止>
+  note: "<保存禁止>"
   speed: 0
   id: 67
   features: []
@@ -2201,7 +2201,7 @@
   price: 0
   scope: 7
   animation_id: 0
-  note: <保存禁止>
+  note: "<保存禁止>"
   speed: 0
   id: 68
   features: []
@@ -2228,7 +2228,7 @@
   price: 0
   scope: 7
   animation_id: 0
-  note: <保存禁止>
+  note: "<保存禁止>"
   speed: 0
   id: 69
   features: []
@@ -2258,7 +2258,7 @@
   price: 0
   scope: 7
   animation_id: 0
-  note: <保存禁止>
+  note: "<保存禁止>"
   speed: 0
   id: 70
   features: []
@@ -2339,8 +2339,9 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: |
-    It shows it's going to Queensland.
+  description: 'It shows it''s going to Queensland.
+
+    '
   name: Train Ticket
   consumable: true
   occasion: 3
@@ -2375,7 +2376,7 @@
   price: 0
   scope: 7
   animation_id: 0
-  note: <保存禁止>
+  note: "<保存禁止>"
   speed: 0
   id: 74
   features: []
@@ -2434,7 +2435,7 @@
   price: 500
   scope: 7
   animation_id: 37
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 76
   features: []
@@ -2503,7 +2504,7 @@
   price: 5000
   scope: 7
   animation_id: 37
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 78
   features: []
@@ -2604,7 +2605,7 @@
   price: 2000
   scope: 7
   animation_id: 238
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 81
   features: []
@@ -2661,7 +2662,7 @@
   price: 500
   scope: 7
   animation_id: 37
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 83
   features: []
@@ -3019,7 +3020,7 @@
   price: 3000
   scope: 7
   animation_id: 32
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 94
   features: []
@@ -3051,7 +3052,7 @@
   price: 0
   scope: 11
   animation_id: 0
-  note: <保存禁止>
+  note: "<保存禁止>"
   speed: 0
   id: 95
   features: []
@@ -3083,7 +3084,7 @@
   price: 500
   scope: 11
   animation_id: 0
-  note: <保存禁止>
+  note: "<保存禁止>"
   speed: 0
   id: 96
   features: []
@@ -3115,7 +3116,7 @@
   price: 800
   scope: 11
   animation_id: 61
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 97
   features: []
@@ -3216,7 +3217,7 @@
   price: 300
   scope: 7
   animation_id: 216
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 100
   features: []
@@ -3248,7 +3249,7 @@
   price: 300
   scope: 7
   animation_id: 208
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 101
   features: []
@@ -3280,7 +3281,7 @@
   price: 10000
   scope: 8
   animation_id: 73
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 102
   features: []
@@ -3344,7 +3345,7 @@
   price: 1000
   scope: 7
   animation_id: 208
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 104
   features: []
@@ -3381,7 +3382,7 @@
   price: 500
   scope: 1
   animation_id: 556
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 105
   features: []
@@ -3450,7 +3451,7 @@
   price: 900000
   scope: 11
   animation_id: 40
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 107
   features: []
@@ -3482,7 +3483,7 @@
   price: 300000
   scope: 11
   animation_id: 51
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 108
   features: []
@@ -3699,7 +3700,7 @@
   price: 600
   scope: 11
   animation_id: 0
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 115
   features: []
@@ -3739,7 +3740,7 @@
   price: 600
   scope: 11
   animation_id: 0
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 116
   features: []
@@ -3869,7 +3870,7 @@
   price: 0
   scope: 7
   animation_id: 0
-  note: <保存禁止>
+  note: "<保存禁止>"
   speed: 0
   id: 120
   features: []
@@ -3894,7 +3895,7 @@
   price: 500
   scope: 7
   animation_id: 37
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 121
   features: []
@@ -3944,7 +3945,7 @@
   price: 800
   scope: 7
   animation_id: 37
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 122
   features: []
@@ -3996,7 +3997,7 @@
   price: 20
   scope: 1
   animation_id: 620
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 123
   features: []
@@ -4026,7 +4027,7 @@
   price: 1500
   scope: 7
   animation_id: 40
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 124
   features: []
@@ -4066,7 +4067,7 @@
   price: 0
   scope: 7
   animation_id: 0
-  note: <保存禁止>
+  note: "<保存禁止>"
   speed: 0
   id: 125
   features: []
@@ -4096,7 +4097,7 @@
   price: 0
   scope: 7
   animation_id: 0
-  note: <保存禁止>
+  note: "<保存禁止>"
   speed: 0
   id: 126
   features: []
@@ -4226,7 +4227,7 @@
   price: 1500
   scope: 7
   animation_id: 41
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 131
   features: []
@@ -4266,7 +4267,7 @@
   price: 3000
   scope: 7
   animation_id: 73
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 132
   features: []
@@ -4441,7 +4442,7 @@
   price: 10000
   scope: 7
   animation_id: 37
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 138
   features: []
@@ -4543,7 +4544,7 @@
   price: 10000
   scope: 7
   animation_id: 37
-  note: '[hzm]ターン消費無し:99'
+  note: "[hzm]ターン消費無し:99"
   speed: 0
   id: 141
   features: []
@@ -4661,7 +4662,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: Your fists have gotten tougher.
-  name: Leaf Doll
+  name: Liev
   consumable: false
   occasion: 2
   icon_index: 786
@@ -5605,7 +5606,7 @@
   price: 0
   scope: 7
   animation_id: 0
-  note: <保存禁止>
+  note: "<保存禁止>"
   speed: 0
   id: 180
   features: []
@@ -5632,7 +5633,7 @@
   price: 0
   scope: 7
   animation_id: 0
-  note: <保存禁止>
+  note: "<保存禁止>"
   speed: 0
   id: 181
   features: []
@@ -5659,7 +5660,7 @@
   price: 0
   scope: 7
   animation_id: 0
-  note: <保存禁止>
+  note: "<保存禁止>"
   speed: 0
   id: 182
   features: []
@@ -5686,7 +5687,7 @@
   price: 0
   scope: 7
   animation_id: 0
-  note: <保存禁止>
+  note: "<保存禁止>"
   speed: 0
   id: 183
   features: []
@@ -5939,7 +5940,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: ''
-  name: ＝童話・童謡・伝話＝＝＝＝
+  name: "＝童話・童謡・伝話＝＝＝＝"
   consumable: true
   occasion: 0
   icon_index: 0
@@ -6952,7 +6953,7 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: -There's an illustration of Gerda riding on a crow's back.
+  description: "-There's an illustration of Gerda riding on a crow's back."
   name: Fairy Tale [The Snow Girl]
   consumable: true
   occasion: 3

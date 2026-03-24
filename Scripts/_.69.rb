@@ -561,7 +561,7 @@ class Window_Status < Window_Selectable
       icon_index = ELEMENTS[element_id]
       draw_icon(icon_index, icon_x, y)
       draw_text(icon_x + 18, y, 48, line_height,
-      sprintf("%d%%", (actor.element_rate(element_id) * 100).truncate), 2)
+      sprintf("%d%%", 100-(actor.element_rate(element_id) * 100).truncate), 2)
       icon_x += 68
     end
   end
@@ -580,7 +580,7 @@ class Window_Status < Window_Selectable
       icon_index = $data_states[state_id].icon_index
       draw_icon(icon_index, icon_x, y)
       draw_text(icon_x + 18, y, 48, line_height,
-        sprintf("%d%%", (actor.state_rate(state_id) * 100).truncate), 2)
+        sprintf("%d%%", 100-(actor.state_rate(state_id) * 100).truncate), 2)
       icon_x += 68
     end
   end

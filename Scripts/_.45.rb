@@ -20,7 +20,7 @@ module KURE
     #MOVE_LIST[0]、EXPLAN[0]、PLAYER_ICON[0]、CALL_COMMON[0]は対応しています。
     
       #表示名、移動先設定
-      #MOVE_LIST[0～] = [[表示名,表示するスイッチ,選択可スイッチ,消去スイッチ] ,[マップID, x座標, y座標, 向き(2468)]] #if this messes something up, revert to chinese names
+      #MOVE_LIST[0～] = [[表示名,表示するスイッチ,選択可スイッチ,消去スイッチ] ,[マップID, x座標, y座標, 向き(2468)]]
       MOVE_LIST[0] = [["Library Dream",127,0,0],[101,21,21,8]]
       MOVE_LIST[1] = [["Crash Chamber",128,0,0],[1,20,59,2]]
       MOVE_LIST[2] = [["Rabbit Hole",129,0,0],[53,50,52,8]]

@@ -697,7 +697,7 @@ class Window_Base < Window
   #--------------------------------------------------------------------------
   # ● 名前の描画
   #--------------------------------------------------------------------------
-  def draw_spirit_name(actor, x, y, enabled=true, width = 112)
+  def draw_spirit_name(actor, x, y, enabled=true, width = 140)
     change_color(normal_color, enabled)
     draw_text(x, y, width, line_height, actor.name)
   end

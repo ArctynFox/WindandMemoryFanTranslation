@@ -24,7 +24,10 @@ elements:
 start_y: 0
 airship: !ruby/object:RPG::System::Vehicle
   start_y: 0
-  bgm: !ruby/object:RPG::BGM {name: Airship, volume: 100, pitch: 100}
+  bgm: !ruby/object:RPG::BGM
+    name: Airship
+    volume: 100
+    pitch: 100
   start_x: 0
   character_index: 3
   character_name: Vehicle
@@ -67,7 +70,7 @@ test_battlers:
   - 0
   - 0
 _: 7829367
-edit_map_id: 428
+edit_map_id: 450
 battle_end_me: !ruby/object:RPG::ME
   name: sei_ge_cowbell01
   pitch: 100
@@ -77,39 +80,114 @@ party_members:
 start_x: 1
 ship: !ruby/object:RPG::System::Vehicle
   start_y: 0
-  bgm: !ruby/object:RPG::BGM {name: Ship, volume: 100, pitch: 100}
+  bgm: !ruby/object:RPG::BGM
+    name: Ship
+    volume: 100
+    pitch: 100
   start_x: 0
   character_index: 1
   character_name: Vehicle
   start_map_id: 0
 battler_hue: 0
 sounds:
-- !ruby/object:RPG::SE {name: Cursor1, pitch: 50, volume: 80}
-- !ruby/object:RPG::SE {name: Sword1, pitch: 130, volume: 70}
-- !ruby/object:RPG::SE {name: Sword3, pitch: 130, volume: 80}
-- !ruby/object:RPG::SE {name: buzzer, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: soubi-01, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: MBJH_ME03, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Magic1, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: 戦闘開始, pitch: 130, volume: 80}
-- !ruby/object:RPG::SE {name: tousou-01, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: enemy-attack, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: damage01, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: MBJH_SE_Knockitdown, pitch: 100, volume: 90}
-- !ruby/object:RPG::SE {name: MBJH_SE_Knockitdown, pitch: 50, volume: 80}
-- !ruby/object:RPG::SE {name: Collapse4, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: damage02, pitch: 90, volume: 80}
-- !ruby/object:RPG::SE {name: MBJH_SE_Knockitdown, pitch: 100, volume: 90}
-- !ruby/object:RPG::SE {name: Recovery, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Evasion1, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Evasion1, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Evasion2, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Reflection, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Sword2, pitch: 135, volume: 70}
-- !ruby/object:RPG::SE {name: Item1, pitch: 60, volume: 80}
-- !ruby/object:RPG::SE {name: Item1, pitch: 60, volume: 80}
+- !ruby/object:RPG::SE
+  name: Cursor1
+  pitch: 50
+  volume: 80
+- !ruby/object:RPG::SE
+  name: Sword1
+  pitch: 130
+  volume: 70
+- !ruby/object:RPG::SE
+  name: Sword3
+  pitch: 130
+  volume: 80
+- !ruby/object:RPG::SE
+  name: buzzer
+  pitch: 100
+  volume: 80
+- !ruby/object:RPG::SE
+  name: soubi-01
+  pitch: 100
+  volume: 80
+- !ruby/object:RPG::SE
+  name: MBJH_ME03
+  pitch: 100
+  volume: 80
+- !ruby/object:RPG::SE
+  name: Magic1
+  pitch: 100
+  volume: 80
+- !ruby/object:RPG::SE
+  name: 戦闘開始
+  pitch: 130
+  volume: 80
+- !ruby/object:RPG::SE
+  name: tousou-01
+  pitch: 100
+  volume: 80
+- !ruby/object:RPG::SE
+  name: enemy-attack
+  pitch: 100
+  volume: 80
+- !ruby/object:RPG::SE
+  name: damage01
+  pitch: 100
+  volume: 80
+- !ruby/object:RPG::SE
+  name: MBJH_SE_Knockitdown
+  pitch: 100
+  volume: 90
+- !ruby/object:RPG::SE
+  name: MBJH_SE_Knockitdown
+  pitch: 50
+  volume: 80
+- !ruby/object:RPG::SE
+  name: Collapse4
+  pitch: 100
+  volume: 80
+- !ruby/object:RPG::SE
+  name: damage02
+  pitch: 90
+  volume: 80
+- !ruby/object:RPG::SE
+  name: MBJH_SE_Knockitdown
+  pitch: 100
+  volume: 90
+- !ruby/object:RPG::SE
+  name: Recovery
+  pitch: 100
+  volume: 80
+- !ruby/object:RPG::SE
+  name: Evasion1
+  pitch: 100
+  volume: 80
+- !ruby/object:RPG::SE
+  name: Evasion1
+  pitch: 100
+  volume: 80
+- !ruby/object:RPG::SE
+  name: Evasion2
+  pitch: 100
+  volume: 80
+- !ruby/object:RPG::SE
+  name: Reflection
+  pitch: 100
+  volume: 80
+- !ruby/object:RPG::SE
+  name: Sword2
+  pitch: 135
+  volume: 70
+- !ruby/object:RPG::SE
+  name: Item1
+  pitch: 60
+  volume: 80
+- !ruby/object:RPG::SE
+  name: Item1
+  pitch: 60
+  volume: 80
 variables:
-- 
+-
 - ハーブ瓶
 - ハーブ瓶M
 - 失ったハーブ瓶
@@ -1514,7 +1592,7 @@ variables:
 - 废镇演出
 - 格劳任务进度
 - 教会进度
-- ？
+- "？"
 - 坠落之屋进度
 - 变身阶段
 - 黑色扭曲
@@ -1610,13 +1688,16 @@ variables:
 - ''
 - ''
 - ''
-battle_bgm: !ruby/object:RPG::BGM {name: 戦闘, volume: 100, pitch: 100}
-version_id: 53172717
+battle_bgm: !ruby/object:RPG::BGM
+  name: 戦闘
+  volume: 100
+  pitch: 100
+version_id: 31039910
 start_map_id: 185
 battler_name: Skeleton
 magic_number: 77696160
 switches:
-- 
+-
 - 騎士の素性
 - 盗賊の素性
 - 魔術師の素性
@@ -2821,7 +2902,7 @@ switches:
 - 多萝西：强制侍奉
 - 萝丝梅可：相爱
 - 萝丝梅可：相爱（真）
-- ？？？：侵犯
+- "？？？：侵犯"
 - 地下演出1结束
 - 地下演出2结束
 - 地下演出3结束
@@ -3322,7 +3403,10 @@ gameover_me: !ruby/object:RPG::ME
   pitch: 100
   volume: 100
 game_title: BLACK SOULS II
-title_bgm: !ruby/object:RPG::BGM {name: タイトル, volume: 100, pitch: 100}
+title_bgm: !ruby/object:RPG::BGM
+  name: タイトル
+  volume: 100
+  pitch: 100
 terms: !ruby/object:RPG::System::Terms
   params:
   - MaxHP
@@ -3376,7 +3460,10 @@ terms: !ruby/object:RPG::System::Terms
 test_troop_id: 641
 boat: !ruby/object:RPG::System::Vehicle
   start_y: 0
-  bgm: !ruby/object:RPG::BGM {name: River, volume: 80, pitch: 80}
+  bgm: !ruby/object:RPG::BGM
+    name: River
+    volume: 80
+    pitch: 80
   start_x: 0
   character_index: 0
   character_name: Vehicle
@@ -3605,7 +3692,11 @@ armor_types:
 - ''
 - ''
 currency_unit: S
-window_tone: !ruby/object:Tone {r: -51.0, g: -255.0, b: -255.0, a: 0.0}
+window_tone: !ruby/object:Tone
+  r: -51.0
+  g: -255.0
+  b: -255.0
+  a: 0.0
 japanese: true
 opt_draw_title: false
 opt_use_midi: false

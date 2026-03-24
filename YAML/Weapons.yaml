@@ -1,5 +1,5 @@
 ---
-- 
+-
 - !ruby/object:RPG::Weapon
   description: ''
   name: ''
@@ -2694,7 +2694,7 @@
   icon_index: 402
   price: 300
   animation_id: 130
-  note: <攻撃ID変更:242>
+  note: "<攻撃ID変更:242>"
   id: 95
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -2718,7 +2718,7 @@
   icon_index: 402
   price: 300
   animation_id: 130
-  note: <攻撃ID変更:272>
+  note: "<攻撃ID変更:272>"
   id: 96
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -2776,7 +2776,7 @@
   icon_index: 402
   price: 300
   animation_id: 130
-  note: <攻撃ID変更:242>
+  note: "<攻撃ID変更:242>"
   id: 98
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -3382,7 +3382,7 @@
   icon_index: 385
   price: 400
   animation_id: 150
-  note: <攻撃ID変更:347>
+  note: "<攻撃ID変更:347>"
   id: 113
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -3424,7 +3424,7 @@
   icon_index: 385
   price: 500
   animation_id: 150
-  note: <攻撃ID変更:347>
+  note: "<攻撃ID変更:347>"
   id: 114
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -3466,7 +3466,7 @@
   icon_index: 385
   price: 600
   animation_id: 150
-  note: <攻撃ID変更:347>
+  note: "<攻撃ID変更:347>"
   id: 115
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -3508,7 +3508,7 @@
   icon_index: 385
   price: 700
   animation_id: 150
-  note: <攻撃ID変更:347>
+  note: "<攻撃ID変更:347>"
   id: 116
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -3550,7 +3550,7 @@
   icon_index: 385
   price: 800
   animation_id: 150
-  note: <攻撃ID変更:347>
+  note: "<攻撃ID変更:347>"
   id: 117
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -3592,7 +3592,7 @@
   icon_index: 385
   price: 900
   animation_id: 150
-  note: <攻撃ID変更:347>
+  note: "<攻撃ID変更:347>"
   id: 118
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -3634,7 +3634,7 @@
   icon_index: 385
   price: 1000
   animation_id: 150
-  note: <攻撃ID変更:347>
+  note: "<攻撃ID変更:347>"
   id: 119
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -3676,7 +3676,7 @@
   icon_index: 385
   price: 1500
   animation_id: 150
-  note: <攻撃ID変更:347>
+  note: "<攻撃ID変更:347>"
   id: 120
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -3718,7 +3718,7 @@
   icon_index: 385
   price: 2000
   animation_id: 150
-  note: <攻撃ID変更:347>
+  note: "<攻撃ID変更:347>"
   id: 121
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -3760,7 +3760,7 @@
   icon_index: 679
   price: 10000
   animation_id: 150
-  note: <攻撃ID変更:349>
+  note: "<攻撃ID変更:349>"
   id: 122
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -4362,7 +4362,7 @@
   icon_index: 148
   price: 400
   animation_id: 126
-  note: <攻撃ID変更:154>
+  note: "<攻撃ID変更:154>"
   id: 135
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -4406,7 +4406,7 @@
   icon_index: 148
   price: 500
   animation_id: 126
-  note: <攻撃ID変更:154>
+  note: "<攻撃ID変更:154>"
   id: 136
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -4450,7 +4450,7 @@
   icon_index: 148
   price: 600
   animation_id: 126
-  note: <攻撃ID変更:154>
+  note: "<攻撃ID変更:154>"
   id: 137
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -4494,7 +4494,7 @@
   icon_index: 148
   price: 700
   animation_id: 126
-  note: <攻撃ID変更:154>
+  note: "<攻撃ID変更:154>"
   id: 138
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -4538,7 +4538,7 @@
   icon_index: 148
   price: 800
   animation_id: 126
-  note: <攻撃ID変更:154>
+  note: "<攻撃ID変更:154>"
   id: 139
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -4582,7 +4582,7 @@
   icon_index: 148
   price: 900
   animation_id: 126
-  note: <攻撃ID変更:154>
+  note: "<攻撃ID変更:154>"
   id: 140
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -4626,7 +4626,7 @@
   icon_index: 148
   price: 1000
   animation_id: 126
-  note: <攻撃ID変更:154>
+  note: "<攻撃ID変更:154>"
   id: 141
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -4670,7 +4670,7 @@
   icon_index: 148
   price: 1500
   animation_id: 126
-  note: <攻撃ID変更:154>
+  note: "<攻撃ID変更:154>"
   id: 142
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -4714,7 +4714,7 @@
   icon_index: 148
   price: 2000
   animation_id: 126
-  note: <攻撃ID変更:154>
+  note: "<攻撃ID変更:154>"
   id: 143
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -4758,7 +4758,7 @@
   icon_index: 723
   price: 10000
   animation_id: 126
-  note: <攻撃ID変更:154>
+  note: "<攻撃ID変更:154>"
   id: 144
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -8702,7 +8702,7 @@
   icon_index: 401
   price: 400
   animation_id: 13
-  note: <攻撃ID変更:286>
+  note: "<攻撃ID変更:286>"
   id: 234
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -8744,7 +8744,7 @@
   icon_index: 401
   price: 500
   animation_id: 13
-  note: <攻撃ID変更:286>
+  note: "<攻撃ID変更:286>"
   id: 235
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -8786,7 +8786,7 @@
   icon_index: 401
   price: 600
   animation_id: 13
-  note: <攻撃ID変更:286>
+  note: "<攻撃ID変更:286>"
   id: 236
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -8828,7 +8828,7 @@
   icon_index: 401
   price: 700
   animation_id: 13
-  note: <攻撃ID変更:286>
+  note: "<攻撃ID変更:286>"
   id: 237
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -8870,7 +8870,7 @@
   icon_index: 401
   price: 800
   animation_id: 13
-  note: <攻撃ID変更:286>
+  note: "<攻撃ID変更:286>"
   id: 238
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -8912,7 +8912,7 @@
   icon_index: 401
   price: 900
   animation_id: 13
-  note: <攻撃ID変更:286>
+  note: "<攻撃ID変更:286>"
   id: 239
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -8954,7 +8954,7 @@
   icon_index: 401
   price: 1000
   animation_id: 13
-  note: <攻撃ID変更:286>
+  note: "<攻撃ID変更:286>"
   id: 240
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -8996,7 +8996,7 @@
   icon_index: 401
   price: 1500
   animation_id: 13
-  note: <攻撃ID変更:286>
+  note: "<攻撃ID変更:286>"
   id: 241
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -9038,7 +9038,7 @@
   icon_index: 401
   price: 2000
   animation_id: 13
-  note: <攻撃ID変更:286>
+  note: "<攻撃ID変更:286>"
   id: 242
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -10566,7 +10566,7 @@
   icon_index: 408
   price: 400
   animation_id: 239
-  note: <攻撃ID変更:348>
+  note: "<攻撃ID変更:348>"
   id: 278
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -10608,7 +10608,7 @@
   icon_index: 408
   price: 500
   animation_id: 239
-  note: <攻撃ID変更:348>
+  note: "<攻撃ID変更:348>"
   id: 279
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -10650,7 +10650,7 @@
   icon_index: 408
   price: 600
   animation_id: 239
-  note: <攻撃ID変更:348>
+  note: "<攻撃ID変更:348>"
   id: 280
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -10692,7 +10692,7 @@
   icon_index: 408
   price: 700
   animation_id: 239
-  note: <攻撃ID変更:348>
+  note: "<攻撃ID変更:348>"
   id: 281
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -10734,7 +10734,7 @@
   icon_index: 408
   price: 800
   animation_id: 239
-  note: <攻撃ID変更:348>
+  note: "<攻撃ID変更:348>"
   id: 282
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -10776,7 +10776,7 @@
   icon_index: 408
   price: 900
   animation_id: 239
-  note: <攻撃ID変更:348>
+  note: "<攻撃ID変更:348>"
   id: 283
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -10818,7 +10818,7 @@
   icon_index: 408
   price: 1000
   animation_id: 239
-  note: <攻撃ID変更:348>
+  note: "<攻撃ID変更:348>"
   id: 284
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -10860,7 +10860,7 @@
   icon_index: 408
   price: 1500
   animation_id: 239
-  note: <攻撃ID変更:348>
+  note: "<攻撃ID変更:348>"
   id: 285
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -10902,7 +10902,7 @@
   icon_index: 408
   price: 2000
   animation_id: 239
-  note: <攻撃ID変更:348>
+  note: "<攻撃ID変更:348>"
   id: 286
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -10944,7 +10944,7 @@
   icon_index: 407
   price: 10000
   animation_id: 239
-  note: <攻撃ID変更:348>
+  note: "<攻撃ID変更:348>"
   id: 287
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -13532,7 +13532,7 @@
   icon_index: 426
   price: 10000
   animation_id: 129
-  note: <攻撃ID変更:131>
+  note: "<攻撃ID変更:131>"
   id: 356
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -13574,7 +13574,7 @@
   icon_index: 426
   price: 10000
   animation_id: 129
-  note: <攻撃ID変更:131>
+  note: "<攻撃ID変更:131>"
   id: 357
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -13616,7 +13616,7 @@
   icon_index: 426
   price: 10000
   animation_id: 129
-  note: <攻撃ID変更:131>
+  note: "<攻撃ID変更:131>"
   id: 358
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -13658,7 +13658,7 @@
   icon_index: 426
   price: 10000
   animation_id: 129
-  note: <攻撃ID変更:131>
+  note: "<攻撃ID変更:131>"
   id: 359
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -13700,7 +13700,7 @@
   icon_index: 426
   price: 10000
   animation_id: 129
-  note: <攻撃ID変更:131>
+  note: "<攻撃ID変更:131>"
   id: 360
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -13788,7 +13788,7 @@
   icon_index: 153
   price: 10000
   animation_id: 92
-  note: <攻撃ID変更:549>
+  note: "<攻撃ID変更:549>"
   id: 362
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -13830,7 +13830,7 @@
   icon_index: 153
   price: 10000
   animation_id: 92
-  note: <攻撃ID変更:549>
+  note: "<攻撃ID変更:549>"
   id: 363
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -13872,7 +13872,7 @@
   icon_index: 153
   price: 10000
   animation_id: 92
-  note: <攻撃ID変更:549>
+  note: "<攻撃ID変更:549>"
   id: 364
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -13914,7 +13914,7 @@
   icon_index: 153
   price: 10000
   animation_id: 92
-  note: <攻撃ID変更:549>
+  note: "<攻撃ID変更:549>"
   id: 365
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -13956,7 +13956,7 @@
   icon_index: 153
   price: 10000
   animation_id: 92
-  note: <攻撃ID変更:549>
+  note: "<攻撃ID変更:549>"
   id: 366
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -14328,7 +14328,7 @@
   icon_index: 397
   price: 10000
   animation_id: 131
-  note: <攻撃ID変更:283>
+  note: "<攻撃ID変更:283>"
   id: 374
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -14370,7 +14370,7 @@
   icon_index: 397
   price: 10000
   animation_id: 131
-  note: <攻撃ID変更:283>
+  note: "<攻撃ID変更:283>"
   id: 375
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -14412,7 +14412,7 @@
   icon_index: 397
   price: 10000
   animation_id: 131
-  note: <攻撃ID変更:283>
+  note: "<攻撃ID変更:283>"
   id: 376
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -14454,7 +14454,7 @@
   icon_index: 397
   price: 10000
   animation_id: 131
-  note: <攻撃ID変更:283>
+  note: "<攻撃ID変更:283>"
   id: 377
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -14496,7 +14496,7 @@
   icon_index: 397
   price: 10000
   animation_id: 131
-  note: <攻撃ID変更:283>
+  note: "<攻撃ID変更:283>"
   id: 378
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -15876,7 +15876,7 @@
   icon_index: 764
   price: 10000
   animation_id: 318
-  note: <攻撃ID変更:490>
+  note: "<攻撃ID変更:490>"
   id: 410
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -15914,7 +15914,7 @@
   icon_index: 764
   price: 10000
   animation_id: 318
-  note: <攻撃ID変更:490>
+  note: "<攻撃ID変更:490>"
   id: 411
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -15952,7 +15952,7 @@
   icon_index: 764
   price: 10000
   animation_id: 318
-  note: <攻撃ID変更:490>
+  note: "<攻撃ID変更:490>"
   id: 412
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -15990,7 +15990,7 @@
   icon_index: 764
   price: 10000
   animation_id: 318
-  note: <攻撃ID変更:490>
+  note: "<攻撃ID変更:490>"
   id: 413
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -16028,7 +16028,7 @@
   icon_index: 764
   price: 10000
   animation_id: 318
-  note: <攻撃ID変更:490>
+  note: "<攻撃ID変更:490>"
   id: 414
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -16104,7 +16104,7 @@
   icon_index: 779
   price: 10000
   animation_id: 322
-  note: <攻撃ID変更:494>
+  note: "<攻撃ID変更:494>"
   id: 416
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -16138,7 +16138,7 @@
   icon_index: 779
   price: 10000
   animation_id: 322
-  note: <攻撃ID変更:494>
+  note: "<攻撃ID変更:494>"
   id: 417
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -16172,7 +16172,7 @@
   icon_index: 779
   price: 10000
   animation_id: 322
-  note: <攻撃ID変更:495>
+  note: "<攻撃ID変更:495>"
   id: 418
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -16206,7 +16206,7 @@
   icon_index: 779
   price: 10000
   animation_id: 322
-  note: <攻撃ID変更:495>
+  note: "<攻撃ID変更:495>"
   id: 419
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -16240,7 +16240,7 @@
   icon_index: 779
   price: 10000
   animation_id: 322
-  note: <攻撃ID変更:496>
+  note: "<攻撃ID変更:496>"
   id: 420
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -18506,7 +18506,7 @@
   icon_index: 814
   price: 10000
   animation_id: 0
-  note: <攻撃ID変更:968>
+  note: "<攻撃ID変更:968>"
   id: 476
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -18552,7 +18552,7 @@
   icon_index: 814
   price: 10000
   animation_id: 0
-  note: <攻撃ID変更:968>
+  note: "<攻撃ID変更:968>"
   id: 477
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -18598,7 +18598,7 @@
   icon_index: 814
   price: 10000
   animation_id: 0
-  note: <攻撃ID変更:968>
+  note: "<攻撃ID変更:968>"
   id: 478
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -18644,7 +18644,7 @@
   icon_index: 814
   price: 10000
   animation_id: 0
-  note: <攻撃ID変更:968>
+  note: "<攻撃ID変更:968>"
   id: 479
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -18690,7 +18690,7 @@
   icon_index: 814
   price: 10000
   animation_id: 0
-  note: <攻撃ID変更:968>
+  note: "<攻撃ID変更:968>"
   id: 480
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -18736,7 +18736,7 @@
   icon_index: 814
   price: 10000
   animation_id: 0
-  note: <攻撃ID変更:968>
+  note: "<攻撃ID変更:968>"
   id: 481
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -20648,7 +20648,7 @@
   icon_index: 644
   price: 300
   animation_id: 726
-  note: <攻撃ID変更:1245>
+  note: "<攻撃ID変更:1245>"
   id: 527
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -20696,7 +20696,7 @@
   icon_index: 644
   price: 300
   animation_id: 726
-  note: <攻撃ID変更:1245>
+  note: "<攻撃ID変更:1245>"
   id: 528
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -20744,7 +20744,7 @@
   icon_index: 644
   price: 300
   animation_id: 726
-  note: <攻撃ID変更:1245>
+  note: "<攻撃ID変更:1245>"
   id: 529
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -20792,7 +20792,7 @@
   icon_index: 644
   price: 300
   animation_id: 726
-  note: <攻撃ID変更:1245>
+  note: "<攻撃ID変更:1245>"
   id: 530
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -20840,7 +20840,7 @@
   icon_index: 644
   price: 300
   animation_id: 726
-  note: <攻撃ID変更:1245>
+  note: "<攻撃ID変更:1245>"
   id: 531
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -20888,7 +20888,7 @@
   icon_index: 644
   price: 300
   animation_id: 726
-  note: <攻撃ID変更:1245>
+  note: "<攻撃ID変更:1245>"
   id: 532
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -20936,7 +20936,7 @@
   icon_index: 644
   price: 300
   animation_id: 726
-  note: <攻撃ID変更:1245>
+  note: "<攻撃ID変更:1245>"
   id: 533
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -20984,7 +20984,7 @@
   icon_index: 644
   price: 300
   animation_id: 726
-  note: <攻撃ID変更:1245>
+  note: "<攻撃ID変更:1245>"
   id: 534
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -21032,7 +21032,7 @@
   icon_index: 644
   price: 300
   animation_id: 726
-  note: <攻撃ID変更:1245>
+  note: "<攻撃ID変更:1245>"
   id: 535
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -21080,7 +21080,7 @@
   icon_index: 644
   price: 300
   animation_id: 726
-  note: <攻撃ID変更:1245>
+  note: "<攻撃ID変更:1245>"
   id: 536
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -21128,7 +21128,7 @@
   icon_index: 658
   price: 300
   animation_id: 724
-  note: <攻撃ID変更:1245>
+  note: "<攻撃ID変更:1245>"
   id: 537
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -21176,7 +21176,7 @@
   icon_index: 643
   price: 150
   animation_id: 722
-  note: <攻撃ID変更:154>
+  note: "<攻撃ID変更:154>"
   id: 538
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -21224,7 +21224,7 @@
   icon_index: 643
   price: 150
   animation_id: 722
-  note: <攻撃ID変更:154>
+  note: "<攻撃ID変更:154>"
   id: 539
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -21272,7 +21272,7 @@
   icon_index: 643
   price: 150
   animation_id: 722
-  note: <攻撃ID変更:154>
+  note: "<攻撃ID変更:154>"
   id: 540
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -21320,7 +21320,7 @@
   icon_index: 643
   price: 150
   animation_id: 722
-  note: <攻撃ID変更:154>
+  note: "<攻撃ID変更:154>"
   id: 541
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -21368,7 +21368,7 @@
   icon_index: 643
   price: 150
   animation_id: 722
-  note: <攻撃ID変更:154>
+  note: "<攻撃ID変更:154>"
   id: 542
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -21416,7 +21416,7 @@
   icon_index: 643
   price: 150
   animation_id: 722
-  note: <攻撃ID変更:154>
+  note: "<攻撃ID変更:154>"
   id: 543
   features:
   - !ruby/object:RPG::BaseItem::Feature

@@ -8,9 +8,15 @@ specify_battleback: false
 battleback1_name: ''
 battleback2_name: ''
 autoplay_bgm: true
-bgm: !ruby/object:RPG::BGM {name: 「星空下的回忆」, volume: 80, pitch: 85}
+bgm: !ruby/object:RPG::BGM
+  name: "「星空下的回忆」"
+  volume: 80
+  pitch: 85
 autoplay_bgs: true
-bgs: !ruby/object:RPG::BGS {name: '', volume: 80, pitch: 100}
+bgs: !ruby/object:RPG::BGS
+  name: ''
+  volume: 80
+  pitch: 100
 disable_dashing: false
 encounter_list: []
 encounter_step: 30
@@ -20,7 +26,7 @@ parallax_loop_y: false
 parallax_sx: 0
 parallax_sy: 0
 parallax_show: false
-note: ==マップフォグkurayami01[0,0,10,100,2]==
+note: "==マップフォグkurayami01[0,0,10,100,2]=="
 data: !ruby/object:Table
   dim: 3
   x: 30
@@ -151,7 +157,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!Flame'
+        character_name: "!Flame"
         character_index: 5
         direction: 2
         pattern: 0
@@ -163,7 +169,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: true
@@ -208,7 +216,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: true
@@ -260,8 +270,13 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 45, parameters: [enable_symbol_encount(1)]}
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 45
+          parameters:
+          - enable_symbol_encount(1)
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: true
       direction_fix: false
@@ -270,41 +285,41 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Decadent Lord]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「精锐敌人1」, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"The power dissipated...']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['This one can''t sustain life anymore..."']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「精锐敌人1」, 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ["「精锐敌人1」", 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"The power dissipated..."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [This one can't sustain life anymore..."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ["「精锐敌人1」", 3, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['However, it''s fortunate that it regained clarity']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['before the end, though.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Being controlled by endless instincts is not pleasant."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Being controlled by endless instincts is not pleasant."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Decadent Lord]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「精锐敌人1」, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Given their nature, though,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['they might not find peace even in death.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ["「精锐敌人1」", 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Given their nature, though,"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [they might not find peace even in death.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [To manipulate the fate and souls of others...]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['what boring and perverse amusement."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [what boring and perverse amusement."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Decadent Lord]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「精锐敌人1」, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Oh, you wretch... are you as resentful of this']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ["「精锐敌人1」", 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Oh, you wretch... are you as resentful of this"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['dark and cruel world as I am?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Decadent Lord]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [「精锐敌人1」, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Heh... Given who you are, you may actually be able to...']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ["「精锐敌人1」", 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["\"Heh... Given who you are, you may actually be able to..."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Promise me this... That in the future...]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['You take back... The sanctum... Our sanctum..."']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [You take back... The sanctum... Our sanctum..."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Decadent Lord]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [「精锐敌人1」, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"...So you actually enjoy it?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ["「精锐敌人1」", 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["\"...So you actually enjoy it?"]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Indulging in carnal desires, killing without restraint...']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Truly... The most chaotic and dark of souls...]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Just like those Dominators..."']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Just like those Dominators..."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Decadent Lord]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [「精锐敌人1」, 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ["「精锐敌人1」", 3, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"... Ahhh, why did I expect anything of you? ... Heh..."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [B, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -339,8 +354,13 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 45, parameters: [enable_symbol_encount(1)]}
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 45
+          parameters:
+          - enable_symbol_encount(1)
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: true
       direction_fix: false
@@ -351,69 +371,69 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[About this place, About Fluffies, About Dorothy], 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, About this place]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Decadent Lord]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [「精锐敌人1」, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Heh, seems you''re still clueless about this place.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ["「精锐敌人1」", 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["\"Heh, seems you're still clueless about this place."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['You poor soul. This place is a fragment of a box garden,']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['rooted on the corpse of the Black Goat."']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [「精锐敌人1」, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"The Fluffy clan managed to make this']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [rooted on the corpse of the Black Goat."]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ["「精锐敌人1」", 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["\"The Fluffy clan managed to make this"]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [half-finished pocket dimension with sheer luck.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Without it, I would have become']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['a Dominator''s food long ago..."']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [a Dominator's food long ago..."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, About Fluffies]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Decadent Lord]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [「精锐敌人1」, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Those Fluffies... Perhaps they''re not']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['the creatures I used to know.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ["「精锐敌人1」", 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["\"Those Fluffies... Perhaps they're not"]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [the creatures I used to know.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['But they survive the watchful eye of the Dominators,"']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [「精锐敌人1」, 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ["「精锐敌人1」", 3, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['so even unfamiliar clans can become allies, right?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Moreover, aside from their gluttony for knowledge,']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['they don''t have any major flaws."']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [they don't have any major flaws."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, About Dorothy]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Decadent Lord]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [「精锐敌人1」, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Dorothy?... Oh, you mean that witch.']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['She''s interesting;']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['I initially thought she was a native creation.']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [「精锐敌人1」, 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ["「精锐敌人1」", 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["\"Dorothy?... Oh, you mean that witch."]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [She's interesting;]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I initially thought she was a native creation.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ["「精锐敌人1」", 3, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['But if we can''t stabilize this garden,']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['then no matter who she is,']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['She will only become tragically trapped in the cycle."']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [She will only become tragically trapped in the cycle."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[About the cycle, The three apprentices, The shard], 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, About the cycle]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Decadent Lord]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [「精锐敌人1」, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Even this sloppily created place is trapped in the cycle.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ["「精锐敌人1」", 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["\"Even this sloppily created place is trapped in the cycle."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Unless we eliminate the monsters or find a way to escape,']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['We''ll remain mere playthings. Thinking about it that way,']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['it''s really frustrating. Everything rests on you."']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [it's really frustrating. Everything rests on you."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, The three apprentices]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Decadent Lord]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [「精锐敌人1」, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Scarecrow, Tin Man, Cowardly Lion,']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['they''re her dream friends.']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['They all became servants to fate in order to follow her."']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [「精锐敌人1」, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Poor man, if you still harbor that love...']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Go and stop this tragedy.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ["「精锐敌人1」", 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["\"Scarecrow, Tin Man, Cowardly Lion,"]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [they're her dream friends.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [They all became servants to fate in order to follow her."]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ["「精锐敌人1」", 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["\"Poor man, if you still harbor that love..."]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Go and stop this tragedy.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Even that might not allow you to see her again, though."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, The shard]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Decadent Lord]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [「精锐敌人1」, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"It seems there are remnants of her']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['failed creations within these fragments.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ["「精锐敌人1」", 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["\"It seems there are remnants of her"]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [failed creations within these fragments.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['However, the area around them is contaminated by some']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['strange substance, so they''re difficult to get to."']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [「精锐敌人1」, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"If you manage to, though...']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ["「精锐敌人1」", 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["\"If you manage to, though..."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['who knows what kinds of discoveries await?"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
@@ -421,48 +441,48 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Creation, The Ancient One, Destinations], 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Creation]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Decadent Lord]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [「精锐敌人1」, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"A hunter unable to find prey will go mad,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ["「精锐敌人1」", 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["\"A hunter unable to find prey will go mad,"]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [leading them to hunt what they should cherish.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Inexperienced creators often present]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [「精锐敌人1」, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"characters with no significance,']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['and it goes without saying that']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['such characters struggle']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['to have meaning and become abandoned."']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ["「精锐敌人1」", 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["\"characters with no significance,"]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [and it goes without saying that]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [such characters struggle]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [to have meaning and become abandoned."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, The Ancient One]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Decadent Lord]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [「精锐敌人1」, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Sealed underground, they traverse innumerable universes.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ["「精锐敌人1」", 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["\"Sealed underground, they traverse innumerable universes."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['They aren''t made of matter,']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['and they don''t have any known cognitive structure."']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [「精锐敌人1」, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Howling winds carry their presence,']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['proclaiming absolute dominion over the future.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [and they don't have any known cognitive structure."]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ["「精锐敌人1」", 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["\"Howling winds carry their presence,"]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [proclaiming absolute dominion over the future.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Left unchecked, they will undoubtedly destroy this realm."']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, Destinations]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Decadent Lord]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [「精锐敌人1」, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"High at the top of the emerald castle,']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['you might find a familiar face...']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ["「精锐敌人1」", 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["\"High at the top of the emerald castle,"]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [you might find a familiar face...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Heh, traveler, sometimes puppets are no puppets at all."']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [「精锐敌人1」, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"People who grasp at the only straw of salvation']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ perfectly fit the role of a puppet.]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Let''s not speak of such things.']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['It wouldn''t be pleasant to be taken by surprise."']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ["「精锐敌人1」", 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["\"People who grasp at the only straw of salvation"]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [perfectly fit the role of a puppet.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Let's not speak of such things.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [It wouldn't be pleasant to be taken by surprise."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Decadent Lord]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「精锐敌人1」, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Be cautious, traveler.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ["「精锐敌人1」", 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Be cautious, traveler."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['The creeping infiltrator may remain dormant around your body,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['but it will eventually realize you are soulless."']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「精锐敌人1」, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"At that time... hatred, reverance...']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['both will be buried along with this realm."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [but it will eventually realize you are soulless."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ["「精锐敌人1」", 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"At that time... hatred, reverance..."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [both will be buried along with this realm."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [B, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
@@ -494,8 +514,13 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 45, parameters: [enable_symbol_encount(1)]}
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 45
+          parameters:
+          - enable_symbol_encount(1)
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: false
       direction_fix: true
@@ -515,34 +540,34 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 212, p: [0, 39, true]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [60]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Withered Grass]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [「精锐敌人1」, 5, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ["「精锐敌人1」", 5, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"I''ve been resurrected!!!"']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Withered Grass]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [「精锐敌人1」, 5, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ["「精锐敌人1」", 5, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Amazing, I feel so powerful in this body!!!"']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Withered Grass]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [「精锐敌人1」, 5, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Oh, tin can! Are you helpless,']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ["「精锐敌人1」", 5, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ["\"Oh, tin can! Are you helpless,"]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['or do you want to hear me talk again?']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Oh, please! Go like a dog and find the girl of your dreams...']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Better yet, hang yourself from a cherry tree at midnight~~"']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 213, p: [-1, 8, true]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: 刀２, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Withered Grass]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [「精锐敌人1」, 5, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Oh dear... using violence to completely obliterate a soul?']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['That''s not something a knight should be doing..."']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ["「精锐敌人1」", 5, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ["\"Oh dear... using violence to completely obliterate a soul?"]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [That's not something a knight should be doing..."]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Withered Grass]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [「精锐敌人1」, 5, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Hey! Oi, oi! I''m sorry, I was in the wrong! How about this,']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ["「精锐敌人1」", 5, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ["\"Hey! Oi, oi! I'm sorry, I was in the wrong! How about this,"]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [I still have the power to refine special souls.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['As long as you don''t kill me, you can use it,']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Mr. Great Brave Merciful Loyal Knight!"']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Mr. Great Brave Merciful Loyal Knight!"]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 213, p: [-1, 8, true]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: 刀３, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Withered Grass]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [「精锐敌人1」, 5, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Hey, \N[1], it is my great honor to be your grass!!!']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ["「精锐敌人1」", 5, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ["\"Hey, \\N[1], it is my great honor to be your grass!!!"]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [C, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 115, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
@@ -584,8 +609,13 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 45, parameters: [enable_symbol_encount(1)]}
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 45
+          parameters:
+          - enable_symbol_encount(1)
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: true
       direction_fix: true
@@ -594,15 +624,15 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Withered Grass]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「精锐敌人1」, 5, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ["「精锐敌人1」", 5, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Hey, esteemed knight! Are you here to refine souls?"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 117, p: [509]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Withered Grass]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「精锐敌人1」, 5, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Aside from being dark,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['this is a nice place for a chat alone.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ["「精锐敌人1」", 5, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Aside from being dark,"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [this is a nice place for a chat alone.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['At least, it''s much better']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['than that tin can drowning outside.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [than that tin can drowning outside.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Really, there''s no value to life anymore, eh, Mr. Knight?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Oh, no, no, Mr. Knight, I didn''t mean it like that!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -629,7 +659,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!_篝火'
+        character_name: "!_篝火"
         character_index: 4
         direction: 6
         pattern: 0
@@ -641,7 +671,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: true
       direction_fix: true
@@ -653,8 +685,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Fire1, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 153.0, b: 68.0, a: 255.0}, 30, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　　　　　　　]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['　　　　　　　　　　　　 \{\{\C[14]BONFIRE LIT\C[0]\}\}']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["　　　　　　　"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["　　　　　　　　　　　　 \\{\\{\\C[14]BONFIRE LIT\\C[0]\\}\\}"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [1438, 1438, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [1435, 1435, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -675,7 +707,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!_篝火'
+        character_name: "!_篝火"
         character_index: 4
         direction: 2
         pattern: 0
@@ -687,7 +719,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: true
       direction_fix: true

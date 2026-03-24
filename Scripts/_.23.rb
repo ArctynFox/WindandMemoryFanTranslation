@@ -1218,7 +1218,7 @@ class Window_ItemSynthesisChange < Window_Base
   #--------------------------------------------------------------------------
   def refresh
     contents.clear
-    text = "D: Materials ⇔ Stats Display Swap" #D might need to be replaced with Z, not sure if this corresponds to a button that the mod changed the mapping for
+    text = "D: Materials ⇔ Stats Display Swap"
     draw_text(0, 0, contents_width, line_height, text, 1)
   end
 end
