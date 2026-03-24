@@ -8,9 +8,15 @@ specify_battleback: false
 battleback1_name: ''
 battleback2_name: ''
 autoplay_bgm: true
-bgm: !ruby/object:RPG::BGM {name: '', volume: 100, pitch: 100}
+bgm: !ruby/object:RPG::BGM
+  name: ''
+  volume: 100
+  pitch: 100
 autoplay_bgs: true
-bgs: !ruby/object:RPG::BGS {name: train-driving2, volume: 80, pitch: 100}
+bgs: !ruby/object:RPG::BGS
+  name: train-driving2
+  volume: 80
+  pitch: 100
 disable_dashing: true
 encounter_list: []
 encounter_step: 30
@@ -143,7 +149,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -187,7 +195,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -233,7 +243,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -278,7 +290,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -317,7 +331,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!$蒸気機関車扇風機'
+        character_name: "!$蒸気機関車扇風機"
         character_index: 0
         direction: 2
         pattern: 0
@@ -329,7 +343,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: true
       direction_fix: false
@@ -373,7 +389,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -417,7 +435,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -449,7 +469,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!$蒸気機関車扇風機'
+        character_name: "!$蒸気機関車扇風機"
         character_index: 0
         direction: 2
         pattern: 0
@@ -461,7 +481,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: true
       direction_fix: false
@@ -493,7 +515,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!$蒸気機関車扇風機'
+        character_name: "!$蒸気機関車扇風機"
         character_index: 0
         direction: 2
         pattern: 0
@@ -505,7 +527,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: true
       direction_fix: false
@@ -549,7 +573,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -588,8 +614,12 @@ events:
           skippable: false
           wait: true
           list:
-          - &1 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &1 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
@@ -629,7 +659,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -639,13 +671,13 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Judge]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"My brief vacation has come to an end... sigh...']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"My brief vacation has come to an end... sigh..."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['It''s a bit regrettable,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['but it''s an emergency, so there''s nothing I can do.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Well, work does bring a sense of security."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Judge]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"I really hope I''m not the only one that thinks this way...']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"I really hope I'm not the only one that thinks this way..."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Hmm? Is therte something you want to discuss with me?"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   16: !ruby/object:RPG::Event
@@ -683,7 +715,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -693,10 +727,10 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Wealthy Man]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"That ticket was such a high price, but now it''s delayed!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"That ticket was such a high price, but now it's delayed!"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['They boasted the fastest train,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['but now I''m going to miss the shareholders'' meeting.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Those old folks will be upset about this again..."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [but now I'm going to miss the shareholders' meeting.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Those old folks will be upset about this again..."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Wealthy Man]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"What''s wrong with this world!?"']}
@@ -739,8 +773,12 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 25, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 25
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: false
       direction_fix: false
@@ -752,7 +790,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"......"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['(The man looks at you without saying a word.)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["(The man looks at you without saying a word.)"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -783,8 +821,12 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 25, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 25
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: false
       direction_fix: false
@@ -794,13 +836,13 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Officer]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Isn''t the air in this carriage rather unpleasant?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['There''s some sort of stale odor."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Isn't the air in this carriage rather unpleasant?"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There's some sort of stale odor."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Officer]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Even though the train is moving,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['the air isn''t circulating.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I don''t feel so good..."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Even though the train is moving,"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [the air isn't circulating.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I don't feel so good..."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
@@ -832,8 +874,12 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 25, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 25
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: false
       direction_fix: false
@@ -845,7 +891,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"......"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['(The man looks at you without saying a word.)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["(The man looks at you without saying a word.)"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   17: !ruby/object:RPG::Event
     id: 17
@@ -882,18 +928,42 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 3
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 3
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 3
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 3
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 3
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 3
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 2
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 2
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 2
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 2
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 2
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -903,25 +973,25 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Maid]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Sigh...']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Sigh..."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I got fired in less than half a year...]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['How will I break the news to my mother?"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Maid]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"It''s Elsa''s fault, she must have snitched on me.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['That''s how the butler found out."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"It's Elsa's fault, she must have snitched on me."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [That's how the butler found out."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Maid]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"I hope mother won''t be angry...']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I wonder if I can find a job on the way back."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"I hope mother won't be angry..."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I wonder if I can find a job on the way back."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [17, 1, true]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Maid]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Sir, would you like to hire me? I can clean, cook, wash,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['and I''ll only charge 5000 souls per month."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Sir, would you like to hire me? I can clean, cook, wash,"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [and I'll only charge 5000 souls per month."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Maid]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"What? You''re just some passing stranger? Then go away!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"What? You're just some passing stranger? Then go away!"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Don''t bother me, I''m having a rough time."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -954,18 +1024,42 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 3
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 3
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 3
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 3
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 3
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 3
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 2
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 2
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 2
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 2
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 2
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -1012,7 +1106,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -1022,8 +1118,8 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Priest]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Do you need something?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['......!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Do you need something?"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["......!"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I''m sorry, I''m not sure what you mean.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I''m thinking, so please don''t disturb me."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -1050,7 +1146,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!Other3'
+        character_name: "!Other3"
         character_index: 0
         direction: 8
         pattern: 2
@@ -1062,7 +1158,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -1106,7 +1204,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -1116,12 +1216,12 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Scholar]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Hello, friend. Immersing oneself in the ocean']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['of knowledge always puts the mind']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Hello, friend. Immersing oneself in the ocean"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [of knowledge always puts the mind]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['and soul at ease, don''t you think?"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Scholar]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"What? You want to know where this train is headed?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"What? You want to know where this train is headed?"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Haha, it''s a nice city. You''ll see when we get there."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   21: !ruby/object:RPG::Event
@@ -1147,7 +1247,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!Other3'
+        character_name: "!Other3"
         character_index: 1
         direction: 8
         pattern: 1
@@ -1159,7 +1259,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -1203,8 +1305,12 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 25, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 25
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -1213,33 +1319,33 @@ events:
       trigger: 3
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [-1, 1, true]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['NW名前指定 Nun']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Nun]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Ah...']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Ah..."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Mr. Wallace, are you awake?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['You''ve been sleeping for quite a while. Are you tired?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Nun]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"I''m sorry, Mr. Wallace.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I guess it makes sense that you''d be tired']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['after all that we discussed earlier."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"I'm sorry, Mr. Wallace."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I guess it makes sense that you'd be tired]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [after all that we discussed earlier."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Nun]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Ah, Mr. Wallace, you were asleep at the time,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['but the conductor announced']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Ah, Mr. Wallace, you were asleep at the time,"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [but the conductor announced]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [that the train is running late due to the weather.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Though they say it''s the fastest train in central Asia,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['it still experiences delays..."']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I hope the children are alright."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [it still experiences delays..."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I hope the children are alright."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Nun]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Mr. Wallace?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Mr. Wallace?"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Are you going somewhere specific,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['or just taking a walk?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Either way,"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['it''d be good for you to stretch your legs a bit."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [it'd be good for you to stretch your legs a bit."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
@@ -1271,8 +1377,12 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 25, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 25
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -1319,7 +1429,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -1358,8 +1470,12 @@ events:
           skippable: false
           wait: true
           list:
-          - &2 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &2 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
@@ -1399,7 +1515,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -1438,8 +1556,12 @@ events:
           skippable: false
           wait: true
           list:
-          - &3 !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &3 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*3]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
@@ -1467,7 +1589,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!Other3'
+        character_name: "!Other3"
         character_index: 7
         direction: 4
         pattern: 0
@@ -1479,7 +1601,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: true
@@ -1493,7 +1617,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Confusing...]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Due to the research requirements,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I''ve had to travel back and forth for years.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I've had to travel back and forth for years.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I should be used to the scenery outside the train by now,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['but today, it feels strangely unfamiliar...']}
@@ -1522,7 +1646,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!Other3'
+        character_name: "!Other3"
         character_index: 7
         direction: 4
         pattern: 0
@@ -1534,7 +1658,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: true
@@ -1548,7 +1674,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Confusing...]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Due to the research requirements,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I''ve had to travel back and forth for years.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I've had to travel back and forth for years.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I should be used to the scenery outside the train by now,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['but today, it feels strangely unfamiliar...']}
@@ -1580,7 +1706,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!Other3'
+        character_name: "!Other3"
         character_index: 3
         direction: 6
         pattern: 2
@@ -1592,7 +1718,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: true
@@ -1603,7 +1731,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Poltava Speech Gazette Headline:']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Arkhangelsk Express Train Witnesses a Murder!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Arkhangelsk Express Train Witnesses a Murder!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Three victims have been reported, all brutally killed.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The perpetrator has not been apprehended.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
@@ -1631,7 +1759,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!Other3'
+        character_name: "!Other3"
         character_index: 3
         direction: 6
         pattern: 2
@@ -1643,7 +1771,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: true
@@ -1654,7 +1784,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Poltava Speech Gazette Headline:']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Arkhangelsk Express Train Witnesses a Murder!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Arkhangelsk Express Train Witnesses a Murder!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Three victims have been reported, all brutally killed.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The perpetrator has not been apprehended.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
@@ -1697,7 +1827,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -1748,7 +1880,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -1798,7 +1932,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -1830,7 +1966,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!Flame'
+        character_name: "!Flame"
         character_index: 7
         direction: 2
         pattern: 0
@@ -1842,7 +1978,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: true
       direction_fix: false
@@ -1887,7 +2025,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -1931,7 +2071,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -1940,5 +2082,5 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]EXPLORE THE TRAIN; IT''S THE ONLY WAY TO UNCOVER THE TRUTH\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\\c[2]EXPLORE THE TRAIN; IT'S THE ONLY WAY TO UNCOVER THE TRUTH\\c[0]"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

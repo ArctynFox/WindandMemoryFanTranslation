@@ -1,5 +1,5 @@
 ---
-- 
+-
 - !ruby/object:RPG::Armor
   description: |-
     EVA&MEV+5%  MDF+5%  SPD-3%
@@ -7922,7 +7922,7 @@
   name: Bloodstained Sailor Uniform
   icon_index: 714
   price: 2000
-  note: <戦闘前ステート付与:28,100>
+  note: "<戦闘前ステート付与:28,100>"
   id: 264
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -8527,7 +8527,7 @@
   name: Soul Ring
   icon_index: 513
   price: 3000
-  note: <戦闘前ステート付与:27,100>
+  note: "<戦闘前ステート付与:27,100>"
   id: 283
   features: []
   params:
@@ -8546,7 +8546,7 @@
   name: Strangler's Silks
   icon_index: 433
   price: 0
-  note: <HP回復無効:100>
+  note: "<HP回復無効:100>"
   id: 284
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -8573,7 +8573,7 @@
   name: Shadowstalk
   icon_index: 715
   price: 5000
-  note: <戦闘前ステート付与:16,100>
+  note: "<戦闘前ステート付与:16,100>"
   id: 285
   features:
   - !ruby/object:RPG::BaseItem::Feature

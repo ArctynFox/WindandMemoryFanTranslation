@@ -1,5 +1,5 @@
 ---
-- 
+-
 - !ruby/object:RPG::Tileset
   id: 1
   name: フィールド
@@ -3599,7 +3599,7 @@
   - Dungeon_B
   - TileC_exterior
   - InsideChai1
-  - 【血迹】 (2)
+  - "【血迹】 (2)"
   flags: !ruby/object:Table
     dim: 1
     x: 8192

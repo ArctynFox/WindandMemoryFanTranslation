@@ -8,9 +8,15 @@ specify_battleback: false
 battleback1_name: ''
 battleback2_name: ''
 autoplay_bgm: true
-bgm: !ruby/object:RPG::BGM {name: '', volume: 100, pitch: 100}
+bgm: !ruby/object:RPG::BGM
+  name: ''
+  volume: 100
+  pitch: 100
 autoplay_bgs: true
-bgs: !ruby/object:RPG::BGS {name: '', volume: 80, pitch: 100}
+bgs: !ruby/object:RPG::BGS
+  name: ''
+  volume: 80
+  pitch: 100
 disable_dashing: false
 encounter_list: []
 encounter_step: 30
@@ -131,7 +137,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: $N幽灵车
+        character_name: "$N幽灵车"
         character_index: 0
         direction: 2
         pattern: 0
@@ -143,7 +149,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: false
       direction_fix: true
@@ -187,7 +195,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -206,22 +216,34 @@ events:
           skippable: false
           wait: true
           list:
-          - &1 !ruby/object:RPG::MoveCommand {code: 15, parameters: [30]}
-          - &2 !ruby/object:RPG::MoveCommand {code: 16, parameters: []}
-          - &3 !ruby/object:RPG::MoveCommand {code: 15, parameters: [30]}
-          - &4 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &1 !ruby/object:RPG::MoveCommand
+            code: 15
+            parameters:
+            - 30
+          - &2 !ruby/object:RPG::MoveCommand
+            code: 16
+            parameters: []
+          - &3 !ruby/object:RPG::MoveCommand
+            code: 15
+            parameters:
+            - 30
+          - &4 !ruby/object:RPG::MoveCommand
+            code: 3
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*3]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*4]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Hunter Anatoly]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「幽灵列车长」, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Her door is the terminus of travelers,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['staining tracks with blood.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ["「幽灵列车长」", 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Her door is the terminus of travelers,"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [staining tracks with blood.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['In the hoarse roar, I will glimpse her entirely."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Hunter Anatoly]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [「幽灵列车长」, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ["「幽灵列车长」", 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Join us, we''ll journey together!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: 'N蒸汽火车_耳聆网_[声音ID：16890]', pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand
@@ -234,24 +256,62 @@ events:
           skippable: false
           wait: true
           list:
-          - &5 !ruby/object:RPG::MoveCommand {code: 29, parameters: [6]}
-          - &6 !ruby/object:RPG::MoveCommand {code: 30, parameters: [5]}
-          - &7 !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-          - &8 !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-          - &9 !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-          - &10 !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-          - &11 !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-          - &12 !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-          - &13 !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-          - &14 !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-          - &15 !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-          - &16 !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-          - &17 !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-          - &18 !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-          - &19 !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-          - &20 !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-          - &21 !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &5 !ruby/object:RPG::MoveCommand
+            code: 29
+            parameters:
+            - 6
+          - &6 !ruby/object:RPG::MoveCommand
+            code: 30
+            parameters:
+            - 5
+          - &7 !ruby/object:RPG::MoveCommand
+            code: 2
+            parameters: []
+          - &8 !ruby/object:RPG::MoveCommand
+            code: 2
+            parameters: []
+          - &9 !ruby/object:RPG::MoveCommand
+            code: 2
+            parameters: []
+          - &10 !ruby/object:RPG::MoveCommand
+            code: 2
+            parameters: []
+          - &11 !ruby/object:RPG::MoveCommand
+            code: 2
+            parameters: []
+          - &12 !ruby/object:RPG::MoveCommand
+            code: 2
+            parameters: []
+          - &13 !ruby/object:RPG::MoveCommand
+            code: 2
+            parameters: []
+          - &14 !ruby/object:RPG::MoveCommand
+            code: 2
+            parameters: []
+          - &15 !ruby/object:RPG::MoveCommand
+            code: 2
+            parameters: []
+          - &16 !ruby/object:RPG::MoveCommand
+            code: 2
+            parameters: []
+          - &17 !ruby/object:RPG::MoveCommand
+            code: 2
+            parameters: []
+          - &18 !ruby/object:RPG::MoveCommand
+            code: 2
+            parameters: []
+          - &19 !ruby/object:RPG::MoveCommand
+            code: 2
+            parameters: []
+          - &20 !ruby/object:RPG::MoveCommand
+            code: 2
+            parameters: []
+          - &21 !ruby/object:RPG::MoveCommand
+            code: 2
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*5]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*6]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*7]}
@@ -273,9 +333,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 301, p: [0, 710, false, true]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 601, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Hunter Anatoly]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [「幽灵列车长」, 5, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Ah... Damn, damn it!!!']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['My journey!! My... dreams..."']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ["「幽灵列车长」", 5, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["\"Ah... Damn, damn it!!!"]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [My journey!! My... dreams..."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 212, p: [1, 58, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 225, p: [3, 9, 240, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 30, false]}
@@ -303,16 +363,45 @@ events:
           skippable: false
           wait: true
           list:
-          - &22 !ruby/object:RPG::MoveCommand {code: 42, parameters: [200]}
-          - &23 !ruby/object:RPG::MoveCommand {code: 15, parameters: [20]}
-          - &24 !ruby/object:RPG::MoveCommand {code: 42, parameters: [150]}
-          - &25 !ruby/object:RPG::MoveCommand {code: 15, parameters: [20]}
-          - &26 !ruby/object:RPG::MoveCommand {code: 42, parameters: [100]}
-          - &27 !ruby/object:RPG::MoveCommand {code: 15, parameters: [20]}
-          - &28 !ruby/object:RPG::MoveCommand {code: 42, parameters: [50]}
-          - &29 !ruby/object:RPG::MoveCommand {code: 15, parameters: [20]}
-          - &30 !ruby/object:RPG::MoveCommand {code: 42, parameters: [0]}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &22 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 200
+          - &23 !ruby/object:RPG::MoveCommand
+            code: 15
+            parameters:
+            - 20
+          - &24 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 150
+          - &25 !ruby/object:RPG::MoveCommand
+            code: 15
+            parameters:
+            - 20
+          - &26 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 100
+          - &27 !ruby/object:RPG::MoveCommand
+            code: 15
+            parameters:
+            - 20
+          - &28 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 50
+          - &29 !ruby/object:RPG::MoveCommand
+            code: 15
+            parameters:
+            - 20
+          - &30 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 0
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*22]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*23]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*24]}

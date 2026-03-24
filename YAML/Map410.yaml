@@ -8,9 +8,15 @@ specify_battleback: false
 battleback1_name: ''
 battleback2_name: ''
 autoplay_bgm: false
-bgm: !ruby/object:RPG::BGM {name: '', volume: 100, pitch: 100}
+bgm: !ruby/object:RPG::BGM
+  name: ''
+  volume: 100
+  pitch: 100
 autoplay_bgs: false
-bgs: !ruby/object:RPG::BGS {name: '', volume: 80, pitch: 100}
+bgs: !ruby/object:RPG::BGS
+  name: ''
+  volume: 80
+  pitch: 100
 disable_dashing: false
 encounter_list: []
 encounter_step: 30
@@ -248,10 +254,10 @@ data: !ruby/object:Table
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0be0 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0be0 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
-  - 0385 0386 0385 0386 0385 0386 0000 0385 0386 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
-  - 038d 038e 038d 038e 038d 038e 0000 038d 038e 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
-  - 0395 0396 0395 0396 0395 0396 0000 0395 0396 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
-  - 039d 039e 039d 039e 039d 039e 0000 03a5 03a6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - '0385 0386 0385 0386 0385 0386 0000 0385 0386 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '038d 038e 038d 038e 038d 038e 0000 038d 038e 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '0395 0396 0395 0396 0395 0396 0000 0395 0396 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
+  - '039d 039e 039d 039e 039d 039e 0000 03a5 03a6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000'
   - 03a5 03a6 03a5 03a6 03a5 03a6 0000 03a5 03a6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
   - 03ad 03ae 03ad 03ae 03ad 03ae 0000 03a5 03a6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
   - 03b5 03b6 03b5 03b6 03b5 03b6 0000 03a5 03a6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
@@ -286,10 +292,10 @@ data: !ruby/object:Table
   - 0000 0000 0000 0000 0000 03ac 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 01f0 01f1 01c9 01ca 01ca 01ca 01cb 0000
   - 0000 0000 0000 0000 0000 03ac 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 01f0 01f1 0000 0000 03dd 03de 0000 0000
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 01f8 01f9 03c5 03c6 03e5 03e6 0000 0000
-  - 0386 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 03cd 03ce 0000 0000 0000 0000
-  - 038e 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 03d5 03d6 0000 0000 0000 0000
-  - 0396 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0067 0000 0287 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 039d 039e 0000 0000 0000 0000
-  - 039e 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 006f 012f 028f 012f 012f 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 03a5 03a6 0000 0000 0000 0385
+  - '0386 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 03cd 03ce 0000 0000 0000 0000'
+  - '038e 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 03d5 03d6 0000 0000 0000 0000'
+  - '0396 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0067 0000 0287 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 039d 039e 0000 0000 0000 0000'
+  - '039e 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 006f 012f 028f 012f 012f 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 03a5 03a6 0000 0000 0000 0385'
   - 03a6 0000 0000 0000 0000 0000 0000 0064 0065 0000 0000 0000 0000 0077 0137 0000 0137 0137 012a 012b 0000 012f 012f 012f 012f 0000 0000 0000 0000 03ad 03ae 0000 0000 0000 038d
   - 03ae 0000 0000 0000 0000 0000 007e 007c 007d 007e 0000 0000 0000 0000 0000 016e 016f 0000 0132 0133 0000 0137 0137 0137 0137 012f 0000 0000 0000 03b5 03b6 0000 0000 0000 0395
   - 03b6 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0176 0177 0000 0000 0001 0002 0003 0000 0000 02c3 013f 0000 0000 0000 0000 0000 0000 0000 0000 0000
@@ -305,8 +311,8 @@ data: !ruby/object:Table
   - 01f9 0000 01b8 0000 0000 0000 00b6 00b6 00b6 0152 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 03a0 03a1 039a 0000 0000 0000
   - 0000 0000 01c0 0000 0000 0000 03ac 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 03a0 03a1 03a2 0000 0000 0000
   - 0000 0000 01c8 0000 0000 0000 03ac 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 003f 0000 0000 0000 0000 0000 0000 0067 0000 0000 0000 0000 03a8 03a9 0000 0000 0000 0000
-  - 0295 0000 01d0 016e 016f 0000 03ac 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 006f 0000 0000 0000 0000 03b0 03b1 0000 0000 0000 0000
-  - 029d 0000 0000 0176 0177 0000 0000 0000 0291 0000 0000 0000 0000 0000 0000 0000 0000 0000 0290 0000 0000 0000 0000 0000 0077 0000 0000 0000 0000 03b8 03b9 0000 0000 0000 0000
+  - '0295 0000 01d0 016e 016f 0000 03ac 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 006f 0000 0000 0000 0000 03b0 03b1 0000 0000 0000 0000'
+  - '029d 0000 0000 0176 0177 0000 0000 0000 0291 0000 0000 0000 0000 0000 0000 0000 0000 0000 0290 0000 0000 0000 0000 0000 0077 0000 0000 0000 0000 03b8 03b9 0000 0000 0000 0000'
   - 0002 0003 0000 017e 017f 0000 0000 0000 0299 0000 0000 0000 00be 00bf 0000 0000 0000 0000 0298 0000 00ee 0000 0000 0000 0000 0000 0000 0000 0000 03c0 03c1 0000 0000 0000 0000
   - 000a 000b 000c 0000 0000 0000 0000 0000 0000 0000 0000 00bd 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
   - 0012 0013 0014 03ac 03ac 03ac 03ac 03ac 03ac 0000 0000 00c5 0000 0000 012f 0000 012f 0000 012f 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
@@ -503,7 +509,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -548,7 +556,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -599,7 +609,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: false
       direction_fix: false
@@ -618,13 +630,29 @@ events:
           skippable: false
           wait: true
           list:
-          - &1 !ruby/object:RPG::MoveCommand {code: 17, parameters: []}
-          - &2 !ruby/object:RPG::MoveCommand {code: 15, parameters: [3]}
-          - &3 !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
-          - &4 !ruby/object:RPG::MoveCommand {code: 15, parameters: [3]}
-          - &5 !ruby/object:RPG::MoveCommand {code: 19, parameters: []}
-          - &6 !ruby/object:RPG::MoveCommand {code: 37, parameters: []}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &1 !ruby/object:RPG::MoveCommand
+            code: 17
+            parameters: []
+          - &2 !ruby/object:RPG::MoveCommand
+            code: 15
+            parameters:
+            - 3
+          - &3 !ruby/object:RPG::MoveCommand
+            code: 18
+            parameters: []
+          - &4 !ruby/object:RPG::MoveCommand
+            code: 15
+            parameters:
+            - 3
+          - &5 !ruby/object:RPG::MoveCommand
+            code: 19
+            parameters: []
+          - &6 !ruby/object:RPG::MoveCommand
+            code: 37
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*3]}
@@ -641,10 +669,18 @@ events:
           skippable: true
           wait: true
           list:
-          - &7 !ruby/object:RPG::MoveCommand {code: 37, parameters: []}
-          - &8 !ruby/object:RPG::MoveCommand {code: 12, parameters: []}
-          - &9 !ruby/object:RPG::MoveCommand {code: 38, parameters: []}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &7 !ruby/object:RPG::MoveCommand
+            code: 37
+            parameters: []
+          - &8 !ruby/object:RPG::MoveCommand
+            code: 12
+            parameters: []
+          - &9 !ruby/object:RPG::MoveCommand
+            code: 38
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*7]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*8]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*9]}
@@ -675,7 +711,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!Flame'
+        character_name: "!Flame"
         character_index: 6
         direction: 2
         pattern: 0
@@ -687,15 +723,37 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 17, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 19, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 16, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 17
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 18
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 19
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 16
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: false
       direction_fix: false
@@ -735,7 +793,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -767,7 +827,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!Flame'
+        character_name: "!Flame"
         character_index: 6
         direction: 2
         pattern: 0
@@ -779,15 +839,37 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 17, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 19, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 16, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 17
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 18
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 19
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 16
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: false
       direction_fix: false
@@ -827,7 +909,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -859,7 +943,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!Flame'
+        character_name: "!Flame"
         character_index: 6
         direction: 2
         pattern: 0
@@ -871,15 +955,37 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 17, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 19, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 16, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 17
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 18
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 19
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 16
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: false
       direction_fix: false
@@ -919,7 +1025,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -951,7 +1059,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!Flame'
+        character_name: "!Flame"
         character_index: 6
         direction: 2
         pattern: 0
@@ -963,15 +1071,37 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 17, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 19, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 16, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 17
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 18
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 19
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 16
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: false
       direction_fix: false
@@ -1011,7 +1141,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -1055,7 +1187,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: true
@@ -1068,7 +1202,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Search the corpse]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: Equip3, pitch: 80, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['......']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ["......"]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 128, p: [229, 0, 0, 1, false]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [38, 38, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [A, 0]}
@@ -1088,7 +1222,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Search the corpse]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: Equip3, pitch: 80, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 1, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['......']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ["......"]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 128, p: [229, 0, 0, 1, false]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [38, 38, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [A, 0]}
@@ -1128,7 +1262,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: true
@@ -1186,7 +1322,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -1230,29 +1368,77 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
-        - !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 3
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 3
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 3
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 3
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 3
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 3
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 3
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 3
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 3
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 3
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 10
+        - !ruby/object:RPG::MoveCommand
+          code: 2
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 2
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 2
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 2
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 2
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 2
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 2
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 2
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 2
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 2
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 10
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -1290,7 +1476,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: true
       direction_fix: false
@@ -1308,10 +1496,21 @@ events:
           skippable: false
           wait: true
           list:
-          - &10 !ruby/object:RPG::MoveCommand {code: 42, parameters: [128]}
-          - &11 !ruby/object:RPG::MoveCommand {code: 15, parameters: [240]}
-          - &12 !ruby/object:RPG::MoveCommand {code: 42, parameters: [255]}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &10 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 128
+          - &11 !ruby/object:RPG::MoveCommand
+            code: 15
+            parameters:
+            - 240
+          - &12 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 255
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*10]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*11]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*12]}
@@ -1346,7 +1545,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: true
       direction_fix: false
@@ -1364,10 +1565,21 @@ events:
           skippable: false
           wait: true
           list:
-          - &13 !ruby/object:RPG::MoveCommand {code: 42, parameters: [0]}
-          - &14 !ruby/object:RPG::MoveCommand {code: 15, parameters: [600]}
-          - &15 !ruby/object:RPG::MoveCommand {code: 42, parameters: [255]}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &13 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 0
+          - &14 !ruby/object:RPG::MoveCommand
+            code: 15
+            parameters:
+            - 600
+          - &15 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 255
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*13]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*14]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*15]}
@@ -1408,29 +1620,77 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 2, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
-        - !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 2
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 2
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 2
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 2
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 2
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 2
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 2
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 2
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 2
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 2
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 10
+        - !ruby/object:RPG::MoveCommand
+          code: 3
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 3
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 3
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 3
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 3
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 3
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 3
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 3
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 3
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 3
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 10
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -1500,7 +1760,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: true
       direction_fix: false
@@ -1518,10 +1780,21 @@ events:
           skippable: false
           wait: true
           list:
-          - &16 !ruby/object:RPG::MoveCommand {code: 42, parameters: [128]}
-          - &17 !ruby/object:RPG::MoveCommand {code: 15, parameters: [240]}
-          - &18 !ruby/object:RPG::MoveCommand {code: 42, parameters: [255]}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &16 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 128
+          - &17 !ruby/object:RPG::MoveCommand
+            code: 15
+            parameters:
+            - 240
+          - &18 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 255
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*16]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*17]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*18]}
@@ -1556,7 +1829,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: true
       direction_fix: false
@@ -1574,10 +1849,21 @@ events:
           skippable: false
           wait: true
           list:
-          - &19 !ruby/object:RPG::MoveCommand {code: 42, parameters: [0]}
-          - &20 !ruby/object:RPG::MoveCommand {code: 15, parameters: [600]}
-          - &21 !ruby/object:RPG::MoveCommand {code: 42, parameters: [255]}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &19 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 0
+          - &20 !ruby/object:RPG::MoveCommand
+            code: 15
+            parameters:
+            - 600
+          - &21 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 255
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*19]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*20]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*21]}
@@ -1606,7 +1892,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!$ウィンターベル (2)'
+        character_name: "!$ウィンターベル (2)"
         character_index: 0
         direction: 2
         pattern: 1
@@ -1618,7 +1904,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: false
       direction_fix: true
@@ -1637,8 +1925,14 @@ events:
           skippable: false
           wait: false
           list:
-          - &22 !ruby/object:RPG::MoveCommand {code: 14, parameters: [0, 0]}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &22 !ruby/object:RPG::MoveCommand
+            code: 14
+            parameters:
+            - 0
+            - 0
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*22]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [31, 31, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -1659,7 +1953,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: $ミミック
+        character_name: "$ミミック"
         character_index: 0
         direction: 2
         pattern: 1
@@ -1671,8 +1965,13 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 45, parameters: [enable_symbol_encount(5)]}
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 45
+          parameters:
+          - enable_symbol_encount(5)
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -1713,7 +2012,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: $ミミック
+        character_name: "$ミミック"
         character_index: 0
         direction: 2
         pattern: 1
@@ -1725,7 +2024,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: true
       direction_fix: false
@@ -1743,10 +2044,21 @@ events:
           skippable: false
           wait: true
           list:
-          - &23 !ruby/object:RPG::MoveCommand {code: 42, parameters: [128]}
-          - &24 !ruby/object:RPG::MoveCommand {code: 15, parameters: [240]}
-          - &25 !ruby/object:RPG::MoveCommand {code: 42, parameters: [255]}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &23 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 128
+          - &24 !ruby/object:RPG::MoveCommand
+            code: 15
+            parameters:
+            - 240
+          - &25 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 255
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*23]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*24]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*25]}
@@ -1781,7 +2093,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -1813,7 +2127,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!Flame'
+        character_name: "!Flame"
         character_index: 6
         direction: 2
         pattern: 0
@@ -1825,15 +2139,37 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 17, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 19, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 16, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 17
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 18
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 19
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 16
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: false
       direction_fix: false
@@ -1873,7 +2209,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -1905,7 +2243,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!Flame'
+        character_name: "!Flame"
         character_index: 6
         direction: 2
         pattern: 0
@@ -1917,15 +2255,37 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 17, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 19, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 16, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 17
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 18
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 19
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 16
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: false
       direction_fix: false
@@ -1965,7 +2325,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -1997,7 +2359,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!Flame'
+        character_name: "!Flame"
         character_index: 6
         direction: 2
         pattern: 0
@@ -2009,15 +2371,37 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 17, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 19, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 16, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 17
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 18
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 19
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 16
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: false
       direction_fix: false
@@ -2057,7 +2441,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -2089,7 +2475,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!Flame'
+        character_name: "!Flame"
         character_index: 6
         direction: 2
         pattern: 0
@@ -2101,15 +2487,37 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 17, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 19, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 16, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 17
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 18
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 19
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 16
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: false
       direction_fix: false
@@ -2152,7 +2560,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -2184,7 +2594,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!$ウィンターベル (4)'
+        character_name: "!$ウィンターベル (4)"
         character_index: 0
         direction: 2
         pattern: 1
@@ -2196,7 +2606,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: false
       direction_fix: true
@@ -2215,12 +2627,26 @@ events:
           skippable: false
           wait: true
           list:
-          - &26 !ruby/object:RPG::MoveCommand {code: 36, parameters: []}
-          - &27 !ruby/object:RPG::MoveCommand {code: 17, parameters: []}
-          - &28 !ruby/object:RPG::MoveCommand {code: 15, parameters: [3]}
-          - &29 !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
-          - &30 !ruby/object:RPG::MoveCommand {code: 15, parameters: [3]}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &26 !ruby/object:RPG::MoveCommand
+            code: 36
+            parameters: []
+          - &27 !ruby/object:RPG::MoveCommand
+            code: 17
+            parameters: []
+          - &28 !ruby/object:RPG::MoveCommand
+            code: 15
+            parameters:
+            - 3
+          - &29 !ruby/object:RPG::MoveCommand
+            code: 18
+            parameters: []
+          - &30 !ruby/object:RPG::MoveCommand
+            code: 15
+            parameters:
+            - 3
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*26]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*27]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*28]}
@@ -2246,7 +2672,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!$ウィンターベル (4)'
+        character_name: "!$ウィンターベル (4)"
         character_index: 0
         direction: 8
         pattern: 0
@@ -2258,7 +2684,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: false
       direction_fix: true
@@ -2290,7 +2718,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!Flame'
+        character_name: "!Flame"
         character_index: 6
         direction: 2
         pattern: 0
@@ -2302,15 +2730,37 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 17, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 19, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 16, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 17
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 18
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 19
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 16
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: false
       direction_fix: false
@@ -2350,7 +2800,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -2394,23 +2846,59 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 10
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 10
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -2480,7 +2968,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: true
       direction_fix: false
@@ -2498,10 +2988,21 @@ events:
           skippable: false
           wait: true
           list:
-          - &31 !ruby/object:RPG::MoveCommand {code: 42, parameters: [128]}
-          - &32 !ruby/object:RPG::MoveCommand {code: 15, parameters: [240]}
-          - &33 !ruby/object:RPG::MoveCommand {code: 42, parameters: [255]}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &31 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 128
+          - &32 !ruby/object:RPG::MoveCommand
+            code: 15
+            parameters:
+            - 240
+          - &33 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 255
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*31]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*32]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*33]}
@@ -2536,7 +3037,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: true
       direction_fix: false
@@ -2554,10 +3057,21 @@ events:
           skippable: false
           wait: true
           list:
-          - &34 !ruby/object:RPG::MoveCommand {code: 42, parameters: [0]}
-          - &35 !ruby/object:RPG::MoveCommand {code: 15, parameters: [600]}
-          - &36 !ruby/object:RPG::MoveCommand {code: 42, parameters: [255]}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &34 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 0
+          - &35 !ruby/object:RPG::MoveCommand
+            code: 15
+            parameters:
+            - 600
+          - &36 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 255
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*34]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*35]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*36]}
@@ -2598,23 +3112,59 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 10
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 10
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -2684,7 +3234,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: true
       direction_fix: false
@@ -2702,10 +3254,21 @@ events:
           skippable: false
           wait: true
           list:
-          - &37 !ruby/object:RPG::MoveCommand {code: 42, parameters: [128]}
-          - &38 !ruby/object:RPG::MoveCommand {code: 15, parameters: [240]}
-          - &39 !ruby/object:RPG::MoveCommand {code: 42, parameters: [255]}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &37 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 128
+          - &38 !ruby/object:RPG::MoveCommand
+            code: 15
+            parameters:
+            - 240
+          - &39 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 255
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*37]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*38]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*39]}
@@ -2740,7 +3303,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: true
       direction_fix: false
@@ -2758,10 +3323,21 @@ events:
           skippable: false
           wait: true
           list:
-          - &40 !ruby/object:RPG::MoveCommand {code: 42, parameters: [0]}
-          - &41 !ruby/object:RPG::MoveCommand {code: 15, parameters: [600]}
-          - &42 !ruby/object:RPG::MoveCommand {code: 42, parameters: [255]}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &40 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 0
+          - &41 !ruby/object:RPG::MoveCommand
+            code: 15
+            parameters:
+            - 600
+          - &42 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 255
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*40]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*41]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*42]}
@@ -2802,23 +3378,59 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 10
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 10
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -2888,7 +3500,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: true
       direction_fix: false
@@ -2906,10 +3520,21 @@ events:
           skippable: false
           wait: true
           list:
-          - &43 !ruby/object:RPG::MoveCommand {code: 42, parameters: [128]}
-          - &44 !ruby/object:RPG::MoveCommand {code: 15, parameters: [240]}
-          - &45 !ruby/object:RPG::MoveCommand {code: 42, parameters: [255]}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &43 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 128
+          - &44 !ruby/object:RPG::MoveCommand
+            code: 15
+            parameters:
+            - 240
+          - &45 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 255
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*43]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*44]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*45]}
@@ -2944,7 +3569,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: true
       direction_fix: false
@@ -2962,10 +3589,21 @@ events:
           skippable: false
           wait: true
           list:
-          - &46 !ruby/object:RPG::MoveCommand {code: 42, parameters: [0]}
-          - &47 !ruby/object:RPG::MoveCommand {code: 15, parameters: [600]}
-          - &48 !ruby/object:RPG::MoveCommand {code: 42, parameters: [255]}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &46 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 0
+          - &47 !ruby/object:RPG::MoveCommand
+            code: 15
+            parameters:
+            - 600
+          - &48 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 255
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*46]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*47]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*48]}
@@ -3006,23 +3644,59 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 10
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 10
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -3092,7 +3766,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: true
       direction_fix: false
@@ -3110,10 +3786,21 @@ events:
           skippable: false
           wait: true
           list:
-          - &49 !ruby/object:RPG::MoveCommand {code: 42, parameters: [128]}
-          - &50 !ruby/object:RPG::MoveCommand {code: 15, parameters: [240]}
-          - &51 !ruby/object:RPG::MoveCommand {code: 42, parameters: [255]}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &49 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 128
+          - &50 !ruby/object:RPG::MoveCommand
+            code: 15
+            parameters:
+            - 240
+          - &51 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 255
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*49]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*50]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*51]}
@@ -3148,7 +3835,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: true
       direction_fix: false
@@ -3166,10 +3855,21 @@ events:
           skippable: false
           wait: true
           list:
-          - &52 !ruby/object:RPG::MoveCommand {code: 42, parameters: [0]}
-          - &53 !ruby/object:RPG::MoveCommand {code: 15, parameters: [600]}
-          - &54 !ruby/object:RPG::MoveCommand {code: 42, parameters: [255]}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &52 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 0
+          - &53 !ruby/object:RPG::MoveCommand
+            code: 15
+            parameters:
+            - 600
+          - &54 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 255
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*52]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*53]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*54]}
@@ -3198,7 +3898,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!$ウィンターベル (5)'
+        character_name: "!$ウィンターベル (5)"
         character_index: 0
         direction: 2
         pattern: 0
@@ -3210,7 +3910,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: false
       direction_fix: true
@@ -3229,12 +3931,26 @@ events:
           skippable: false
           wait: true
           list:
-          - &55 !ruby/object:RPG::MoveCommand {code: 36, parameters: []}
-          - &56 !ruby/object:RPG::MoveCommand {code: 17, parameters: []}
-          - &57 !ruby/object:RPG::MoveCommand {code: 15, parameters: [3]}
-          - &58 !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
-          - &59 !ruby/object:RPG::MoveCommand {code: 15, parameters: [3]}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &55 !ruby/object:RPG::MoveCommand
+            code: 36
+            parameters: []
+          - &56 !ruby/object:RPG::MoveCommand
+            code: 17
+            parameters: []
+          - &57 !ruby/object:RPG::MoveCommand
+            code: 15
+            parameters:
+            - 3
+          - &58 !ruby/object:RPG::MoveCommand
+            code: 18
+            parameters: []
+          - &59 !ruby/object:RPG::MoveCommand
+            code: 15
+            parameters:
+            - 3
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*55]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*56]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*57]}
@@ -3261,7 +3977,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!$ウィンターベル (5)'
+        character_name: "!$ウィンターベル (5)"
         character_index: 0
         direction: 8
         pattern: 0
@@ -3273,7 +3989,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: false
       direction_fix: true
@@ -3305,7 +4023,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!Flame'
+        character_name: "!Flame"
         character_index: 6
         direction: 2
         pattern: 0
@@ -3317,15 +4035,37 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 17, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 19, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 16, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 17
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 18
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 19
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 16
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: false
       direction_fix: false
@@ -3365,7 +4105,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -3397,7 +4139,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!Flame'
+        character_name: "!Flame"
         character_index: 6
         direction: 2
         pattern: 0
@@ -3409,15 +4151,37 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 17, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 19, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 16, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 17
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 18
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 19
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 16
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: false
       direction_fix: false
@@ -3457,7 +4221,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -3489,7 +4255,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!Flame'
+        character_name: "!Flame"
         character_index: 6
         direction: 2
         pattern: 0
@@ -3501,15 +4267,37 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 17, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 19, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 16, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 17
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 18
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 19
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 16
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: false
       direction_fix: false
@@ -3549,7 +4337,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -3581,7 +4371,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!Flame'
+        character_name: "!Flame"
         character_index: 6
         direction: 2
         pattern: 0
@@ -3593,15 +4383,37 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 17, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 19, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [6]}
-        - !ruby/object:RPG::MoveCommand {code: 16, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 17
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 18
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 19
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 6
+        - !ruby/object:RPG::MoveCommand
+          code: 16
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: false
       direction_fix: false
@@ -3641,7 +4453,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -3685,23 +4499,59 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 10
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 10
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -3771,7 +4621,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: true
       direction_fix: false
@@ -3789,10 +4641,21 @@ events:
           skippable: false
           wait: true
           list:
-          - &60 !ruby/object:RPG::MoveCommand {code: 42, parameters: [128]}
-          - &61 !ruby/object:RPG::MoveCommand {code: 15, parameters: [240]}
-          - &62 !ruby/object:RPG::MoveCommand {code: 42, parameters: [255]}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &60 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 128
+          - &61 !ruby/object:RPG::MoveCommand
+            code: 15
+            parameters:
+            - 240
+          - &62 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 255
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*60]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*61]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*62]}
@@ -3827,7 +4690,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: true
       direction_fix: false
@@ -3845,10 +4710,21 @@ events:
           skippable: false
           wait: true
           list:
-          - &63 !ruby/object:RPG::MoveCommand {code: 42, parameters: [0]}
-          - &64 !ruby/object:RPG::MoveCommand {code: 15, parameters: [600]}
-          - &65 !ruby/object:RPG::MoveCommand {code: 42, parameters: [255]}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &63 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 0
+          - &64 !ruby/object:RPG::MoveCommand
+            code: 15
+            parameters:
+            - 600
+          - &65 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 255
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*63]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*64]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*65]}
@@ -3889,7 +4765,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -3898,7 +4776,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]Equipment ahead.\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\\c[2]Equipment ahead.\\c[0]"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   61: !ruby/object:RPG::Event
     id: 61
@@ -3935,7 +4813,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -3944,7 +4824,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['\c[2]The gears won''t stop...\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\\c[2]The gears won't stop...\\c[0]"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   62: !ruby/object:RPG::Event
     id: 62
@@ -3981,23 +4861,59 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 10
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 10
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -4067,7 +4983,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: true
       direction_fix: false
@@ -4085,10 +5003,21 @@ events:
           skippable: false
           wait: true
           list:
-          - &66 !ruby/object:RPG::MoveCommand {code: 42, parameters: [128]}
-          - &67 !ruby/object:RPG::MoveCommand {code: 15, parameters: [240]}
-          - &68 !ruby/object:RPG::MoveCommand {code: 42, parameters: [255]}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &66 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 128
+          - &67 !ruby/object:RPG::MoveCommand
+            code: 15
+            parameters:
+            - 240
+          - &68 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 255
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*66]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*67]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*68]}
@@ -4123,7 +5052,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: true
       direction_fix: false
@@ -4141,10 +5072,21 @@ events:
           skippable: false
           wait: true
           list:
-          - &69 !ruby/object:RPG::MoveCommand {code: 42, parameters: [0]}
-          - &70 !ruby/object:RPG::MoveCommand {code: 15, parameters: [600]}
-          - &71 !ruby/object:RPG::MoveCommand {code: 42, parameters: [255]}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &69 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 0
+          - &70 !ruby/object:RPG::MoveCommand
+            code: 15
+            parameters:
+            - 600
+          - &71 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 255
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*69]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*70]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*71]}
@@ -4185,23 +5127,59 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 10
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 10
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -4271,7 +5249,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: true
       direction_fix: false
@@ -4289,10 +5269,21 @@ events:
           skippable: false
           wait: true
           list:
-          - &72 !ruby/object:RPG::MoveCommand {code: 42, parameters: [128]}
-          - &73 !ruby/object:RPG::MoveCommand {code: 15, parameters: [240]}
-          - &74 !ruby/object:RPG::MoveCommand {code: 42, parameters: [255]}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &72 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 128
+          - &73 !ruby/object:RPG::MoveCommand
+            code: 15
+            parameters:
+            - 240
+          - &74 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 255
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*72]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*73]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*74]}
@@ -4327,7 +5318,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: true
       direction_fix: false
@@ -4345,10 +5338,21 @@ events:
           skippable: false
           wait: true
           list:
-          - &75 !ruby/object:RPG::MoveCommand {code: 42, parameters: [0]}
-          - &76 !ruby/object:RPG::MoveCommand {code: 15, parameters: [600]}
-          - &77 !ruby/object:RPG::MoveCommand {code: 42, parameters: [255]}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &75 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 0
+          - &76 !ruby/object:RPG::MoveCommand
+            code: 15
+            parameters:
+            - 600
+          - &77 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 255
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*75]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*76]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*77]}
@@ -4389,23 +5393,59 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 10
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 10
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -4475,7 +5515,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: true
       direction_fix: false
@@ -4493,10 +5535,21 @@ events:
           skippable: false
           wait: true
           list:
-          - &78 !ruby/object:RPG::MoveCommand {code: 42, parameters: [128]}
-          - &79 !ruby/object:RPG::MoveCommand {code: 15, parameters: [240]}
-          - &80 !ruby/object:RPG::MoveCommand {code: 42, parameters: [255]}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &78 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 128
+          - &79 !ruby/object:RPG::MoveCommand
+            code: 15
+            parameters:
+            - 240
+          - &80 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 255
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*78]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*79]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*80]}
@@ -4531,7 +5584,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: true
       direction_fix: false
@@ -4549,10 +5604,21 @@ events:
           skippable: false
           wait: true
           list:
-          - &81 !ruby/object:RPG::MoveCommand {code: 42, parameters: [0]}
-          - &82 !ruby/object:RPG::MoveCommand {code: 15, parameters: [600]}
-          - &83 !ruby/object:RPG::MoveCommand {code: 42, parameters: [255]}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &81 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 0
+          - &82 !ruby/object:RPG::MoveCommand
+            code: 15
+            parameters:
+            - 600
+          - &83 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 255
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*81]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*82]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*83]}
@@ -4593,23 +5659,59 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 4, parameters: []}
-        - !ruby/object:RPG::MoveCommand {code: 15, parameters: [10]}
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 1
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 10
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 4
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 15
+          parameters:
+          - 10
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -4679,7 +5781,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: true
       direction_fix: false
@@ -4697,10 +5801,21 @@ events:
           skippable: false
           wait: true
           list:
-          - &84 !ruby/object:RPG::MoveCommand {code: 42, parameters: [128]}
-          - &85 !ruby/object:RPG::MoveCommand {code: 15, parameters: [240]}
-          - &86 !ruby/object:RPG::MoveCommand {code: 42, parameters: [255]}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &84 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 128
+          - &85 !ruby/object:RPG::MoveCommand
+            code: 15
+            parameters:
+            - 240
+          - &86 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 255
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*84]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*85]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*86]}
@@ -4735,7 +5850,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: true
       direction_fix: false
@@ -4753,10 +5870,21 @@ events:
           skippable: false
           wait: true
           list:
-          - &87 !ruby/object:RPG::MoveCommand {code: 42, parameters: [0]}
-          - &88 !ruby/object:RPG::MoveCommand {code: 15, parameters: [600]}
-          - &89 !ruby/object:RPG::MoveCommand {code: 42, parameters: [255]}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &87 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 0
+          - &88 !ruby/object:RPG::MoveCommand
+            code: 15
+            parameters:
+            - 600
+          - &89 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 255
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*87]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*88]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*89]}
@@ -4797,7 +5925,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -4844,7 +5974,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -4879,7 +6011,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!Door1'
+        character_name: "!Door1"
         character_index: 1
         direction: 2
         pattern: 0
@@ -4891,7 +6023,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: false
       direction_fix: false
@@ -4910,13 +6044,29 @@ events:
           skippable: false
           wait: true
           list:
-          - &90 !ruby/object:RPG::MoveCommand {code: 17, parameters: []}
-          - &91 !ruby/object:RPG::MoveCommand {code: 15, parameters: [3]}
-          - &92 !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
-          - &93 !ruby/object:RPG::MoveCommand {code: 15, parameters: [3]}
-          - &94 !ruby/object:RPG::MoveCommand {code: 19, parameters: []}
-          - &95 !ruby/object:RPG::MoveCommand {code: 37, parameters: []}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &90 !ruby/object:RPG::MoveCommand
+            code: 17
+            parameters: []
+          - &91 !ruby/object:RPG::MoveCommand
+            code: 15
+            parameters:
+            - 3
+          - &92 !ruby/object:RPG::MoveCommand
+            code: 18
+            parameters: []
+          - &93 !ruby/object:RPG::MoveCommand
+            code: 15
+            parameters:
+            - 3
+          - &94 !ruby/object:RPG::MoveCommand
+            code: 19
+            parameters: []
+          - &95 !ruby/object:RPG::MoveCommand
+            code: 37
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*90]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*91]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*92]}
@@ -4933,8 +6083,12 @@ events:
           skippable: true
           wait: true
           list:
-          - &96 !ruby/object:RPG::MoveCommand {code: 12, parameters: []}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &96 !ruby/object:RPG::MoveCommand
+            code: 12
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*96]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 346, 1, 22, 6, 0]}
@@ -4975,8 +6129,13 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 45, parameters: [enable_symbol_encount(18)]}
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 45
+          parameters:
+          - enable_symbol_encount(18)
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: true
       direction_fix: false
@@ -5046,7 +6205,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: true
       direction_fix: false
@@ -5064,10 +6225,21 @@ events:
           skippable: false
           wait: true
           list:
-          - &97 !ruby/object:RPG::MoveCommand {code: 42, parameters: [128]}
-          - &98 !ruby/object:RPG::MoveCommand {code: 15, parameters: [240]}
-          - &99 !ruby/object:RPG::MoveCommand {code: 42, parameters: [255]}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &97 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 128
+          - &98 !ruby/object:RPG::MoveCommand
+            code: 15
+            parameters:
+            - 240
+          - &99 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 255
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*97]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*98]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*99]}
@@ -5102,7 +6274,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: true
       direction_fix: false
@@ -5120,10 +6294,21 @@ events:
           skippable: false
           wait: true
           list:
-          - &100 !ruby/object:RPG::MoveCommand {code: 42, parameters: [0]}
-          - &101 !ruby/object:RPG::MoveCommand {code: 15, parameters: [600]}
-          - &102 !ruby/object:RPG::MoveCommand {code: 42, parameters: [255]}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &100 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 0
+          - &101 !ruby/object:RPG::MoveCommand
+            code: 15
+            parameters:
+            - 600
+          - &102 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 255
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*100]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*101]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*102]}
@@ -5152,7 +6337,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!$ウィンターベル (3)'
+        character_name: "!$ウィンターベル (3)"
         character_index: 0
         direction: 2
         pattern: 1
@@ -5164,7 +6349,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: false
       direction_fix: true
@@ -5183,12 +6370,26 @@ events:
           skippable: false
           wait: true
           list:
-          - &103 !ruby/object:RPG::MoveCommand {code: 36, parameters: []}
-          - &104 !ruby/object:RPG::MoveCommand {code: 17, parameters: []}
-          - &105 !ruby/object:RPG::MoveCommand {code: 15, parameters: [3]}
-          - &106 !ruby/object:RPG::MoveCommand {code: 18, parameters: []}
-          - &107 !ruby/object:RPG::MoveCommand {code: 15, parameters: [3]}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &103 !ruby/object:RPG::MoveCommand
+            code: 36
+            parameters: []
+          - &104 !ruby/object:RPG::MoveCommand
+            code: 17
+            parameters: []
+          - &105 !ruby/object:RPG::MoveCommand
+            code: 15
+            parameters:
+            - 3
+          - &106 !ruby/object:RPG::MoveCommand
+            code: 18
+            parameters: []
+          - &107 !ruby/object:RPG::MoveCommand
+            code: 15
+            parameters:
+            - 3
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*103]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*104]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*105]}
@@ -5214,7 +6415,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!$ウィンターベル (3)'
+        character_name: "!$ウィンターベル (3)"
         character_index: 0
         direction: 8
         pattern: 0
@@ -5226,7 +6427,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: false
       step_anime: false
       direction_fix: true
@@ -5270,7 +6473,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -5317,7 +6522,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -5352,7 +6559,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!Flame'
+        character_name: "!Flame"
         character_index: 5
         direction: 2
         pattern: 0
@@ -5364,7 +6571,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: true
@@ -5409,7 +6618,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -5456,7 +6667,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -5503,7 +6716,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -5547,7 +6762,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false

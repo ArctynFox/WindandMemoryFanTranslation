@@ -1,5 +1,5 @@
 ---
-- 
+-
 - !ruby/object:RPG::Actor
   name: ''
   face_index: 0
@@ -7,7 +7,7 @@
   initial_level: 1
   face_name: ''
   class_id: 13
-  character_name: '!Flame'
+  character_name: "!Flame"
   id: 1
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -40,7 +40,7 @@
   initial_level: 1
   face_name: DS_Actor20
   class_id: 1
-  character_name: $主人公
+  character_name: "$主人公"
   id: 2
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -507,7 +507,7 @@
   initial_level: 1
   face_name: ノーデ
   class_id: 39
-  character_name: $ノーデ
+  character_name: "$ノーデ"
   id: 17
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -538,7 +538,7 @@
   initial_level: 1
   face_name: ノーデ
   class_id: 39
-  character_name: $ノーデ
+  character_name: "$ノーデ"
   id: 18
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -569,7 +569,7 @@
   initial_level: 1
   face_name: ノーデ
   class_id: 39
-  character_name: $ノーデ
+  character_name: "$ノーデ"
   id: 19
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -600,7 +600,7 @@
   initial_level: 1
   face_name: ノーデ
   class_id: 39
-  character_name: $ノーデ
+  character_name: "$ノーデ"
   id: 20
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -755,7 +755,7 @@
   initial_level: 1
   face_name: ドド
   class_id: 41
-  character_name: $ドド
+  character_name: "$ドド"
   id: 25
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -786,7 +786,7 @@
   initial_level: 1
   face_name: ドド
   class_id: 41
-  character_name: $ドド
+  character_name: "$ドド"
   id: 26
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -817,7 +817,7 @@
   initial_level: 1
   face_name: ドド
   class_id: 41
-  character_name: $ドド
+  character_name: "$ドド"
   id: 27
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -848,7 +848,7 @@
   initial_level: 1
   face_name: ドド
   class_id: 41
-  character_name: $ドド
+  character_name: "$ドド"
   id: 28
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -1003,7 +1003,7 @@
   initial_level: 1
   face_name: 公爵夫人
   class_id: 43
-  character_name: $公爵夫人
+  character_name: "$公爵夫人"
   id: 33
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -1034,7 +1034,7 @@
   initial_level: 1
   face_name: 公爵夫人
   class_id: 43
-  character_name: $公爵夫人
+  character_name: "$公爵夫人"
   id: 34
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -1065,7 +1065,7 @@
   initial_level: 1
   face_name: 公爵夫人
   class_id: 43
-  character_name: $公爵夫人
+  character_name: "$公爵夫人"
   id: 35
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -1096,7 +1096,7 @@
   initial_level: 1
   face_name: 公爵夫人
   class_id: 43
-  character_name: $公爵夫人
+  character_name: "$公爵夫人"
   id: 36
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -1127,7 +1127,7 @@
   initial_level: 1
   face_name: ロリーナ
   class_id: 44
-  character_name: $ロリーナ
+  character_name: "$ロリーナ"
   id: 37
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -1170,7 +1170,7 @@
   initial_level: 1
   face_name: ロリーナ
   class_id: 44
-  character_name: $ロリーナ
+  character_name: "$ロリーナ"
   id: 38
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -1213,7 +1213,7 @@
   initial_level: 1
   face_name: ロリーナ
   class_id: 44
-  character_name: $ロリーナ
+  character_name: "$ロリーナ"
   id: 39
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -1256,7 +1256,7 @@
   initial_level: 1
   face_name: ロリーナ
   class_id: 44
-  character_name: $ロリーナ
+  character_name: "$ロリーナ"
   id: 40
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -1299,7 +1299,7 @@
   initial_level: 1
   face_name: 帽子屋
   class_id: 45
-  character_name: $帽子屋
+  character_name: "$帽子屋"
   id: 41
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -1330,7 +1330,7 @@
   initial_level: 1
   face_name: 帽子屋
   class_id: 45
-  character_name: $帽子屋
+  character_name: "$帽子屋"
   id: 42
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -1361,7 +1361,7 @@
   initial_level: 1
   face_name: 帽子屋
   class_id: 45
-  character_name: $帽子屋
+  character_name: "$帽子屋"
   id: 43
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -1392,7 +1392,7 @@
   initial_level: 1
   face_name: 帽子屋
   class_id: 45
-  character_name: $帽子屋
+  character_name: "$帽子屋"
   id: 44
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -2125,7 +2125,7 @@
   initial_level: 1
   face_name: ハン２
   class_id: 1
-  character_name: $ハンプティ２
+  character_name: "$ハンプティ２"
   id: 63
   features: []
   note: グース名前
@@ -2136,7 +2136,7 @@
   - 0
   - 0
   nickname: ''
-  description: ((((((Name of the Goose))))))
+  description: "((((((Name of the Goose))))))"
   max_level: 99
   icon_index: 0
 - !ruby/object:RPG::Actor
@@ -2297,7 +2297,7 @@
   initial_level: 99
   face_name: 紅ずきん
   class_id: 24
-  character_name: $紅
+  character_name: "$紅"
   id: 67
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -2367,7 +2367,7 @@
   initial_level: 1
   face_name: メアリー
   class_id: 15
-  character_name: $メアリー
+  character_name: "$メアリー"
   id: 69
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -2466,7 +2466,7 @@
   initial_level: 1
   face_name: ビク
   class_id: 47
-  character_name: $ビクトリア
+  character_name: "$ビクトリア"
   id: 72
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -2501,7 +2501,7 @@
   initial_level: 1
   face_name: ビク
   class_id: 47
-  character_name: $ビクトリア
+  character_name: "$ビクトリア"
   id: 73
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -2536,7 +2536,7 @@
   initial_level: 1
   face_name: ビク
   class_id: 47
-  character_name: $ビクトリア
+  character_name: "$ビクトリア"
   id: 74
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -2571,7 +2571,7 @@
   initial_level: 1
   face_name: ビク
   class_id: 47
-  character_name: $ビクトリア
+  character_name: "$ビクトリア"
   id: 75
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -2730,7 +2730,7 @@
   initial_level: 1
   face_name: ジャブ
   class_id: 47
-  character_name: $ジャブジャブ
+  character_name: "$ジャブジャブ"
   id: 80
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -2765,7 +2765,7 @@
   initial_level: 1
   face_name: ジャブ
   class_id: 47
-  character_name: $ジャブジャブ
+  character_name: "$ジャブジャブ"
   id: 81
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -2800,7 +2800,7 @@
   initial_level: 1
   face_name: ジャブ
   class_id: 47
-  character_name: $ジャブジャブ
+  character_name: "$ジャブジャブ"
   id: 82
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -2835,7 +2835,7 @@
   initial_level: 1
   face_name: ジャブ
   class_id: 47
-  character_name: $ジャブジャブ
+  character_name: "$ジャブジャブ"
   id: 83
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -2870,7 +2870,7 @@
   initial_level: 1
   face_name: ジャバ
   class_id: 47
-  character_name: $ジャバ
+  character_name: "$ジャバ"
   id: 84
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -2901,7 +2901,7 @@
   initial_level: 1
   face_name: ジャバ
   class_id: 47
-  character_name: $ジャバ
+  character_name: "$ジャバ"
   id: 85
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -2932,7 +2932,7 @@
   initial_level: 1
   face_name: ジャバ
   class_id: 47
-  character_name: $ジャバ
+  character_name: "$ジャバ"
   id: 86
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -2963,7 +2963,7 @@
   initial_level: 1
   face_name: ジャバ
   class_id: 47
-  character_name: $ジャバ
+  character_name: "$ジャバ"
   id: 87
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -3102,7 +3102,7 @@
   initial_level: 1
   face_name: クティ
   class_id: 47
-  character_name: $クティ
+  character_name: "$クティ"
   id: 92
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -3133,7 +3133,7 @@
   initial_level: 1
   face_name: クティ
   class_id: 47
-  character_name: $クティ
+  character_name: "$クティ"
   id: 93
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -3164,7 +3164,7 @@
   initial_level: 1
   face_name: クティ
   class_id: 47
-  character_name: $クティ
+  character_name: "$クティ"
   id: 94
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -3195,7 +3195,7 @@
   initial_level: 1
   face_name: クティ
   class_id: 47
-  character_name: $クティ
+  character_name: "$クティ"
   id: 95
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -3460,10 +3460,10 @@
   initial_level: 1
   face_name: トゥ双子
   class_id: 47
-  character_name: $双子
+  character_name: "$双子"
   id: 102
   features: []
-  note: <逃走成功率増加:25>
+  note: "<逃走成功率増加:25>"
   equips:
   - 0
   - 0
@@ -3483,10 +3483,10 @@
   initial_level: 1
   face_name: トゥ双子
   class_id: 47
-  character_name: $双子
+  character_name: "$双子"
   id: 103
   features: []
-  note: <逃走成功率増加:50>
+  note: "<逃走成功率増加:50>"
   equips:
   - 0
   - 0
@@ -3506,10 +3506,10 @@
   initial_level: 1
   face_name: トゥ双子
   class_id: 47
-  character_name: $双子
+  character_name: "$双子"
   id: 104
   features: []
-  note: <逃走成功率増加:70>
+  note: "<逃走成功率増加:70>"
   equips:
   - 0
   - 0
@@ -3529,10 +3529,10 @@
   initial_level: 1
   face_name: トゥ双子
   class_id: 47
-  character_name: $双子
+  character_name: "$双子"
   id: 105
   features: []
-  note: <逃走成功率増加:100>
+  note: "<逃走成功率増加:100>"
   equips:
   - 0
   - 0
@@ -3573,7 +3573,7 @@
   initial_level: 1
   face_name: me
   class_id: 21
-  character_name: $メリフィリア
+  character_name: "$メリフィリア"
   id: 107
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -3606,7 +3606,7 @@
   initial_level: 1
   face_name: hain
   class_id: 22
-  character_name: $ハイン
+  character_name: "$ハイン"
   id: 108
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -3809,7 +3809,7 @@
   initial_level: 1
   face_name: フローレンス
   class_id: 18
-  character_name: $フローレンス
+  character_name: "$フローレンス"
   id: 113
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -3858,7 +3858,7 @@
   initial_level: 1
   face_name: ゲルダ
   class_id: 19
-  character_name: $ゲルダ
+  character_name: "$ゲルダ"
   id: 114
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -3907,7 +3907,7 @@
   initial_level: 1
   face_name: シヨ
   class_id: 47
-  character_name: '!$シヨ'
+  character_name: "!$シヨ"
   id: 115
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -3934,7 +3934,7 @@
   initial_level: 1
   face_name: シヨ
   class_id: 47
-  character_name: '!$シヨ'
+  character_name: "!$シヨ"
   id: 116
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -3961,7 +3961,7 @@
   initial_level: 1
   face_name: シヨ
   class_id: 47
-  character_name: '!$シヨ'
+  character_name: "!$シヨ"
   id: 117
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -3988,7 +3988,7 @@
   initial_level: 1
   face_name: シヨ
   class_id: 47
-  character_name: '!$シヨ'
+  character_name: "!$シヨ"
   id: 118
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -4206,7 +4206,7 @@
   initial_level: 99
   face_name: 多萝西 (2)
   class_id: 63
-  character_name: 【多萝西2】
+  character_name: "【多萝西2】"
   id: 122
   features:
   - !ruby/object:RPG::BaseItem::Feature

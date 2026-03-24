@@ -8,9 +8,15 @@ specify_battleback: true
 battleback1_name: Cobblestones4
 battleback2_name: ''
 autoplay_bgm: false
-bgm: !ruby/object:RPG::BGM {name: '', volume: 100, pitch: 100}
+bgm: !ruby/object:RPG::BGM
+  name: ''
+  volume: 100
+  pitch: 100
 autoplay_bgs: false
-bgs: !ruby/object:RPG::BGS {name: '', volume: 80, pitch: 100}
+bgs: !ruby/object:RPG::BGS
+  name: ''
+  volume: 80
+  pitch: 100
 disable_dashing: false
 encounter_list: []
 encounter_step: 30
@@ -191,7 +197,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -237,7 +245,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -248,16 +258,16 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [希莉娅, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Ugh... \N[1]..."']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Talk, '\c[2]Kill\c[0]', Leave], 3]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Talk, "\\c[2]Kill\\c[0]", Leave], 3]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Talk]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [0, 1419, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [希莉娅, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"I heard... sounds of fighting and screams...']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['\N[1]... did you kill them?...']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ["\"I heard... sounds of fighting and screams..."]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ["\\N[1]... did you kill them?..."]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [希莉娅, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"... No matter how they died,']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ["\"... No matter how they died,"]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [it was a fate they deserved.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['So, what about me, \N[1]?']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['How will you deal with me?']}
@@ -265,7 +275,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [希莉娅, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Are you here to use me?...']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ["\"Are you here to use me?..."]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Being a vent for sexual desire]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [is probably my only value..."]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
@@ -274,28 +284,28 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Can I do something for you?']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [希莉娅, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Cough... \|\N[1], please forgive my caprice...']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ["\"Cough... \\|\\N[1], please forgive my caprice..."]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [If possible...]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Could you find my sister out there?..."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [希莉娅, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Her name is Grau; she''s an orphan, like me.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ["\"Her name is Grau; she's an orphan, like me."]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Unlike the others, who made fun of me,']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [she called me her sister."]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [希莉娅, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"When I still wasn''t used to my blindness,']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ["\"When I still wasn't used to my blindness,"]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [she was there to support me.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['She was adopted by a wealthy family,']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [while I ended up at this cathedral..."]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [希莉娅, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"The outside world has become']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ["\"The outside world has become"]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [twisted beyond recognition...]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['If you can, please save her..."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [希莉娅, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"It''s alright if you don''t find her, though.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ["\"It's alright if you don't find her, though."]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['After all, you have your own mission and journey.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [For a woman like me...]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [it's better to forget about her..."]}
@@ -305,7 +315,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 沉默]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [希莉娅, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"I won''t blame you,']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ["\"I won't blame you,"]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [as you have your own mission and journey.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Meanwhile, I''m just a passing']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['traveler on your journey,']}
@@ -313,7 +323,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, '\c[2]Kill\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, "\\c[2]Kill\\c[0]"]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: 剣　突き刺す, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 20, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: 血しぶき・飛び散る02, pitch: 100, volume: 80}]}
@@ -357,7 +367,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -395,7 +407,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -406,18 +420,18 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [希莉娅, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"......"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Talk, '\c[2]Kill\c[0]', Leave], 3]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Talk, "\\c[2]Kill\\c[0]", Leave], 3]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Talk]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [0, 1419, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [希莉娅, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"I heard... their screams...']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ["\"I heard... their screams..."]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Did you kill them?"']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['Yes', 'No'], 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [希莉娅, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"Either way, I won''t hate you,']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ["\"Either way, I won't hate you,"]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [but I won't be grateful either...]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['After all, there''s not much difference']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [between you and them..."]}
@@ -432,13 +446,13 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Cough, cough....."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [希莉娅, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Are you here to use me?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ["\"Are you here to use me?"]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['For you, all my worth only amounts to that,']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [doesn't it..."]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['\c[2]Rape', Stay silent], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, '\c[2]Rape']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [["\\c[2]Rape", Stay silent], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, "\\c[2]Rape"]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [希莉娅, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Please......"']}
@@ -451,7 +465,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, '\c[2]Kill\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, "\\c[2]Kill\\c[0]"]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: 剣　突き刺す, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 20, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: 血しぶき・飛び散る02, pitch: 100, volume: 80}]}
@@ -495,7 +509,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -508,7 +524,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"\N[1], you''ve come... I''m still okay..."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Celia seems to be acting strangely...]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Talk, Service, '\c[2]Kill\c[0]', Leave], 4]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Talk, Service, "\\c[2]Kill\\c[0]", Leave], 4]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Talk]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [希莉娅, 0, 0, 2]}
@@ -517,7 +533,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [10]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [希莉娅, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Not yet?... I''m sorry, if you can''t find her,']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ["\"Not yet?... I'm sorry, if you can't find her,"]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [please don't dwell on it.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Our kind of people..."]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [our fate was probably set from the start..."]}
@@ -531,7 +547,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Ah... did you... kill Grau?..."']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [希莉娅, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"I see... she was corrupted into a monster...']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ["\"I see... she was corrupted into a monster..."]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['I guess there was no other choice, then...']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['To be removed from this world,']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [it might be a form of release for her..."]}
@@ -546,11 +562,11 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [10]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [希莉娅, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Ah... She lost her memory?...']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ["\"Ah... She lost her memory?..."]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [That's not particularly surprising..."]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [希莉娅, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"In any case... at least she''s still alive...']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ["\"In any case... at least she's still alive..."]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Thank you..."]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [1415, 1415, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 119, p: [对话结束]}
@@ -562,7 +578,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [2, C, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [希莉娅, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"\N[1], have you been']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ["\"\\N[1], have you been"]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['holding back this whole time?...']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [I understand... If you don't mind...]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Please, let me help you release it..."']}
@@ -571,13 +587,13 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [希莉娅, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Are you not satisfied yet?...']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ["\"Are you not satisfied yet?..."]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [I understand..."]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 117, p: [387]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, '\c[2]Kill\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, "\\c[2]Kill\\c[0]"]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: 剣　突き刺す, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 20, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: 血しぶき・飛び散る02, pitch: 100, volume: 80}]}
@@ -621,7 +637,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -634,18 +652,18 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"\N[1], you''ve come back... I''m still here..."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Celia seems to be acting strangely...]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Talk, Service, '\c[2]Kill\c[0]', Leave], 4]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Talk, Service, "\\c[2]Kill\\c[0]", Leave], 4]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Talk]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [0, 1415, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [2, B, 1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [希莉娅, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"\N[1]... Even in this apocalyptic world,']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ["\"\\N[1]... Even in this apocalyptic world,"]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [You still maintain your sanity..."]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [希莉娅, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"To fulfill my final wish... \N[1]...']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ["\"To fulfill my final wish... \\N[1]..."]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [I don't know how to thank you anymore...]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [I really don't have anything to reward you with.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Well, unless you don''t mind my body..."']}
@@ -654,7 +672,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [希莉娅, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"\N[1], you''re here... Just by being near you,']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ["\"\\N[1], you're here... Just by being near you,"]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [there's always a flutter in my heart...]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Ah... What am I saying?']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [Please... Forget about that..."]}
@@ -679,7 +697,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, Leave]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [希莉娅, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['"\N[1]...']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ["\"\\N[1]..."]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [As long as you are willing... Anytime..."]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
@@ -690,7 +708,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [2, D, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [希莉娅, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"\N[1], are you still']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ["\"\\N[1], are you still"]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['holding back your desires?...']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [I understand... If you don't mind...]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Please, let me help you release it..."']}
@@ -699,13 +717,13 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [希莉娅, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"Your lust still hasn''t subsided?...']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ["\"Your lust still hasn't subsided?..."]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Very well then..."]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 117, p: [387]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, '\c[2]Kill\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, "\\c[2]Kill\\c[0]"]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: 剣　突き刺す, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 20, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: 血しぶき・飛び散る02, pitch: 100, volume: 80}]}
@@ -749,7 +767,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -787,7 +807,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -819,7 +841,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: $布琳蒂死
+        character_name: "$布琳蒂死"
         character_index: 0
         direction: 2
         pattern: 0
@@ -831,7 +853,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -863,7 +887,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!Flame'
+        character_name: "!Flame"
         character_index: 6
         direction: 8
         pattern: 1
@@ -875,7 +899,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: true
       direction_fix: false
@@ -932,7 +958,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -964,7 +992,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!Flame'
+        character_name: "!Flame"
         character_index: 5
         direction: 2
         pattern: 0
@@ -976,7 +1004,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: true
@@ -1021,7 +1051,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: true
@@ -1073,7 +1105,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -1111,7 +1145,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -1155,7 +1191,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false
@@ -1205,7 +1243,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: true
@@ -1226,8 +1266,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [希莉娅, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"...\|\N[1]\|\|..."']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['\c[2]Rape\c[0]', Leave], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, '\c[2]Rape\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [["\\c[2]Rape\\c[0]", Leave], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, "\\c[2]Rape\\c[0]"]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [希莉娅, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"Ough..."']}
@@ -1239,7 +1279,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Leave]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [希莉娅, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"\N[1], you must be disgusted']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["\"\\N[1], you must be disgusted"]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [by my ruined body...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I'm just a whore for other peoples' desires...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [It's best if you don't come closer..."]}
@@ -1259,15 +1299,35 @@ events:
           skippable: false
           wait: false
           list:
-          - &1 !ruby/object:RPG::MoveCommand {code: 29, parameters: [4]}
-          - &2 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
-          - &3 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
-          - &4 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
-          - &5 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
-          - &6 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
-          - &7 !ruby/object:RPG::MoveCommand {code: 3, parameters: []}
-          - &8 !ruby/object:RPG::MoveCommand {code: 29, parameters: [5]}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+          - &1 !ruby/object:RPG::MoveCommand
+            code: 29
+            parameters:
+            - 4
+          - &2 !ruby/object:RPG::MoveCommand
+            code: 1
+            parameters: []
+          - &3 !ruby/object:RPG::MoveCommand
+            code: 3
+            parameters: []
+          - &4 !ruby/object:RPG::MoveCommand
+            code: 3
+            parameters: []
+          - &5 !ruby/object:RPG::MoveCommand
+            code: 3
+            parameters: []
+          - &6 !ruby/object:RPG::MoveCommand
+            code: 3
+            parameters: []
+          - &7 !ruby/object:RPG::MoveCommand
+            code: 3
+            parameters: []
+          - &8 !ruby/object:RPG::MoveCommand
+            code: 29
+            parameters:
+            - 5
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
       - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*3]}
@@ -1312,7 +1372,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: true
@@ -1327,8 +1389,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [covered in marks.\|]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Some of it was because of \c[2]me\c[0].']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['\c[2]Rape\c[0]', Leave], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, '\c[2]Rape\c[0]']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [["\\c[2]Rape\\c[0]", Leave], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, "\\c[2]Rape\\c[0]"]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [NW名前指定 Celia]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [希莉娅, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"......"']}
@@ -1377,7 +1439,9 @@ events:
         skippable: false
         wait: false
         list:
-        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
       walk_anime: true
       step_anime: false
       direction_fix: false

@@ -1,12 +1,12 @@
 ---
-- 
+-
 - !ruby/object:RPG::State
-  message2: ' was slain!'
+  message2: " was slain!"
   name: Incapacitated
   priority: 100
   icon_index: 1
-  message1: ' fell.'
-  message4: ' got back up!'
+  message1: " fell."
+  message4: " got back up!"
   restriction: 4
   release_by_damage: false
   message3: ''
@@ -43,12 +43,12 @@
   remove_by_damage: false
   remove_by_restriction: false
 - !ruby/object:RPG::State
-  message2: ' was poisoned!'
+  message2: " was poisoned!"
   name: Poison
   priority: 65
   icon_index: 18
-  message1: ' was poisoned!'
-  message4: ' has recovered from poison.'
+  message1: " was poisoned!"
+  message4: " has recovered from poison."
   restriction: 0
   release_by_damage: false
   message3: ''
@@ -73,12 +73,12 @@
   remove_by_damage: false
   remove_by_restriction: false
 - !ruby/object:RPG::State
-  message2: ' was inflicted with deadly poison!'
+  message2: " was inflicted with deadly poison!"
   name: Deadly Poison
   priority: 65
   icon_index: 530
-  message1: ' was inflicted with deadly poison!'
-  message4: ' has recovered from deadly poison.'
+  message1: " was inflicted with deadly poison!"
+  message4: " has recovered from deadly poison."
   restriction: 0
   release_by_damage: false
   message3: ''
@@ -103,12 +103,12 @@
   remove_by_damage: false
   remove_by_restriction: false
 - !ruby/object:RPG::State
-  message2: ' was inflicted with virulent poison!'
+  message2: " was inflicted with virulent poison!"
   name: Virulent Poison
   priority: 65
   icon_index: 529
-  message1: ' was inflicted with virulent poison!'
-  message4: ' has recovered from virulent poison.'
+  message1: " was inflicted with virulent poison!"
+  message4: " has recovered from virulent poison."
   restriction: 0
   release_by_damage: false
   message3: ''
@@ -129,12 +129,12 @@
   remove_by_damage: false
   remove_by_restriction: false
 - !ruby/object:RPG::State
-  message2: ' was covered in oil!'
+  message2: " was covered in oil!"
   name: Oiled
   priority: 80
   icon_index: 561
-  message1: ' was covered in oil!'
-  message4: ' cleaned away oil.'
+  message1: " was covered in oil!"
+  message4: " cleaned away oil."
   restriction: 0
   release_by_damage: false
   message3: ''
@@ -159,15 +159,15 @@
   remove_by_damage: false
   remove_by_restriction: false
 - !ruby/object:RPG::State
-  message2: ' was put to sleep!'
+  message2: " was put to sleep!"
   name: Sleep
   priority: 85
   icon_index: 22
-  message1: ' has fallen asleep!'
-  message4: ' woke up!'
+  message1: " has fallen asleep!"
+  message4: " woke up!"
   restriction: 4
   release_by_damage: true
-  message3: ' is asleep...'
+  message3: " is asleep..."
   note: ''
   id: 6
   features:
@@ -189,12 +189,12 @@
   remove_by_damage: true
   remove_by_restriction: false
 - !ruby/object:RPG::State
-  message2: ' is completely defenseless!'
+  message2: " is completely defenseless!"
   name: Hard Break Vulnerable
   priority: 90
   icon_index: 8
-  message1: ' is completely defenseless!'
-  message4: ' has recovered their balance!'
+  message1: " is completely defenseless!"
+  message4: " has recovered their balance!"
   restriction: 4
   release_by_damage: false
   message3: ''
@@ -287,12 +287,12 @@
   remove_by_damage: false
   remove_by_restriction: false
 - !ruby/object:RPG::State
-  message2: ' is defenseless!'
+  message2: " is defenseless!"
   name: Break Vulnerable
   priority: 90
   icon_index: 24
-  message1: ' is defenseless!'
-  message4: ' has recovered their balance!'
+  message1: " is defenseless!"
+  message4: " has recovered their balance!"
   restriction: 4
   release_by_damage: false
   message3: ''
@@ -515,11 +515,11 @@
   name: Hollow
   priority: 50
   icon_index: 603
-  message1: ' has been Hollowed!'
+  message1: " has been Hollowed!"
   message4: ''
   restriction: 0
   message3: ''
-  note: '[全回復無効ステート]'
+  note: "[全回復無効ステート]"
   id: 12
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -537,11 +537,11 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: ' got dazed!'
+  message2: " got dazed!"
   name: Stun
   priority: 80
   icon_index: 21
-  message1: ' was dazed!'
+  message1: " was dazed!"
   message4: ''
   restriction: 4
   release_by_damage: false
@@ -580,7 +580,7 @@
   priority: 50
   icon_index: 26
   message1: ''
-  message4: ' stopped regenerating HP!'
+  message4: " stopped regenerating HP!"
   restriction: 0
   message3: ''
   note: ''
@@ -606,7 +606,7 @@
   priority: 50
   icon_index: 26
   message1: ''
-  message4: ' stopped regenerating MP!'
+  message4: " stopped regenerating MP!"
   restriction: 0
   message3: ''
   note: ''
@@ -753,12 +753,12 @@
   remove_by_restriction: true
   description: ''
 - !ruby/object:RPG::State
-  message2: ' was silenced!'
+  message2: " was silenced!"
   name: Silence
   priority: 75
   icon_index: 20
-  message1: ' was silenced!'
-  message4: ' broke the silence!'
+  message1: " was silenced!"
+  message4: " broke the silence!"
   restriction: 0
   release_by_damage: false
   message3: ''
@@ -841,7 +841,7 @@
   message4: ''
   restriction: 0
   message3: ''
-  note: <反撃スキル 1>
+  note: "<反撃スキル 1>"
   id: 19
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -871,7 +871,7 @@
   message4: ''
   restriction: 0
   message3: ''
-  note: <反撃スキル 1>
+  note: "<反撃スキル 1>"
   id: 20
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -917,11 +917,11 @@
   remove_by_restriction: true
   description: ''
 - !ruby/object:RPG::State
-  message2: ' embraced the power of flames.'
+  message2: " embraced the power of flames."
   name: Power of Flame
   priority: 50
   icon_index: 104
-  message1: ' embraced the power of flames.'
+  message1: " embraced the power of flames."
   message4: ''
   restriction: 0
   message3: ''
@@ -947,11 +947,11 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: ' embraced the power of ice.'
+  message2: " embraced the power of ice."
   name: Power of Ice
   priority: 50
   icon_index: 105
-  message1: ' embraced the power of ice.'
+  message1: " embraced the power of ice."
   message4: ''
   restriction: 0
   message3: ''
@@ -977,11 +977,11 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: ' embraced the power of lightning.'
+  message2: " embraced the power of lightning."
   name: Power of Lightning
   priority: 50
   icon_index: 106
-  message1: ' embraced the power of lightning.'
+  message1: " embraced the power of lightning."
   message4: ''
   restriction: 0
   message3: ''
@@ -1007,11 +1007,11 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: ' embraced the power of darkness.'
+  message2: " embraced the power of darkness."
   name: Power of Darkness
   priority: 50
   icon_index: 111
-  message1: ' embraced the power of darkness.'
+  message1: " embraced the power of darkness."
   message4: ''
   restriction: 0
   message3: ''
@@ -1131,12 +1131,12 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: ' is bleeding!'
+  message2: " is bleeding!"
   name: Bleeding
   priority: 65
   icon_index: 573
-  message1: ' is bleeding!'
-  message4: '''s bleeding stopped!'
+  message1: " is bleeding!"
+  message4: "'s bleeding stopped!"
   restriction: 0
   release_by_damage: false
   message3: ''
@@ -1191,11 +1191,11 @@
   name: Madness
   priority: 70
   icon_index: 605
-  message1: ' has gone mad!'
-  message4: ' regained sanity.'
+  message1: " has gone mad!"
+  message4: " regained sanity."
   restriction: 0
   release_by_damage: false
-  message3: ' is insane!'
+  message3: " is insane!"
   note: ''
   id: 28
   features:
@@ -1221,12 +1221,12 @@
   remove_by_damage: false
   remove_by_restriction: false
 - !ruby/object:RPG::State
-  message2: '''s body is on fire!'
+  message2: "'s body is on fire!"
   name: Burning
   priority: 65
   icon_index: 609
-  message1: '''s body is on fire!'
-  message4: ' put out the fire.'
+  message1: "'s body is on fire!"
+  message4: " put out the fire."
   restriction: 0
   release_by_damage: false
   message3: ''
@@ -1251,8 +1251,8 @@
   name: Mud
   priority: 65
   icon_index: 19
-  message1: '''s eyes were covered in mud!'
-  message4: ' shook off the mud!'
+  message1: "'s eyes were covered in mud!"
+  message4: " shook off the mud!"
   restriction: 0
   release_by_damage: false
   message3: ''
@@ -1613,7 +1613,7 @@
   remove_by_restriction: true
   description: ''
 - !ruby/object:RPG::State
-  message2: '''s belly is full!'
+  message2: "'s belly is full!"
   name: SawneyBean Full Belly
   priority: 70
   icon_index: 619
@@ -1621,7 +1621,7 @@
   message4: ''
   restriction: 0
   message3: ''
-  note: '[全回復無効ステート]'
+  note: "[全回復無効ステート]"
   id: 37
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -1667,14 +1667,14 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: ' stated rampaging!'
+  message2: " stated rampaging!"
   name: Rampage
   priority: 50
   icon_index: 25
-  message1: ' stated rampaging!'
-  message4: ' tired out.'
+  message1: " stated rampaging!"
+  message4: " tired out."
   restriction: 1
-  message3: ' is rampaging!'
+  message3: " is rampaging!"
   note: ''
   id: 38
   features:
@@ -1935,14 +1935,14 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: ' had a fit of rage!'
+  message2: " had a fit of rage!"
   name: Rage
   priority: 50
   icon_index: 571
-  message1: ' had a fit of rage!'
-  message4: ' tired out.'
+  message1: " had a fit of rage!"
+  message4: " tired out."
   restriction: 0
-  message3: ' is raging!'
+  message3: " is raging!"
   note: ''
   id: 42
   features:
@@ -2036,10 +2036,10 @@
   priority: 90
   icon_index: 528
   message1: ''
-  message4: ' seems to have found her head.'
+  message4: " seems to have found her head."
   restriction: 4
   release_by_damage: false
-  message3: ' is looking for her own head...'
+  message3: " is looking for her own head..."
   note: ''
   id: 44
   features:
@@ -2148,7 +2148,7 @@
   priority: 50
   icon_index: 26
   message1: ''
-  message4: ' stopped regenerating HP!'
+  message4: " stopped regenerating HP!"
   restriction: 0
   message3: ''
   note: ''
@@ -2319,7 +2319,7 @@
   name: Power Within
   priority: 50
   icon_index: 136
-  message1: ' is overflowing with magical energies!'
+  message1: " is overflowing with magical energies!"
   message4: ''
   restriction: 0
   message3: ''
@@ -2421,16 +2421,16 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: ' was enfeebled!'
+  message2: " was enfeebled!"
   name: Weakness
   priority: 70
   icon_index: 552
-  message1: ' was enfeebled!'
-  message4: '''s feebleness was cured!'
+  message1: " was enfeebled!"
+  message4: "'s feebleness was cured!"
   restriction: 0
   release_by_damage: false
   message3: ''
-  note: <HP回復無効:100>
+  note: "<HP回復無効:100>"
   id: 55
   features: []
   auto_removal_timing: 1
@@ -2443,12 +2443,12 @@
   remove_by_damage: false
   remove_by_restriction: false
 - !ruby/object:RPG::State
-  message2: ' was horrified!'
+  message2: " was horrified!"
   name: Fear
   priority: 70
   icon_index: 590
-  message1: ' was horrified!'
-  message4: ' stopped shaking.'
+  message1: " was horrified!"
+  message4: " stopped shaking."
   restriction: 0
   release_by_damage: false
   message3: ''
@@ -2597,12 +2597,12 @@
   remove_by_damage: false
   remove_by_restriction: false
 - !ruby/object:RPG::State
-  message2: '''s body became fragile!'
+  message2: "'s body became fragile!"
   name: Frailty
   priority: 70
   icon_index: 618
-  message1: '''s body became fragile!'
-  message4: '''s body returned to normal.'
+  message1: "'s body became fragile!"
+  message4: "'s body returned to normal."
   restriction: 0
   release_by_damage: false
   message3: ''
@@ -2631,7 +2631,7 @@
   name: Accelerate
   priority: 50
   icon_index: 46
-  message1: ' sped up!'
+  message1: " sped up!"
   message4: ''
   restriction: 0
   message3: ''
@@ -2661,7 +2661,7 @@
   name: Decelerate
   priority: 50
   icon_index: 62
-  message1: ' slowed down!'
+  message1: " slowed down!"
   message4: ''
   restriction: 0
   message3: ''
@@ -2687,7 +2687,7 @@
   name: Death Sentence
   priority: 50
   icon_index: 549
-  message1: ' can''t move due to chills!'
+  message1: " can't move due to chills!"
   message4: ''
   restriction: 0
   message3: ''
@@ -3013,14 +3013,14 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: ' had a fit of rage!'
+  message2: " had a fit of rage!"
   name: Patrasche Anger
   priority: 50
   icon_index: 571
-  message1: ' had a fit of rage!'
-  message4: ' tired out.'
+  message1: " had a fit of rage!"
+  message4: " tired out."
   restriction: 0
-  message3: ' is raging!'
+  message3: " is raging!"
   note: ''
   id: 77
   features:
@@ -3063,7 +3063,7 @@
   message4: ''
   restriction: 0
   release_by_damage: false
-  message3: '''s spirit is being drained!'
+  message3: "'s spirit is being drained!"
   note: ''
   id: 78
   features:
@@ -3089,7 +3089,7 @@
   message4: ''
   restriction: 0
   release_by_damage: false
-  message3: ' is cursed!'
+  message3: " is cursed!"
   note: ''
   id: 79
   features:
@@ -3821,7 +3821,7 @@
   message4: ''
   restriction: 0
   message3: ''
-  note: '[全回復無効ステート]'
+  note: "[全回復無効ステート]"
   id: 103
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -3875,7 +3875,7 @@
   message4: ''
   restriction: 0
   message3: ''
-  note: '[全回復無効ステート]'
+  note: "[全回復無効ステート]"
   id: 104
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -3929,7 +3929,7 @@
   message4: ''
   restriction: 0
   message3: ''
-  note: '[全回復無効ステート]'
+  note: "[全回復無効ステート]"
   id: 105
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -3983,7 +3983,7 @@
   message4: ''
   restriction: 0
   message3: ''
-  note: '[全回復無効ステート]'
+  note: "[全回復無効ステート]"
   id: 106
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -4037,7 +4037,7 @@
   message4: ''
   restriction: 0
   message3: ''
-  note: '[全回復無効ステート]'
+  note: "[全回復無効ステート]"
   id: 107
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -4091,7 +4091,7 @@
   message4: ''
   restriction: 0
   message3: ''
-  note: '[全回復無効ステート]'
+  note: "[全回復無効ステート]"
   id: 108
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -4145,7 +4145,7 @@
   message4: ''
   restriction: 0
   message3: ''
-  note: '[全回復無効ステート]'
+  note: "[全回復無効ステート]"
   id: 109
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -4199,7 +4199,7 @@
   message4: ''
   restriction: 0
   message3: ''
-  note: '[全回復無効ステート]'
+  note: "[全回復無効ステート]"
   id: 110
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -4253,7 +4253,7 @@
   message4: ''
   restriction: 0
   message3: ''
-  note: '[全回復無効ステート]'
+  note: "[全回復無効ステート]"
   id: 111
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -4321,14 +4321,14 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: ' entered a highly mobile state!'
+  message2: " entered a highly mobile state!"
   name: High Maneuverability
   priority: 50
   icon_index: 585
-  message1: ' entered a highly mobile state!'
-  message4: ' stopped moving.'
+  message1: " entered a highly mobile state!"
+  message4: " stopped moving."
   restriction: 0
-  message3: ' is moving at extreme speeds!'
+  message3: " is moving at extreme speeds!"
   note: ''
   id: 113
   features:
@@ -4403,14 +4403,14 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: ' entered a highly mobile state!'
+  message2: " entered a highly mobile state!"
   name: High Maneuverability
   priority: 50
   icon_index: 585
-  message1: ' entered a highly mobile state!'
-  message4: ' stopped moving.'
+  message1: " entered a highly mobile state!"
+  message4: " stopped moving."
   restriction: 0
-  message3: ' is moving at extreme speeds!'
+  message3: " is moving at extreme speeds!"
   note: ''
   id: 116
   features:
@@ -4433,7 +4433,7 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: ' seizes prey with brilliant movements!'
+  message2: " seizes prey with brilliant movements!"
   name: Black Cat Waltz
   priority: 50
   icon_index: 560
@@ -4478,7 +4478,7 @@
   message1: ''
   message4: ''
   restriction: 0
-  message3: ' is being protected by tentacles...'
+  message3: " is being protected by tentacles..."
   note: ''
   id: 118
   features:
@@ -4623,7 +4623,7 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: '''s action count increased.'
+  message2: "'s action count increased."
   name: ''
   priority: 50
   icon_index: 541
@@ -5029,7 +5029,7 @@
   name: Flame RES Down
   priority: 50
   icon_index: 561
-  message1: '''s Fire resistance has fallen!'
+  message1: "'s Fire resistance has fallen!"
   message4: ''
   restriction: 0
   release_by_damage: false
@@ -5051,11 +5051,11 @@
   remove_by_damage: false
   remove_by_restriction: false
 - !ruby/object:RPG::State
-  message2: '''s Lightning resistance has fallen!'
+  message2: "'s Lightning resistance has fallen!"
   name: Thunder RES Down
   priority: 50
   icon_index: 562
-  message1: '''s Lightning resistance has fallen!'
+  message1: "'s Lightning resistance has fallen!"
   message4: ''
   restriction: 0
   release_by_damage: false
@@ -5081,7 +5081,7 @@
   name: Light RES Down
   priority: 50
   icon_index: 567
-  message1: '''s Light resistance has fallen!'
+  message1: "'s Light resistance has fallen!"
   message4: ''
   restriction: 0
   release_by_damage: false
@@ -5107,7 +5107,7 @@
   name: Dark RES Down
   priority: 50
   icon_index: 568
-  message1: '''s Dark resistance has fallen!'
+  message1: "'s Dark resistance has fallen!"
   message4: ''
   restriction: 0
   release_by_damage: false
@@ -5185,16 +5185,16 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: '''s body is being consumed by inextinguishable flame!'
+  message2: "'s body is being consumed by inextinguishable flame!"
   name: Lingering Flame
   priority: 65
   icon_index: 747
-  message1: '''s body is being consumed by inextinguishable flame!'
-  message4: ' put out the fire.'
+  message1: "'s body is being consumed by inextinguishable flame!"
+  message4: " put out the fire."
   restriction: 0
   release_by_damage: false
   message3: ''
-  note: <HP回復無効:100>
+  note: "<HP回復無効:100>"
   id: 143
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -5220,7 +5220,7 @@
   priority: 50
   icon_index: 26
   message1: ''
-  message4: ' stopped regenerating HP!'
+  message4: " stopped regenerating HP!"
   restriction: 0
   message3: ''
   note: ''
@@ -5365,11 +5365,11 @@
   name: Deep Sleep
   priority: 85
   icon_index: 534
-  message1: ' fell into a deep sleep!'
-  message4: ' woke up!'
+  message1: " fell into a deep sleep!"
+  message4: " woke up!"
   restriction: 4
   release_by_damage: true
-  message3: ' is in a deep sleep...'
+  message3: " is in a deep sleep..."
   note: ''
   id: 149
   features:
@@ -5429,7 +5429,7 @@
   message4: ''
   restriction: 0
   message3: ''
-  note: <反撃スキル 762>
+  note: "<反撃スキル 762>"
   id: 151
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -5497,7 +5497,7 @@
   name: Inner Power (Cinderella)
   priority: 50
   icon_index: 136
-  message1: ' is overflowing with magical energies!'
+  message1: " is overflowing with magical energies!"
   message4: ''
   restriction: 0
   message3: ''
@@ -5577,7 +5577,7 @@
   message4: ''
   restriction: 0
   release_by_damage: false
-  message3: '''s legs were sealed in vomit!'
+  message3: "'s legs were sealed in vomit!"
   note: ''
   id: 155
   features:
@@ -5607,11 +5607,11 @@
   name: Restraint
   priority: 70
   icon_index: 535
-  message1: ' was restrained!'
+  message1: " was restrained!"
   message4: ''
   restriction: 4
   release_by_damage: false
-  message3: ' is bound!'
+  message3: " is bound!"
   note: ''
   id: 156
   features:
@@ -5649,7 +5649,7 @@
   name: Gravity
   priority: 70
   icon_index: 568
-  message1: ' is being pressed down by gravity!'
+  message1: " is being pressed down by gravity!"
   message4: ''
   restriction: 0
   release_by_damage: false
@@ -5769,11 +5769,11 @@
   remove_by_damage: false
   remove_by_restriction: false
 - !ruby/object:RPG::State
-  message2: ' cannot be broken!'
+  message2: " cannot be broken!"
   name: Break Immunity
   priority: 50
   icon_index: 501
-  message1: ' cannot be broken!'
+  message1: " cannot be broken!"
   message4: ''
   restriction: 0
   message3: ''
@@ -5799,12 +5799,12 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: ' has been frostbitten!'
+  message2: " has been frostbitten!"
   name: Frostbite
   priority: 65
   icon_index: 563
-  message1: ' has been frostbitten!'
-  message4: '''s frostbite passed.'
+  message1: " has been frostbitten!"
+  message4: "'s frostbite passed."
   restriction: 0
   release_by_damage: false
   message3: ''
@@ -5829,12 +5829,12 @@
   remove_by_damage: false
   remove_by_restriction: false
 - !ruby/object:RPG::State
-  message2: ' has been lacerated!'
+  message2: " has been lacerated!"
   name: Laceration
   priority: 65
   icon_index: 749
-  message1: ' has been lacerated!'
-  message4: '''s laceration passed.'
+  message1: " has been lacerated!"
+  message4: "'s laceration passed."
   restriction: 0
   release_by_damage: false
   message3: ''
@@ -5905,8 +5905,8 @@
   name: Dislegging
   priority: 70
   icon_index: 476
-  message1: '''s ankles have been sliced!'
-  message4: '''s ankles healed.'
+  message1: "'s ankles have been sliced!"
+  message4: "'s ankles healed."
   restriction: 0
   release_by_damage: false
   message3: ''
@@ -5947,7 +5947,7 @@
   message4: ''
   restriction: 0
   message3: ''
-  note: <反撃スキル 820>
+  note: "<反撃スキル 820>"
   id: 166
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -5982,7 +5982,7 @@
   restriction: 0
   release_by_damage: false
   message3: ''
-  note: <強制自然解除時ステート:1>
+  note: "<強制自然解除時ステート:1>"
   id: 167
   features: []
   auto_removal_timing: 2
@@ -6109,7 +6109,7 @@
   message4: ''
   restriction: 0
   message3: ''
-  note: <反撃スキル 512>
+  note: "<反撃スキル 512>"
   id: 171
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -6383,7 +6383,7 @@
   name: 1 Stack
   priority: 0
   icon_index: 0
-  message1: '''s focus on the blade sharpens!'
+  message1: "'s focus on the blade sharpens!"
   message4: ''
   restriction: 0
   message3: ''
@@ -6405,7 +6405,7 @@
   name: 2 Stacks
   priority: 0
   icon_index: 0
-  message1: '''s focus on the blade sharpens!'
+  message1: "'s focus on the blade sharpens!"
   message4: ''
   restriction: 0
   message3: ''
@@ -6427,7 +6427,7 @@
   name: 3 Stacks
   priority: 0
   icon_index: 0
-  message1: '''s focus on the blade sharpens!'
+  message1: "'s focus on the blade sharpens!"
   message4: ''
   restriction: 0
   message3: ''
@@ -6449,7 +6449,7 @@
   name: 4 Stacks
   priority: 0
   icon_index: 0
-  message1: '''s focus on the blade sharpens!'
+  message1: "'s focus on the blade sharpens!"
   message4: ''
   restriction: 0
   message3: ''
@@ -6471,7 +6471,7 @@
   name: 5 Stacks
   priority: 0
   icon_index: 0
-  message1: '''s focus on the blade sharpens!'
+  message1: "'s focus on the blade sharpens!"
   message4: ''
   restriction: 0
   message3: ''
@@ -6493,7 +6493,7 @@
   name: 6 Stacks
   priority: 0
   icon_index: 0
-  message1: '''s focus on the blade sharpens!'
+  message1: "'s focus on the blade sharpens!"
   message4: ''
   restriction: 0
   message3: ''
@@ -6515,7 +6515,7 @@
   name: 7 Stacks
   priority: 0
   icon_index: 0
-  message1: '''s focus on the blade peaked!'
+  message1: "'s focus on the blade peaked!"
   message4: ''
   restriction: 0
   message3: ''
@@ -6652,7 +6652,7 @@
   restriction: 0
   release_by_damage: false
   message3: ''
-  note: <強制自然解除時ステート:1>
+  note: "<強制自然解除時ステート:1>"
   id: 194
   features: []
   auto_removal_timing: 2
@@ -6696,7 +6696,7 @@
   restriction: 0
   release_by_damage: false
   message3: ''
-  note: '[全回復無効ステート]'
+  note: "[全回復無効ステート]"
   id: 196
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -6801,7 +6801,7 @@
   name: Blow Away
   priority: 70
   icon_index: 101
-  message1: ' has been launched into the sky!'
+  message1: " has been launched into the sky!"
   message4: ''
   restriction: 0
   release_by_damage: false
@@ -6835,12 +6835,12 @@
   remove_by_damage: true
   remove_by_restriction: false
 - !ruby/object:RPG::State
-  message2: '''s body cannot move!'
+  message2: "'s body cannot move!"
   name: Paralysis
   priority: 75
   icon_index: 7
-  message1: '''s body cannot move!'
-  message4: ' recovered from the paralysis.'
+  message1: "'s body cannot move!"
+  message4: " recovered from the paralysis."
   restriction: 4
   release_by_damage: false
   message3: ''
@@ -6900,7 +6900,7 @@
   restriction: 0
   release_by_damage: false
   message3: ''
-  note: '[全回復無効ステート]'
+  note: "[全回復無効ステート]"
   id: 200
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -6930,7 +6930,7 @@
   restriction: 0
   release_by_damage: false
   message3: ''
-  note: '[全回復無効ステート]'
+  note: "[全回復無効ステート]"
   id: 201
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -6959,7 +6959,7 @@
   message4: ''
   restriction: 0
   message3: ''
-  note: <反撃スキル 939>
+  note: "<反撃スキル 939>"
   id: 202
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -6986,7 +6986,7 @@
   restriction: 0
   release_by_damage: false
   message3: ''
-  note: '[全回復無効ステート]'
+  note: "[全回復無効ステート]"
   id: 203
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -7011,12 +7011,12 @@
   remove_by_damage: false
   remove_by_restriction: false
 - !ruby/object:RPG::State
-  message2: '''s vital spot has been exposed!'
+  message2: "'s vital spot has been exposed!"
   name: ''
   priority: 50
   icon_index: 808
-  message1: '''s vital spot has been exposed!'
-  message4: '''s vital spot has been pierced!'
+  message1: "'s vital spot has been exposed!"
+  message4: "'s vital spot has been pierced!"
   restriction: 0
   message3: ''
   note: ''
@@ -7037,12 +7037,12 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: '''s vital spot has been exposed!'
+  message2: "'s vital spot has been exposed!"
   name: ''
   priority: 50
   icon_index: 808
-  message1: '''s vital spot has been exposed!'
-  message4: '''s vital spot has been pierced!'
+  message1: "'s vital spot has been exposed!"
+  message4: "'s vital spot has been pierced!"
   restriction: 0
   message3: ''
   note: ''
@@ -7063,12 +7063,12 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: '''s vital spot has been exposed!'
+  message2: "'s vital spot has been exposed!"
   name: ''
   priority: 50
   icon_index: 808
-  message1: '''s vital spot has been exposed!'
-  message4: '''s vital spot has been pierced!'
+  message1: "'s vital spot has been exposed!"
+  message4: "'s vital spot has been pierced!"
   restriction: 0
   message3: ''
   note: ''
@@ -7089,12 +7089,12 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: '''s vital spot has been exposed!'
+  message2: "'s vital spot has been exposed!"
   name: ''
   priority: 50
   icon_index: 808
-  message1: '''s vital spot has been exposed!'
-  message4: '''s vital spot has been pierced!'
+  message1: "'s vital spot has been exposed!"
+  message4: "'s vital spot has been pierced!"
   restriction: 0
   message3: ''
   note: ''
@@ -7116,7 +7116,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: ↑Vitals↑
+  name: "↑Vitals↑"
   priority: 50
   icon_index: 0
   message1: ''
@@ -7138,14 +7138,14 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: ↓Riposte↓
+  name: "↓Riposte↓"
   priority: 50
   icon_index: 815
   message1: ''
   message4: ''
   restriction: 0
   message3: ''
-  note: <全回避時スキル:972>
+  note: "<全回避時スキル:972>"
   id: 209
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -7175,7 +7175,7 @@
   message4: ''
   restriction: 0
   message3: ''
-  note: <全回避時スキル:980>
+  note: "<全回避時スキル:980>"
   id: 210
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -7352,7 +7352,7 @@
   restriction: 0
   release_by_damage: false
   message3: ''
-  note: '[全回復無効ステート]'
+  note: "[全回復無効ステート]"
   id: 212
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -7440,7 +7440,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: ↑Leiden Power Stack
+  name: "↑Leiden Power Stack"
   priority: 50
   icon_index: 0
   message1: ''
@@ -7620,7 +7620,7 @@
   restriction: 0
   release_by_damage: false
   message3: ''
-  note: '[全回復無効ステート]'
+  note: "[全回復無効ステート]"
   id: 220
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -7715,15 +7715,15 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: '''s time has been stopped.'
+  message2: "'s time has been stopped."
   name: Time Stop
   priority: 70
   icon_index: 280
-  message1: '''s time has been stopped.'
-  message4: '''s time resumed its flow!'
+  message1: "'s time has been stopped."
+  message4: "'s time resumed its flow!"
   restriction: 4
   release_by_damage: false
-  message3: '''s time is stopped...'
+  message3: "'s time is stopped..."
   note: ''
   id: 224
   features: []
@@ -8954,7 +8954,7 @@
   restriction: 0
   release_by_damage: false
   message3: ''
-  note: '[全回復無効ステート]'
+  note: "[全回復無効ステート]"
   id: 241
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -9206,7 +9206,7 @@
   restriction: 0
   release_by_damage: false
   message3: ''
-  note: '[全回復無効ステート]'
+  note: "[全回復無効ステート]"
   id: 247
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -9248,7 +9248,7 @@
   restriction: 0
   release_by_damage: false
   message3: ''
-  note: '[全回復無効ステート]'
+  note: "[全回復無効ステート]"
   id: 248
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -9342,7 +9342,7 @@
   restriction: 0
   release_by_damage: false
   message3: ''
-  note: '[全回復無効ステート]'
+  note: "[全回復無効ステート]"
   id: 249
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -9397,7 +9397,7 @@
   message4: ''
   restriction: 0
   message3: ''
-  note: <反撃スキル 305>
+  note: "<反撃スキル 305>"
   id: 251
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -9447,7 +9447,7 @@
   message4: ''
   restriction: 0
   message3: ''
-  note: <反撃スキル 174>
+  note: "<反撃スキル 174>"
   id: 252
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -9586,7 +9586,7 @@
   restriction: 0
   release_by_damage: false
   message3: ''
-  note: <強制自然解除時ステート:1>
+  note: "<強制自然解除時ステート:1>"
   id: 257
   features: []
   auto_removal_timing: 2
@@ -9643,14 +9643,14 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: ' became mad with rage!'
+  message2: " became mad with rage!"
   name: Sacrificial Rage
   priority: 50
   icon_index: 585
-  message1: ' became mad with rage!'
-  message4: ' tired out.'
+  message1: " became mad with rage!"
+  message4: " tired out."
   restriction: 0
-  message3: ' is going mad with rage!'
+  message3: " is going mad with rage!"
   note: ''
   id: 260
   features:
@@ -9697,7 +9697,7 @@
   message4: ''
   restriction: 0
   message3: ''
-  note: <強制自然解除時ステート:1>
+  note: "<強制自然解除時ステート:1>"
   id: 261
   features: []
   auto_removal_timing: 2
@@ -9737,7 +9737,7 @@
   name: Provoke
   priority: 50
   icon_index: 537
-  message1: ' is spouting provocations!'
+  message1: " is spouting provocations!"
   message4: ''
   restriction: 0
   message3: ''
@@ -9767,14 +9767,14 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: ' is bleeding profusely!'
+  message2: " is bleeding profusely!"
   name: Hemorrhage
   priority: 50
   icon_index: 573
-  message1: ' is bleeding profusely!'
-  message4: ' stopped bleeding!'
+  message1: " is bleeding profusely!"
+  message4: " stopped bleeding!"
   restriction: 0
-  message3: ' is bleeding profusely!'
+  message3: " is bleeding profusely!"
   note: ''
   id: 264
   features:
@@ -9797,14 +9797,14 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: '''s eyes went blind!'
+  message2: "'s eyes went blind!"
   name: Blindness
   priority: 50
   icon_index: 19
-  message1: '''s eyes went blind!'
-  message4: '''s eyes recovered!'
+  message1: "'s eyes went blind!"
+  message4: "'s eyes recovered!"
   restriction: 0
-  message3: '''s eyes went blind!'
+  message3: "'s eyes went blind!"
   note: ''
   id: 265
   features:
@@ -9827,14 +9827,14 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: ' is acting confused!'
+  message2: " is acting confused!"
   name: Chaos
   priority: 50
   icon_index: 21
-  message1: ' is acting confused!'
-  message4: ' sobered up!'
+  message1: " is acting confused!"
+  message4: " sobered up!"
   restriction: 2
-  message3: ' is acting confused!'
+  message3: " is acting confused!"
   note: ''
   id: 266
   features: []
@@ -9849,15 +9849,15 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: ' is in a frenzy!'
+  message2: " is in a frenzy!"
   name: Frantic
   priority: 70
   icon_index: 605
-  message1: ' is in a frenzy!'
-  message4: ' is no longer in a frenzy.'
+  message1: " is in a frenzy!"
+  message4: " is no longer in a frenzy."
   restriction: 0
   release_by_damage: false
-  message3: ' is in a frenzy!'
+  message3: " is in a frenzy!"
   note: ''
   id: 267
   features:
@@ -10074,7 +10074,7 @@
   priority: 50
   icon_index: 26
   message1: ''
-  message4: ' is no longer recovering HP!'
+  message4: " is no longer recovering HP!"
   restriction: 0
   message3: ''
   note: ''
@@ -10100,7 +10100,7 @@
   priority: 50
   icon_index: 29
   message1: ''
-  message4: ' is no longer recovering MP!'
+  message4: " is no longer recovering MP!"
   restriction: 0
   message3: ''
   note: ''
@@ -10126,7 +10126,7 @@
   priority: 50
   icon_index: 113
   message1: ''
-  message4: '''s HP is no longer draining!'
+  message4: "'s HP is no longer draining!"
   restriction: 0
   message3: ''
   note: ''
@@ -10152,7 +10152,7 @@
   priority: 50
   icon_index: 120
   message1: ''
-  message4: '''s MP is no longer draining!'
+  message4: "'s MP is no longer draining!"
   restriction: 0
   message3: ''
   note: ''
@@ -10217,14 +10217,14 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: ' became enraged!'
+  message2: " became enraged!"
   name: Enraged
   priority: 50
   icon_index: 571
-  message1: ' became enraged!'
-  message4: ' tired out.'
+  message1: " became enraged!"
+  message4: " tired out."
   restriction: 0
-  message3: ' is on a rampage!'
+  message3: " is on a rampage!"
   note: ''
   id: 279
   features:
@@ -10263,12 +10263,12 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: '''s weaknesses were exposed!'
+  message2: "'s weaknesses were exposed!"
   name: Weak to Bows
   priority: 50
   icon_index: 808
-  message1: '''s weaknesses were exposed!'
-  message4: '''s weak point was hit!'
+  message1: "'s weaknesses were exposed!"
+  message4: "'s weak point was hit!"
   restriction: 0
   message3: ''
   note: ''
@@ -10289,12 +10289,12 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: '''s weaknesses were exposed!'
+  message2: "'s weaknesses were exposed!"
   name: Weak to Bayonets
   priority: 50
   icon_index: 808
-  message1: '''s weaknesses were exposed!'
-  message4: '''s weak point was hit!'
+  message1: "'s weaknesses were exposed!"
+  message4: "'s weak point was hit!"
   restriction: 0
   message3: ''
   note: ''
@@ -13017,7 +13017,7 @@
   message4: ''
   restriction: 0
   message3: ''
-  note: <強制自然解除時ステート:404>
+  note: "<強制自然解除時ステート:404>"
   id: 403
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -13043,7 +13043,7 @@
   message4: ''
   restriction: 0
   message3: ''
-  note: <強制自然解除時ステート:405>
+  note: "<強制自然解除時ステート:405>"
   id: 404
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -13069,7 +13069,7 @@
   message4: ''
   restriction: 0
   message3: ''
-  note: <強制自然解除時ステート:406>
+  note: "<強制自然解除時ステート:406>"
   id: 405
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -13095,7 +13095,7 @@
   message4: ''
   restriction: 0
   message3: ''
-  note: <強制自然解除時ステート:407>
+  note: "<強制自然解除時ステート:407>"
   id: 406
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -13121,7 +13121,7 @@
   message4: ''
   restriction: 0
   message3: ''
-  note: <強制自然解除時ステート:408>
+  note: "<強制自然解除時ステート:408>"
   id: 407
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -13147,7 +13147,7 @@
   message4: ''
   restriction: 0
   message3: ''
-  note: <強制自然解除時ステート:409>
+  note: "<強制自然解除時ステート:409>"
   id: 408
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -13173,7 +13173,7 @@
   message4: ''
   restriction: 0
   message3: ''
-  note: <強制自然解除時ステート:410>
+  note: "<強制自然解除時ステート:410>"
   id: 409
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -13307,7 +13307,7 @@
   message4: ''
   restriction: 0
   message3: ''
-  note: <強制自然解除時ステート:415>
+  note: "<強制自然解除時ステート:415>"
   id: 414
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -13879,7 +13879,7 @@
   message4: ''
   restriction: 0
   message3: ''
-  note: '[全回復無効ステート]'
+  note: "[全回復無効ステート]"
   id: 430
   features: []
   auto_removal_timing: 0
@@ -14285,14 +14285,14 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: ' is tainted with the stench of death...'
+  message2: " is tainted with the stench of death..."
   name: Crimson Death
   priority: 50
   icon_index: 539
-  message1: ' is tainted with the stench of death...'
-  message4: ' is no longer tainted with the stench of death!'
+  message1: " is tainted with the stench of death..."
+  message4: " is no longer tainted with the stench of death!"
   restriction: 0
-  message3: ' is tainted with the stench of death...'
+  message3: " is tainted with the stench of death..."
   note: ''
   id: 445
   features:
